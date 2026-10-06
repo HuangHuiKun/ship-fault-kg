@@ -7,6 +7,7 @@ import base64
 import hashlib
 import json
 import os
+import ssl
 import subprocess
 import sys
 import urllib.error
@@ -46,12 +47,14 @@ def main():
         with urllib.request.urlopen(req, timeout=30) as response:
             return json.load(response)
 
+    print('Checking GitHub identity and private repository...', flush=True)
     user = api('/user')
     if user['login'].lower() != OWNER.lower():
         raise RuntimeError('Stored Git credential belongs to a different account')
     metadata = api(f'/repos/{OWNER}/{REPO}')
     if not metadata['private']:
         raise RuntimeError('Remote repository is not private')
+    print('Checking remote main and baseline tag...', flush=True)
     local = git('rev-parse', 'HEAD')
     remote = git('ls-remote', '--heads', 'origin', 'refs/heads/main').split()[0]
     if remote != local:
@@ -68,6 +71,7 @@ def main():
     available = {}
     basic = base64.b64encode((user['login'] + ':' + token).encode()).decode()
     for offset in range(0, len(oid_list), 100):
+        print(f'Checking remote LFS objects {offset + 1}-{min(offset + 100, len(oid_list))}...', flush=True)
         selection = oid_list[offset:offset + 100]
         payload = {'operation': 'download', 'transfers': ['basic'],
             'objects': [objects[oid] for oid in selection]}
@@ -89,6 +93,7 @@ def main():
 
     # Download one real graph snapshot, not just its tiny Git pointer, and check
     # its SHA-256. Do not print the signed download URL or persist its headers.
+    print('Downloading remote SQLite sample for SHA-256 verification...', flush=True)
     snapshot = next(row for row in files if row['name'] == 'ship_fault_kg/output/ship_fault_kg.sqlite')
     action = available[snapshot['oid']]['actions']['download']
     req = urllib.request.Request(action['href'], headers=action.get('header', {}))
@@ -116,8 +121,14 @@ if __name__ == '__main__':
     except urllib.error.HTTPError as exc:
         print(f'FAIL: HTTP {exc.code}; credentials/URLs/response body omitted.')
         sys.exit(2)
-    except urllib.error.URLError:
-        print('FAIL: Secure connection unavailable; credentials/URLs omitted.')
+    except urllib.error.URLError as exc:
+        reason = exc.reason
+        detail = type(reason).__name__
+        if isinstance(reason, ssl.SSLCertVerificationError):
+            detail += ': TLS verification code ' + str(reason.verify_code)
+        elif getattr(reason, 'errno', None) is not None:
+            detail += ': errno ' + str(reason.errno)
+        print('FAIL: Secure connection unavailable (' + detail + '); credentials/URLs omitted.')
         sys.exit(2)
     except (RuntimeError, subprocess.TimeoutExpired) as exc:
         print('FAIL: ' + str(exc) if isinstance(exc, RuntimeError) else 'FAIL: Command timed out.')
