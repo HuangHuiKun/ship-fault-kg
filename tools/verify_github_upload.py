@@ -4,6 +4,7 @@ Uses existing Git Credential Manager credentials only. Never prints tokens,
 authorization headers or signed LFS download URLs. Does not create/push anything.
 """
 import base64
+import argparse
 import hashlib
 import json
 import os
@@ -27,9 +28,14 @@ def git(*args):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--committed-only', action='store_true',
+        help='Verify committed HEAD only; preserve/report uncommitted local edits')
+    args = parser.parse_args()
     if git('remote', 'get-url', 'origin') != ORIGIN:
         raise RuntimeError('Unexpected origin; refuse sending credentials elsewhere')
-    if git('status', '--porcelain'):
+    dirty = git('status', '--porcelain')
+    if dirty and not args.committed_only:
         raise RuntimeError('Uncommitted files: commit/review before verifying full backup')
     credential = subprocess.run(['git', 'credential', 'fill'],
         input='protocol=https\nhost=github.com\n\n', text=True, capture_output=True,
@@ -65,7 +71,7 @@ def main():
     if tag_local != tag_remote:
         raise RuntimeError('Remote baseline tag missing or different')
 
-    files = json.loads(git('lfs', 'ls-files', '--json'))['files']
+    files = json.loads(git('lfs', 'ls-files', '--json', 'HEAD'))['files']
     objects = {row['oid']: {'oid': row['oid'], 'size': row['size']} for row in files}
     oid_list = list(objects)
     available = {}
@@ -109,10 +115,11 @@ def main():
         raise RuntimeError('Remote SQLite download hash/size mismatch')
     print(json.dumps({'result': 'PASS', 'repository': metadata['html_url'], 'private': True,
         'local_head': local, 'remote_main': remote, 'baseline_tag': BASELINE,
-        'baseline_commit': tag_remote, 'tracked_files': len(git('ls-files').splitlines()),
+        'baseline_commit': tag_remote, 'tracked_files': len(git('ls-tree', '-r', '--name-only', 'HEAD').splitlines()),
         'lfs_files': len(files), 'lfs_unique_objects_available': len(available),
         'lfs_unique_bytes': sum(row['size'] for row in objects.values()),
-        'remote_sqlite_sha256_verified': True, 'worktree_clean': True}, ensure_ascii=False, indent=2))
+        'remote_sqlite_sha256_verified': True, 'worktree_clean': not bool(dirty),
+        'uncommitted_status_lines': len(dirty.splitlines()) if dirty else 0}, ensure_ascii=False, indent=2))
 
 
 if __name__ == '__main__':
