@@ -92,6 +92,14 @@ Git回退仅改变文件，**不会自动改变Neo4j**。`import_neo4j.py`是MER
 
 本地Git与LFS已初始化，首个快照为`e5043f4`，回退标签为`shipkg-v3-baseline-20261006`；1659个文件纳入该快照，其中131个文件使用LFS，本地完整性检查通过。
 
-已在本人GitHub账号`HuangHuiKun`下创建[私有仓库ship-fault-kg](https://github.com/HuangHuiKun/ship-fault-kg)，并设置为本地`origin`：`https://github.com/HuangHuiKun/ship-fault-kg.git`。网页已登录，当前正在等待Git Credential Manager设备授权，尚未完成文件推送。Git上传授权由本人完成，不要把密码或令牌写进代码/聊天。
+已在本人GitHub账号`HuangHuiKun`下创建[私有仓库ship-fault-kg](https://github.com/HuangHuiKun/ship-fault-kg)，并设置为本地`origin`：`https://github.com/HuangHuiKun/ship-fault-kg.git`。Git Credential Manager设备授权已完成；首轮`main`推送已成功，132个LFS文件对应117个去重对象，约342 MB，已实际上传，不只是保存指针。初始回退标签也纳入远程上传。Git上传授权由本人完成，不要把密码或令牌写进代码/聊天。
 
-完成上传后须核对远程提交号与本地一致，并确认Git LFS对象上传成功。未推送前本地提交只是本机版本历史，不算GitHub备份。`tools/github_private_repo.py`仅使用既有Git凭据进行私有仓库创建/检查，不显示或持久化令牌；默认只检查，创建需显式`--create`。
+每次更新后均须核对远程提交号与本地一致，并确认Git LFS对象上传成功。未推送前本地提交只是本机版本历史，不算GitHub备份。`tools/github_private_repo.py`仅使用既有Git凭据进行私有仓库创建/检查，不显示或持久化令牌；默认只检查，创建需显式`--create`。
+
+可在工作目录干净且完成推送后运行只读核验：
+
+```powershell
+python .\tools\verify_github_upload.py
+```
+
+核验内容：本人私有仓库、本地HEAD与远程main一致、远程回退标签一致、全部LFS对象可下载，并实际下载当前SQLite快照核对SHA256与长度。脚本不打印令牌、授权头或带签名的下载URL；不会修改远程。
