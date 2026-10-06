@@ -50,8 +50,8 @@ def load_plan():
         ev = evidence[edge['evidence_id']]
         props = json.loads(edge['props'])
         simple = {k: v for k, v in props.items() if isinstance(v, (str, int, float, bool))}
-        name = RELATION_ZH[edge['relation']]
-        if edge['certainty'] in ('probable', 'possible') and not name.startswith('可能'):
+        name = props.get('name', RELATION_ZH[edge['relation']])
+        if edge['certainty'] in ('probable', 'possible') and not name.startswith(('可能', '很可能')):
             name = CERTAINTY_ZH[edge['certainty']] + name
         simple.update(id=edge['id'], name=name, graph_version=VERSION,
                       case_id=edge['case_id'], certainty=edge['certainty'],
@@ -65,7 +65,7 @@ def load_plan():
         if not re.fullmatch('[A-Za-z][A-Za-z0-9_]*', label):
             raise ValueError('Invalid label/type')
         if category == 'node':
-            query = f'UNWIND $rows AS row MERGE (n:ShipKG:{label} {{id:row.id}}) SET n += row.properties RETURN count(n) AS processed'
+            query = f'UNWIND $rows AS row MERGE (n:ShipKG {{id:row.id}}) SET n:{label} SET n += row.properties RETURN count(n) AS processed'
         else:
             query = ('UNWIND $rows AS row MATCH (a:ShipKG {id:row.source}), (b:ShipKG {id:row.target}) '
                      f'MERGE (a)-[r:{label} {{id:row.id}}]->(b) SET r += row.properties RETURN count(r) AS processed')
@@ -89,7 +89,7 @@ def prepare(nodes, edges, plan):
               f"MATCH (:ShipKG)-[r]->(:ShipKG) WHERE r.graph_version='{VERSION}' "
               "RETURN nodes, count(r) AS relationships, count(CASE WHEN r.name IS NOT NULL THEN 1 END) AS labelled_edges;")
     body = '<!doctype html><html><head><meta charset="utf-8"></head><body><article class="guide">'
-    body += f'<h2>船舶故障图谱 V{VERSION} · SQLite 直接导入</h2><p>请选择 shipfaultkg。仅 MERGE/SET，不清空数据库。当前SQLite保留15个核心Sensor；既有数据库的额外节点不会自动删除，需单独核对、备份和维护。55个旧归档测点已完成外部备份及定向删除，详见 ../README_CN.md。全新库直接导入即可。此页面不依赖 :play。</p>'
+    body += f'<h2>船舶故障图谱 V{VERSION} · SQLite 直接导入</h2><p>请选择 shipfaultkg。全新库可使用以下 MERGE/SET 语句直接导入，不经CSV。Fault以fault_level区分类别与事件；Source以source_level区分资料级30和记录级12，核心Sensor为15个。已有V4.1库升级用sync_neo4j_v4.py --apply移除Observation标签并统一为Source，保留全部记录ID与关系；仅执行本页MERGE不会移除旧标签。如明确从已备份V3/V4.0迁移，必须另指定对应--baseline-backup并先核对ID，不用于任意旧库。详见 ../README_CN.md。此页面不依赖 :play，不保存密码。</p>'
     for title, statement in [('1. 唯一约束', constraint), ('2. 一次事务导入全部实体和关系', query), ('3. 核验真实数据库数量', verify)]:
         body += '<h3>' + title + '</h3><button onclick="navigator.clipboard.writeText(this.nextElementSibling.textContent)">复制此步代码</button><pre style="max-height:260px;overflow:auto;white-space:pre-wrap">' + html.escape(statement) + '</pre>'
     body += f'<p>目标：{len(nodes)}节点，{len(edges)}关系。第二步返回的是源文件规模，第三步才是实时核验。</p></article></body></html>'

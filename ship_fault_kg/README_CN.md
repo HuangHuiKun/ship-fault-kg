@@ -1,6 +1,6 @@
 # 船舶动力系统故障知识图谱：统一项目说明
 
-更新日期：2026-10-05。知识版本：V3.0；本轮为维护修订，没有新增知识事实。
+更新日期：2026-10-06。知识版本：V4.2；按用户确认将12个Observation统一为记录级Source，原30个Source设为资料级；保留每条记录ID、状态、建议及来源关系，没有新增事故或知识事实。
 
 项目目录：`D:\RAGQnASystem\RAGQnASystem-main\ship_fault_kg`；Desktop实例：`ShipFaultKG`；数据库：`shipfaultkg`。
 
@@ -27,24 +27,70 @@
 
 | 内容 | 数量 | 统计边界 |
 | --- | ---: | --- |
-| Neo4j全库节点 / 关系 | **500 / 1201** | 全库与活动图谱一致 |
-| 实体类型 / 实际关系类型 | 20 / 32 | 允许的关系词表不等于实际出现的类型 |
+| Neo4j ShipKG节点 / 关系 | **491 / 1185** | 同步后逐一比对本地和数据库的节点ID、关系ID、端点、名称、版本、证据编号，实际结果见核验回执 |
+| 实体类型 / 实际关系类型 | 15 / 29 | 允许的关系词表不等于实际出现的类型 |
 | 历史事故 / 经典故障入口 | 19 / 12 | 参考机理不是新增事故 |
-| 船舶记录 / 船型标签 | 17 / 10 | 8具名记录、9身份未公开事件记录，不保证17条不同实船 |
-| 动力架构 / 功能子系统 | 3 / 5 | 架构和功能分类不同；子系统可交叉 |
+| 统一Vessel / 统一System | 22 / 8 | Vessel含17船舶记录、5个剩余船型入口；System含3架构、5功能系统 |
+| 统一Fault | 114 | 12故障类别入口、102具体故障或事件；不是114种确诊故障 |
+| 统一Source | 42 | 资料级30 / 记录级12；记录ID、状态、建议、预警字段和来源定位保留 |
 | 核心Sensor / 归档Sensor | 15 / 0 | 原始数据的70字段未删除 |
 | 诊断关系 / 因果类关系 | 244 / 133 | 检查、措施、先后等不都属于因果 |
 | 来源证据 / 可检索片段 | 332 / 852 | SQLite独立表，不另算为Neo4j节点 |
 
 852片段包括545报告页、145中文语料文章、162参考页。证据字段复制在Neo4j关系上，全文片段仍由SQLite检索。规模符合200～500实体、600～1500关系、3～5子系统的原型目标，但不能据此宣称知识完备或诊断准确。
 
-本轮Neo4j实查：全库500节点、1201关系、15个Sensor、0个ArchivedSensor；若Desktop侧栏仍显示555，请刷新统计或断开后重连，旧结果帧也需要重新运行。
+V4.2当前目标与核验数量：ShipKG节点491、关系1185、核心Sensor15、Source42；FaultType、Dataset、VesselType、Subsystem、Observation不再作为节点标签使用。实际建库成功以`output/neo4j_import_result.json`的version=4.2、verified=true为准。若Desktop仍显示旧数量或标签，请刷新、重连并重新运行旧结果帧；不能凭旧帧判断当前数据。
 
-![当前数据库全库统计](output/maintenance_20261005/neo4j_full_counts.png)
+![历史V3数据库统计（500/1201，非当前V4）](output/maintenance_20261005/neo4j_full_counts.png)
 
-上一轮按类型重新配色已按用户要求撤回，以下为最新样式：恢复Neo4j原生配色，仅降低ShipKG优先级，并略加大、加深FaultType。
+仍保留既有原生配色及ShipKG最低显示优先级；FaultType已合并为Fault，不再单独设置其标签颜色和大小。以下截图仅说明历史V3显示效果，不代表V4结果。
 
-![恢复原生配色后Fault与FaultType的对比](output/maintenance_20261005/neo4j_native_style_restored.png)
+![历史V3原生配色：Fault与FaultType合并前](output/maintenance_20261005/neo4j_native_style_restored.png)
+
+### V4.0重新设计做了什么（前一轮）
+
+1. **合并类型，不混淆身份。** VesselType→Vessel、Subsystem→System、FaultType→Fault。分别用`entity_level`、`system_level`、`fault_level`保留角色；不把船型概念等同于某条实船，也不把一般故障类别等同于已发生事件。原始500节点中没有需要删除的重复船舶/船型身份；不同案例里的同名设备、部件仍保留独立ID。
+2. **按确认清单改显示名称。** 案例、设备、部件去掉开头船名/案例编码；23个全英文故障、5个英文措施、15个测点改中文；16个试验运行和12个监测摘要采用可读名称。ID不变，`original_name`、别名、`original_file_name`、`original_column_name`保留旧检索和CSV定位能力。
+3. **删除4个Dataset入口而不丢来源。** 51条数据内容组织关系改为内容节点直接`DOCUMENTED_BY`资料来源，保留原数据集名、原关系、来源性质；仅删除4条旧Dataset→Source入口边。因此500→496节点，1201→1197关系，而非丢掉51条知识。原始数据文件、332证据、852文本片段均保留。
+4. **规范故障与关系语义。** 3个正常参照状态从Fault移到Condition；故障类别12与具体故障/事件102统一为Fault。`INSTANCE_OF`仍表示分类而非因果，跨类型的`INVOLVES`采用“涉及故障/原因/检查方法”等中文显示名，系统归属统一；可能、很可能等措辞不被强化。
+5. **本地重建后受控同步。** SQLite直接经Neo4j Query API同步，不经CSV。先备份、审核ID差异，再在一个事务中替换过期关系、移除旧类型标签、按稳定ID更新；只删除已批准的4个Dataset节点，不清空数据库。
+6. **同步检索和展示。** 检索改用`knowledge_id`识别参考知识入口，不再依赖FaultType标签；更新HTML、GraphML、GraSS、完整清单及当前查询文件。10项回归测试通过，24题故障开发检索结果保留；这不是诊断准确率验证。
+
+当前入口：[完整V4实体关系清单](D:/RAGQnASystem/RAGQnASystem-main/ship_fault_kg/output/entity_inventory_v4.md)、[Neo4j核验回执](D:/RAGQnASystem/RAGQnASystem-main/ship_fault_kg/output/neo4j_import_result.json)、[V4查询](D:/RAGQnASystem/RAGQnASystem-main/ship_fault_kg/queries_v4.cypher)。本轮合并前的V4.1完整数据库备份在`history/v4_1_before_source_merge_20261006/neo4j_snapshot.json`，旧SQLite、代码和输出也在同目录；更早的V3/V4.0备份仍保留。仅备份不等于自动回退，恢复应先检查差异再定向导入，不要混用普通MERGE造成新旧关系并存。
+
+### V4.1清理与设备命名（前一轮）
+
+删除的只是5个不带案例编号的船型入口：**专用货船、化学品船、双体客船、拖网渔船、滚装客船**。带SD编号的船舶记录和真实船名没有删除，它们代表不同案例里的船，不能按相似名称合并。普通货船、工程调查船、滚装货船、风电船员转运船、邮轮这5个未明确要求删除的入口暂保留。
+
+原5个入口关联12条`OF_VESSEL_TYPE`分类边，已将船型名称保存为对应Vessel的`vessel_type`/`vessel_types`与Case的`vessel_type`；原边ID、类型节点ID、case_id、certainty和evidence_id保留在`vessel_type_provenance`中。Neo4j可直接查询标量`vessel_type`；`vessel_types`和嵌套的`vessel_type_provenance`保存在节点`props_json`内，不是Neo4j顶层列表/对象属性。12条原分类边删除，故障/原因/检查/措施的边不变。V4.0的496/1197变为491/1185，证据332与片段852不变。船型属性仍可查询和用于适用范围筛选，但本轮没有新增按船型过滤的检索算法。
+
+设备类Equipment有12个以“系统”结尾的显示名。统一改为贴合原资料范围的“装置”，表示设备或装置集合，而System仍表示功能分类或动力架构。没有把集合硬改成某台泵、某个控制器等未经报告支持的单件设备；后续拿到设备台账后可以进一步拆分。另将“2017故障主机”改成“故障主机”；年份仍在原案例和旧名称中，不丢失时间背景。
+
+| 原设备名称 | 新设备名称 |
+| --- | --- |
+| 柴油发电机润滑与排气系统 | 柴油发电机润滑与排气装置 |
+| 左舷主机排气系统 | 左舷主机排气装置 |
+| 2017故障主机 | 故障主机 |
+| 右舷可调螺距桨液压系统 | 右舷可调螺距桨液压装置 |
+| 海水压载与机舱排水系统 | 海水压载与机舱排水装置 |
+| 主机启动与盘车系统 | 主机启动与盘车装置 |
+| ME3燃油与排气系统 | ME3主机燃油供给与排气装置 |
+| 主机海水冷却与舱底系统 | 主机海水冷却与舱底排水装置 |
+| 可调螺距推进控制系统 | 可调螺距桨推进控制装置 |
+| 控制空气与主机离合系统 | 控制空气供给与主机离合装置 |
+| 主机润滑系统 | 主机润滑装置 |
+| 吊舱推进系统 | 吊舱推进装置 |
+| 可调螺距推进系统 | 可调螺距桨推进装置 |
+
+设备ID、关联部件、来源和案例不变；`original_name`保留最初原名，`previous_display_name`保留V4.0显示名，旧显示名也加入别名。规则在`refinement_v4_1.json`，每次重建会再次应用，不会把旧名字和已删除的5个入口加回来。颜色方案未改动。
+
+### V4.2本轮Source分层合并
+
+用户已确认将12个Observation改为Source并设`source_level=记录级`；原30个Source设`source_level=资料级`。12条记录的旧ID（包括shipkg:observation命名空间）、名称、别名、record行号、预警时间、reference_class、source_id、data_origin及原始名称全部保留；`legacy_kind=Observation`仅作为历史属性，不是节点标签。另增加`source_record_type=监测摘要`便于识别记录性质。
+
+合并是**类别统一，而非记录压缩**。12条SHOWS_CONDITION、12条HAS_RECOMMENDED_ACTION、12条DOCUMENTED_BY、7条系统归属关系的ID、端点、类型、证据编号和确定性不变。记录级Source仍通过DOCUMENTED_BY指向资料级Source。全图491节点、1185关系不变；Source30→42、实体类型16→15，证据332/文本片段852不变。本轮不新增监测记录检索算法；现有故障/案例检索和实验定位仍须回归检查。
+
+`redesign.py`的`apply_source_levels()`在原始资料与命名整理后执行分层，避免改动源标注而产生新ID。原始构建代码仍暂用Observation中间类型，最后阶段统一为Source；输出SQLite、Neo4j、清单、HTML、GraphML和当前查询均使用Source。重建不会重新添加Observation标签。
 
 ## 2. 资料来源和文件分工
 
@@ -55,7 +101,7 @@
 | 来源 | 代表资料 | 实际用途和限制 |
 | --- | --- | --- |
 | 实机受控实验 | Marine Engine Fault Dataset、变量字典、运行索引 | 建设备/故障标签、运行条件和测点；不从标签推断事故根因 |
-| 监测汇总 | Azimuth Thruster CBM方位推进器匿名汇总 | 按行建Observation、状态与建议；未获取的原始FFT不冒充已下载 |
+| 监测汇总 | Azimuth Thruster CBM方位推进器匿名汇总 | 按行建记录级Source、状态与建议；未获取的原始FFT不冒充已下载 |
 | 仿真/代码资料 | UCI Naval Propulsion CBM、TSRF及弱热诊断参考 | 明确simulated来源，不当成实船事故 |
 | 中文船机语料 | 船用柴油机RAG语料 | 当前精选145篇作为背景检索文本，未经核对的全文不直接转因果边 |
 | MAIB调查及摘要 | Wight Sky、Kommandor Susan、Windcat 8、Finlandia Seaways、Spirit of Discovery、Pride、Queen Mary 2、Stena Europe及Safety Digest | 建19起历史事故，保留报告物理页、原文、调查概率措辞 |
@@ -77,26 +123,29 @@
 | `download_fault_sources.py` / `audit_sources.py` / `build.py` | 下载补充来源 / 定位检查 / 构建校验 |
 | `output/ship_fault_kg.sqlite` | nodes、edges、evidence、passages四表，当前主数据 |
 | `output/build_report.json` / `source_anchor_audit_v3.json` / `new_source_pages_v3.json` | 规模、来源定位与物理页索引 |
-| `output/entity_inventory_v3.md` / `graph_inventory_v3.json` | 全部500实体、1201关系、属性和证据详单 |
+| `naming_v4.json` / `redesign.py` | 经确认的稳定ID命名规则 / 最后阶段类型与来源迁移 |
+| `refinement_v4_1.json` | 本轮5个船型入口精确ID及13个设备改名规则 |
+| `output/entity_inventory_v4.md` / `graph_inventory_v4.json` | 全部491实体、1185关系、属性和证据详单；文件名v4表示主版本，内容版本4.2 |
 | `import_neo4j.py` / `output/neo4j_direct_plan.json` / `neo4j_direct_import.cypher` / `neo4j_import_guide.html` | SQLite直接生成和执行MERGE/SET；CSV非必需 |
-| `visualize_graph.py` / `output/shipkg_v3.grass` / `graph_viewer.html` / `export_graphml.py` | Neo4j样式、离线图谱、GraphML |
-| `queries_v3.cypher` | 图谱统计、故障/案例/来源查询 |
+| `sync_neo4j_v4.py` / `output/neo4j_import_result.json` | 已有V3/V4库定向同步 / 实际数据库核验回执 |
+| `visualize_graph.py` / `output/shipkg_v4.grass` / `graph_viewer.html` / `export_graphml.py` | Neo4j样式、离线图谱、GraphML |
+| `queries_v4.cypher` | 当前类型与角色的统计、故障/案例/来源查询 |
 | `retrieve.py` / `generate_demo.py` / `example_diagnosis.json` | 轻量混合检索、标准输入和约束报告原型 |
-| `evaluate.py` / `evaluate_fault_v3.py` / `verify_v2.py` / `verify_v3.py` | 开发评价和结构回归测试 |
+| `evaluate.py` / `evaluate_fault_v3.py` / `verify_v4.py` | 开发评价和V4结构/检索回归；旧V2/V3测试是历史版本的断言 |
 | `purge_archived_sensors.py` / `output/maintenance_20261005/` | 本轮55测点真实删除、外部备份及恢复入口 |
 | `check_neo4j_ready.ps1` / `check_neo4j_connection.py` | 只读服务/认证检查，不保存密码 |
 | `history/` / `output/v1_legacy/` | 历史代码文档和旧格式，不是当前默认导入包 |
 
-完整清单见[实体清单](D:/RAGQnASystem/RAGQnASystem-main/ship_fault_kg/output/entity_inventory_v3.md)及[结构JSON](D:/RAGQnASystem/RAGQnASystem-main/ship_fault_kg/output/graph_inventory_v3.json)。本文不粘贴500个实例，避免重复。
+完整清单见[实体清单](D:/RAGQnASystem/RAGQnASystem-main/ship_fault_kg/output/entity_inventory_v4.md)及[结构JSON](D:/RAGQnASystem/RAGQnASystem-main/ship_fault_kg/output/graph_inventory_v4.json)。V2/V3文件和截图为历史产物，不作为当前导入依据。
 
 ## 3. 构建步骤及每一步缘由
 
 1. **限定研究任务和证据层。** 面向初步诊断增强，区分调查、实机试验、仿真、监测汇总、厂家指导和论文观察，避免同等看待来源。
-2. **设计实体、关系、上下文。** 建设备/部件、原因/条件、症状/故障/后果、检查/措施及案例/来源；增加FaultType检索入口。历史case_id与knowledge:*机理单元隔离，分类不表因果。
+2. **设计实体、关系、上下文。** 建设备/部件、原因/条件、症状/故障/后果、检查/措施及案例/来源；Fault用角色属性区分参考故障入口与具体事件。历史case_id与knowledge:*机理单元隔离，分类不表因果。
 3. **按物理页核对原文。** 逐条登记起点、关系、终点、页码、定位短语和确定性。物理页从封面计数，可能与印刷页不同。关键词缺失或页码越界时构建停止。命中定位词只证明文本存在，不能代替工程语义审核。
 4. **拆成最小事实并保留措辞。** “可能”仍是可能；PRECEDED只表先后；CHECKS/ADDRESSES是检查/行动，不是已发生原因。derived_action是研究者整理建议，不冒充原文命令。
-5. **接入数据与文本但不越界。** 从实验索引建Dataset/Run/负载/故障标签，从变量字典保留15测点；匿名汇总按行处理；仿真明确标注。PDF和文章片段用于召回，不自动生成未经核验因果边。
-6. **稳定ID、去重与可读属性。** ID主要基于类型及规范名，边包括端点、类型、证据和上下文。重建同输入可复现，但改规范名可能产生新ID，需别名与人工对齐。显示名变化保留原ID和身份状态。
+5. **接入数据与文本但不越界。** 从实验索引建Run/负载/故障标签，从变量字典保留15测点；监测汇总按行处理；仿真明确标注。Dataset仅在原始构建阶段作为中间入口，V4最后阶段移除并把内容直接连到Source。PDF和文章片段用于召回，不自动生成未经核验因果边。
+6. **稳定ID、去重与可读属性。** 源标注保留旧类型/原名以生成稳定ID，最终应用`naming_v4.json`改变显示名和标签，保留ID与别名。去前缀后的同名设备可能来自不同案例，不按同名盲目合并。新来源节点没有命名规则时构建停止，需补充审核规则。
 7. **校验并生成SQLite快照。** 检查端点、证据、类型、确定性和定位。四表保存知识与文本，成功后输出规模；CSV为可选审阅副本，GraphML/HTML另生成。
 8. **先节点后关系，受控在线合并。** 建唯一约束，以ID MERGE、SET补属性，不清空现有库。MERGE不会自动删除旧点，过期内容另做差异审核和备份。
 9. **实时核验而非打印源数量。** 查询Neo4j全库、核心测点、归档残留，并比较全部活动ID与SQLite。展示时点开边看原文和适用机型，而不是只看一张漂亮图。
@@ -105,42 +154,36 @@
 
 ## 4. 实体、关系、属性及约束
 
-### 4.1 20类实体与当前数量
+### 4.1 15类实体与当前数量
 
 共同字段：id、kind、name、aliases；SQLite props为JSON，含display_name、kind_zh、graph_version及类型字段。Neo4j同时有ShipKG与具体类型标签，保存props_json，并展开可标量化属性。
 
 | 类型 | 数量 | 含义 | 共同显示字段外的实际属性键集合 |
 | --- | ---: | --- | --- |
-| Vessel | 17 | 船舶记录 | anonymous、original_name、vessel_identity_status |
-| VesselType | 10 | 船型标签 | 无 |
-| System | 3 | 动力架构 | 无 |
-| Subsystem | 5 | 功能子系统 | classification_basis |
+| Vessel | 22 | 实船记录17 / 剩余船型5 | entity_level、anonymous、original_name、vessel_identity_status、vessel_type、vessel_types、vessel_type_provenance |
+| System | 8 | 动力架构3 / 功能系统5 | system_level、classification_basis |
 | Case | 19 | 历史事故 | case_id、data_origin、anonymous_vessel、original_name、vessel_identity_status |
-| Equipment | 19 | 设备 | 无 |
-| Component | 33 | 部件 | 无 |
-| Fault | 105 | 故障/事件/状态 | semantic_class |
-| FaultType | 12 | 经典故障入口 | knowledge_id、applicability、coupling_domains、data_origin |
+| Equipment | 19 | 设备及装置集合 | original_name、previous_display_name、equipment_scope、case_ids、case_id（单一上下文时） |
+| Component | 33 | 部件 | original_name、case_ids、case_id（单一上下文时） |
+| Fault | 114 | 故障类别12 / 具体故障或事件102 | fault_level、semantic_class、knowledge_id、knowledge_layer、applicability、coupling_domains、data_origin |
 | Cause | 10 | 原因 | 无 |
-| Condition | 73 | 工况/条件 | 无 |
+| Condition | 76 | 工况/条件/正常参照 | semantic_class（正常参照时） |
 | Symptom | 13 | 症状 | 无 |
 | Consequence | 20 | 后果 | 无 |
 | Check | 33 | 检查 | 无 |
 | Action | 51 | 措施 | 无 |
-| Dataset | 4 | 数据集 | data_origin、instances |
-| Run | 16 | 试验运行文件 | anomaly_state、columns、data_origin、data_rows、schema_type |
-| Sensor | 15 | 核心测点 | category、unit、in_reference、in_scenario_files、note、selection_reason |
-| Observation | 12 | 汇总观察 | data_origin、record、reference_class、warning_hours、warning_months |
-| Source | 30 | 结构化事实来源 | category、license、local_item、url |
+| Run | 16 | 试验运行文件 | original_file_name、anomaly_state、columns、data_origin、data_rows、schema_type |
+| Sensor | 15 | 核心测点 | original_column_name、category、unit、in_reference、in_scenario_files、note、selection_reason |
+| Source | 42 | 资料级30 / 记录级12 | source_level；资料级有original_title、category、license、local_item、url；记录级有source_record_type、source_id、data_origin、record、reference_class、warning_hours、warning_months |
 
-同类型不是每个实例都有全部可选键。props_json不是自动建索引的对象。Fault仍包含正常参照、预警、退化和保护动作，105个Fault不能报成105类确诊故障。
+同类型不是每个实例都有全部可选键；新增共同属性还有legacy_kind、original_name（改名时）。props_json不是自动建索引的对象。3个正常参照已移到Condition；Fault仍包含预警、退化和保护事件，114个节点不能报成114类确诊故障。12个记录级Source是监测汇总证据入口，不是12次新事故；16个Run是受控试验文件/工况入口，不是16条实船事故；12个类别Fault是参考机理检索入口，不代表12条本船已确认根因。
 
-### 4.2 当前32种实际关系
+### 4.2 当前29种实际关系
 
 | 类型 | 数量 | 意义 / 边界 |
 | --- | ---: | --- |
 | INVOLVES | 288 | 涉及上下文，不表因果 |
-| BELONGS_TO_SUBSYSTEM | 309 | 归属子系统，研究者分类 |
-| IN_SUBSYSTEM | 69 | 涉及子系统，分类 |
+| BELONGS_TO_SYSTEM | 309 | 归属系统，研究者分类 |
 | ASSOCIATED_WITH | 5 | 相关，不确认根因 |
 | AFFECTS_COMPONENT | 33 | 影响部件 |
 | TESTS_FAULT | 15 | 测试故障标签 |
@@ -150,20 +193,18 @@
 | CONTRIBUTED_TO | 15 | 促成 |
 | MAY_CONTRIBUTE_TO | 17 | 可能促成 |
 | ADDRESSES | 43 | 措施应对问题 |
-| HAS_CHANNEL | 15 | 包含核心测点 |
-| HAS_CASE | 31 | 包含案例/观察 |
-| HAS_RUN | 16 | 包含运行文件 |
+| HAS_CASE | 19 | 船舶发生案例 |
 | HAS_EQUIPMENT | 19 | 涉及设备 |
 | HAS_COMPONENT | 33 | 包含部件 |
-| IN_SYSTEM | 10 | 动力架构归属 |
+| IN_SYSTEM | 79 | 69条涉及功能系统 / 10条采用动力架构，中文显示名区分 |
 | PRECEDED | 6 | 先于，不等于导致 |
 | HAS_RECOMMENDED_ACTION | 12 | 汇总记录建议 |
-| SHOWS_CONDITION | 20 | 呈现状态标签 |
+| SHOWS_CONDITION | 12 | 呈现状态标签 |
 | TRIGGERS | 3 | 触发 |
 | REDUCES_EFFECTIVENESS_OF | 2 | 削弱效果 |
-| DOCUMENTED_BY | 40 | 记载于来源 |
+| DOCUMENTED_BY | 87 | 来源于资料；新增51条内容直接连来源，删除4条数据集入口边 |
 | LIMITS_DETECTION_OF | 13 | 妨碍发现 |
-| OF_VESSEL_TYPE | 19 | 船型分类 |
+| OF_VESSEL_TYPE | 7 | 剩余船型入口的分类；另12条已转为属性和来源记录 |
 | CHECKS | 33 | 检查目标 |
 | INSTANCE_OF | 12 | 归入故障类别，非因果 |
 | INCREASES_RISK_OF | 6 | 增加风险，非必然 |
@@ -179,7 +220,7 @@ SQLite边固定字段：id、source、relation、target、evidence_id、case_id�
 
 边扩展键实际包括：applicability、classification_basis、classification_rule、context_id、coupling_domains、data_origin、graph_version、is_causal、knowledge_layer、name。可选字段不是每条边都有。
 
-certainty不是概率：reported明示558条、probable很可能8、possible可能2、reported_action原文行动41、derived_action整理建议22、dataset_label实验标签24、simulated仿真8、curated_classification非因果分类488、guidance厂家指导48、research_observation论文观察2。
+certainty不是概率：reported明示554条、probable很可能8、possible可能2、reported_action原文行动41、derived_action整理建议22、dataset_label实验标签24、simulated仿真8、curated_classification非因果分类476、guidance厂家指导48、research_observation论文观察2。12条旧分类边的确定性已保存到属性，不能重复算在1185条边里。可能/很可能也体现在边的中文name中，不强改成确定结论。
 
 332证据包括报告222、数据集46、厂家指导50、代码7、论文7。同一原文支持多条边，不等于332次事故。文本片段也不是图节点。
 
@@ -260,7 +301,7 @@ Wight Sky有三起案例；Pride同时出现在摘要和专门报告，只计一
 
 选择理由是减少重复缸/出口和派生效率项，保留燃烧、润滑、冷却和传动观察。两个原始压力通道单位V，未经标定不能当bar/Pa；原70字段无实际电网测点，15个不能说覆盖完整电域。
 
-原先55点只改为ArchivedSensor/ArchivedShipKG，所以全库仍555。本轮按用户最新要求核对精确55个ID和86条直接边ID，导出完整标签/属性/端点，备份读回后在一条受保护事务中DETACH DELETE。删除后全库500/1201，Sensor15、ArchivedSensor0，全部活动ID与SQLite一致，故障链未变。
+原先55点只改为ArchivedSensor/ArchivedShipKG，所以全库仍555。2026-10-05按用户要求核对精确55个ID和86条直接边ID，导出完整标签/属性/端点，备份读回后在一条受保护事务中DETACH DELETE。当时删除后全库500/1201，Sensor15、ArchivedSensor0；V4再删除4个Dataset入口后为496/1197。本轮未再次删除测点，故障链未变。
 
 备份：`output/maintenance_20261005/deleted_sensors_backup.json`；记录：`purge_receipt.json`。Neo4j删除不能直接撤销，但可用外部备份重建；原始数据未删除。日常导入不会加回55点，因为SQLite只保留15点。
 
@@ -307,7 +348,17 @@ $kgPython = 'C:\Users\18270\.cache\codex-runtimes\codex-primary-runtime\dependen
 & $kgPython .\ship_fault_kg\import_neo4j.py --prepare-only
 ```
 
-已下载通常无需重下载。以上只准备主数据/导入包，不自动删除旧点。已登录Browser可执行neo4j_import_guide.html中的约束、导入和核验，或运行 `& $kgPython .\ship_fault_kg\import_neo4j.py` 在终端隐藏输入密码。
+已下载通常无需重下载。以上只准备主数据/导入包，不自动删除旧点。**新空库**可执行neo4j_import_guide.html中的语句，或运行 `& $kgPython .\ship_fault_kg\import_neo4j.py` 在终端隐藏输入密码。**已有本项目V3/V4库的受控同步**应使用下列命令，否则旧标签/旧关系会残留：
+
+```powershell
+& $kgPython .\ship_fault_kg\verify_v4.py
+& $kgPython .\ship_fault_kg\sync_neo4j_v4.py --apply
+& $kgPython .\ship_fault_kg\export_inventory.py
+& $kgPython .\ship_fault_kg\export_graphml.py
+& $kgPython .\ship_fault_kg\visualize_graph.py
+```
+
+同步脚本默认以`history/v4_1_before_source_merge_20261006/output/ship_fault_kg.sqlite`为V4.1基线，适用于本项目V4.1→V4.2或当前V4.2重复同步，发现未知ID或缺失内容会停止，不用于任意数据库的强制覆盖。如明确从已备份V3/V4.0迁移，需另指定对应`--baseline-backup`目录，不要对任意旧库强制运行。密码只在终端隐藏输入。完整标签、属性、端点和约束信息备份至`history/v4_1_before_source_merge_20261006/neo4j_snapshot.json`，既有备份不覆盖；旧代码及SQLite已另外保存。一个自动提交事务内完成迁移，然后逐一比对所有当前节点/关系及完整props_json并保存回执；事务原子性见[Neo4j Query API事务文档](https://neo4j.com/docs/query-api/current/transactions/)。若最终核验失败，不应当作完成，应检查已提交状态再定向修正。
 
 默认HTTP `http://127.0.0.1:7474`、数据库shipfaultkg；可用--url/--database或环境变量覆盖。Query API另检查errors，不能只看HTTP状态。新空库直接导入，现有库用ID MERGE，不清空用户手工内容。
 
@@ -335,11 +386,11 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\ship_fault_kg\check_neo4j_
 
 ## 8. 可视化颜色、中文名称和查询
 
-所有活动点有ShipKG及具体类型标签。样式是**浏览器会话设置，不是数据库全局属性**。需将把ShipKG设为最低优先级，并将FaultType设为30px、深紫色#b5a6e0，与Fault的25px、浅紫色#e5dfff区分，其余原生类型颜色和尺寸不变。中文名称仍使用节点caption=display_name、关系caption=name。
+所有活动点有ShipKG及具体类型标签。样式是**浏览器会话设置，不是数据库全局属性**。ShipKG保持最低优先级；FaultType已统一为Fault，因此V4只使用Fault既有25px、浅紫色#e5dfff，其余原生类型颜色和尺寸不变，不引入新的多色方案。中文名称仍使用节点caption=display_name、关系caption=name。
 
 本机新版Browser是后匹配规则优先，因此文件中ShipKG规则放在具体类型之前，效果才是“优先级最低”；不要把文件位置最后与显示优先级最低混淆。离线HTML已撤回上一轮新增的七种颜色，保留原有样式，它与Neo4j是两个独立展示入口。
 
-当前127.0.0.1网页版已应用。Desktop内嵌Query或localhost是不同会话，需各导入一次：[shipkg_v3.grass](D:/RAGQnASystem/RAGQnASystem-main/ship_fault_kg/output/shipkg_v3.grass)。
+V4文件已生成：[shipkg_v4.grass](D:/RAGQnASystem/RAGQnASystem-main/ship_fault_kg/output/shipkg_v4.grass)。本轮已通过数据库API核验名称与标签，但浏览器工具受访问策略限制，未在当前Browser会话重导入样式；Desktop内嵌Query或网页版是不同会话，需要时各导入一次。
 
 1. 运行`:style`，点击Upload GraSS styles，选文件。
 2. 预览后点击**Import**，只上传不等于应用。
@@ -357,12 +408,13 @@ CALL () { MATCH (a:ArchivedSensor) RETURN count(a) AS archived_sensors }
 RETURN nodes,relationships,sensors,archived_sensors;
 ```
 
-期望500、1201、15、0。元数据可能仍列曾使用的ArchivedSensor标签名，不表示还有节点，是否残留以MATCH数量为准。
+期望491、1185、15、0（本项目专用数据库没有其他用户节点时）。元数据可能仍列曾使用的旧标签名，不表示还有节点，是否残留以MATCH数量为准。
 
 ### 故障入口、机理与来源
 
 ```cypher
-MATCH (f:ShipKG:FaultType)-[r:IN_SUBSYSTEM]->(s:ShipKG:Subsystem)
+MATCH (f:ShipKG:Fault)-[r:IN_SYSTEM]->(s:ShipKG:System)
+WHERE f.fault_level='故障类别' AND s.system_level='功能系统'
 RETURN f,r,s;
 ```
 
@@ -416,21 +468,46 @@ Evidence Pack是带来源的证据包，保存事实、路径、证据编号、�
 
 最后需Ollama运行且已有模型，无需下载更大模型。既有3B文件约1.9GB、使用较短上下文与受限输出，图谱/字符检索无需GPU；文件大小不保证运行内存要求。V3草稿见demo_v3_scuffing.md/json。V2曾拒绝4个不合规措施编号，说明LLM选择不保证正确。
 
+### 9.1.1 记录级Source的作用、实际检索覆盖及已执行合并
+
+**它是什么？** 原12个Observation来自方位推进器CBM资料包中的`table3_lti_by_fault_type_anonymised.csv`，V4.2已统一为`Source {source_level:'记录级'}`。每个节点对应一行匿名监测汇总或参考条目，不是本项目接入的实时传感器数据，也不是12起已确诊事故。`build.py`的`build_azimuth_dataset()`保存发动机/设备对象、行号record、warning_hours、warning_months和reference_class，随后由`redesign.py`统一类别。不是每行都有预警时间，空值不能当零。
+
+**两级Source有什么区别？** 资料级Source回答“哪份资料提供了证据”；记录级Source回答“这份资料中哪一条记录、记录了什么状态和建议”。同一资料可有多条记录，每条的对象、状态、预警时间、建议不一定相同。不能把它们混合成单一故障案例。
+
+```text
+Source：方位推进器匿名CBM资料包（资料级来源）
+  ↑ 来源于 DOCUMENTED_BY
+Source：第1条 CAT C7轴系减速器监测摘要（案例A，记录级来源）
+  ├─ 呈现状态 SHOWS_CONDITION → 结构松动
+  ├─ 建议采取 HAS_RECOMMENDED_ACTION → 仅振动状态监测：每125小时检测
+  └─ 属性：record=1；warning_hours=525.0；reference_class=LTI_operational
+```
+
+上面是资料第1条的字段和值，不代表本船必然有525小时提前量，也不是适用于所有设备的125小时维修指令。状态和建议边共享证据`ev:596b2f398d646f0b`，定位到该CSV第1行；`DOCUMENTED_BY`也带同一行证据。全12条记录有12条状态边、12条建议边、12条来源边及7条研究者系统归属边。它们不是故障因果边。
+
+**后续能用来做什么？** 对“轴系减速器结构松动、怎么安排状态监测”等问题，可检索相近对象和状态，再取同一记录下的建议、预警字段、原资料行号，作为LLM报告的补充参考证据。必须说明对象/设备范围、来源性质和字段缺失，不能推成当前船舶的预测结论；不同记录的状态与建议不能随意拼接。
+
+**当前代码已经用到多少？** `retrieve.py`的主上下文索引仅收录Case及含knowledge_id的故障机理入口；诊断事实索引只收录具有case_id且属于DIAGNOSTIC_RELS的边。记录级Source不属于这两类入口，它的状态/建议边也不在诊断事实索引；`dataset_matches()`只按Run→TESTS_FAULT→Fault定位实验CSV。因此当前没有专门的监测记录召回通道，不应宣称12条监测摘要已自动进入Evidence Pack或当前24/38题检索指标。现阶段它主要保存图谱中的记录级信息并供Neo4j查询展示；本轮只改模式，不扩展检索算法。
+
+**已经怎样合并？** 用户确认后，采用“统一类别、保留层级”方案：原30个Source设为资料级，12个Observation改为记录级Source；ID、名称、行号、状态、建议、预警字段和来源边不变。Source共42个，实体类型16→15，总491节点/1185关系不变。没有把12条记录压缩成一个资料节点，也没有把不同记录的状态与建议混接。
+
+合并只是模式整理，不会自动改善召回。后续如接入监测记录检索，仍应按`source_level=记录级`建立独立索引，以同一记录ID返回状态、建议和资料级来源，并将这类补充证据与历史事故因果证据分区呈现。图谱中旧ID含`shipkg:observation:`是为保留稳定身份，不代表还存在Observation实体类型；残留标签应以MATCH数量判断。
+
 ### 9.2 如何接师兄的任务
 
 拟确定输入：设备型号/构型、初步诊断文本、症状/异常特征、候选故障、置信信息。输出增强报告、引用和不确定性；评价模块反馈一致性、解释和遗漏，再补检索/修订。目前真实接口与闭环尚未联调。资料只支持参考机理时，不替前级模型强行确认本船根因。
 
 ### 9.3 已有质量检查和指标
 
-来源定位296锚点通过、V2回归7项/V3专项6项通过；定位不等于专家确认机理，回归不等于现场诊断准确率。本轮删除后全部活动ID与SQLite一致；最新样式回退已在实际Browser核验，原生配色保留，FaultType为30px深紫、Fault为25px浅紫。
+来源定位296锚点通过属于既有来源检查；本轮V4.2回归12项通过，其中Source合并检查逐一核对12条记录ID、名称、别名、原属性和关联边，核对资料级30/记录级12以及父来源一致性。Neo4j与SQLite的491节点、1185关系ID、端点、中文名称、标签、版本、证据ID及完整props_json核验结果见当前导入回执。定位不等于专家确认机理，回归不等于现场诊断准确率。V4样式沿用原生配色，不添加新类别颜色；记录级与资料级Source使用同一Source样式。
 
-V2开发38题：33事故题、2数据定位题、3边界题。字符排序/混合检索Recall@5为0.6717/0.7727，Recall@10为0.9192/0.9697，Precision@5为0.4000/0.4606，案例MRR@3均1.0000。只标必需事实，未标注返回项不能一概算错。
+V4事故/数据开发38题：33事故题、2数据定位题、3覆盖边界题。混合检索Recall@5=0.7374、Recall@10=0.8788、Precision@5=0.4364，案例MRR@3=1.0000，数据定位=1.0000。金标准显示名按已确认映射更新；旧Q12因现在已有参考机理，覆盖标签改为reference_knowledge，但仍不确认本船根因。只标必需事实，未标注返回项不能一概算错。相较历史V2回归，部分事实排序下降，后续应针对近义故障、事件级消歧与案例内排序优化，不能只报最好的24题结果。
 
-V3开发24题（12故障名+12改写）：MRR@3=1、Recall@5=0.9107、Recall@10=1、Precision@5/@10=1。题与建图同源且用别名，相关事实按命中单元确定，不能宣称独立测试或诊断100%。V3 Precision分母为实际返回数、最多K；旧版固定K，不能直接比较。
+V4故障开发24题（12故障名+12改写）：MRR@3=1、Recall@5=0.9107、Recall@10=1、Precision@5/@10=1。金标准使用稳定实体ID，改中文名称不会让正确事实被误判。题与建图同源且用别名，相关事实按命中单元确定，不能宣称独立测试或诊断100%。此组Precision分母为实际返回数、最多K；事故38题固定K，不能直接比较。
 
 ```powershell
-& $kgPython .\ship_fault_kg\verify_v2.py
-& $kgPython .\ship_fault_kg\verify_v3.py
+& $kgPython .\ship_fault_kg\verify_v4.py
+& $kgPython .\ship_fault_kg\evaluate.py
 & $kgPython .\ship_fault_kg\evaluate_fault_v3.py
 ```
 
@@ -480,13 +557,16 @@ V3开发24题（12故障名+12改写）：MRR@3=1、Recall@5=0.9107、Recall@10=
 | V2 | 451/1034、19事故、70Sensor、325证据、690片段 | 扩12事故和5子系统，直接在线导入 |
 | V3活动快照 | 500/1201、15Sensor、12入口、332证据、852片段 | 新104节点/253关系，移出55Sensor/86关系 |
 | V3原Neo4j全库 | 555/1287，活动500/1201 | 55仍归档，Desktop显示555 |
-| **本轮维护后** | **全库500/1201、15Sensor、0归档Sensor** | 真实删除55/86，外部备份；修正颜色并合并文档 |
+| V3维护后（2026-10-05） | 全库500/1201、15Sensor、0归档Sensor | 真实删除55/86，外部备份；修正颜色并合并文档 |
+| V4.0（2026-10-06） | 496/1197、16类实体、29种关系、Fault114 | 合并4组类型、去船名前缀、中文命名；移除Dataset4，来源重连51，证据与文本不丢失 |
+| V4.1（2026-10-06） | 491/1185、Vessel22、Equipment19、Observation12 | 删除5个船型入口，12条分类转属性并保留证据；改13个设备名，Observation当时保留 |
+| **V4.2当前（2026-10-06）** | **491/1185、15类实体、Source42** | Observation统一为Source；资料级30/记录级12，全部记录ID、状态/建议/来源关系保留 |
 
-本次知识仍3.0，颜色/文档不虚增故障数量。当前记录：
+本次版本4.2属于来源实体分层整理，不虚增故障事实数量。当前核验见`output/neo4j_import_result.json`、`output/neo4j_snapshot_v4.json`、`output/build_report.json`。以下是历史维护记录，不代表当前491/1185的截图：
 
 - `output/maintenance_20261005/purge_receipt.json`：删除及ID一致性。
 - `output/maintenance_20261005/deleted_sensors_backup.json`：完整外部恢复资料。
-- `output/maintenance_20261005/neo4j_native_style_restored.png`：最新原生配色恢复、Fault与FaultType对比。
+- `output/maintenance_20261005/neo4j_native_style_restored.png`：V3原生配色恢复、Fault与FaultType合并前对比。
 - `output/maintenance_20261005/neo4j_colors.png`：上一轮配色截图，已撤回，仅作历史记录；`neo4j_full_counts.png`为删除后全库统计。
 - `output/neo4j_connection_repair_20261005/`：连接修正、配置备份、无密码检查结果。
 - `history/docs_before_consolidation_20261005/`：原六文档；旧端口/数量/归档说明已过时。

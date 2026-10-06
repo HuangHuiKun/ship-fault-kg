@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "database": "shipfaultkg",
+  "version": "4.0",
+  "nodes": 496,
+  "relationships": 1197,
+  "removed_dataset_nodes": 4,
+  "removed_dataset_nodes_this_run": 0,
+  "removed_or_replaced_relationships": 0,
+  "single_atomic_transaction": true,
+  "csv_required": false,
+  "backup": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v3_before_redesign_20261006\\neo4j_snapshot.json",
+  "method": "Neo4j HTTP Query API"
+}

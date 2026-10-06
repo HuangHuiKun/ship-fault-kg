@@ -1,0 +1,227 @@
+{
+  "created_utc": "2026-10-05T11:25:47.695906+00:00",
+  "model": "qwen2.5:3b-instruct",
+  "query": "主机疑似拉缸，如何补充机理解释和检查建议？",
+  "retrieval": {
+    "query": "主机疑似拉缸，如何补充机理解释和检查建议？",
+    "coverage": "reference_knowledge",
+    "coverage_warning": "匹配到厂家机理/论文观察或报告参考单元，不是本船已证实根因。MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+    "primary_context": "knowledge:liner_scuffing",
+    "focused_reference": true,
+    "entity_alignment": [
+      {
+        "id": "shipkg:faulttype:ce7933999459",
+        "name": "拉缸",
+        "kind": "FaultType",
+        "matched": "拉缸"
+      }
+    ],
+    "dataset_matches": [],
+    "cases": [],
+    "knowledge_units": [
+      {
+        "knowledge_id": "knowledge:liner_scuffing",
+        "name": "拉缸",
+        "score": 1.1259,
+        "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。"
+      },
+      {
+        "knowledge_id": "knowledge:coolant_blockage",
+        "name": "冷却水通道堵塞与热过载",
+        "score": 0.0551,
+        "applicability": "MAN四冲程柴油机闭式淡水冷却；水质要求与添加剂须按具体机型手册确认。"
+      }
+    ],
+    "causal_paths": [
+      {
+        "case_id": "knowledge:liner_scuffing",
+        "score": 0.5682,
+        "edge_ids": [
+          "edge:b9d9e0cbe35e93fc",
+          "edge:4fc2671e35298eb4",
+          "edge:321c0ccbe27aa769"
+        ],
+        "chain": "缸套表面抛光或涂抹 → 缸套油膜难以维持 → 缸套黏着拉伤 → 缸套表面硬化需修复"
+      },
+      {
+        "case_id": "knowledge:liner_scuffing",
+        "score": 0.5221,
+        "edge_ids": [
+          "edge:4fc2671e35298eb4",
+          "edge:321c0ccbe27aa769"
+        ],
+        "chain": "缸套油膜难以维持 → 缸套黏着拉伤 → 缸套表面硬化需修复"
+      }
+    ],
+    "facts": [
+      {
+        "id": "edge:b9d9e0cbe35e93fc",
+        "case_id": "knowledge:liner_scuffing",
+        "case_name": "拉缸",
+        "context_id": "knowledge:liner_scuffing",
+        "context_kind": "FaultType",
+        "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+        "subject": "缸套表面抛光或涂抹",
+        "relation": "CONTRIBUTED_TO",
+        "relation_zh": "促成",
+        "object": "缸套油膜难以维持",
+        "certainty": "guidance",
+        "score": 0.4376,
+        "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+        "page": "2",
+        "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+        "evidence": "to polishing and, possibly, smearing of the surface. When the liner surface is smeared, the open graphite lamel - las are closed making it difficult to keep a proper oil film. When the oil film is compromised, the cast iron piston rings, which are in contact with the cast iron liner, may generate high friction and seizures that will not recover (liner scuffing). During scuffing, the surface of the lin"
+      },
+      {
+        "id": "edge:4fc2671e35298eb4",
+        "case_id": "knowledge:liner_scuffing",
+        "case_name": "拉缸",
+        "context_id": "knowledge:liner_scuffing",
+        "context_kind": "FaultType",
+        "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+        "subject": "缸套油膜难以维持",
+        "relation": "MAY_CONTRIBUTE_TO",
+        "relation_zh": "可能促成",
+        "object": "缸套黏着拉伤",
+        "certainty": "guidance",
+        "score": 0.4638,
+        "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+        "page": "2",
+        "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+        "evidence": "l film. When the oil film is compromised, the cast iron piston rings, which are in contact with the cast iron liner, may generate high friction and seizures that will not recover (liner scuffing). During scuffing, the surface of the liner is hardened and will need machining to recover before new rings can be run in. Cermet is a composite, part-ceramic, part-metal material. It combines the best properties of a ceramic, i.e"
+      },
+      {
+        "id": "edge:321c0ccbe27aa769",
+        "case_id": "knowledge:liner_scuffing",
+        "case_name": "拉缸",
+        "context_id": "knowledge:liner_scuffing",
+        "context_kind": "FaultType",
+        "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+        "subject": "缸套黏着拉伤",
+        "relation": "LEADS_TO",
+        "relation_zh": "导致",
+        "object": "缸套表面硬化需修复",
+        "certainty": "guidance",
+        "score": 0.4535,
+        "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+        "page": "2",
+        "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+        "evidence": "ct with the cast iron liner, may generate high friction and seizures that will not recover (liner scuffing). During scuffing, the surface of the liner is hardened and will need machining to recover before new rings can be run in. Cermet is a composite, part-ceramic, part-metal material. It combines the best properties of a ceramic, i.e. high tem - perature-resistance and hardness, with tho"
+      },
+      {
+        "id": "edge:54a6f1f6bd496483",
+        "case_id": "knowledge:liner_scuffing",
+        "case_name": "拉缸",
+        "context_id": "knowledge:liner_scuffing",
+        "context_kind": "FaultType",
+        "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+        "subject": "检查缸套表面与活塞环状态",
+        "relation": "CHECKS",
+        "relation_zh": "检查",
+        "object": "缸套黏着拉伤",
+        "certainty": "derived_action",
+        "score": 0.5064,
+        "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+        "page": "3",
+        "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+        "evidence": "is recommended. Otherwise, polishing and smearing of the liner surface may occur and, thereby, in - crease the risk for seizures. Conditioning the liner surface When overhauling after prolonged operation on ULSF, the liner surface may not be in an adequate condition to facilitate the running-in of new piston rings as is the case when oper - ating on high-sulphur fuels. It may therefore b"
+      },
+      {
+        "id": "edge:289600202fa8e15f",
+        "case_id": "knowledge:liner_scuffing",
+        "case_name": "拉缸",
+        "context_id": "knowledge:liner_scuffing",
+        "context_kind": "FaultType",
+        "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+        "subject": "按厂家程序及时降负荷并核查气缸润滑",
+        "relation": "ADDRESSES",
+        "relation_zh": "应对",
+        "object": "缸套黏着拉伤",
+        "certainty": "guidance",
+        "score": 0.4581,
+        "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+        "page": "2",
+        "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+        "evidence": "rmet will recover after the incident, provided the situ - ation is timely discovered and action is taken to ensure that it stops (increased lubrication and reduced load). However, the liner will need machining at the next overhaul to ensure proper running-in of the new rings. Fig. 1: The CPR ring pack containing 3 high rings with cermet-coating on all rings for 70 bore and above (SL2016-611/JAP)"
+      },
+      {
+        "id": "edge:4af275aa2b680929",
+        "case_id": "knowledge:liner_scuffing",
+        "case_name": "拉缸",
+        "context_id": "knowledge:liner_scuffing",
+        "context_kind": "FaultType",
+        "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+        "subject": "扫气泄放油铁含量升高",
+        "relation": "INDICATES",
+        "relation_zh": "指示",
+        "object": "活塞环与缸套磨损",
+        "certainty": "guidance",
+        "score": 0.4755,
+        "source_file": "MAN_SL2019_685_ring_coating_wear.pdf",
+        "page": "2",
+        "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2019-685.pdf",
+        "evidence": "ng, and so forth. The wear of the cermet coating can to some extent be assessed by analysis of drain oil samples. If these have a high iron content, the piston rings and the liners are worn correspondingly. Figure 2: Examples of piston ring packs with cermet coating Alu coating CL-groove Double S-lock Cermet High ring High ring High ring Alu coating CL-groove Double S-lock C"
+      },
+      {
+        "id": "edge:b12fa35e7b3df7cf",
+        "case_id": "knowledge:liner_scuffing",
+        "case_name": "拉缸",
+        "context_id": "knowledge:liner_scuffing",
+        "context_kind": "FaultType",
+        "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+        "subject": "按机型与燃料选择气缸油并检查缸况",
+        "relation": "ADDRESSES",
+        "relation_zh": "应对",
+        "object": "缸套油膜难以维持",
+        "certainty": "guidance",
+        "score": 0.4173,
+        "source_file": "MAN_SL2023_737_cylinder_lubrication.pdf",
+        "page": "1",
+        "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2023-737.pdf",
+        "evidence": "The lowered fuel sulphur content and the resulting lowering of the cylinder oil feed rate also stresses the importance of always maintaining an adequate oil film. For engines burning high-sulphur fuel, this Service Letter and SL2023-738/IKCA replace SL2014-587. For MC and MC-C engines with Alpha Lubricator Mk. 1 systems, SL2014-587, enclosure 4 should be used. High-performing engines call"
+      }
+    ],
+    "passages": [
+      {
+        "id": "passage:a55272d35651f336",
+        "title": "MAN SL2023-737 cylinder lubrication update",
+        "source_file": "MAN_SL2023_737_cylinder_lubrication.pdf",
+        "page": "1",
+        "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2023-737.pdf",
+        "kind": "reference_page",
+        "score": 0.3,
+        "excerpt": "Action code: WHEN CONVENIENT Head office (& po. address) MAN Energy Solutions Teglholmsgade 41 2450 Copenhagen SV Denmark Phone: +45 33 85 11 00 Fax: +45 33 85 10 30 info-cph@man-es.com www.man-es.com PrimeServ Teglholmsgade 41 2450 Copenhagen SV Denmark Phone: +45 33 85 11 00 Fax: +45 33 85 10 49 PrimeServ-cph@man-es.com Production Teglholmsgade 35 2450 Copenhagen SV Denmark Phone: +45 33 85 11 00 Fax: +45 33 85 10 17 manufacturing-dk@man-es.com Forwarding & Receiving Teglholmsgade 35 2450 Copenhagen SV Denmark Phone: +45 33 85 11 00 Fax: +45 33 85 10 16 shipping-cph@man-es.com MAN Energy Sol"
+      },
+      {
+        "id": "passage:c26bfecc4e5b9cf6",
+        "title": "MAN SL2016-633 hard-coated piston rings and liner scuffing",
+        "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+        "page": "2",
+        "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+        "kind": "reference_page",
+        "score": 0.3,
+        "excerpt": "Service Letter SL2016-633/JAP Hard-coated Piston Rings for Operation on Ultra-Low Sulphur Fuel. Page 2 of 4 pages Operation on ULSF increases the risk of bore polishing of the liner surface and may lead to smearing of the liner. Under normal conditions, when operating on fuel containing sulphur, the sulphuric acid formed during the combustion process will ensure a controlled amount of corrosion. This corrosion causes the liner surface to sustain adequate level of wear that ensures a high number of open graphite lamellas in the cast iron matrix. When operating on ULSF the level of corrosion is "
+      }
+    ],
+    "retrieval_strategy": "hybrid",
+    "retrieval_method": "alias/entity matching + character TF-IDF + query synonyms + case-scoped graph reranking (not neural embeddings)"
+  },
+  "llm_selection_raw": "{\"fault_chain\":[1,2,3],\"checks\":[4],\"actions\":[5,7]}",
+  "validated_selection": {
+    "fault_chain": [
+      1,
+      2,
+      3
+    ],
+    "checks": [
+      4
+    ],
+    "actions": [
+      5,
+      7
+    ]
+  },
+  "selection_errors": [],
+  "final_report_method": "LLM选择证据；依据同一案例或同一参考机理单元中的图谱事实和来源页码确定性生成正文",
+  "final_report": "# 船舶动力系统知识增强诊断草稿\n\n输入线索：主机疑似拉缸，如何补充机理解释和检查建议？\n\n参考机理/文献单元：拉缸。本船具体根因仍需现场数据和检查结果确认。\n\n适用范围：MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。\n\n## 可能故障与因果解释\n\n- 缸套表面抛光或涂抹 促成 缸套油膜难以维持。[1]\n- 缸套油膜难以维持 可能促成 缸套黏着拉伤。[2]\n- 缸套黏着拉伤 导致 缸套表面硬化需修复。[3]\n\n## 建议检查\n\n- 检查缸套表面与活塞环状态，核查是否存在“缸套黏着拉伤”。[4]（依据来源整理的检查建议，需专业人员确认。）\n\n## 可参考的运维措施\n\n- 按厂家程序及时降负荷并核查气缸润滑。[5]\n- 按机型与燃料选择气缸油并检查缸况。[7]\n\n## 来源证据\n\n- [1] MAN_SL2016_633_piston_rings_scuffing.pdf，PDF第2页；[来源](https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf)；确定性：guidance。\n- [2] MAN_SL2016_633_piston_rings_scuffing.pdf，PDF第2页；[来源](https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf)；确定性：guidance。\n- [3] MAN_SL2016_633_piston_rings_scuffing.pdf，PDF第2页；[来源](https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf)；确定性：guidance。\n- [4] MAN_SL2016_633_piston_rings_scuffing.pdf，PDF第3页；[来源](https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf)；确定性：derived_action。\n- [5] MAN_SL2016_633_piston_rings_scuffing.pdf，PDF第2页；[来源](https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf)；确定性：guidance。\n- [7] MAN_SL2023_737_cylinder_lubrication.pdf，PDF第1页；[来源](https://www.man-es.com/docs/default-source/service-letters/sl2023-737.pdf)；确定性：guidance。\n\n这是图谱辅助草稿；实际运维决策需结合本船测点、报警与维修记录及制造商手册。\n"
+}

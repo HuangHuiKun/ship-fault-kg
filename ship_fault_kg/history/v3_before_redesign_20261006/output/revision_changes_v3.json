@@ -1,0 +1,473 @@
+{
+  "before": {
+    "nodes": 451,
+    "edges": 1034,
+    "sensors": 70
+  },
+  "after": {
+    "nodes": 500,
+    "edges": 1201,
+    "sensors": 15
+  },
+  "added_nodes": 104,
+  "added_edges": 253,
+  "removed_nodes": [
+    {
+      "id": "shipkg:sensor:09fb65289e45",
+      "name": "Loss in Charge Air IC",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:0c9767837a0e",
+      "name": "Engine room Temp.",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:0d564da1d412",
+      "name": "Effective Efficiency",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:0d9978f872ad",
+      "name": "Exh.Gas Power",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:0dfc0d5a19c5",
+      "name": "Min. In-Cylinder Press. No.3",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:1320f5577cf0",
+      "name": "Exh.Gas Vol. Flow (From Engine Speed)",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:173be47ae689",
+      "name": "Exh. Gas Mass Flow",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:17bbed611e22",
+      "name": "Total Heat Loss in Heat Exchangers",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:1f391dbaad55",
+      "name": "Fuel transfer pump Press.",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:2392435fe4ac",
+      "name": "LO Temp. TCH Out",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:270638670931",
+      "name": "Max. In-Cylinder Press. No.3",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:28c98806fac8",
+      "name": "Indicated Work No.2",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:2c5d17b46b26",
+      "name": "Cooling Water Temp. Engine Out II",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:31faff89b311",
+      "name": "Fuel Oil Temp. Flow meter In",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:34c1108e4156",
+      "name": "Indicated Work No.3",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:3a134554df66",
+      "name": "TCH LO pump Press.",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:421ec2313d7d",
+      "name": "Mechanical Efficiency",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:427673f0da2d",
+      "name": "Charge Air IC Air Temp. In",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:453069f73398",
+      "name": "LO Temp. TCH In",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:5acc3a404383",
+      "name": "Fuel Injector Cooling Oil Press.",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:5c1900646ca4",
+      "name": "Charge Air IC Cooling water flow",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:5f5652f7036e",
+      "name": "LO Cooling water flow",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:615199ab193b",
+      "name": "LO Cooling Water Temp. Out",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:67bfe0a5f170",
+      "name": "Effective Work No.3",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:6cf5ec25b81a",
+      "name": "No.3 Exh.Gas Temp.",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:75d18bcbb2d9",
+      "name": "Indicated Efficiency",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:7b9d6be3e1e7",
+      "name": "Charge Air IC Cooling Water Temp. Out",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:7e4664b82d74",
+      "name": "TCH LO Cooling water flow",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:805edb9418c2",
+      "name": "Min. In-Cylinder Press. No.1",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:851db4d72803",
+      "name": "Water Brake Weight",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:8529d7e4c296",
+      "name": "Other Loss",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:870baabfbca3",
+      "name": "Fuel Temp.",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:872567f0bd88",
+      "name": "Effective Work No.2",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:8ad66c87b433",
+      "name": "No.2 Exh.Gas Temp.",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:8b403808fd55",
+      "name": "Exh.Gas Temp. Turbine Out",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:9103d6c847ed",
+      "name": "Effective Work No.1",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:95cb7f8b5ea4",
+      "name": "Max. In-Cylinder Press. No.2",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:a4ce7901d117",
+      "name": "Mechanical Loss",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:a6b570413502",
+      "name": "Loss with LO",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:a99b849d2aad",
+      "name": "TCH Power",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:ad2f7007e3fa",
+      "name": "Total Effective Work",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:aef67aa11eac",
+      "name": "Charge Air IC Cooling Water Temp. In",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:b3a6d5f659a8",
+      "name": "Indicated Work No.1",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:b7131de34c68",
+      "name": "Min. In-Cylinder Press. No.2",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:ba1e69ac58df",
+      "name": "Total Indicated work",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:ba5f4c7a3eab",
+      "name": "Exh.Gas Total Power",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:c6c4a9eaacca",
+      "name": "Total Input Energy",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:ccfc2a47cee5",
+      "name": "Exh.Gas Temp. Turbine In",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:e17885e7f77f",
+      "name": "Loss with TCH LO",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:e47b10fa62e0",
+      "name": "Compressor Filter Loss",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:e56c947d4ba2",
+      "name": "Sea Cooling Water Press.",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:e94fb52827fa",
+      "name": "Turbine Back Pressure",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:e98fe7ad595f",
+      "name": "Loss with cooling water",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:e9b442573c44",
+      "name": "Cooling Water Temp. Engine Out III",
+      "kind": "Sensor"
+    },
+    {
+      "id": "shipkg:sensor:fd5659daf34f",
+      "name": "LO Cooling Water Temp. In",
+      "kind": "Sensor"
+    }
+  ],
+  "removed_edges": [
+    "edge:001091b260b3062f",
+    "edge:0343d13eaea989f5",
+    "edge:037a4d071a6529c2",
+    "edge:05e14e29f505ee0b",
+    "edge:060a43e64259ef1e",
+    "edge:06d907ccfb2fafcf",
+    "edge:0bbcabb119a25f70",
+    "edge:1274fdc0acb19045",
+    "edge:1d80047b2a112d94",
+    "edge:24b011608ed90126",
+    "edge:256e1a9bbcedfe9b",
+    "edge:2739836792a3f6c1",
+    "edge:27ba3d29b09b4076",
+    "edge:299ba3b096eaf95f",
+    "edge:2b6706f568793be1",
+    "edge:2d4865509b8beb11",
+    "edge:2dcda900a2edd521",
+    "edge:3028fbceea0e3edc",
+    "edge:333bbb6be23ee224",
+    "edge:35b4fc034e64a450",
+    "edge:35c465c443d90f42",
+    "edge:3e50df8e5d9fe6d4",
+    "edge:42db8fe2166d1a03",
+    "edge:43df28ae28a3fbbf",
+    "edge:4b7f6d0000ba8b85",
+    "edge:4be6677a2fce9cc4",
+    "edge:53aef46f30bb2a58",
+    "edge:53b6c743d3911d7c",
+    "edge:595ef591f4214968",
+    "edge:5b6480e99d1e39fb",
+    "edge:5fad3b66d088751f",
+    "edge:637c1d14e0c603a6",
+    "edge:69786e65ac0d4312",
+    "edge:6b58a4007c47e288",
+    "edge:6d43abb57134c895",
+    "edge:70ec9bf53cd508a6",
+    "edge:74788259601dfac1",
+    "edge:756ee7ab786e2342",
+    "edge:789a40efbf94f045",
+    "edge:7f5cf32ac1fefe93",
+    "edge:7fc238db427a590a",
+    "edge:822894e4ee33d35c",
+    "edge:8e8b5c419663d869",
+    "edge:8e8fa2175e5d4990",
+    "edge:93eb95c46bcd230e",
+    "edge:958121aa9d470c6d",
+    "edge:992478fc2c14e9b3",
+    "edge:9941cbdbe1cfdf73",
+    "edge:9e444dcb08b3cf88",
+    "edge:9e959d93a91dfe5c",
+    "edge:a28c301cbad1e0c2",
+    "edge:a937bf8f2b2c652c",
+    "edge:aae2c66f15b8b768",
+    "edge:b1eebdee30fa1762",
+    "edge:b25a5cf32c96c74f",
+    "edge:b3e43455b3218549",
+    "edge:b545dff5546fb648",
+    "edge:b843f5e5dcf969b4",
+    "edge:be3b5590041e75e9",
+    "edge:bec7be1e9700a814",
+    "edge:c1e0fa7428533bc5",
+    "edge:c4bc9ca7f69ae069",
+    "edge:c62ebf3c80e160a0",
+    "edge:cb9aa280fead0205",
+    "edge:cf347cc5c62a9275",
+    "edge:cf8088fbc0fe6263",
+    "edge:d2cf7e7328f9b943",
+    "edge:d550d8d987cbc2ed",
+    "edge:d5c1fd3be2416952",
+    "edge:d633bdf82e73e82e",
+    "edge:d7df018213d853f6",
+    "edge:e0284dc52b13fab4",
+    "edge:e4eaac50a4ee8002",
+    "edge:e7103e2d26ceb062",
+    "edge:e7ec06f33098d624",
+    "edge:ea13b5c72413de93",
+    "edge:eb9820d2f30f30f4",
+    "edge:ede40320c4ce187a",
+    "edge:eedeeafafedb05b6",
+    "edge:f0336114be21b200",
+    "edge:f19301b64c3cb30b",
+    "edge:f264dbf160f5c998",
+    "edge:f80cec34ea31215a",
+    "edge:fb34bd4df3c583e0",
+    "edge:fe049a757fc3bcaa",
+    "edge:fe7d4eb6c9fdf2b2"
+  ],
+  "renamed_nodes": [
+    {
+      "id": "shipkg:vessel:e9a9185f76f9",
+      "before": "匿名滚装客船（SD2013-02）",
+      "after": "滚装客船（SD2013-02）"
+    },
+    {
+      "id": "shipkg:case:ffc594a9fab7",
+      "before": "匿名双体客船油抹布落至排气歧管起火",
+      "after": "双体客船油抹布落至排气歧管起火"
+    },
+    {
+      "id": "shipkg:vessel:3fb5a9c954ef",
+      "before": "匿名滚装客船（SD2016-08）",
+      "after": "滚装客船（SD2016-08）"
+    },
+    {
+      "id": "shipkg:case:551512d967af",
+      "before": "匿名滚装客船控制空气不足与离合器脱开",
+      "after": "滚装客船控制空气不足与离合器脱开"
+    },
+    {
+      "id": "shipkg:vessel:5d3e7e7eb367",
+      "before": "匿名专用货船（SD2013-03）",
+      "after": "专用货船（SD2013-03）"
+    },
+    {
+      "id": "shipkg:case:7a1c0165bb56",
+      "before": "匿名滚装客船发电机滑油泵堵头松脱火灾",
+      "after": "滚装客船发电机滑油泵堵头松脱火灾"
+    },
+    {
+      "id": "shipkg:vessel:32aaec3208ad",
+      "before": "匿名双体客船（SD2013-12）",
+      "after": "双体客船（SD2013-12）"
+    },
+    {
+      "id": "shipkg:vessel:e9dd95119f56",
+      "before": "匿名化学品船（SD2016-09）",
+      "after": "化学品船（SD2016-09）"
+    },
+    {
+      "id": "shipkg:case:8b13bdb1a5bc",
+      "before": "匿名化学品船CPP倒车响应迟缓与码头碰撞",
+      "after": "化学品船CPP倒车响应迟缓与码头碰撞"
+    },
+    {
+      "id": "shipkg:vessel:205954d6d86e",
+      "before": "匿名货船（SD2013-05）",
+      "after": "货船（SD2013-05）"
+    },
+    {
+      "id": "shipkg:vessel:ea737bd37b3c",
+      "before": "匿名拖网渔船（SD2016-22）",
+      "after": "拖网渔船（SD2016-22）"
+    },
+    {
+      "id": "shipkg:case:9676bd22b5e5",
+      "before": "匿名货船滑油滤芯漏装与主机抱轴",
+      "after": "货船滑油滤芯漏装与主机抱轴"
+    },
+    {
+      "id": "shipkg:vessel:808ea34d5772",
+      "before": "匿名滚装客船（SD2016-05）",
+      "after": "滚装客船（SD2016-05）"
+    },
+    {
+      "id": "shipkg:case:6f58fb8a8b17",
+      "before": "匿名拖网渔船海水冷却管疑似失效与沉没",
+      "after": "拖网渔船海水冷却管疑似失效与沉没"
+    },
+    {
+      "id": "shipkg:case:ad49b658b30b",
+      "before": "匿名货船压载泵检修隔离失效与机舱进水",
+      "after": "货船压载泵检修隔离失效与机舱进水"
+    },
+    {
+      "id": "shipkg:vessel:a81974e78c4c",
+      "before": "匿名货船（SD2016-14）",
+      "after": "货船（SD2016-14）"
+    },
+    {
+      "id": "shipkg:case:537a034e93e3",
+      "before": "匿名专用货船盘车联锁失效与启动损坏",
+      "after": "专用货船盘车联锁失效与启动损坏"
+    },
+    {
+      "id": "shipkg:case:597875e258c6",
+      "before": "匿名滚装客船误选CPP备用模式与泊位碰撞",
+      "after": "滚装客船误选CPP备用模式与泊位碰撞"
+    }
+  ],
+  "backup": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v2_before_fault_focus_20261005",
+  "raw_datasets_deleted": false
+}

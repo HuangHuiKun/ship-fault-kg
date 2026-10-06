@@ -3,7 +3,7 @@
 本目录保留船舶动力系统故障知识图谱的构建代码、原始资料和研究介绍材料。
 
 - [构建、检索、评估与 Neo4j 使用说明](ship_fault_kg/README_CN.md)
-- [资料包说明](ship_fault_kg_data/05_metadata/README_CN.md)
+- [资料包说明](ship_fault_kg_data/README_CN.md)
 - `ship_fault_kg/output/`：SQLite、GraphML、CSV 和评估结果
 - `ship_fault_kg/presentations/`：船舶项目介绍材料
 - [Git版本管理、更新与回退方法](VERSION_CONTROL.md)

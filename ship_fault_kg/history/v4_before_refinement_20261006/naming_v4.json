@@ -1,0 +1,4507 @@
+{
+  "version": "4.0",
+  "approved": "2026-10-06",
+  "note": "Approved redesign plus FaultType unified into Fault; stable IDs retained, category roles kept as properties.",
+  "nodes": {
+    "shipkg:action:1487f0a35cfe": {
+      "id": "shipkg:action:1487f0a35cfe",
+      "kind": "Action",
+      "name": "按本机手册处理潮湿污染并验证绝缘",
+      "oldKind": "Action",
+      "oldName": "按本机手册处理潮湿污染并验证绝缘",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:6234e02eed7e": {
+      "id": "shipkg:action:6234e02eed7e",
+      "kind": "Action",
+      "name": "按本机手册处理冷却水并定期送检",
+      "oldKind": "Action",
+      "oldName": "按本机手册处理冷却水并定期送检",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:41ba1c42b3a5": {
+      "id": "shipkg:action:41ba1c42b3a5",
+      "kind": "Action",
+      "name": "按厂家程序及时降负荷并核查气缸润滑",
+      "oldKind": "Action",
+      "oldName": "按厂家程序及时降负荷并核查气缸润滑",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:b6c45b2c3ead": {
+      "id": "shipkg:action:b6c45b2c3ead",
+      "kind": "Action",
+      "name": "按厂商通告更换背压阀",
+      "oldKind": "Action",
+      "oldName": "按厂商通告更换背压阀",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:acaa49cd0860": {
+      "id": "shipkg:action:acaa49cd0860",
+      "kind": "Action",
+      "name": "按构型复核联轴器补偿与减振能力",
+      "oldKind": "Action",
+      "oldName": "按构型复核联轴器补偿与减振能力",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:feb3b27e10a6": {
+      "id": "shipkg:action:feb3b27e10a6",
+      "kind": "Action",
+      "name": "按机型维护计划补脂并复核联轴器重量",
+      "oldKind": "Action",
+      "oldName": "按机型维护计划补脂并复核联轴器重量",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:130ca8701fd4": {
+      "id": "shipkg:action:130ca8701fd4",
+      "kind": "Action",
+      "name": "按机型与燃料选择气缸油并检查缸况",
+      "oldKind": "Action",
+      "oldName": "按机型与燃料选择气缸油并检查缸况",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:9444999ad903": {
+      "id": "shipkg:action:9444999ad903",
+      "kind": "Action",
+      "name": "按适用机型维护接地刷与绝缘轴承",
+      "oldKind": "Action",
+      "oldName": "按适用机型维护接地刷与绝缘轴承",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:2cd7b4f4bdb0": {
+      "id": "shipkg:action:2cd7b4f4bdb0",
+      "kind": "Action",
+      "name": "按原厂服务程序维护可调螺距桨执行器",
+      "oldKind": "Action",
+      "oldName": "按OEM服务程序维护CPP执行器",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:642ddc0bd6c5": {
+      "id": "shipkg:action:642ddc0bd6c5",
+      "kind": "Action",
+      "name": "按制造商工艺更换活塞销轴套",
+      "oldKind": "Action",
+      "oldName": "按制造商工艺更换活塞销轴套",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:3a42e9e6e745": {
+      "id": "shipkg:action:3a42e9e6e745",
+      "kind": "Action",
+      "name": "保持机组状态与日志及状态板一致",
+      "oldKind": "Action",
+      "oldName": "保持机组状态与日志及状态板一致",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:a153887f0b20": {
+      "id": "shipkg:action:a153887f0b20",
+      "kind": "Action",
+      "name": "常规状态监测：振动、油液各每500小时",
+      "oldKind": "Action",
+      "oldName": "Standard monitoring; 500 h vibration / 500 h oil",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:fa948d692647": {
+      "id": "shipkg:action:fa948d692647",
+      "kind": "Action",
+      "name": "船员停止主机与发电机",
+      "oldKind": "Action",
+      "oldName": "船员停止主机与发电机",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:13d66975b925": {
+      "id": "shipkg:action:13d66975b925",
+      "kind": "Action",
+      "name": "定期演练推进失效与恢复",
+      "oldKind": "Action",
+      "oldName": "定期演练推进失效与恢复",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:99ddd7acf595": {
+      "id": "shipkg:action:99ddd7acf595",
+      "kind": "Action",
+      "name": "复核联轴器正常与失火工况转矩和热负荷裕量",
+      "oldKind": "Action",
+      "oldName": "复核联轴器正常与失火工况转矩和热负荷裕量",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:b39684450af7": {
+      "id": "shipkg:action:b39684450af7",
+      "kind": "Action",
+      "name": "改进吊舱舱底传感器布置",
+      "oldKind": "Action",
+      "oldName": "改进吊舱舱底传感器布置",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:4578c5b2c727": {
+      "id": "shipkg:action:4578c5b2c727",
+      "kind": "Action",
+      "name": "改装ME3四螺钉燃油法兰",
+      "oldKind": "Action",
+      "oldName": "改装ME3四螺钉燃油法兰",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:fa72ffe2b82b": {
+      "id": "shipkg:action:fa72ffe2b82b",
+      "kind": "Action",
+      "name": "隔离滑油泄漏来源",
+      "oldKind": "Action",
+      "oldName": "隔离滑油泄漏来源",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:04317a406bca": {
+      "id": "shipkg:action:04317a406bca",
+      "kind": "Action",
+      "name": "更换改进设计的滤波电容",
+      "oldKind": "Action",
+      "oldName": "更换改进设计的滤波电容",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:9fa28e4c4571": {
+      "id": "shipkg:action:9fa28e4c4571",
+      "kind": "Action",
+      "name": "固定灭火系统灭火",
+      "oldKind": "Action",
+      "oldName": "固定灭火系统灭火",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:1b28685e1f2a": {
+      "id": "shipkg:action:1b28685e1f2a",
+      "kind": "Action",
+      "name": "规范收集处置含油废物",
+      "oldKind": "Action",
+      "oldName": "规范收集处置含油废物",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:f1e90ec0f59b": {
+      "id": "shipkg:action:f1e90ec0f59b",
+      "kind": "Action",
+      "name": "航行中保持驾驶台值守与报警响应",
+      "oldKind": "Action",
+      "oldName": "航行中保持驾驶台值守与报警响应",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:ee6e6a9b5e59": {
+      "id": "shipkg:action:ee6e6a9b5e59",
+      "kind": "Action",
+      "name": "核查可调螺距桨法兰额定压力与喷溅防护",
+      "oldKind": "Action",
+      "oldName": "核查CPP法兰额定压力与喷溅防护",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:2c60146dc1a8": {
+      "id": "shipkg:action:2c60146dc1a8",
+      "kind": "Action",
+      "name": "机舱及时通报推进控制异常",
+      "oldKind": "Action",
+      "oldName": "机舱及时通报推进控制异常",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:ac5834891dd6": {
+      "id": "shipkg:action:ac5834891dd6",
+      "kind": "Action",
+      "name": "加强维修承包商关键步骤监督",
+      "oldKind": "Action",
+      "oldName": "加强维修承包商关键步骤监督",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:984af3c3d6c8": {
+      "id": "shipkg:action:984af3c3d6c8",
+      "kind": "Action",
+      "name": "检查其余机组非原厂轴承并计划更换",
+      "oldKind": "Action",
+      "oldName": "检查其余机组非原厂轴承并计划更换",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:32b0fb5f9f2b": {
+      "id": "shipkg:action:32b0fb5f9f2b",
+      "kind": "Action",
+      "name": "检修后核验堵头紧固与排气保温",
+      "oldKind": "Action",
+      "oldName": "检修后核验堵头紧固与排气保温",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:84a87c035a24": {
+      "id": "shipkg:action:84a87c035a24",
+      "kind": "Action",
+      "name": "检修前泄压并控制法兰拆开幅度",
+      "oldKind": "Action",
+      "oldName": "检修前泄压并控制法兰拆开幅度",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:4f7d85454ee0": {
+      "id": "shipkg:action:4f7d85454ee0",
+      "kind": "Action",
+      "name": "将螺旋桨出水风险纳入耐波决策",
+      "oldKind": "Action",
+      "oldName": "将螺旋桨出水风险纳入耐波决策",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:bb1cd030e27b": {
+      "id": "shipkg:action:bb1cd030e27b",
+      "kind": "Action",
+      "name": "将谐波滤波器纳入关键设备与保护测试",
+      "oldKind": "Action",
+      "oldName": "将谐波滤波器纳入关键设备与保护测试",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:6667f1d39b0e": {
+      "id": "shipkg:action:6667f1d39b0e",
+      "kind": "Action",
+      "name": "仅振动状态监测：每125小时检测",
+      "oldKind": "Action",
+      "oldName": "Vibration-only CBM; 125 h vibration interval",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:07654f6d6a9b": {
+      "id": "shipkg:action:07654f6d6a9b",
+      "kind": "Action",
+      "name": "开展机舱进水应急演练",
+      "oldKind": "Action",
+      "oldName": "开展机舱进水应急演练",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:94c3bd7ec403": {
+      "id": "shipkg:action:94c3bd7ec403",
+      "kind": "Action",
+      "name": "开展机舱与驾驶台故障沟通演练",
+      "oldKind": "Action",
+      "oldName": "开展机舱与驾驶台故障沟通演练",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:9b0a2bc57f23": {
+      "id": "shipkg:action:9b0a2bc57f23",
+      "kind": "Action",
+      "name": "确认减振器故障后按厂家程序更换",
+      "oldKind": "Action",
+      "oldName": "确认减振器故障后按厂家程序更换",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:6e0e5173ee8f": {
+      "id": "shipkg:action:6e0e5173ee8f",
+      "kind": "Action",
+      "name": "使用备用螺距控制",
+      "oldKind": "Action",
+      "oldName": "使用备用螺距控制",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:16d3373950f9": {
+      "id": "shipkg:action:16d3373950f9",
+      "kind": "Action",
+      "name": "使用原厂零件重建并大修发电机组",
+      "oldKind": "Action",
+      "oldName": "使用原厂零件重建并大修发电机组",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:4a27034a0842": {
+      "id": "shipkg:action:4a27034a0842",
+      "kind": "Action",
+      "name": "停用故障主机并查明报警原因",
+      "oldKind": "Action",
+      "oldName": "停用故障主机并查明报警原因",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:8f48968a672d": {
+      "id": "shipkg:action:8f48968a672d",
+      "kind": "Action",
+      "name": "推进安全按钮设置防误操作保护",
+      "oldKind": "Action",
+      "oldName": "推进安全按钮设置防误操作保护",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:b12de133c87b": {
+      "id": "shipkg:action:b12de133c87b",
+      "kind": "Action",
+      "name": "维持厂家要求的扫气冷却器水流量",
+      "oldKind": "Action",
+      "oldName": "维持厂家要求的扫气冷却器水流量",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:e96de4e3b16c": {
+      "id": "shipkg:action:e96de4e3b16c",
+      "kind": "Action",
+      "name": "响应轴承磨损报警并按安全程序降负荷",
+      "oldKind": "Action",
+      "oldName": "响应轴承磨损报警并按安全程序降负荷",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:8076c8558f20": {
+      "id": "shipkg:action:8076c8558f20",
+      "kind": "Action",
+      "name": "修订备用气瓶切换与隔离检查卡",
+      "oldKind": "Action",
+      "oldName": "修订备用气瓶切换与隔离检查卡",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:b1b278b9bbdd": {
+      "id": "shipkg:action:b1b278b9bbdd",
+      "kind": "Action",
+      "name": "修订进水停机序列并允许船员干预",
+      "oldKind": "Action",
+      "oldName": "修订进水停机序列并允许船员干预",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:4e32ee36eba1": {
+      "id": "shipkg:action:4e32ee36eba1",
+      "kind": "Action",
+      "name": "修复保温屏蔽并加防喷溅带",
+      "oldKind": "Action",
+      "oldName": "修复保温屏蔽并加防喷溅带",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:4a5960af425f": {
+      "id": "shipkg:action:4a5960af425f",
+      "kind": "Action",
+      "name": "修复并定期测试控制台指示照明",
+      "oldKind": "Action",
+      "oldName": "修复并定期测试控制台指示照明",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:d556abb4fcfa": {
+      "id": "shipkg:action:d556abb4fcfa",
+      "kind": "Action",
+      "name": "油雾报警后尽快停机检查",
+      "oldKind": "Action",
+      "oldName": "油雾报警后尽快停机检查",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:157f8a0199e8": {
+      "id": "shipkg:action:157f8a0199e8",
+      "kind": "Action",
+      "name": "油液确认后的联合跟踪：振动、油液各每250小时",
+      "oldKind": "Action",
+      "oldName": "Oil-confirmed mixed follow-up; 250 h vibration / 250 h oil",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:9e4b4715011c": {
+      "id": "shipkg:action:9e4b4715011c",
+      "kind": "Action",
+      "name": "油液主导状态监测：振动每500小时、油液每125小时",
+      "oldKind": "Action",
+      "oldName": "Oil-led CBM; 500 h vibration / 125 h oil",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:752d3ce3e403": {
+      "id": "shipkg:action:752d3ce3e403",
+      "kind": "Action",
+      "name": "在洁净环境装配并整体安装主机",
+      "oldKind": "Action",
+      "oldName": "在洁净环境装配并整体安装主机",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:ddf392fcaa6c": {
+      "id": "shipkg:action:ddf392fcaa6c",
+      "kind": "Action",
+      "name": "增设可调螺距桨回油旁通止回阀与高压报警",
+      "oldKind": "Action",
+      "oldName": "增设CPP回油旁通止回阀与高压报警",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:cc44cd1c6032": {
+      "id": "shipkg:action:cc44cd1c6032",
+      "kind": "Action",
+      "name": "振动主导状态监测：振动每125小时、油液每500小时",
+      "oldKind": "Action",
+      "oldName": "Vibration-led CBM; 125 h vibration / 500 h oil",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:action:f8d140a40b2e": {
+      "id": "shipkg:action:f8d140a40b2e",
+      "kind": "Action",
+      "name": "追踪缺陷记录与厂家技术通告",
+      "oldKind": "Action",
+      "oldName": "追踪缺陷记录与厂家技术通告",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:187dc871fbd5": {
+      "id": "shipkg:case:187dc871fbd5",
+      "kind": "Case",
+      "name": "大风浪中吊舱推进丧失",
+      "oldKind": "Case",
+      "oldName": "Spirit of Discovery大风浪中吊舱推进丧失",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:7a1c0165bb56": {
+      "id": "shipkg:case:7a1c0165bb56",
+      "kind": "Case",
+      "name": "发电机滑油泵堵头松脱火灾",
+      "oldKind": "Case",
+      "oldName": "滚装客船发电机滑油泵堵头松脱火灾",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:6f58fb8a8b17": {
+      "id": "shipkg:case:6f58fb8a8b17",
+      "kind": "Case",
+      "name": "海水冷却管疑似失效与沉没",
+      "oldKind": "Case",
+      "oldName": "拖网渔船海水冷却管疑似失效与沉没",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:9676bd22b5e5": {
+      "id": "shipkg:case:9676bd22b5e5",
+      "kind": "Case",
+      "name": "滑油滤芯漏装与主机抱轴",
+      "oldKind": "Case",
+      "oldName": "货船滑油滤芯漏装与主机抱轴",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:8b13bdb1a5bc": {
+      "id": "shipkg:case:8b13bdb1a5bc",
+      "kind": "Case",
+      "name": "可调螺距桨倒车响应迟缓与码头碰撞",
+      "oldKind": "Case",
+      "oldName": "化学品船CPP倒车响应迟缓与码头碰撞",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:551512d967af": {
+      "id": "shipkg:case:551512d967af",
+      "kind": "Case",
+      "name": "控制空气不足与离合器脱开",
+      "oldKind": "Case",
+      "oldName": "滚装客船控制空气不足与离合器脱开",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:537a034e93e3": {
+      "id": "shipkg:case:537a034e93e3",
+      "kind": "Case",
+      "name": "盘车联锁失效与启动损坏",
+      "oldKind": "Case",
+      "oldName": "专用货船盘车联锁失效与启动损坏",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:63aa8b018e0d": {
+      "id": "shipkg:case:63aa8b018e0d",
+      "kind": "Case",
+      "name": "燃油法兰松动与主机火灾",
+      "oldKind": "Case",
+      "oldName": "Stena Europe燃油法兰松动与主机火灾",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:597875e258c6": {
+      "id": "shipkg:case:597875e258c6",
+      "kind": "Case",
+      "name": "误选可调螺距桨备用模式与泊位碰撞",
+      "oldKind": "Case",
+      "oldName": "滚装客船误选CPP备用模式与泊位碰撞",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:213f8edb92c2": {
+      "id": "shipkg:case:213f8edb92c2",
+      "kind": "Case",
+      "name": "谐波滤波电容失效与全船失电",
+      "oldKind": "Case",
+      "oldName": "Queen Mary 2谐波滤波电容失效与全船失电",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:ad49b658b30b": {
+      "id": "shipkg:case:ad49b658b30b",
+      "kind": "Case",
+      "name": "压载泵检修隔离失效与机舱进水",
+      "oldKind": "Case",
+      "oldName": "货船压载泵检修隔离失效与机舱进水",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:1f8ffc7c55c3": {
+      "id": "shipkg:case:1f8ffc7c55c3",
+      "kind": "Case",
+      "name": "液压背压阀卡滞与火灾",
+      "oldKind": "Case",
+      "oldName": "Pride of Canterbury液压背压阀卡滞与火灾",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:ffc594a9fab7": {
+      "id": "shipkg:case:ffc594a9fab7",
+      "kind": "Case",
+      "name": "油抹布落至排气歧管起火",
+      "oldKind": "Case",
+      "oldName": "双体客船油抹布落至排气歧管起火",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:d6e9f8f8ade2": {
+      "id": "shipkg:case:d6e9f8f8ade2",
+      "kind": "Case",
+      "name": "主机连杆小端疲劳断裂",
+      "oldKind": "Case",
+      "oldName": "Finlandia Seaways主机连杆小端疲劳断裂",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:00057f56fe39": {
+      "id": "shipkg:case:00057f56fe39",
+      "kind": "Case",
+      "name": "主机重装后轴承失效与火灾",
+      "oldKind": "Case",
+      "oldName": "Wight Sky主机重装后轴承失效与火灾",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:9792cd36162e": {
+      "id": "shipkg:case:9792cd36162e",
+      "kind": "Case",
+      "name": "左舷主机轴瓦失效与火灾",
+      "oldKind": "Case",
+      "oldName": "Windcat 8左舷主机轴瓦失效与火灾",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:1e6479e108d9": {
+      "id": "shipkg:case:1e6479e108d9",
+      "kind": "Case",
+      "name": "DG1发电机故障与失电",
+      "oldKind": "Case",
+      "oldName": "Kommandor Susan DG1发电机故障与失电",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:adf367a46f33": {
+      "id": "shipkg:case:adf367a46f33",
+      "kind": "Case",
+      "name": "ME2主轴承断油失效",
+      "oldKind": "Case",
+      "oldName": "Wight Sky ME2主轴承断油失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:case:278d7572ef08": {
+      "id": "shipkg:case:278d7572ef08",
+      "kind": "Case",
+      "name": "ME4连杆轴承盖错装失效",
+      "oldKind": "Case",
+      "oldName": "Wight Sky ME4连杆轴承盖错装失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:cause:0c02674d6024": {
+      "id": "shipkg:cause:0c02674d6024",
+      "kind": "Cause",
+      "name": "非原厂轴承材料粘结较弱",
+      "oldKind": "Cause",
+      "oldName": "非原厂轴承材料粘结较弱",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:cause:3667d8d2e0ca": {
+      "id": "shipkg:cause:3667d8d2e0ca",
+      "kind": "Cause",
+      "name": "可调螺距桨倒车参数设置错误",
+      "oldKind": "Cause",
+      "oldName": "CPP倒车参数设置错误",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:cause:c5d7e29b6c94": {
+      "id": "shipkg:cause:c5d7e29b6c94",
+      "kind": "Cause",
+      "name": "冷却水水质或处理不当",
+      "oldKind": "Cause",
+      "oldName": "冷却水水质或处理不当",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:cause:0b368a5a5869": {
+      "id": "shipkg:cause:0b368a5a5869",
+      "kind": "Cause",
+      "name": "连杆大端轴承盖配对错装",
+      "oldKind": "Cause",
+      "oldName": "连杆大端轴承盖配对错装",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:cause:29f8307f5eed": {
+      "id": "shipkg:cause:29f8307f5eed",
+      "kind": "Cause",
+      "name": "连杆小端轴套更换产生应力集中",
+      "oldKind": "Cause",
+      "oldName": "连杆小端轴套更换产生应力集中",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:cause:9b5341f924b9": {
+      "id": "shipkg:cause:9b5341f924b9",
+      "kind": "Cause",
+      "name": "联轴器紧定螺钉缺少锁固措施",
+      "oldKind": "Cause",
+      "oldName": "联轴器紧定螺钉缺少锁固措施",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:cause:2152c85364f8": {
+      "id": "shipkg:cause:2152c85364f8",
+      "kind": "Cause",
+      "name": "坞修后滑油泵堵头紧固不足",
+      "oldKind": "Cause",
+      "oldName": "坞修后滑油泵堵头紧固不足",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:cause:7009e2343511": {
+      "id": "shipkg:cause:7009e2343511",
+      "kind": "Cause",
+      "name": "异物经滑油进入主轴承",
+      "oldKind": "Cause",
+      "oldName": "异物经滑油进入主轴承",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:cause:cf3cb78b47cf": {
+      "id": "shipkg:cause:cf3cb78b47cf",
+      "kind": "Cause",
+      "name": "油道残留碎屑",
+      "oldKind": "Cause",
+      "oldName": "油道残留碎屑",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:cause:8a2abf94d478": {
+      "id": "shipkg:cause:8a2abf94d478",
+      "kind": "Cause",
+      "name": "油路磨粒与污染",
+      "oldKind": "Cause",
+      "oldName": "油路磨粒与污染",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:168aa4cf65c8": {
+      "id": "shipkg:check:168aa4cf65c8",
+      "kind": "Check",
+      "name": "按轴承型式核查润滑及对中",
+      "oldKind": "Check",
+      "oldName": "按轴承型式核查润滑及对中",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:61f2da350e19": {
+      "id": "shipkg:check:61f2da350e19",
+      "kind": "Check",
+      "name": "按OEM要求检查执行器联轴器紧固完整性",
+      "oldKind": "Check",
+      "oldName": "按OEM要求检查执行器联轴器紧固完整性",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:3b1fdbe04792": {
+      "id": "shipkg:check:3b1fdbe04792",
+      "kind": "Check",
+      "name": "测量总体振动并分析频谱",
+      "oldKind": "Check",
+      "oldName": "测量总体振动并分析频谱",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:64ccf3c3f401": {
+      "id": "shipkg:check:64ccf3c3f401",
+      "kind": "Check",
+      "name": "测试备用和应急推进控制",
+      "oldKind": "Check",
+      "oldName": "测试备用和应急推进控制",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:b9cd13a70a15": {
+      "id": "shipkg:check:b9cd13a70a15",
+      "kind": "Check",
+      "name": "拆法兰前核对隔离阀实际位置",
+      "oldKind": "Check",
+      "oldName": "拆法兰前核对隔离阀实际位置",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:de8a5b9844ad": {
+      "id": "shipkg:check:de8a5b9844ad",
+      "kind": "Check",
+      "name": "定期功能测试盘车启动联锁",
+      "oldKind": "Check",
+      "oldName": "定期功能测试盘车启动联锁",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:c55d526e8c4c": {
+      "id": "shipkg:check:c55d526e8c4c",
+      "kind": "Check",
+      "name": "定期监测谐波畸变和运行参数",
+      "oldKind": "Check",
+      "oldName": "定期监测谐波畸变和运行参数",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:5a2af85dcbf4": {
+      "id": "shipkg:check:5a2af85dcbf4",
+      "kind": "Check",
+      "name": "定期验证保护系统全部子部件",
+      "oldKind": "Check",
+      "oldName": "定期验证保护系统全部子部件",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:3e5bf3f8ece1": {
+      "id": "shipkg:check:3e5bf3f8ece1",
+      "kind": "Check",
+      "name": "分析瞬时频率基波及谐波的调制特征",
+      "oldKind": "Check",
+      "oldName": "分析瞬时频率基波及谐波的调制特征",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:e3171f6b59e1": {
+      "id": "shipkg:check:e3171f6b59e1",
+      "kind": "Check",
+      "name": "隔离后由合格人员检测绝缘电阻与极化指数",
+      "oldKind": "Check",
+      "oldName": "隔离后由合格人员检测绝缘电阻与极化指数",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:c586aa545141": {
+      "id": "shipkg:check:c586aa545141",
+      "kind": "Check",
+      "name": "核查热态对中和风浪工况下振动",
+      "oldKind": "Check",
+      "oldName": "核查热态对中和风浪工况下振动",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:c0dd4b8aa6a3": {
+      "id": "shipkg:check:c0dd4b8aa6a3",
+      "kind": "Check",
+      "name": "核查轴电压电流与轴承接地绝缘方案",
+      "oldKind": "Check",
+      "oldName": "核查轴电压电流与轴承接地绝缘方案",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:fa162d9e9a3f": {
+      "id": "shipkg:check:fa162d9e9a3f",
+      "kind": "Check",
+      "name": "核对连杆与轴承盖配对编号",
+      "oldKind": "Check",
+      "oldName": "核对连杆与轴承盖配对编号",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:02ead897029b": {
+      "id": "shipkg:check:02ead897029b",
+      "kind": "Check",
+      "name": "核实在线滤腔滤芯实际安装",
+      "oldKind": "Check",
+      "oldName": "核实在线滤腔滤芯实际安装",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:52bfc5553a79": {
+      "id": "shipkg:check:52bfc5553a79",
+      "kind": "Check",
+      "name": "核验可调螺距桨倒车控制参数",
+      "oldKind": "Check",
+      "oldName": "核验CPP倒车控制参数",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:cf70a74f2d91": {
+      "id": "shipkg:check:cf70a74f2d91",
+      "kind": "Check",
+      "name": "核验轴承磨损监测快速磨损功能",
+      "oldKind": "Check",
+      "oldName": "核验轴承磨损监测快速磨损功能",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:1c503f83ef89": {
+      "id": "shipkg:check:1c503f83ef89",
+      "kind": "Check",
+      "name": "核验轴承与大修零件来源",
+      "oldKind": "Check",
+      "oldName": "核验轴承与大修零件来源",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:7bc4821b359e": {
+      "id": "shipkg:check:7bc4821b359e",
+      "kind": "Check",
+      "name": "计划维护检查海水进口管路",
+      "oldKind": "Check",
+      "oldName": "计划维护检查海水进口管路",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:f9cad3df2b98": {
+      "id": "shipkg:check:f9cad3df2b98",
+      "kind": "Check",
+      "name": "监测润滑油和冷却液状态",
+      "oldKind": "Check",
+      "oldName": "监测润滑油和冷却液状态",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:e53578d74732": {
+      "id": "shipkg:check:e53578d74732",
+      "kind": "Check",
+      "name": "检测冷却水硬度和抑制剂浓度",
+      "oldKind": "Check",
+      "oldName": "检测冷却水硬度和抑制剂浓度",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:78fb4dfb3734": {
+      "id": "shipkg:check:78fb4dfb3734",
+      "kind": "Check",
+      "name": "检查缸套表面与活塞环状态",
+      "oldKind": "Check",
+      "oldName": "检查缸套表面与活塞环状态",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:d57ef9f67880": {
+      "id": "shipkg:check:d57ef9f67880",
+      "kind": "Check",
+      "name": "检查减振器异响与振动趋势",
+      "oldKind": "Check",
+      "oldName": "检查减振器异响与振动趋势",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:b6e1865763c1": {
+      "id": "shipkg:check:b6e1865763c1",
+      "kind": "Check",
+      "name": "检查可调螺距桨背压阀和安全阀功能",
+      "oldKind": "Check",
+      "oldName": "检查CPP背压阀和安全阀功能",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:313a552b87bf": {
+      "id": "shipkg:check:313a552b87bf",
+      "kind": "Check",
+      "name": "检查连杆小端内孔刻痕与热损伤",
+      "oldKind": "Check",
+      "oldName": "检查连杆小端内孔刻痕与热损伤",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:7015063ef15d": {
+      "id": "shipkg:check:7015063ef15d",
+      "kind": "Check",
+      "name": "检查扫气冷却器流量及水侧状态",
+      "oldKind": "Check",
+      "oldName": "检查扫气冷却器流量及水侧状态",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:72fca2c03641": {
+      "id": "shipkg:check:72fca2c03641",
+      "kind": "Check",
+      "name": "结合缸压与惯量刚度进行扭振分析并试验验证",
+      "oldKind": "Check",
+      "oldName": "结合缸压与惯量刚度进行扭振分析并试验验证",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:470049664913": {
+      "id": "shipkg:check:470049664913",
+      "kind": "Check",
+      "name": "进出港前测试正倒车响应",
+      "oldKind": "Check",
+      "oldName": "进出港前测试正倒车响应",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:5a856a1f5111": {
+      "id": "shipkg:check:5a856a1f5111",
+      "kind": "Check",
+      "name": "联合核查调速器AVR与变流器控制变量",
+      "oldKind": "Check",
+      "oldName": "联合核查调速器AVR与变流器控制变量",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:f420d80dbf17": {
+      "id": "shipkg:check:f420d80dbf17",
+      "kind": "Check",
+      "name": "切换后核验压缩机供气能力",
+      "oldKind": "Check",
+      "oldName": "切换后核验压缩机供气能力",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:050d6770cfa0": {
+      "id": "shipkg:check:050d6770cfa0",
+      "kind": "Check",
+      "name": "热成像检查排气未保温热点",
+      "oldKind": "Check",
+      "oldName": "热成像检查排气未保温热点",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:b9b23cb93dc6": {
+      "id": "shipkg:check:b9b23cb93dc6",
+      "kind": "Check",
+      "name": "热成像巡检运行机组裸露热点",
+      "oldKind": "Check",
+      "oldName": "热成像巡检运行机组裸露热点",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:2ae63dd081a2": {
+      "id": "shipkg:check:2ae63dd081a2",
+      "kind": "Check",
+      "name": "首启后巡视机舱泄漏与火灾隐患",
+      "oldKind": "Check",
+      "oldName": "首启后巡视机舱泄漏与火灾隐患",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:check:4999713b2123": {
+      "id": "shipkg:check:4999713b2123",
+      "kind": "Check",
+      "name": "用电压相轨迹辅助识别振荡且保留局限",
+      "oldKind": "Check",
+      "oldName": "用电压相轨迹辅助识别振荡且保留局限",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:fd37cf4aeb64": {
+      "id": "shipkg:component:fd37cf4aeb64",
+      "kind": "Component",
+      "name": "背压阀PSV3",
+      "oldKind": "Component",
+      "oldName": "Pride of Canterbury背压阀PSV3",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:28a67e535633": {
+      "id": "shipkg:component:28a67e535633",
+      "kind": "Component",
+      "name": "便携电动排水泵",
+      "oldKind": "Component",
+      "oldName": "SD2016-14便携电动排水泵",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:29dfcfe886de": {
+      "id": "shipkg:component:29dfcfe886de",
+      "kind": "Component",
+      "name": "电流不平衡互感器",
+      "oldKind": "Component",
+      "oldName": "Queen Mary 2电流不平衡互感器",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:160bdfff5e4e": {
+      "id": "shipkg:component:160bdfff5e4e",
+      "kind": "Component",
+      "name": "吊舱舱底液位传感器",
+      "oldKind": "Component",
+      "oldName": "吊舱舱底液位传感器",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:1157de5d43da": {
+      "id": "shipkg:component:1157de5d43da",
+      "kind": "Component",
+      "name": "吊舱推进电机",
+      "oldKind": "Component",
+      "oldName": "吊舱推进电机",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:0dcadce61c82": {
+      "id": "shipkg:component:0dcadce61c82",
+      "kind": "Component",
+      "name": "二号压缩机排气阀",
+      "oldKind": "Component",
+      "oldName": "SD2013-02二号压缩机排气阀",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:26867a3d02f0": {
+      "id": "shipkg:component:26867a3d02f0",
+      "kind": "Component",
+      "name": "高温报警线束",
+      "oldKind": "Component",
+      "oldName": "SD2013-12高温报警线束",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:45c063af0c7c": {
+      "id": "shipkg:component:45c063af0c7c",
+      "kind": "Component",
+      "name": "故障主机5号主轴承",
+      "oldKind": "Component",
+      "oldName": "故障主机5号主轴承",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:5fbf5f22d00c": {
+      "id": "shipkg:component:5fbf5f22d00c",
+      "kind": "Component",
+      "name": "海水隔离阀执行器",
+      "oldKind": "Component",
+      "oldName": "SD2016-14海水隔离阀执行器",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:4d8f23e8a303": {
+      "id": "shipkg:component:4d8f23e8a303",
+      "kind": "Component",
+      "name": "滑油泵堵头",
+      "oldKind": "Component",
+      "oldName": "SD2016-08滑油泵堵头",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:ed0a2ad1e065": {
+      "id": "shipkg:component:ed0a2ad1e065",
+      "kind": "Component",
+      "name": "回油法兰",
+      "oldKind": "Component",
+      "oldName": "Pride of Canterbury回油法兰",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:1333df9ac9f2": {
+      "id": "shipkg:component:1333df9ac9f2",
+      "kind": "Component",
+      "name": "活塞与缸套",
+      "oldKind": "Component",
+      "oldName": "SD2013-05活塞与缸套",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:ca5637067a12": {
+      "id": "shipkg:component:ca5637067a12",
+      "kind": "Component",
+      "name": "可调螺距桨备用模式按钮",
+      "oldKind": "Component",
+      "oldName": "SD2016-05CPP备用模式按钮",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:3295e52dd075": {
+      "id": "shipkg:component:3295e52dd075",
+      "kind": "Component",
+      "name": "可调螺距桨反馈控制器",
+      "oldKind": "Component",
+      "oldName": "SD2016-09CPP反馈控制器",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:d16e663b1271": {
+      "id": "shipkg:component:d16e663b1271",
+      "kind": "Component",
+      "name": "螺距控制油路",
+      "oldKind": "Component",
+      "oldName": "Pride of Canterbury螺距控制油路",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:828d4178b93f": {
+      "id": "shipkg:component:828d4178b93f",
+      "kind": "Component",
+      "name": "排气歧管",
+      "oldKind": "Component",
+      "oldName": "SD2013-12排气歧管",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:6432d2482f06": {
+      "id": "shipkg:component:6432d2482f06",
+      "kind": "Component",
+      "name": "盘车安全联锁",
+      "oldKind": "Component",
+      "oldName": "SD2013-03盘车安全联锁",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:46d84bd3b794": {
+      "id": "shipkg:component:46d84bd3b794",
+      "kind": "Component",
+      "name": "盘车机构",
+      "oldKind": "Component",
+      "oldName": "SD2013-03盘车机构",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:67b7bcd7344e": {
+      "id": "shipkg:component:67b7bcd7344e",
+      "kind": "Component",
+      "name": "曲轴主轴承",
+      "oldKind": "Component",
+      "oldName": "SD2013-05曲轴主轴承",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:784cd78efb12": {
+      "id": "shipkg:component:784cd78efb12",
+      "kind": "Component",
+      "name": "双联滑油滤器",
+      "oldKind": "Component",
+      "oldName": "SD2013-05双联滑油滤器",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:864e3371e086": {
+      "id": "shipkg:component:864e3371e086",
+      "kind": "Component",
+      "name": "相邻机组排气保温",
+      "oldKind": "Component",
+      "oldName": "SD2016-08相邻机组排气保温",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:726d763bfec1": {
+      "id": "shipkg:component:726d763bfec1",
+      "kind": "Component",
+      "name": "谐波滤波电容器",
+      "oldKind": "Component",
+      "oldName": "Queen Mary 2谐波滤波电容器",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:960fe73dbb4b": {
+      "id": "shipkg:component:960fe73dbb4b",
+      "kind": "Component",
+      "name": "压缩机润滑油排出管",
+      "oldKind": "Component",
+      "oldName": "SD2013-02压缩机润滑油排出管",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:282dcd34a768": {
+      "id": "shipkg:component:282dcd34a768",
+      "kind": "Component",
+      "name": "右舷可调螺距桨",
+      "oldKind": "Component",
+      "oldName": "SD2016-05右舷可调螺距桨",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:a53bfe23945e": {
+      "id": "shipkg:component:a53bfe23945e",
+      "kind": "Component",
+      "name": "主机海水冷却管",
+      "oldKind": "Component",
+      "oldName": "SD2016-22主机海水冷却管",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:6f0aead2b5a6": {
+      "id": "shipkg:component:6f0aead2b5a6",
+      "kind": "Component",
+      "name": "主机离合器",
+      "oldKind": "Component",
+      "oldName": "SD2013-02主机离合器",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:c3d265fa990c": {
+      "id": "shipkg:component:c3d265fa990c",
+      "kind": "Component",
+      "name": "主机A5连杆小端",
+      "oldKind": "Component",
+      "oldName": "主机A5连杆小端",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:3552bc595328": {
+      "id": "shipkg:component:3552bc595328",
+      "kind": "Component",
+      "name": "左舷主机6号连杆大端轴瓦",
+      "oldKind": "Component",
+      "oldName": "左舷主机6号连杆大端轴瓦",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:8052e7754d5f": {
+      "id": "shipkg:component:8052e7754d5f",
+      "kind": "Component",
+      "name": "DG1 5号连杆大端轴瓦",
+      "oldKind": "Component",
+      "oldName": "DG1 5号连杆大端轴瓦",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:be4ab56339d8": {
+      "id": "shipkg:component:be4ab56339d8",
+      "kind": "Component",
+      "name": "ME2 5号主轴承",
+      "oldKind": "Component",
+      "oldName": "ME2 5号主轴承",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:a85d6cb18c5c": {
+      "id": "shipkg:component:a85d6cb18c5c",
+      "kind": "Component",
+      "name": "ME3排气歧管",
+      "oldKind": "Component",
+      "oldName": "Stena Europe ME3排气歧管",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:e0a03cf176fe": {
+      "id": "shipkg:component:e0a03cf176fe",
+      "kind": "Component",
+      "name": "ME3燃油双螺钉法兰",
+      "oldKind": "Component",
+      "oldName": "Stena Europe ME3燃油双螺钉法兰",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:component:2a19cfd5c18a": {
+      "id": "shipkg:component:2a19cfd5c18a",
+      "kind": "Component",
+      "name": "ME4连杆大端轴承盖",
+      "oldKind": "Component",
+      "oldName": "ME4连杆大端轴承盖",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:4fe499c68172": {
+      "id": "shipkg:condition:4fe499c68172",
+      "kind": "Condition",
+      "name": "安全阀长期未功能检查",
+      "oldKind": "Condition",
+      "oldName": "安全阀长期未功能检查",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:db2e89c50479": {
+      "id": "shipkg:condition:db2e89c50479",
+      "kind": "Condition",
+      "name": "保护测试绕过互感器绕组",
+      "oldKind": "Condition",
+      "oldName": "保护测试绕过互感器绕组",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:be80fb98e414": {
+      "id": "shipkg:condition:be80fb98e414",
+      "kind": "Condition",
+      "name": "备用气瓶上线时未隔离主气瓶",
+      "oldKind": "Condition",
+      "oldName": "备用气瓶上线时未隔离主气瓶",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:0f0bb607da60": {
+      "id": "shipkg:condition:0f0bb607da60",
+      "kind": "Condition",
+      "name": "参考运行负载范围",
+      "oldKind": "Condition",
+      "oldName": "负载 reference operating range",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:8752a78e143c": {
+      "id": "shipkg:condition:8752a78e143c",
+      "kind": "Condition",
+      "name": "程序变负载（约40%～85%）",
+      "oldKind": "Condition",
+      "oldName": "负载 load program (~40-85%)",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:dc209dc61e12": {
+      "id": "shipkg:condition:dc209dc61e12",
+      "kind": "Condition",
+      "name": "齿轮箱热膨胀改变轴线位置",
+      "oldKind": "Condition",
+      "oldName": "齿轮箱热膨胀改变轴线位置",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:2d0261049d78": {
+      "id": "shipkg:condition:2d0261049d78",
+      "kind": "Condition",
+      "name": "船舶高压电网不稳定",
+      "oldKind": "Condition",
+      "oldName": "船舶高压电网不稳定",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:553e318feb99": {
+      "id": "shipkg:condition:553e318feb99",
+      "kind": "Condition",
+      "name": "船舶仅剩应急电源",
+      "oldKind": "Condition",
+      "oldName": "船舶仅剩应急电源",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:a40db02fd2fa": {
+      "id": "shipkg:condition:a40db02fd2fa",
+      "kind": "Condition",
+      "name": "船长不熟悉可调螺距桨备用按钮",
+      "oldKind": "Condition",
+      "oldName": "船长不熟悉CPP备用按钮",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:290bfe38530e": {
+      "id": "shipkg:condition:290bfe38530e",
+      "kind": "Condition",
+      "name": "船长未核对螺距指示",
+      "oldKind": "Condition",
+      "oldName": "船长未核对螺距指示",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:0a605c97371c": {
+      "id": "shipkg:condition:0a605c97371c",
+      "kind": "Condition",
+      "name": "大风浪中剧烈纵摇",
+      "oldKind": "Condition",
+      "oldName": "大风浪中剧烈纵摇",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:96f46a0b1ef9": {
+      "id": "shipkg:condition:96f46a0b1ef9",
+      "kind": "Condition",
+      "name": "点式红外测温未发现热点",
+      "oldKind": "Condition",
+      "oldName": "点式红外测温未发现热点",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:e3641dbad50c": {
+      "id": "shipkg:condition:e3641dbad50c",
+      "kind": "Condition",
+      "name": "电机磁场不对称产生轴电压",
+      "oldKind": "Condition",
+      "oldName": "电机磁场不对称产生轴电压",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:f61e4eef7cce": {
+      "id": "shipkg:condition:f61e4eef7cce",
+      "kind": "Condition",
+      "name": "电容经历超额电压或频繁开关瞬态",
+      "oldKind": "Condition",
+      "oldName": "电容经历超额电压或频繁开关瞬态",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:7fb8a1a33328": {
+      "id": "shipkg:condition:7fb8a1a33328",
+      "kind": "Condition",
+      "name": "吊舱舱底传感器位置偏低",
+      "oldKind": "Condition",
+      "oldName": "吊舱舱底传感器位置偏低",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:7647f12090ef": {
+      "id": "shipkg:condition:7647f12090ef",
+      "kind": "Condition",
+      "name": "调光与推进安全按钮相邻相似",
+      "oldKind": "Condition",
+      "oldName": "调光与推进安全按钮相邻相似",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:212a684d37a2": {
+      "id": "shipkg:condition:212a684d37a2",
+      "kind": "Condition",
+      "name": "发动机超速或缸内液击",
+      "oldKind": "Condition",
+      "oldName": "发动机超速或缸内液击",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:4ae93bca9f29": {
+      "id": "shipkg:condition:4ae93bca9f29",
+      "kind": "Condition",
+      "name": "反复燃油漏泄未完整报告",
+      "oldKind": "Condition",
+      "oldName": "反复燃油漏泄未完整报告",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:9e0b58e70948": {
+      "id": "shipkg:condition:9e0b58e70948",
+      "kind": "Condition",
+      "name": "非原厂零件超出适用保养周期",
+      "oldKind": "Condition",
+      "oldName": "非原厂零件超出适用保养周期",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:85d0ac216249": {
+      "id": "shipkg:condition:85d0ac216249",
+      "kind": "Condition",
+      "name": "风浪下船体变形",
+      "oldKind": "Condition",
+      "oldName": "风浪下船体变形",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:1bf60bc6ecb7": {
+      "id": "shipkg:condition:1bf60bc6ecb7",
+      "kind": "Condition",
+      "name": "负载 40%",
+      "oldKind": "Condition",
+      "oldName": "负载 40%",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:df365e2b0777": {
+      "id": "shipkg:condition:df365e2b0777",
+      "kind": "Condition",
+      "name": "负载 60%",
+      "oldKind": "Condition",
+      "oldName": "负载 60%",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:6fc146bc433f": {
+      "id": "shipkg:condition:6fc146bc433f",
+      "kind": "Condition",
+      "name": "负载 75%",
+      "oldKind": "Condition",
+      "oldName": "负载 75%",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:103a0ae5358b": {
+      "id": "shipkg:condition:103a0ae5358b",
+      "kind": "Condition",
+      "name": "负载 85%",
+      "oldKind": "Condition",
+      "oldName": "负载 85%",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:ee040110dad4": {
+      "id": "shipkg:condition:ee040110dad4",
+      "kind": "Condition",
+      "name": "缸套表面抛光或涂抹",
+      "oldKind": "Condition",
+      "oldName": "缸套表面抛光或涂抹",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:9dd79587307a": {
+      "id": "shipkg:condition:9dd79587307a",
+      "kind": "Condition",
+      "name": "缸套表面硬化需修复",
+      "oldKind": "Condition",
+      "oldName": "缸套表面硬化需修复",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:9b800c18cd13": {
+      "id": "shipkg:condition:9b800c18cd13",
+      "kind": "Condition",
+      "name": "缸套油膜难以维持",
+      "oldKind": "Condition",
+      "oldName": "缸套油膜难以维持",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:7a0e4d2405ef": {
+      "id": "shipkg:condition:7a0e4d2405ef",
+      "kind": "Condition",
+      "name": "固定灭火系统释放前通风口未关闭",
+      "oldKind": "Condition",
+      "oldName": "固定灭火系统释放前通风口未关闭",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:5cabdd7ce44c": {
+      "id": "shipkg:condition:5cabdd7ce44c",
+      "kind": "Condition",
+      "name": "故障电流切除超出热损伤时间范围",
+      "oldKind": "Condition",
+      "oldName": "故障电流切除超出热损伤时间范围",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:e21862ad051d": {
+      "id": "shipkg:condition:e21862ad051d",
+      "kind": "Condition",
+      "name": "关键断路器置于手动位",
+      "oldKind": "Condition",
+      "oldName": "关键断路器置于手动位",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:5d3ac9abb37a": {
+      "id": "shipkg:condition:5d3ac9abb37a",
+      "kind": "Condition",
+      "name": "海水管多年未检查更新",
+      "oldKind": "Condition",
+      "oldName": "海水管多年未检查更新",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:88ba505ebf5b": {
+      "id": "shipkg:condition:88ba505ebf5b",
+      "kind": "Condition",
+      "name": "换热能力降低",
+      "oldKind": "Condition",
+      "oldName": "换热能力降低",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:37dbebf86df6": {
+      "id": "shipkg:condition:37dbebf86df6",
+      "kind": "Condition",
+      "name": "回油法兰未设喷溅保护",
+      "oldKind": "Condition",
+      "oldName": "回油法兰未设喷溅保护",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:ff505693e52e": {
+      "id": "shipkg:condition:ff505693e52e",
+      "kind": "Condition",
+      "name": "回油管缺少有效超压释放",
+      "oldKind": "Condition",
+      "oldName": "回油管缺少有效超压释放",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:94ebbaf1c3c4": {
+      "id": "shipkg:condition:94ebbaf1c3c4",
+      "kind": "Condition",
+      "name": "火烟尚未到达远处报警探头",
+      "oldKind": "Condition",
+      "oldName": "火烟尚未到达远处报警探头",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:f4f364d25a5d": {
+      "id": "shipkg:condition:f4f364d25a5d",
+      "kind": "Condition",
+      "name": "机舱水密门敞开",
+      "oldKind": "Condition",
+      "oldName": "机舱水密门敞开",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:133adfa97595": {
+      "id": "shipkg:condition:133adfa97595",
+      "kind": "Condition",
+      "name": "驾驶台无人导致舱底报警漏察",
+      "oldKind": "Condition",
+      "oldName": "驾驶台无人导致舱底报警漏察",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:20591bbadf85": {
+      "id": "shipkg:condition:20591bbadf85",
+      "kind": "Condition",
+      "name": "减振器滑油供给不足或含水污染",
+      "oldKind": "Condition",
+      "oldName": "减振器滑油供给不足或含水污染",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:8f4ca3980ed8": {
+      "id": "shipkg:condition:8f4ca3980ed8",
+      "kind": "Condition",
+      "name": "阶梯负载（40%、60%、85%）",
+      "oldKind": "Condition",
+      "oldName": "负载 40%, 60%, 85% (stepped)",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:654fd1d6ce35": {
+      "id": "shipkg:condition:654fd1d6ce35",
+      "kind": "Condition",
+      "name": "冷却器水侧局部沸腾",
+      "oldKind": "Condition",
+      "oldName": "冷却器水侧局部沸腾",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:1500802ee98b": {
+      "id": "shipkg:condition:1500802ee98b",
+      "kind": "Condition",
+      "name": "联轴器瞬态转矩冲击",
+      "oldKind": "Condition",
+      "oldName": "联轴器瞬态转矩冲击",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:ed8375f7583f": {
+      "id": "shipkg:condition:ed8375f7583f",
+      "kind": "Condition",
+      "name": "两台压缩机供气不足",
+      "oldKind": "Condition",
+      "oldName": "两台压缩机供气不足",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:2ee58a9a8fad": {
+      "id": "shipkg:condition:2ee58a9a8fad",
+      "kind": "Condition",
+      "name": "螺旋桨出水",
+      "oldKind": "Condition",
+      "oldName": "螺旋桨出水",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:fc22b54510b9": {
+      "id": "shipkg:condition:fc22b54510b9",
+      "kind": "Condition",
+      "name": "排气隔热与屏蔽缺失损坏",
+      "oldKind": "Condition",
+      "oldName": "排气隔热与屏蔽缺失损坏",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:52a5771f68ca": {
+      "id": "shipkg:condition:52a5771f68ca",
+      "kind": "Condition",
+      "name": "排气护罩存在高温表面",
+      "oldKind": "Condition",
+      "oldName": "排气护罩存在高温表面",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:4277de3a84c9": {
+      "id": "shipkg:condition:4277de3a84c9",
+      "kind": "Condition",
+      "name": "排气歧管裸露高温",
+      "oldKind": "Condition",
+      "oldName": "排气歧管裸露高温",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:7d61f4e32250": {
+      "id": "shipkg:condition:7d61f4e32250",
+      "kind": "Condition",
+      "name": "盘车联锁未纳入计划维护",
+      "oldKind": "Condition",
+      "oldName": "盘车联锁未纳入计划维护",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:bdbca1b8295e": {
+      "id": "shipkg:condition:bdbca1b8295e",
+      "kind": "Condition",
+      "name": "盘车指示灯照明不足",
+      "oldKind": "Condition",
+      "oldName": "盘车指示灯照明不足",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:7da9174934f9": {
+      "id": "shipkg:condition:7da9174934f9",
+      "kind": "Condition",
+      "name": "盘车状态未标识与操作说明被涂覆",
+      "oldKind": "Condition",
+      "oldName": "盘车状态未标识与操作说明被涂覆",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:43c6b88e1884": {
+      "id": "shipkg:condition:43c6b88e1884",
+      "kind": "Condition",
+      "name": "气缸燃烧压力产生脉动转矩",
+      "oldKind": "Condition",
+      "oldName": "气缸燃烧压力产生脉动转矩",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:19ae439543bd": {
+      "id": "shipkg:condition:19ae439543bd",
+      "kind": "Condition",
+      "name": "缺少磨粒预警装置",
+      "oldKind": "Condition",
+      "oldName": "缺少磨粒预警装置",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:4a944c6dd633": {
+      "id": "shipkg:condition:4a944c6dd633",
+      "kind": "Condition",
+      "name": "缺少失电断路器历史记录",
+      "oldKind": "Condition",
+      "oldName": "缺少失电断路器历史记录",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:8012db626950": {
+      "id": "shipkg:condition:8012db626950",
+      "kind": "Condition",
+      "name": "燃油接头喷溅保护缺失",
+      "oldKind": "Condition",
+      "oldName": "燃油接头喷溅保护缺失",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:06d3b90c2d7b": {
+      "id": "shipkg:condition:06d3b90c2d7b",
+      "kind": "Condition",
+      "name": "绕组表面潮湿或污染",
+      "oldKind": "Condition",
+      "oldName": "绕组表面潮湿或污染",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:32eb7154ffd7": {
+      "id": "shipkg:condition:32eb7154ffd7",
+      "kind": "Condition",
+      "name": "润滑油系统污染",
+      "oldKind": "Condition",
+      "oldName": "润滑油系统污染",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:0abf74811b34": {
+      "id": "shipkg:condition:0abf74811b34",
+      "kind": "Condition",
+      "name": "扫气空气冷却器水流量过低",
+      "oldKind": "Condition",
+      "oldName": "扫气空气冷却器水流量过低",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:a9a45fb680fd": {
+      "id": "shipkg:condition:a9a45fb680fd",
+      "kind": "Condition",
+      "name": "停机时并联机组拖转",
+      "oldKind": "Condition",
+      "oldName": "停机时并联机组拖转",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:b290b6459200": {
+      "id": "shipkg:condition:b290b6459200",
+      "kind": "Condition",
+      "name": "未核对阀位即拆进口法兰",
+      "oldKind": "Condition",
+      "oldName": "未核对阀位即拆进口法兰",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:9e280aeb615b": {
+      "id": "shipkg:condition:9e280aeb615b",
+      "kind": "Condition",
+      "name": "未核验大修零件真伪",
+      "oldKind": "Condition",
+      "oldName": "未核验大修零件真伪",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:ef4f2a093081": {
+      "id": "shipkg:condition:ef4f2a093081",
+      "kind": "Condition",
+      "name": "未完成厂商四螺钉法兰改造",
+      "oldKind": "Condition",
+      "oldName": "未完成厂商四螺钉法兰改造",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:ef7365f4e337": {
+      "id": "shipkg:condition:ef7365f4e337",
+      "kind": "Condition",
+      "name": "未响应轴承磨损报警与减速请求",
+      "oldKind": "Condition",
+      "oldName": "未响应轴承磨损报警与减速请求",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:4dcab8c954bb": {
+      "id": "shipkg:condition:4dcab8c954bb",
+      "kind": "Condition",
+      "name": "液压油取样未检出背压阀磨损",
+      "oldKind": "Condition",
+      "oldName": "液压油取样未检出背压阀磨损",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:d96dbed6a05c": {
+      "id": "shipkg:condition:d96dbed6a05c",
+      "kind": "Condition",
+      "name": "油污抹布遗留在歧管上方",
+      "oldKind": "Condition",
+      "oldName": "油污抹布遗留在歧管上方",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:86fd7df9de11": {
+      "id": "shipkg:condition:86fd7df9de11",
+      "kind": "Condition",
+      "name": "原动机转矩脉动与负载波动",
+      "oldKind": "Condition",
+      "oldName": "原动机转矩脉动与负载波动",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:2fa5f2876bb5": {
+      "id": "shipkg:fault:2fa5f2876bb5",
+      "kind": "Condition",
+      "name": "正常磨损趋势（监测参考）",
+      "oldKind": "Fault",
+      "oldName": "Normal wear trend",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:e552cc02e03c": {
+      "id": "shipkg:fault:e552cc02e03c",
+      "kind": "Condition",
+      "name": "正常运行（状态监测参考）",
+      "oldKind": "Fault",
+      "oldName": "Normal operation",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:f343dfd71879": {
+      "id": "shipkg:fault:f343dfd71879",
+      "kind": "Condition",
+      "name": "正常状态（燃烧室仿真参考）",
+      "oldKind": "Fault",
+      "oldName": "Normal",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:5b302d0da57d": {
+      "id": "shipkg:condition:5b302d0da57d",
+      "kind": "Condition",
+      "name": "轴承润滑脂不足或对中不良",
+      "oldKind": "Condition",
+      "oldName": "轴承润滑脂不足或对中不良",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:725f6ac0521d": {
+      "id": "shipkg:condition:725f6ac0521d",
+      "kind": "Condition",
+      "name": "轴带变流器控制与发电端变频条件",
+      "oldKind": "Condition",
+      "oldName": "轴带变流器控制与发电端变频条件",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:37396a158a92": {
+      "id": "shipkg:condition:37396a158a92",
+      "kind": "Condition",
+      "name": "轴带发电机与齿轮箱对中失准",
+      "oldKind": "Condition",
+      "oldName": "轴带发电机与齿轮箱对中失准",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:3516d66bca42": {
+      "id": "shipkg:condition:3516d66bca42",
+      "kind": "Condition",
+      "name": "轴电流通过滚动轴承",
+      "oldKind": "Condition",
+      "oldName": "轴电流通过滚动轴承",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:ff44ed04fc9f": {
+      "id": "shipkg:condition:ff44ed04fc9f",
+      "kind": "Condition",
+      "name": "轴瓦本体可能存在薄弱点",
+      "oldKind": "Condition",
+      "oldName": "轴瓦本体可能存在薄弱点",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:4e433b14487c": {
+      "id": "shipkg:condition:4e433b14487c",
+      "kind": "Condition",
+      "name": "轴向振动引起轴承座微动",
+      "oldKind": "Condition",
+      "oldName": "轴向振动引起轴承座微动",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:2d805325d843": {
+      "id": "shipkg:condition:2d805325d843",
+      "kind": "Condition",
+      "name": "主机不对中与异常振动",
+      "oldKind": "Condition",
+      "oldName": "主机不对中与异常振动",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:6fa538170906": {
+      "id": "shipkg:condition:6fa538170906",
+      "kind": "Condition",
+      "name": "装入非原厂轴承",
+      "oldKind": "Condition",
+      "oldName": "装入非原厂轴承",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:condition:50dc70737e5d": {
+      "id": "shipkg:condition:50dc70737e5d",
+      "kind": "Condition",
+      "name": "DP船风浪纵摇横摇",
+      "oldKind": "Condition",
+      "oldName": "DP船风浪纵摇横摇",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:cae4f7ac3ba9": {
+      "id": "shipkg:consequence:cae4f7ac3ba9",
+      "kind": "Consequence",
+      "name": "船舶沉没",
+      "oldKind": "Consequence",
+      "oldName": "船舶沉没",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:2cba0fdbf1dd": {
+      "id": "shipkg:consequence:2cba0fdbf1dd",
+      "kind": "Consequence",
+      "name": "船舶停航一个月",
+      "oldKind": "Consequence",
+      "oldName": "船舶停航一个月",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:5c4ffe048cb7": {
+      "id": "shipkg:consequence:5c4ffe048cb7",
+      "kind": "Consequence",
+      "name": "船舶撞击跳板与泊位",
+      "oldKind": "Consequence",
+      "oldName": "船舶撞击跳板与泊位",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:35c015f940ee": {
+      "id": "shipkg:consequence:35c015f940ee",
+      "kind": "Consequence",
+      "name": "船艏进水",
+      "oldKind": "Consequence",
+      "oldName": "船艏进水",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:2597a77f75b3": {
+      "id": "shipkg:consequence:2597a77f75b3",
+      "kind": "Consequence",
+      "name": "船艏撞击码头",
+      "oldKind": "Consequence",
+      "oldName": "船艏撞击码头",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:fd1e977000c3": {
+      "id": "shipkg:consequence:fd1e977000c3",
+      "kind": "Consequence",
+      "name": "船艏撞击泊位",
+      "oldKind": "Consequence",
+      "oldName": "船艏撞击泊位",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:4f46c84c0d64": {
+      "id": "shipkg:consequence:4f46c84c0d64",
+      "kind": "Consequence",
+      "name": "电动锚机无法释放锚",
+      "oldKind": "Consequence",
+      "oldName": "电动锚机无法释放锚",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:f285f6c5b4a4": {
+      "id": "shipkg:consequence:f285f6c5b4a4",
+      "kind": "Consequence",
+      "name": "电机轴振动与绝缘热应力增加",
+      "oldKind": "Consequence",
+      "oldName": "电机轴振动与绝缘热应力增加",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:bcd3a732b87d": {
+      "id": "shipkg:consequence:bcd3a732b87d",
+      "kind": "Consequence",
+      "name": "关键设备失电",
+      "oldKind": "Consequence",
+      "oldName": "关键设备失电",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:775549e4c085": {
+      "id": "shipkg:consequence:775549e4c085",
+      "kind": "Consequence",
+      "name": "机舱火灾",
+      "oldKind": "Consequence",
+      "oldName": "机舱火灾",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:81fff36694d8": {
+      "id": "shipkg:consequence:81fff36694d8",
+      "kind": "Consequence",
+      "name": "机舱进水",
+      "oldKind": "Consequence",
+      "oldName": "机舱进水",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:196ff2650762": {
+      "id": "shipkg:consequence:196ff2650762",
+      "kind": "Consequence",
+      "name": "进水蔓延至住舱",
+      "oldKind": "Consequence",
+      "oldName": "进水蔓延至住舱",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:c5047807b300": {
+      "id": "shipkg:consequence:c5047807b300",
+      "kind": "Consequence",
+      "name": "靠泊推进制动能力丧失",
+      "oldKind": "Consequence",
+      "oldName": "靠泊推进制动能力丧失",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:ec261d7a91d6": {
+      "id": "shipkg:consequence:ec261d7a91d6",
+      "kind": "Consequence",
+      "name": "球鼻艏破损",
+      "oldKind": "Consequence",
+      "oldName": "球鼻艏破损",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:0d26b4ebcffb": {
+      "id": "shipkg:consequence:0d26b4ebcffb",
+      "kind": "Consequence",
+      "name": "曲轴与机座需大修",
+      "oldKind": "Consequence",
+      "oldName": "曲轴与机座需大修",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:4016217446bf": {
+      "id": "shipkg:consequence:4016217446bf",
+      "kind": "Consequence",
+      "name": "全船失电",
+      "oldKind": "Consequence",
+      "oldName": "全船失电",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:7de07882b364": {
+      "id": "shipkg:consequence:7de07882b364",
+      "kind": "Consequence",
+      "name": "失去操纵能力",
+      "oldKind": "Consequence",
+      "oldName": "失去操纵能力",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:d1c468a6b34b": {
+      "id": "shipkg:consequence:d1c468a6b34b",
+      "kind": "Consequence",
+      "name": "失去推进",
+      "oldKind": "Consequence",
+      "oldName": "失去推进",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:fc1835efb5ca": {
+      "id": "shipkg:consequence:fc1835efb5ca",
+      "kind": "Consequence",
+      "name": "谐波滤波器爆炸",
+      "oldKind": "Consequence",
+      "oldName": "谐波滤波器爆炸",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:consequence:66c2df24581f": {
+      "id": "shipkg:consequence:66c2df24581f",
+      "kind": "Consequence",
+      "name": "一台主机数周不能运行",
+      "oldKind": "Consequence",
+      "oldName": "一台主机数周不能运行",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:dataset:710ea13e53ac": {
+      "id": "shipkg:dataset:710ea13e53ac",
+      "kind": "Dataset",
+      "name": "Azimuth Thruster CBM Dataset",
+      "oldKind": "Dataset",
+      "oldName": "Azimuth Thruster CBM Dataset",
+      "level": "",
+      "delete": true
+    },
+    "shipkg:dataset:1ceeb4cad6d8": {
+      "id": "shipkg:dataset:1ceeb4cad6d8",
+      "kind": "Dataset",
+      "name": "Marine Engine Fault Dataset (MU323DGSC)",
+      "oldKind": "Dataset",
+      "oldName": "Marine Engine Fault Dataset (MU323DGSC)",
+      "level": "",
+      "delete": true
+    },
+    "shipkg:dataset:19e52eb49467": {
+      "id": "shipkg:dataset:19e52eb49467",
+      "kind": "Dataset",
+      "name": "TSRF marine diesel combustion-chamber fault CSVs",
+      "oldKind": "Dataset",
+      "oldName": "TSRF marine diesel combustion-chamber fault CSVs",
+      "level": "",
+      "delete": true
+    },
+    "shipkg:dataset:6ab0788d235b": {
+      "id": "shipkg:dataset:6ab0788d235b",
+      "kind": "Dataset",
+      "name": "UCI Naval Propulsion CBM",
+      "oldKind": "Dataset",
+      "oldName": "UCI Naval Propulsion CBM",
+      "level": "",
+      "delete": true
+    },
+    "shipkg:equipment:1755b4f618f2": {
+      "id": "shipkg:equipment:1755b4f618f2",
+      "kind": "Equipment",
+      "name": "2017故障主机",
+      "oldKind": "Equipment",
+      "oldName": "Wight Sky 2017故障主机",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:00688defba1b": {
+      "id": "shipkg:equipment:00688defba1b",
+      "kind": "Equipment",
+      "name": "柴油发电机润滑与排气系统",
+      "oldKind": "Equipment",
+      "oldName": "SD2016-08柴油发电机润滑与排气系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:710361995928": {
+      "id": "shipkg:equipment:710361995928",
+      "kind": "Equipment",
+      "name": "吊舱推进系统",
+      "oldKind": "Equipment",
+      "oldName": "Spirit of Discovery吊舱推进系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:361590fc68c0": {
+      "id": "shipkg:equipment:361590fc68c0",
+      "kind": "Equipment",
+      "name": "海水压载与机舱排水系统",
+      "oldKind": "Equipment",
+      "oldName": "SD2016-14海水压载与机舱排水系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:47a6f6945bb5": {
+      "id": "shipkg:equipment:47a6f6945bb5",
+      "kind": "Equipment",
+      "name": "可调螺距推进控制系统",
+      "oldKind": "Equipment",
+      "oldName": "SD2016-05可调螺距推进控制系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:8c8343c45190": {
+      "id": "shipkg:equipment:8c8343c45190",
+      "kind": "Equipment",
+      "name": "可调螺距推进系统",
+      "oldKind": "Equipment",
+      "oldName": "SD2016-09可调螺距推进系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:5d25f4bda048": {
+      "id": "shipkg:equipment:5d25f4bda048",
+      "kind": "Equipment",
+      "name": "控制空气与主机离合系统",
+      "oldKind": "Equipment",
+      "oldName": "SD2013-02控制空气与主机离合系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:024350fd8dee": {
+      "id": "shipkg:equipment:024350fd8dee",
+      "kind": "Equipment",
+      "name": "艉部谐波滤波器",
+      "oldKind": "Equipment",
+      "oldName": "Queen Mary 2艉部谐波滤波器",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:23fe6c4f1acc": {
+      "id": "shipkg:equipment:23fe6c4f1acc",
+      "kind": "Equipment",
+      "name": "右舷可调螺距桨液压系统",
+      "oldKind": "Equipment",
+      "oldName": "Pride of Canterbury右舷CPP液压系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:aea23b9943a4": {
+      "id": "shipkg:equipment:aea23b9943a4",
+      "kind": "Equipment",
+      "name": "主机",
+      "oldKind": "Equipment",
+      "oldName": "Finlandia Seaways主机",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:3e7f89ac810b": {
+      "id": "shipkg:equipment:3e7f89ac810b",
+      "kind": "Equipment",
+      "name": "主机海水冷却与舱底系统",
+      "oldKind": "Equipment",
+      "oldName": "SD2016-22主机海水冷却与舱底系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:38482b664e19": {
+      "id": "shipkg:equipment:38482b664e19",
+      "kind": "Equipment",
+      "name": "主机启动与盘车系统",
+      "oldKind": "Equipment",
+      "oldName": "SD2013-03主机启动与盘车系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:5ed28aa334b7": {
+      "id": "shipkg:equipment:5ed28aa334b7",
+      "kind": "Equipment",
+      "name": "主机润滑系统",
+      "oldKind": "Equipment",
+      "oldName": "SD2013-05主机润滑系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:563809ad0932": {
+      "id": "shipkg:equipment:563809ad0932",
+      "kind": "Equipment",
+      "name": "左舷主机",
+      "oldKind": "Equipment",
+      "oldName": "Windcat 8左舷主机",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:0d7957f0c12c": {
+      "id": "shipkg:equipment:0d7957f0c12c",
+      "kind": "Equipment",
+      "name": "左舷主机排气系统",
+      "oldKind": "Equipment",
+      "oldName": "SD2013-12左舷主机排气系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:49d861a78ba3": {
+      "id": "shipkg:equipment:49d861a78ba3",
+      "kind": "Equipment",
+      "name": "DG1柴油发电机",
+      "oldKind": "Equipment",
+      "oldName": "Kommandor Susan DG1柴油发电机",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:61cd855f5970": {
+      "id": "shipkg:equipment:61cd855f5970",
+      "kind": "Equipment",
+      "name": "ME2主机",
+      "oldKind": "Equipment",
+      "oldName": "Wight Sky ME2主机",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:385291025daa": {
+      "id": "shipkg:equipment:385291025daa",
+      "kind": "Equipment",
+      "name": "ME3燃油与排气系统",
+      "oldKind": "Equipment",
+      "oldName": "Stena Europe ME3燃油与排气系统",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:equipment:6cc9aa419de7": {
+      "id": "shipkg:equipment:6cc9aa419de7",
+      "kind": "Equipment",
+      "name": "ME4主机",
+      "oldKind": "Equipment",
+      "oldName": "Wight Sky ME4主机",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:cba0553c7db4": {
+      "id": "shipkg:fault:cba0553c7db4",
+      "kind": "Fault",
+      "name": "巴氏合金磨损（铅指标）",
+      "oldKind": "Fault",
+      "oldName": "Babbitt wear (Pb)",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:3dabb05debb4": {
+      "id": "shipkg:fault:3dabb05debb4",
+      "kind": "Fault",
+      "name": "备用空气均压后仍不足",
+      "oldKind": "Fault",
+      "oldName": "备用空气均压后仍不足",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:41a15c8ffad7": {
+      "id": "shipkg:fault:41a15c8ffad7",
+      "kind": "Fault",
+      "name": "被冷却部件热过载",
+      "oldKind": "Fault",
+      "oldName": "被冷却部件热过载",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:423cd9a63be0": {
+      "id": "shipkg:fault:423cd9a63be0",
+      "kind": "Fault",
+      "name": "柴油发电机灾难性失效",
+      "oldKind": "Fault",
+      "oldName": "柴油发电机灾难性失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:7d0ec41f122b": {
+      "id": "shipkg:fault:7d0ec41f122b",
+      "kind": "Fault",
+      "name": "齿轮啮合异常",
+      "oldKind": "Fault",
+      "oldName": "Gear mesh anomaly",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:4de4eeb54341": {
+      "id": "shipkg:fault:4de4eeb54341",
+      "kind": "Fault",
+      "name": "船舶电网电压频率振荡",
+      "oldKind": "Fault",
+      "oldName": "船舶电网电压频率振荡",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:b2aa91be158b": {
+      "id": "shipkg:fault:b2aa91be158b",
+      "kind": "Fault",
+      "name": "电流不平衡保护失效",
+      "oldKind": "Fault",
+      "oldName": "电流不平衡保护失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:73da5c52ce5d": {
+      "id": "shipkg:fault:73da5c52ce5d",
+      "kind": "Fault",
+      "name": "电容内部电弧与介质汽化",
+      "oldKind": "Fault",
+      "oldName": "电容内部电弧与介质汽化",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:c8fa85d36573": {
+      "id": "shipkg:fault:c8fa85d36573",
+      "kind": "Fault",
+      "name": "电容内压升高与壳体破裂",
+      "oldKind": "Fault",
+      "oldName": "电容内压升高与壳体破裂",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:d005e46c6652": {
+      "id": "shipkg:fault:d005e46c6652",
+      "kind": "Fault",
+      "name": "吊舱转至90度停放",
+      "oldKind": "Fault",
+      "oldName": "吊舱转至90度停放",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:40958d8dddba": {
+      "id": "shipkg:fault:40958d8dddba",
+      "kind": "Fault",
+      "name": "二号压缩机排气阀损坏",
+      "oldKind": "Fault",
+      "oldName": "二号压缩机排气阀损坏",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:216400f082cf": {
+      "id": "shipkg:fault:216400f082cf",
+      "kind": "Fault",
+      "name": "发电机短路或非同期并机",
+      "oldKind": "Fault",
+      "oldName": "发电机短路或非同期并机",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:ad105e83a5af": {
+      "id": "shipkg:fault:ad105e83a5af",
+      "kind": "Fault",
+      "name": "发电机滚动轴承磨损失效",
+      "oldKind": "Fault",
+      "oldName": "发电机滚动轴承磨损失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:8b8846e83caf": {
+      "id": "shipkg:fault:8b8846e83caf",
+      "kind": "Fault",
+      "name": "发电机绝缘热劣化",
+      "oldKind": "Fault",
+      "oldName": "发电机绝缘热劣化",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:f09e1be695a7": {
+      "id": "shipkg:fault:f09e1be695a7",
+      "kind": "Fault",
+      "name": "发电机绕组绝缘电阻降低",
+      "oldKind": "Fault",
+      "oldName": "发电机绕组绝缘电阻降低",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:825e44b518ef": {
+      "id": "shipkg:fault:825e44b518ef",
+      "kind": "Fault",
+      "name": "缸套磨损",
+      "oldKind": "Fault",
+      "oldName": "Liner-wear",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:2c6822dc16f4": {
+      "id": "shipkg:fault:2c6822dc16f4",
+      "kind": "Fault",
+      "name": "缸套黏着拉伤",
+      "oldKind": "Fault",
+      "oldName": "缸套黏着拉伤",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:aea71a6801b6": {
+      "id": "shipkg:fault:aea71a6801b6",
+      "kind": "Fault",
+      "name": "高次谐波冲击序列",
+      "oldKind": "Fault",
+      "oldName": "High-harmonic impact train",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:999defd690d8": {
+      "id": "shipkg:fault:999defd690d8",
+      "kind": "Fault",
+      "name": "高温报警线束烧损短路",
+      "oldKind": "Fault",
+      "oldName": "高温报警线束烧损短路",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:c1ffab11185c": {
+      "id": "shipkg:fault:c1ffab11185c",
+      "kind": "Fault",
+      "name": "海水隔离阀未完全关闭",
+      "oldKind": "Fault",
+      "oldName": "海水隔离阀未完全关闭",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:db9b4536b139": {
+      "id": "shipkg:fault:db9b4536b139",
+      "kind": "Fault",
+      "name": "海水隔离阀执行器缺陷",
+      "oldKind": "Fault",
+      "oldName": "海水隔离阀执行器缺陷",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:511d6ce8c125": {
+      "id": "shipkg:fault:511d6ce8c125",
+      "kind": "Fault",
+      "name": "海水进口阀被淹无法接近",
+      "oldKind": "Fault",
+      "oldName": "海水进口阀被淹无法接近",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:86ef7d39fd57": {
+      "id": "shipkg:fault:86ef7d39fd57",
+      "kind": "Fault",
+      "name": "海水经泵进口管大量流入",
+      "oldKind": "Fault",
+      "oldName": "海水经泵进口管大量流入",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:f2f9d4b10a0b": {
+      "id": "shipkg:fault:f2f9d4b10a0b",
+      "kind": "Fault",
+      "name": "滑油泵堵头振松",
+      "oldKind": "Fault",
+      "oldName": "滑油泵堵头振松",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:5bc176965c58": {
+      "id": "shipkg:fault:5bc176965c58",
+      "kind": "Fault",
+      "name": "滑油喷雾接触高温排气护罩",
+      "oldKind": "Fault",
+      "oldName": "滑油喷雾接触高温排气护罩",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:ebfac27b4d41": {
+      "id": "shipkg:fault:ebfac27b4d41",
+      "kind": "Fault",
+      "name": "活塞环磨损",
+      "oldKind": "Fault",
+      "oldName": "Ring-wear",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:323fee48e778": {
+      "id": "shipkg:fault:323fee48e778",
+      "kind": "Fault",
+      "name": "活塞环黏着",
+      "oldKind": "Fault",
+      "oldName": "Ring-adhesion",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:0134b2c4ef20": {
+      "id": "shipkg:fault:0134b2c4ef20",
+      "kind": "Fault",
+      "name": "活塞环与缸套磨损",
+      "oldKind": "Fault",
+      "oldName": "活塞环与缸套磨损",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:530d40214e1a": {
+      "id": "shipkg:fault:530d40214e1a",
+      "kind": "Fault",
+      "name": "活塞烧蚀",
+      "oldKind": "Fault",
+      "oldName": "Piston-ablation",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:6ade8daa881a": {
+      "id": "shipkg:fault:6ade8daa881a",
+      "kind": "Fault",
+      "name": "活塞咬死",
+      "oldKind": "Fault",
+      "oldName": "活塞咬死",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:dddb0abee018": {
+      "id": "shipkg:fault:dddb0abee018",
+      "kind": "Fault",
+      "name": "驾驶台丧失右舷螺距控制",
+      "oldKind": "Fault",
+      "oldName": "驾驶台丧失右舷螺距控制",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:675217222811": {
+      "id": "shipkg:fault:675217222811",
+      "kind": "Fault",
+      "name": "驾驶台丧失左舷螺距控制",
+      "oldKind": "Fault",
+      "oldName": "驾驶台丧失左舷螺距控制",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:40fb093312a6": {
+      "id": "shipkg:fault:40fb093312a6",
+      "kind": "Fault",
+      "name": "结构松动",
+      "oldKind": "Fault",
+      "oldName": "Structural looseness",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:cdf116929c39": {
+      "id": "shipkg:fault:cdf116929c39",
+      "kind": "Fault",
+      "name": "进水停机序列启动",
+      "oldKind": "Fault",
+      "oldName": "进水停机序列启动",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:1e5a23a200ad": {
+      "id": "shipkg:fault:1e5a23a200ad",
+      "kind": "Fault",
+      "name": "可调螺距桨背压阀磨损卡滞",
+      "oldKind": "Fault",
+      "oldName": "CPP背压阀磨损卡滞",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:fce2f501a499": {
+      "id": "shipkg:fault:fce2f501a499",
+      "kind": "Fault",
+      "name": "可调螺距桨倒车响应迟缓",
+      "oldKind": "Fault",
+      "oldName": "CPP倒车响应迟缓",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:dd6aba2caf5a": {
+      "id": "shipkg:fault:dd6aba2caf5a",
+      "kind": "Fault",
+      "name": "可调螺距桨回油法兰破裂",
+      "oldKind": "Fault",
+      "oldName": "CPP回油法兰破裂",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:ae4a492efe41": {
+      "id": "shipkg:fault:ae4a492efe41",
+      "kind": "Fault",
+      "name": "可调螺距桨系统超压",
+      "oldKind": "Fault",
+      "oldName": "CPP系统超压",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:7c36cc5888d4": {
+      "id": "shipkg:fault:7c36cc5888d4",
+      "kind": "Fault",
+      "name": "可调螺距桨执行器联轴器松脱",
+      "oldKind": "Fault",
+      "oldName": "CPP执行器联轴器松脱",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:7386c69bc1ea": {
+      "id": "shipkg:fault:7386c69bc1ea",
+      "kind": "Fault",
+      "name": "可调螺距桨执行器运动传递失效",
+      "oldKind": "Fault",
+      "oldName": "CPP执行器运动传递失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:b6b2c9f08149": {
+      "id": "shipkg:fault:b6b2c9f08149",
+      "kind": "Fault",
+      "name": "控制空气压力不足",
+      "oldKind": "Fault",
+      "oldName": "控制空气压力不足",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:e03af5ed68c1": {
+      "id": "shipkg:fault:e03af5ed68c1",
+      "kind": "Fault",
+      "name": "冷却水泵汽蚀",
+      "oldKind": "Fault",
+      "oldName": "Cooling-water pump cavitation",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:0ad9453d012b": {
+      "id": "shipkg:fault:0ad9453d012b",
+      "kind": "Fault",
+      "name": "冷却水管路汽蚀",
+      "oldKind": "Fault",
+      "oldName": "冷却水管路汽蚀",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:0b115c0dd100": {
+      "id": "shipkg:fault:0b115c0dd100",
+      "kind": "Fault",
+      "name": "冷却水通道结垢堵塞",
+      "oldKind": "Fault",
+      "oldName": "冷却水通道结垢堵塞",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:d047fdea9ee9": {
+      "id": "shipkg:fault:d047fdea9ee9",
+      "kind": "Fault",
+      "name": "连杆大端轴承断油",
+      "oldKind": "Fault",
+      "oldName": "连杆大端轴承断油",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:2c644dcfc770": {
+      "id": "shipkg:fault:2c644dcfc770",
+      "kind": "Fault",
+      "name": "连杆大端轴瓦失效",
+      "oldKind": "Fault",
+      "oldName": "连杆大端轴瓦失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:9b76a4f68834": {
+      "id": "shipkg:fault:9b76a4f68834",
+      "kind": "Fault",
+      "name": "连杆盖螺栓松动与断裂",
+      "oldKind": "Fault",
+      "oldName": "连杆盖螺栓松动与断裂",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:a20cef558a0a": {
+      "id": "shipkg:fault:a20cef558a0a",
+      "kind": "Fault",
+      "name": "连杆盖配合面微动磨损",
+      "oldKind": "Fault",
+      "oldName": "连杆盖配合面微动磨损",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:4e2929b80b35": {
+      "id": "shipkg:fault:4e2929b80b35",
+      "kind": "Fault",
+      "name": "连杆小端疲劳断裂",
+      "oldKind": "Fault",
+      "oldName": "连杆小端疲劳断裂",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:74505aa1776a": {
+      "id": "shipkg:fault:74505aa1776a",
+      "kind": "Fault",
+      "name": "联轴器共振",
+      "oldKind": "Fault",
+      "oldName": "Coupling resonance",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:1ff35faef80c": {
+      "id": "shipkg:fault:1ff35faef80c",
+      "kind": "Fault",
+      "name": "排气阀座开裂泄漏",
+      "oldKind": "Fault",
+      "oldName": "排气阀座开裂泄漏",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:020786dc9fd0": {
+      "id": "shipkg:fault:020786dc9fd0",
+      "kind": "Fault",
+      "name": "排气管未恢复保温",
+      "oldKind": "Fault",
+      "oldName": "排气管未恢复保温",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:8027eb707475": {
+      "id": "shipkg:fault:8027eb707475",
+      "kind": "Fault",
+      "name": "盘车安全联锁失效",
+      "oldKind": "Fault",
+      "oldName": "盘车安全联锁失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:439f73a406a0": {
+      "id": "shipkg:fault:439f73a406a0",
+      "kind": "Fault",
+      "name": "盘车机构未脱开启动",
+      "oldKind": "Fault",
+      "oldName": "盘车机构未脱开启动",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:1a73f1a1e185": {
+      "id": "shipkg:fault:1a73f1a1e185",
+      "kind": "Fault",
+      "name": "盘车轴与齿轮损坏",
+      "oldKind": "Fault",
+      "oldName": "盘车轴与齿轮损坏",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:0a5da1da4336": {
+      "id": "shipkg:fault:0a5da1da4336",
+      "kind": "Fault",
+      "name": "喷油器喷嘴堵塞",
+      "oldKind": "Fault",
+      "oldName": "Injection-valve nozzle clogging",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:f18d7fcb0838": {
+      "id": "shipkg:fault:f18d7fcb0838",
+      "kind": "Fault",
+      "name": "气缸盖裂纹",
+      "oldKind": "Fault",
+      "oldName": "Head-crack",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:6e677eff9bb9": {
+      "id": "shipkg:fault:6e677eff9bb9",
+      "kind": "Fault",
+      "name": "气缸磨损增加",
+      "oldKind": "Fault",
+      "oldName": "气缸磨损增加",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:655f841ec7d0": {
+      "id": "shipkg:fault:655f841ec7d0",
+      "kind": "Fault",
+      "name": "曲轴扭振减振器失效",
+      "oldKind": "Fault",
+      "oldName": "曲轴扭振减振器失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:8d2d73a67f71": {
+      "id": "shipkg:fault:8d2d73a67f71",
+      "kind": "Fault",
+      "name": "曲轴箱被连杆击穿",
+      "oldKind": "Fault",
+      "oldName": "曲轴箱被连杆击穿",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:96cc1c0ff36e": {
+      "id": "shipkg:fault:96cc1c0ff36e",
+      "kind": "Fault",
+      "name": "曲轴主轴承与曲柄销断油",
+      "oldKind": "Fault",
+      "oldName": "曲轴主轴承与曲柄销断油",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:7d56f05dfb4b": {
+      "id": "shipkg:fault:7d56f05dfb4b",
+      "kind": "Fault",
+      "name": "全部推进电机停机",
+      "oldKind": "Fault",
+      "oldName": "全部推进电机停机",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:9b3b274b4dbf": {
+      "id": "shipkg:fault:9b3b274b4dbf",
+      "kind": "Fault",
+      "name": "燃气轮机涡轮退化",
+      "oldKind": "Fault",
+      "oldName": "燃气轮机涡轮退化",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:bebfb8cfc5f3": {
+      "id": "shipkg:fault:bebfb8cfc5f3",
+      "kind": "Fault",
+      "name": "燃气轮机压气机退化",
+      "oldKind": "Fault",
+      "oldName": "燃气轮机压气机退化",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:7b886d9d51c3": {
+      "id": "shipkg:fault:7b886d9d51c3",
+      "kind": "Fault",
+      "name": "燃油法兰螺钉松动",
+      "oldKind": "Fault",
+      "oldName": "燃油法兰螺钉松动",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:256ba55c5fb2": {
+      "id": "shipkg:fault:256ba55c5fb2",
+      "kind": "Fault",
+      "name": "燃油喷向裸露高温排气歧管",
+      "oldKind": "Fault",
+      "oldName": "燃油喷向裸露高温排气歧管",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:2c174651a93a": {
+      "id": "shipkg:fault:2c174651a93a",
+      "kind": "Fault",
+      "name": "润滑油燃油稀释",
+      "oldKind": "Fault",
+      "oldName": "Fuel dilution",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:911e598cd781": {
+      "id": "shipkg:fault:911e598cd781",
+      "kind": "Fault",
+      "name": "润滑油添加剂耗损",
+      "oldKind": "Fault",
+      "oldName": "Additive depletion",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:c830e7992f26": {
+      "id": "shipkg:fault:c830e7992f26",
+      "kind": "Fault",
+      "name": "推进电机保护跳闸",
+      "oldKind": "Fault",
+      "oldName": "推进电机保护跳闸",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:e97eee073fc6": {
+      "id": "shipkg:fault:e97eee073fc6",
+      "kind": "Fault",
+      "name": "推进电机超速",
+      "oldKind": "Fault",
+      "oldName": "推进电机超速",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:c9a34bd46532": {
+      "id": "shipkg:fault:c9a34bd46532",
+      "kind": "Fault",
+      "name": "推进电机扭矩骤降",
+      "oldKind": "Fault",
+      "oldName": "推进电机扭矩骤降",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:f078b5a27275": {
+      "id": "shipkg:fault:f078b5a27275",
+      "kind": "Fault",
+      "name": "误选CPP备用控制模式",
+      "oldKind": "Fault",
+      "oldName": "误选CPP备用控制模式",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:5737f3610967": {
+      "id": "shipkg:fault:5737f3610967",
+      "kind": "Fault",
+      "name": "谐波滤波电容退化",
+      "oldKind": "Fault",
+      "oldName": "谐波滤波电容退化",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:d26785dacafa": {
+      "id": "shipkg:fault:d26785dacafa",
+      "kind": "Fault",
+      "name": "压力滑油喷漏",
+      "oldKind": "Fault",
+      "oldName": "压力滑油喷漏",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:3349e319bedc": {
+      "id": "shipkg:fault:3349e319bedc",
+      "kind": "Fault",
+      "name": "压力燃油泄漏",
+      "oldKind": "Fault",
+      "oldName": "压力燃油泄漏",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:0e24c2957173": {
+      "id": "shipkg:fault:0e24c2957173",
+      "kind": "Fault",
+      "name": "压气机空气滤清器堵塞",
+      "oldKind": "Fault",
+      "oldName": "Air-filter clogging (compressor)",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:2ac2de665aa1": {
+      "id": "shipkg:fault:2ac2de665aa1",
+      "kind": "Fault",
+      "name": "压缩机滑油排出管脱开",
+      "oldKind": "Fault",
+      "oldName": "压缩机滑油排出管脱开",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:ccbff4c4e10b": {
+      "id": "shipkg:fault:ccbff4c4e10b",
+      "kind": "Fault",
+      "name": "压缩机下端轴承过热失效",
+      "oldKind": "Fault",
+      "oldName": "压缩机下端轴承过热失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:562580f2bf5a": {
+      "id": "shipkg:fault:562580f2bf5a",
+      "kind": "Fault",
+      "name": "液压油喷向高温排气管",
+      "oldKind": "Fault",
+      "oldName": "液压油喷向高温排气管",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:15fa82225a89": {
+      "id": "shipkg:fault:15fa82225a89",
+      "kind": "Fault",
+      "name": "应急供电无法启动便携泵",
+      "oldKind": "Fault",
+      "oldName": "应急供电无法启动便携泵",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:8969204ea965": {
+      "id": "shipkg:fault:8969204ea965",
+      "kind": "Fault",
+      "name": "油道堵塞",
+      "oldKind": "Fault",
+      "oldName": "油道堵塞",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:b7f3d0b1bf24": {
+      "id": "shipkg:fault:b7f3d0b1bf24",
+      "kind": "Fault",
+      "name": "油抹布接触高温排气歧管",
+      "oldKind": "Fault",
+      "oldName": "油抹布接触高温排气歧管",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:c44e6c4545bf": {
+      "id": "shipkg:fault:c44e6c4545bf",
+      "kind": "Fault",
+      "name": "右舷螺距保持前进",
+      "oldKind": "Fault",
+      "oldName": "右舷螺距保持前进",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:58d32c38d0ac": {
+      "id": "shipkg:fault:58d32c38d0ac",
+      "kind": "Fault",
+      "name": "在线滑油滤器缺少滤芯",
+      "oldKind": "Fault",
+      "oldName": "在线滑油滤器缺少滤芯",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:91dfc7218234": {
+      "id": "shipkg:fault:91dfc7218234",
+      "kind": "Fault",
+      "name": "增压空气冷却器污损",
+      "oldKind": "Fault",
+      "oldName": "Air-cooler fouling",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:3a609fe447a8": {
+      "id": "shipkg:fault:3a609fe447a8",
+      "kind": "Fault",
+      "name": "增压器涡轮退化（柴油机试验）",
+      "oldKind": "Fault",
+      "oldName": "Turbine degradation",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:688b83bd7c8b": {
+      "id": "shipkg:fault:688b83bd7c8b",
+      "kind": "Fault",
+      "name": "质量不平衡",
+      "oldKind": "Fault",
+      "oldName": "Mass imbalance",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:7dd3cdd4fe58": {
+      "id": "shipkg:fault:7dd3cdd4fe58",
+      "kind": "Fault",
+      "name": "轴承电蚀",
+      "oldKind": "Fault",
+      "oldName": "轴承电蚀",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:5f59e6b3ca42": {
+      "id": "shipkg:fault:5f59e6b3ca42",
+      "kind": "Fault",
+      "name": "轴承快速磨损",
+      "oldKind": "Fault",
+      "oldName": "轴承快速磨损",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:a7ebb889d098": {
+      "id": "shipkg:fault:a7ebb889d098",
+      "kind": "Fault",
+      "name": "轴承相关频谱异常（未确认）",
+      "oldKind": "Fault",
+      "oldName": "Unconfirmed bearing-related spectral anomaly",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:18191226708b": {
+      "id": "shipkg:fault:18191226708b",
+      "kind": "Fault",
+      "name": "轴承相关预警（未确认）",
+      "oldKind": "Fault",
+      "oldName": "Unconfirmed bearing-related warning",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:401ffd7724bc": {
+      "id": "shipkg:fault:401ffd7724bc",
+      "kind": "Fault",
+      "name": "轴承与活塞断油过热",
+      "oldKind": "Fault",
+      "oldName": "轴承与活塞断油过热",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:9d33e738a3d3": {
+      "id": "shipkg:fault:9d33e738a3d3",
+      "kind": "Fault",
+      "name": "轴带发电机振动损伤",
+      "oldKind": "Fault",
+      "oldName": "轴带发电机振动损伤",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:64f6c42af0db": {
+      "id": "shipkg:fault:64f6c42af0db",
+      "kind": "Fault",
+      "name": "轴系或联轴器疲劳磨损损伤",
+      "oldKind": "Fault",
+      "oldName": "轴系或联轴器疲劳磨损损伤",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:f6eb639558ed": {
+      "id": "shipkg:fault:f6eb639558ed",
+      "kind": "Fault",
+      "name": "轴系扭转共振风险",
+      "oldKind": "Fault",
+      "oldName": "轴系扭转共振风险",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:72c71c94ca13": {
+      "id": "shipkg:fault:72c71c94ca13",
+      "kind": "Fault",
+      "name": "主机海水冷却管疑似失效",
+      "oldKind": "Fault",
+      "oldName": "主机海水冷却管疑似失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:4cb7be531584": {
+      "id": "shipkg:fault:4cb7be531584",
+      "kind": "Fault",
+      "name": "主机离合器脱开",
+      "oldKind": "Fault",
+      "oldName": "主机离合器脱开",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:34646312c70d": {
+      "id": "shipkg:fault:34646312c70d",
+      "kind": "Fault",
+      "name": "主机停止",
+      "oldKind": "Fault",
+      "oldName": "主机停止",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:4865d7c855d8": {
+      "id": "shipkg:fault:4865d7c855d8",
+      "kind": "Fault",
+      "name": "主机无法继续运行",
+      "oldKind": "Fault",
+      "oldName": "主机无法继续运行",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:fee4df6aeb24": {
+      "id": "shipkg:fault:fee4df6aeb24",
+      "kind": "Fault",
+      "name": "主机灾难性失效",
+      "oldKind": "Fault",
+      "oldName": "主机灾难性失效",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:aba0717d72a0": {
+      "id": "shipkg:fault:aba0717d72a0",
+      "kind": "Fault",
+      "name": "主轴承瓦片转位",
+      "oldKind": "Fault",
+      "oldName": "主轴承瓦片转位",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:fault:ce4fe75e21d8": {
+      "id": "shipkg:fault:ce4fe75e21d8",
+      "kind": "Fault",
+      "name": "主轴承咬死",
+      "oldKind": "Fault",
+      "oldName": "主轴承咬死",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:faulttype:796439daaa03": {
+      "id": "shipkg:faulttype:796439daaa03",
+      "kind": "Fault",
+      "name": "船舶电网耦合振荡",
+      "oldKind": "FaultType",
+      "oldName": "船舶电网耦合振荡",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:faulttype:6dbd0d51366c": {
+      "id": "shipkg:faulttype:6dbd0d51366c",
+      "kind": "Fault",
+      "name": "电机与发电机轴承电蚀",
+      "oldKind": "FaultType",
+      "oldName": "电机与发电机轴承电蚀",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:faulttype:40cb53a64e31": {
+      "id": "shipkg:faulttype:40cb53a64e31",
+      "kind": "Fault",
+      "name": "发电机绕组绝缘劣化",
+      "oldKind": "FaultType",
+      "oldName": "发电机绕组绝缘劣化",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:faulttype:bff048b48ff1": {
+      "id": "shipkg:faulttype:bff048b48ff1",
+      "kind": "Fault",
+      "name": "发电机轴承机械磨损",
+      "oldKind": "FaultType",
+      "oldName": "发电机轴承机械磨损",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:faulttype:ce7933999459": {
+      "id": "shipkg:faulttype:ce7933999459",
+      "kind": "Fault",
+      "name": "拉缸",
+      "oldKind": "FaultType",
+      "oldName": "拉缸",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:faulttype:f8ea1aa17718": {
+      "id": "shipkg:faulttype:f8ea1aa17718",
+      "kind": "Fault",
+      "name": "冷却回路汽蚀",
+      "oldKind": "FaultType",
+      "oldName": "冷却回路汽蚀",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:faulttype:660e09f63773": {
+      "id": "shipkg:faulttype:660e09f63773",
+      "kind": "Fault",
+      "name": "冷却水通道堵塞与热过载",
+      "oldKind": "FaultType",
+      "oldName": "冷却水通道堵塞与热过载",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:faulttype:12275851bbd1": {
+      "id": "shipkg:faulttype:12275851bbd1",
+      "kind": "Fault",
+      "name": "联轴器故障",
+      "oldKind": "FaultType",
+      "oldName": "联轴器故障",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:faulttype:8a35cec932af": {
+      "id": "shipkg:faulttype:8a35cec932af",
+      "kind": "Fault",
+      "name": "扭振减振器失效",
+      "oldKind": "FaultType",
+      "oldName": "扭振减振器失效",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:faulttype:3353dce7f4ad": {
+      "id": "shipkg:faulttype:3353dce7f4ad",
+      "kind": "Fault",
+      "name": "烧瓦与轴承咬死",
+      "oldKind": "FaultType",
+      "oldName": "烧瓦与轴承咬死",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:faulttype:6456485708ad": {
+      "id": "shipkg:faulttype:6456485708ad",
+      "kind": "Fault",
+      "name": "轴带发电机对中异常与振动损伤",
+      "oldKind": "FaultType",
+      "oldName": "轴带发电机对中异常与振动损伤",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:faulttype:84e503bec36b": {
+      "id": "shipkg:faulttype:84e503bec36b",
+      "kind": "Fault",
+      "name": "轴系扭振与联轴器过载风险",
+      "oldKind": "FaultType",
+      "oldName": "轴系扭振与联轴器过载风险",
+      "level": "故障类别",
+      "delete": false
+    },
+    "shipkg:observation:0c0be039e775": {
+      "id": "shipkg:observation:0c0be039e775",
+      "kind": "Observation",
+      "name": "CAT 3508B/C推进器监测参考",
+      "oldKind": "Observation",
+      "oldName": "CAT 3508B/C thruster reference",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:observation:ec255ed61291": {
+      "id": "shipkg:observation:ec255ed61291",
+      "kind": "Observation",
+      "name": "CAT 3508B/C主机轴承监测参考",
+      "oldKind": "Observation",
+      "oldName": "CAT 3508B/C engine bearing reference",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:observation:4cd2541cd04a": {
+      "id": "shipkg:observation:4cd2541cd04a",
+      "kind": "Observation",
+      "name": "CAT 3516C方位推进单元监测摘要（EB 2）",
+      "oldKind": "Observation",
+      "oldName": "CAT 3516C azimuth unit EB 2",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:observation:6bc49fd589cc": {
+      "id": "shipkg:observation:6bc49fd589cc",
+      "kind": "Observation",
+      "name": "CAT 3516C监测摘要（MPEB 1V）",
+      "oldKind": "Observation",
+      "oldName": "CAT 3516C MPEB 1V",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:observation:fe8f810e77c8": {
+      "id": "shipkg:observation:fe8f810e77c8",
+      "kind": "Observation",
+      "name": "CAT 3516C监测摘要（MPEB 3V）",
+      "oldKind": "Observation",
+      "oldName": "CAT 3516C MPEB 3V",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:observation:abd23c68d1ce": {
+      "id": "shipkg:observation:abd23c68d1ce",
+      "kind": "Observation",
+      "name": "CAT 3516C减振器监测摘要（EB 2）",
+      "oldKind": "Observation",
+      "oldName": "CAT 3516C damper EB 2",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:observation:36b9efa16da9": {
+      "id": "shipkg:observation:36b9efa16da9",
+      "kind": "Observation",
+      "name": "CAT 3516C联轴器监测摘要（EB 1）",
+      "oldKind": "Observation",
+      "oldName": "CAT 3516C coupling EB 1",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:observation:5d48f4f61abd": {
+      "id": "shipkg:observation:5d48f4f61abd",
+      "kind": "Observation",
+      "name": "CAT 3516C中间轴承监测摘要（EB 4）",
+      "oldKind": "Observation",
+      "oldName": "CAT 3516C intermediate bearing EB 4",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:observation:f5d747e68b69": {
+      "id": "shipkg:observation:f5d747e68b69",
+      "kind": "Observation",
+      "name": "CAT C7轴系减速器监测摘要（案例A）",
+      "oldKind": "Observation",
+      "oldName": "CAT C7 shaftline reductor / CAT C7 case A",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:observation:83cf859e3d48": {
+      "id": "shipkg:observation:83cf859e3d48",
+      "kind": "Observation",
+      "name": "CAT C7轴系减速器监测摘要（案例B）",
+      "oldKind": "Observation",
+      "oldName": "CAT C7 shaftline reductor / CAT C7 case B",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:observation:59f88fb7c81e": {
+      "id": "shipkg:observation:59f88fb7c81e",
+      "kind": "Observation",
+      "name": "CAT C7主机与轴系监测摘要（案例A、BB）",
+      "oldKind": "Observation",
+      "oldName": "CAT C7 engine case A BB / CAT C7 shaftline case A",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:observation:c07d705f633b": {
+      "id": "shipkg:observation:c07d705f633b",
+      "kind": "Observation",
+      "name": "CAT C7主机与轴系监测摘要（案例A、EB）",
+      "oldKind": "Observation",
+      "oldName": "CAT C7 engine case A EB / CAT C7 shaftline case A",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:2c8ac4d016f4": {
+      "id": "shipkg:run:2c8ac4d016f4",
+      "kind": "Run",
+      "name": "参考运行（正常基线）",
+      "oldKind": "Run",
+      "oldName": "Reference_Data.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:a43d97ac9f94": {
+      "id": "shipkg:run:a43d97ac9f94",
+      "kind": "Run",
+      "name": "空气滤清器堵塞试验（40%负载）",
+      "oldKind": "Run",
+      "oldName": "AF_Clogging/AF_Clogging_40_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:0024b0cf204d": {
+      "id": "shipkg:run:0024b0cf204d",
+      "kind": "Run",
+      "name": "空气滤清器堵塞试验（60%负载）",
+      "oldKind": "Run",
+      "oldName": "AF_Clogging/AF_Clogging_60_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:ce8ec71106fb": {
+      "id": "shipkg:run:ce8ec71106fb",
+      "kind": "Run",
+      "name": "空气滤清器堵塞试验（75%负载）",
+      "oldKind": "Run",
+      "oldName": "AF_Clogging/AF_Clogging_75_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:a4c3017972ca": {
+      "id": "shipkg:run:a4c3017972ca",
+      "kind": "Run",
+      "name": "空气滤清器堵塞试验（85%负载）",
+      "oldKind": "Run",
+      "oldName": "AF_Clogging/AF_Clogging_85_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:bd1a1e06b4eb": {
+      "id": "shipkg:run:bd1a1e06b4eb",
+      "kind": "Run",
+      "name": "冷却水泵汽蚀试验（60%负载）",
+      "oldKind": "Run",
+      "oldName": "Pump_Cavitation/CW_Pump_Cavitation_60_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:a54e4f2dfd8d": {
+      "id": "shipkg:run:a54e4f2dfd8d",
+      "kind": "Run",
+      "name": "冷却水泵汽蚀试验（85%负载）",
+      "oldKind": "Run",
+      "oldName": "Pump_Cavitation/CW_Pump_Cavitation_85_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:9690a0157fb9": {
+      "id": "shipkg:run:9690a0157fb9",
+      "kind": "Run",
+      "name": "喷油器喷嘴堵塞试验（单喷孔堵塞、40%／60%／85%阶梯负载）",
+      "oldKind": "Run",
+      "oldName": "Injector_Nozzle/Clogged_Injector_Nozzle1_40_60_85_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:265eab3b4373": {
+      "id": "shipkg:run:265eab3b4373",
+      "kind": "Run",
+      "name": "喷油器喷嘴堵塞试验（双喷孔堵塞、程序变负载）",
+      "oldKind": "Run",
+      "oldName": "Injector_Nozzle/Clogged_Injector_Nozzle2_LoadProgram.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:6b05eccd173f": {
+      "id": "shipkg:run:6b05eccd173f",
+      "kind": "Run",
+      "name": "增压空气冷却器污损试验（40%负载）",
+      "oldKind": "Run",
+      "oldName": "AC_Fouling/AC_Fouling_40_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:77a7092fcc4e": {
+      "id": "shipkg:run:77a7092fcc4e",
+      "kind": "Run",
+      "name": "增压空气冷却器污损试验（60%负载）",
+      "oldKind": "Run",
+      "oldName": "AC_Fouling/AC_Fouling_60_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:0a0b95755e65": {
+      "id": "shipkg:run:0a0b95755e65",
+      "kind": "Run",
+      "name": "增压空气冷却器污损试验（75%负载）",
+      "oldKind": "Run",
+      "oldName": "AC_Fouling/AC_Fouling_75_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:c2058b46e618": {
+      "id": "shipkg:run:c2058b46e618",
+      "kind": "Run",
+      "name": "增压空气冷却器污损试验（85%负载）",
+      "oldKind": "Run",
+      "oldName": "AC_Fouling/AC_Fouling_85_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:6c075208cdc0": {
+      "id": "shipkg:run:6c075208cdc0",
+      "kind": "Run",
+      "name": "增压器涡轮退化试验（40%负载）",
+      "oldKind": "Run",
+      "oldName": "Turbine_Degradation/Turbine_Degradation_40_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:9969547fcdfa": {
+      "id": "shipkg:run:9969547fcdfa",
+      "kind": "Run",
+      "name": "增压器涡轮退化试验（60%负载）",
+      "oldKind": "Run",
+      "oldName": "Turbine_Degradation/Turbine_Degradation_60_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:run:cd33f80ecd69": {
+      "id": "shipkg:run:cd33f80ecd69",
+      "kind": "Run",
+      "name": "增压器涡轮退化试验（85%负载）",
+      "oldKind": "Run",
+      "oldName": "Turbine_Degradation/Turbine_Degradation_85_Load.csv",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:366f77564e58": {
+      "id": "shipkg:sensor:366f77564e58",
+      "kind": "Sensor",
+      "name": "1缸排气温度",
+      "oldKind": "Sensor",
+      "oldName": "No.1 Exh.Gas Temp.",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:54ce9804e4f4": {
+      "id": "shipkg:sensor:54ce9804e4f4",
+      "kind": "Sensor",
+      "name": "1缸最高缸压",
+      "oldKind": "Sensor",
+      "oldName": "Max. In-Cylinder Press. No.1",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:5007e1617236": {
+      "id": "shipkg:sensor:5007e1617236",
+      "kind": "Sensor",
+      "name": "淡水冷却压力原始电压信号",
+      "oldKind": "Sensor",
+      "oldName": "Fresh Cooling Water Press.",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:d9ffd75bfab4": {
+      "id": "shipkg:sensor:d9ffd75bfab4",
+      "kind": "Sensor",
+      "name": "发动机转速",
+      "oldKind": "Sensor",
+      "oldName": "Engine Speed",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:d07e7ed33e29": {
+      "id": "shipkg:sensor:d07e7ed33e29",
+      "kind": "Sensor",
+      "name": "滑油循环泵压力原始电压信号",
+      "oldKind": "Sensor",
+      "oldName": "LO Circulating Pump Press.",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:9785e5456d03": {
+      "id": "shipkg:sensor:9785e5456d03",
+      "kind": "Sensor",
+      "name": "燃油流量",
+      "oldKind": "Sensor",
+      "oldName": "Fuel Flow",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:2ea813c04f69": {
+      "id": "shipkg:sensor:2ea813c04f69",
+      "kind": "Sensor",
+      "name": "增压空气冷却器出口空气温度",
+      "oldKind": "Sensor",
+      "oldName": "Charge Air IC Air Temp. Out",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:65ae734da9ec": {
+      "id": "shipkg:sensor:65ae734da9ec",
+      "kind": "Sensor",
+      "name": "增压空气压力",
+      "oldKind": "Sensor",
+      "oldName": "Charge Air Press.",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:482eb47f8513": {
+      "id": "shipkg:sensor:482eb47f8513",
+      "kind": "Sensor",
+      "name": "轴功率",
+      "oldKind": "Sensor",
+      "oldName": "Shaft Power",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:ae5a2be19a3b": {
+      "id": "shipkg:sensor:ae5a2be19a3b",
+      "kind": "Sensor",
+      "name": "轴转矩",
+      "oldKind": "Sensor",
+      "oldName": "Shaft Torque",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:5c7b83264f58": {
+      "id": "shipkg:sensor:5c7b83264f58",
+      "kind": "Sensor",
+      "name": "主机滑油出口温度",
+      "oldKind": "Sensor",
+      "oldName": "LO Temp. Engine Out",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:0acc03533547": {
+      "id": "shipkg:sensor:0acc03533547",
+      "kind": "Sensor",
+      "name": "主机滑油进口温度",
+      "oldKind": "Sensor",
+      "oldName": "LO Temp. Engine In",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:baa3a7477b53": {
+      "id": "shipkg:sensor:baa3a7477b53",
+      "kind": "Sensor",
+      "name": "主机冷却水出口温度Ⅰ",
+      "oldKind": "Sensor",
+      "oldName": "Cooling Water Temp. Engine Out I",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:7675b8a8bef8": {
+      "id": "shipkg:sensor:7675b8a8bef8",
+      "kind": "Sensor",
+      "name": "主机冷却水进口温度",
+      "oldKind": "Sensor",
+      "oldName": "Cooling Water Temp. Engine In",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:sensor:8ab013653446": {
+      "id": "shipkg:sensor:8ab013653446",
+      "kind": "Sensor",
+      "name": "主机冷却水流量",
+      "oldKind": "Sensor",
+      "oldName": "Engine Cooling water flow",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:5137a1994672": {
+      "id": "shipkg:source:5137a1994672",
+      "kind": "Source",
+      "name": "Anonymised azimuth thruster multimodal CBM dataset",
+      "oldKind": "Source",
+      "oldName": "Anonymised azimuth thruster multimodal CBM dataset",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:7324d064f158": {
+      "id": "shipkg:source:7324d064f158",
+      "kind": "Source",
+      "name": "Comparative Case Study on Oscillatory Behavior in Power Systems of Marine Vessels With High Power Converters",
+      "oldKind": "Source",
+      "oldName": "Comparative Case Study on Oscillatory Behavior in Power Systems of Marine Vessels With High Power Converters",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:23fd7f407fe4": {
+      "id": "shipkg:source:23fd7f407fe4",
+      "kind": "Source",
+      "name": "Condition Based Maintenance of Naval Propulsion Plants",
+      "oldKind": "Source",
+      "oldName": "Condition Based Maintenance of Naval Propulsion Plants",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:a4b58f363149": {
+      "id": "shipkg:source:a4b58f363149",
+      "kind": "Source",
+      "name": "Finlandia Seaways engine failure and fire",
+      "oldKind": "Source",
+      "oldName": "Finlandia Seaways engine failure and fire",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:159562b24735": {
+      "id": "shipkg:source:159562b24735",
+      "kind": "Source",
+      "name": "Kommandor Susan catastrophic engine failure and fire",
+      "oldKind": "Source",
+      "oldName": "Kommandor Susan catastrophic engine failure and fire",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:94adb0d6c252": {
+      "id": "shipkg:source:94adb0d6c252",
+      "kind": "Source",
+      "name": "MAIB Hebrides CPP actuator coupling failure",
+      "oldKind": "Source",
+      "oldName": "MAIB Hebrides CPP actuator coupling failure",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:a583fceecb4c": {
+      "id": "shipkg:source:a583fceecb4c",
+      "kind": "Source",
+      "name": "MAIB Safety Digest 2013 lubrication and bearing cases",
+      "oldKind": "Source",
+      "oldName": "MAIB Safety Digest 2013 lubrication and bearing cases",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:3f597b4acabc": {
+      "id": "shipkg:source:3f597b4acabc",
+      "kind": "Source",
+      "name": "MAIB Safety Digest 2016 generator oil fire case",
+      "oldKind": "Source",
+      "oldName": "MAIB Safety Digest 2016 generator oil fire case",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:69975c6f70a5": {
+      "id": "shipkg:source:69975c6f70a5",
+      "kind": "Source",
+      "name": "MAN efficiency improvements main engine auxiliary systems",
+      "oldKind": "Source",
+      "oldName": "MAN efficiency improvements main engine auxiliary systems",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:fab13c43338c": {
+      "id": "shipkg:source:fab13c43338c",
+      "kind": "Source",
+      "name": "MAN SL2013-569 bearing wear monitoring and bearing seizure",
+      "oldKind": "Source",
+      "oldName": "MAN SL2013-569 bearing wear monitoring and bearing seizure",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:2be14752326a": {
+      "id": "shipkg:source:2be14752326a",
+      "kind": "Source",
+      "name": "MAN SL2016-623 cooling water treatment and periodical testing",
+      "oldKind": "Source",
+      "oldName": "MAN SL2016-623 cooling water treatment and periodical testing",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:7626c51c28c7": {
+      "id": "shipkg:source:7626c51c28c7",
+      "kind": "Source",
+      "name": "MAN SL2016-633 hard-coated piston rings and liner scuffing",
+      "oldKind": "Source",
+      "oldName": "MAN SL2016-633 hard-coated piston rings and liner scuffing",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:40e44500f25e": {
+      "id": "shipkg:source:40e44500f25e",
+      "kind": "Source",
+      "name": "MAN SL2017-654 crankshaft torsional vibration damper",
+      "oldKind": "Source",
+      "oldName": "MAN SL2017-654 crankshaft torsional vibration damper",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:0056c595f709": {
+      "id": "shipkg:source:0056c595f709",
+      "kind": "Source",
+      "name": "MAN SL2019-685 condition-based overhaul of cermet piston rings",
+      "oldKind": "Source",
+      "oldName": "MAN SL2019-685 condition-based overhaul of cermet piston rings",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:fcf534e86baa": {
+      "id": "shipkg:source:fcf534e86baa",
+      "kind": "Source",
+      "name": "MAN SL2023-737 cylinder lubrication update",
+      "oldKind": "Source",
+      "oldName": "MAN SL2023-737 cylinder lubrication update",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:e12fe2e83b8d": {
+      "id": "shipkg:source:e12fe2e83b8d",
+      "kind": "Source",
+      "name": "Marine Engine Fault Dataset",
+      "oldKind": "Source",
+      "oldName": "Marine Engine Fault Dataset",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:c33d7f8e3fb6": {
+      "id": "shipkg:source:c33d7f8e3fb6",
+      "kind": "Source",
+      "name": "Pride of Canterbury CPP hydraulic overpressure and fire",
+      "oldKind": "Source",
+      "oldName": "Pride of Canterbury CPP hydraulic overpressure and fire",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:b7a22b866ab1": {
+      "id": "shipkg:source:b7a22b866ab1",
+      "kind": "Source",
+      "name": "RMS Queen Mary 2 harmonic-filter capacitor failure and blackout",
+      "oldKind": "Source",
+      "oldName": "RMS Queen Mary 2 harmonic-filter capacitor failure and blackout",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:d52922af3fc9": {
+      "id": "shipkg:source:d52922af3fc9",
+      "kind": "Source",
+      "name": "Spirit of Discovery loss of propulsion in heavy weather",
+      "oldKind": "Source",
+      "oldName": "Spirit of Discovery loss of propulsion in heavy weather",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:6fd630a82457": {
+      "id": "shipkg:source:6fd630a82457",
+      "kind": "Source",
+      "name": "STAMFORD AGN033 shaft bearing currents",
+      "oldKind": "Source",
+      "oldName": "STAMFORD AGN033 shaft bearing currents",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:16ac71ef07c6": {
+      "id": "shipkg:source:16ac71ef07c6",
+      "kind": "Source",
+      "name": "STAMFORD AGN035 overload fault protection and transient coupling torque",
+      "oldKind": "Source",
+      "oldName": "STAMFORD AGN035 overload fault protection and transient coupling torque",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:44dc69861c93": {
+      "id": "shipkg:source:44dc69861c93",
+      "kind": "Source",
+      "name": "STAMFORD AGN039 marine shaft generators",
+      "oldKind": "Source",
+      "oldName": "STAMFORD AGN039 marine shaft generators",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:9a1bbc4cf78c": {
+      "id": "shipkg:source:9a1bbc4cf78c",
+      "kind": "Source",
+      "name": "STAMFORD AGN040 winding insulation system",
+      "oldKind": "Source",
+      "oldName": "STAMFORD AGN040 winding insulation system",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:58a84c78e5b9": {
+      "id": "shipkg:source:58a84c78e5b9",
+      "kind": "Source",
+      "name": "STAMFORD AGN076 alternator bearings",
+      "oldKind": "Source",
+      "oldName": "STAMFORD AGN076 alternator bearings",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:47d4594455b8": {
+      "id": "shipkg:source:47d4594455b8",
+      "kind": "Source",
+      "name": "STAMFORD AGN235 generating set torsional vibration analysis",
+      "oldKind": "Source",
+      "oldName": "STAMFORD AGN235 generating set torsional vibration analysis",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:3d83d6ceacd0": {
+      "id": "shipkg:source:3d83d6ceacd0",
+      "kind": "Source",
+      "name": "Stena Europe pressurised fuel spray and engine-room fire",
+      "oldKind": "Source",
+      "oldName": "Stena Europe pressurised fuel spray and engine-room fire",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:29f30f85af55": {
+      "id": "shipkg:source:29f30f85af55",
+      "kind": "Source",
+      "name": "Thermodynamic simulation-assisted random forest",
+      "oldKind": "Source",
+      "oldName": "Thermodynamic simulation-assisted random forest",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:21d1480ba4a6": {
+      "id": "shipkg:source:21d1480ba4a6",
+      "kind": "Source",
+      "name": "Wight Sky catastrophic main engine bearing failure",
+      "oldKind": "Source",
+      "oldName": "Wight Sky catastrophic main engine bearing failure",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:66b61e38c53f": {
+      "id": "shipkg:source:66b61e38c53f",
+      "kind": "Source",
+      "name": "Wight Sky multiple engine failures",
+      "oldKind": "Source",
+      "oldName": "Wight Sky multiple engine failures",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:source:af4bce0c23cd": {
+      "id": "shipkg:source:af4bce0c23cd",
+      "kind": "Source",
+      "name": "Windcat 8 connecting rod big-end bearing failure",
+      "oldKind": "Source",
+      "oldName": "Windcat 8 connecting rod big-end bearing failure",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:89c72d5dc590": {
+      "id": "shipkg:symptom:89c72d5dc590",
+      "kind": "Symptom",
+      "name": "舱底高液位报警",
+      "oldKind": "Symptom",
+      "oldName": "舱底高液位报警",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:9d91c2845b73": {
+      "id": "shipkg:symptom:9d91c2845b73",
+      "kind": "Symptom",
+      "name": "发电机滑油低压报警",
+      "oldKind": "Symptom",
+      "oldName": "发电机滑油低压报警",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:d2a57b31e287": {
+      "id": "shipkg:symptom:d2a57b31e287",
+      "kind": "Symptom",
+      "name": "机油高温报警",
+      "oldKind": "Symptom",
+      "oldName": "机油高温报警",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:0164170e49d6": {
+      "id": "shipkg:symptom:0164170e49d6",
+      "kind": "Symptom",
+      "name": "减振器异响或机组振动变化",
+      "oldKind": "Symptom",
+      "oldName": "减振器异响或机组振动变化",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:fa4424a6b543": {
+      "id": "shipkg:symptom:fa4424a6b543",
+      "kind": "Symptom",
+      "name": "可调螺距桨备用模式指示灯点亮",
+      "oldKind": "Symptom",
+      "oldName": "CPP备用模式指示灯点亮",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:13f0f30403ca": {
+      "id": "shipkg:symptom:13f0f30403ca",
+      "kind": "Symptom",
+      "name": "控制空气低压报警",
+      "oldKind": "Symptom",
+      "oldName": "控制空气低压报警",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:601948a19d34": {
+      "id": "shipkg:symptom:601948a19d34",
+      "kind": "Symptom",
+      "name": "连杆小端刻痕",
+      "oldKind": "Symptom",
+      "oldName": "连杆小端刻痕",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:ff3b8fa9a284": {
+      "id": "shipkg:symptom:ff3b8fa9a284",
+      "kind": "Symptom",
+      "name": "滤器压差持续偏低",
+      "oldKind": "Symptom",
+      "oldName": "滤器压差持续偏低",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:ccae4eb65c57": {
+      "id": "shipkg:symptom:ccae4eb65c57",
+      "kind": "Symptom",
+      "name": "润滑油压力下降",
+      "oldKind": "Symptom",
+      "oldName": "润滑油压力下降",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:986db6816df4": {
+      "id": "shipkg:symptom:986db6816df4",
+      "kind": "Symptom",
+      "name": "扫气空气温度升高",
+      "oldKind": "Symptom",
+      "oldName": "扫气空气温度升高",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:f944832200f3": {
+      "id": "shipkg:symptom:f944832200f3",
+      "kind": "Symptom",
+      "name": "扫气泄放油铁含量升高",
+      "oldKind": "Symptom",
+      "oldName": "扫气泄放油铁含量升高",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:ea2cdd59ea5c": {
+      "id": "shipkg:symptom:ea2cdd59ea5c",
+      "kind": "Symptom",
+      "name": "油雾探测器反复报警",
+      "oldKind": "Symptom",
+      "oldName": "油雾探测器反复报警",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:symptom:674bee46af7f": {
+      "id": "shipkg:symptom:674bee46af7f",
+      "kind": "Symptom",
+      "name": "主机高温报警",
+      "oldKind": "Symptom",
+      "oldName": "主机高温报警",
+      "level": "",
+      "delete": false
+    },
+    "shipkg:system:9bf053394931": {
+      "id": "shipkg:system:9bf053394931",
+      "kind": "System",
+      "name": "柴油发电-电力推进系统",
+      "oldKind": "System",
+      "oldName": "柴油发电-电力推进系统",
+      "level": "动力架构",
+      "delete": false
+    },
+    "shipkg:system:5d1dca19fd66": {
+      "id": "shipkg:system:5d1dca19fd66",
+      "kind": "System",
+      "name": "柴油机机械推进系统",
+      "oldKind": "System",
+      "oldName": "柴油机机械推进系统",
+      "level": "动力架构",
+      "delete": false
+    },
+    "shipkg:subsystem:5e357a568055": {
+      "id": "shipkg:subsystem:5e357a568055",
+      "kind": "System",
+      "name": "传动与推进系统",
+      "oldKind": "Subsystem",
+      "oldName": "传动与推进子系统",
+      "level": "功能系统",
+      "delete": false
+    },
+    "shipkg:system:dacba8b43ef4": {
+      "id": "shipkg:system:dacba8b43ef4",
+      "kind": "System",
+      "name": "电力-吊舱推进系统",
+      "oldKind": "System",
+      "oldName": "电力-吊舱推进系统",
+      "level": "动力架构",
+      "delete": false
+    },
+    "shipkg:subsystem:4539c38d0a84": {
+      "id": "shipkg:subsystem:4539c38d0a84",
+      "kind": "System",
+      "name": "电力与控制系统",
+      "oldKind": "Subsystem",
+      "oldName": "电力与控制子系统",
+      "level": "功能系统",
+      "delete": false
+    },
+    "shipkg:subsystem:512427f592b7": {
+      "id": "shipkg:subsystem:512427f592b7",
+      "kind": "System",
+      "name": "冷却与海水系统",
+      "oldKind": "Subsystem",
+      "oldName": "冷却与海水子系统",
+      "level": "功能系统",
+      "delete": false
+    },
+    "shipkg:subsystem:52e7560c8465": {
+      "id": "shipkg:subsystem:52e7560c8465",
+      "kind": "System",
+      "name": "燃油与进排气系统",
+      "oldKind": "Subsystem",
+      "oldName": "燃油与进排气子系统",
+      "level": "功能系统",
+      "delete": false
+    },
+    "shipkg:subsystem:d08eaf16cc46": {
+      "id": "shipkg:subsystem:d08eaf16cc46",
+      "kind": "System",
+      "name": "润滑与轴承系统",
+      "oldKind": "Subsystem",
+      "oldName": "润滑与轴承子系统",
+      "level": "功能系统",
+      "delete": false
+    },
+    "shipkg:vesseltype:3309438ef854": {
+      "id": "shipkg:vesseltype:3309438ef854",
+      "kind": "Vessel",
+      "name": "风电船员转运船",
+      "oldKind": "VesselType",
+      "oldName": "风电船员转运船",
+      "level": "船型",
+      "delete": false
+    },
+    "shipkg:vesseltype:1baadd7689d1": {
+      "id": "shipkg:vesseltype:1baadd7689d1",
+      "kind": "Vessel",
+      "name": "工程调查船",
+      "oldKind": "VesselType",
+      "oldName": "工程调查船",
+      "level": "船型",
+      "delete": false
+    },
+    "shipkg:vesseltype:2973e45389fb": {
+      "id": "shipkg:vesseltype:2973e45389fb",
+      "kind": "Vessel",
+      "name": "滚装货船",
+      "oldKind": "VesselType",
+      "oldName": "滚装货船",
+      "level": "船型",
+      "delete": false
+    },
+    "shipkg:vesseltype:4b3a114ff733": {
+      "id": "shipkg:vesseltype:4b3a114ff733",
+      "kind": "Vessel",
+      "name": "滚装客船",
+      "oldKind": "VesselType",
+      "oldName": "滚装客船",
+      "level": "船型",
+      "delete": false
+    },
+    "shipkg:vessel:e9a9185f76f9": {
+      "id": "shipkg:vessel:e9a9185f76f9",
+      "kind": "Vessel",
+      "name": "滚装客船（SD2013-02）",
+      "oldKind": "Vessel",
+      "oldName": "滚装客船（SD2013-02）",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:808ea34d5772": {
+      "id": "shipkg:vessel:808ea34d5772",
+      "kind": "Vessel",
+      "name": "滚装客船（SD2016-05）",
+      "oldKind": "Vessel",
+      "oldName": "滚装客船（SD2016-05）",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:3fb5a9c954ef": {
+      "id": "shipkg:vessel:3fb5a9c954ef",
+      "kind": "Vessel",
+      "name": "滚装客船（SD2016-08）",
+      "oldKind": "Vessel",
+      "oldName": "滚装客船（SD2016-08）",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vesseltype:3c0f99655948": {
+      "id": "shipkg:vesseltype:3c0f99655948",
+      "kind": "Vessel",
+      "name": "化学品船",
+      "oldKind": "VesselType",
+      "oldName": "化学品船",
+      "level": "船型",
+      "delete": false
+    },
+    "shipkg:vessel:e9dd95119f56": {
+      "id": "shipkg:vessel:e9dd95119f56",
+      "kind": "Vessel",
+      "name": "化学品船（SD2016-09）",
+      "oldKind": "Vessel",
+      "oldName": "化学品船（SD2016-09）",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:205954d6d86e": {
+      "id": "shipkg:vessel:205954d6d86e",
+      "kind": "Vessel",
+      "name": "货船（SD2013-05）",
+      "oldKind": "Vessel",
+      "oldName": "货船（SD2013-05）",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:a81974e78c4c": {
+      "id": "shipkg:vessel:a81974e78c4c",
+      "kind": "Vessel",
+      "name": "货船（SD2016-14）",
+      "oldKind": "Vessel",
+      "oldName": "货船（SD2016-14）",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vesseltype:f28be4be5375": {
+      "id": "shipkg:vesseltype:f28be4be5375",
+      "kind": "Vessel",
+      "name": "普通货船",
+      "oldKind": "VesselType",
+      "oldName": "普通货船",
+      "level": "船型",
+      "delete": false
+    },
+    "shipkg:vesseltype:1831d47f0525": {
+      "id": "shipkg:vesseltype:1831d47f0525",
+      "kind": "Vessel",
+      "name": "双体客船",
+      "oldKind": "VesselType",
+      "oldName": "双体客船",
+      "level": "船型",
+      "delete": false
+    },
+    "shipkg:vessel:32aaec3208ad": {
+      "id": "shipkg:vessel:32aaec3208ad",
+      "kind": "Vessel",
+      "name": "双体客船（SD2013-12）",
+      "oldKind": "Vessel",
+      "oldName": "双体客船（SD2013-12）",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vesseltype:ba47bdb9e2f3": {
+      "id": "shipkg:vesseltype:ba47bdb9e2f3",
+      "kind": "Vessel",
+      "name": "拖网渔船",
+      "oldKind": "VesselType",
+      "oldName": "拖网渔船",
+      "level": "船型",
+      "delete": false
+    },
+    "shipkg:vessel:ea737bd37b3c": {
+      "id": "shipkg:vessel:ea737bd37b3c",
+      "kind": "Vessel",
+      "name": "拖网渔船（SD2016-22）",
+      "oldKind": "Vessel",
+      "oldName": "拖网渔船（SD2016-22）",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vesseltype:bbb73c8d697d": {
+      "id": "shipkg:vesseltype:bbb73c8d697d",
+      "kind": "Vessel",
+      "name": "邮轮",
+      "oldKind": "VesselType",
+      "oldName": "邮轮",
+      "level": "船型",
+      "delete": false
+    },
+    "shipkg:vesseltype:21e082f35a40": {
+      "id": "shipkg:vesseltype:21e082f35a40",
+      "kind": "Vessel",
+      "name": "专用货船",
+      "oldKind": "VesselType",
+      "oldName": "专用货船",
+      "level": "船型",
+      "delete": false
+    },
+    "shipkg:vessel:5d3e7e7eb367": {
+      "id": "shipkg:vessel:5d3e7e7eb367",
+      "kind": "Vessel",
+      "name": "专用货船（SD2013-03）",
+      "oldKind": "Vessel",
+      "oldName": "专用货船（SD2013-03）",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:db8f8f17b349": {
+      "id": "shipkg:vessel:db8f8f17b349",
+      "kind": "Vessel",
+      "name": "Finlandia Seaways",
+      "oldKind": "Vessel",
+      "oldName": "Finlandia Seaways",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:2ee30864aa2d": {
+      "id": "shipkg:vessel:2ee30864aa2d",
+      "kind": "Vessel",
+      "name": "Kommandor Susan",
+      "oldKind": "Vessel",
+      "oldName": "Kommandor Susan",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:2ed46421a269": {
+      "id": "shipkg:vessel:2ed46421a269",
+      "kind": "Vessel",
+      "name": "Pride of Canterbury",
+      "oldKind": "Vessel",
+      "oldName": "Pride of Canterbury",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:3cb736742ac6": {
+      "id": "shipkg:vessel:3cb736742ac6",
+      "kind": "Vessel",
+      "name": "Queen Mary 2",
+      "oldKind": "Vessel",
+      "oldName": "Queen Mary 2",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:5466bfcfc864": {
+      "id": "shipkg:vessel:5466bfcfc864",
+      "kind": "Vessel",
+      "name": "Spirit of Discovery",
+      "oldKind": "Vessel",
+      "oldName": "Spirit of Discovery",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:9f37ba0a1a27": {
+      "id": "shipkg:vessel:9f37ba0a1a27",
+      "kind": "Vessel",
+      "name": "Stena Europe",
+      "oldKind": "Vessel",
+      "oldName": "Stena Europe",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:fa10fa0f80d3": {
+      "id": "shipkg:vessel:fa10fa0f80d3",
+      "kind": "Vessel",
+      "name": "Wight Sky",
+      "oldKind": "Vessel",
+      "oldName": "Wight Sky",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    },
+    "shipkg:vessel:ce08d017f5c9": {
+      "id": "shipkg:vessel:ce08d017f5c9",
+      "kind": "Vessel",
+      "name": "Windcat 8",
+      "oldKind": "Vessel",
+      "oldName": "Windcat 8",
+      "level": "实船/未公开船名记录",
+      "delete": false
+    }
+  }
+}

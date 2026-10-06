@@ -1,0 +1,96 @@
+[
+  {
+    "id": "Q01", "query": "柴油发电机连杆轴瓦提前磨损，随后全船失电失去推进，可能的原因和检查建议是什么？",
+    "case_id": "kommandor_susan_dg1_2025",
+    "gold": [
+      ["非原厂轴承材料粘结较弱", "CONTRIBUTED_TO", "连杆大端轴瓦失效"],
+      ["连杆大端轴瓦失效", "LEADS_TO", "柴油发电机灾难性失效"],
+      ["柴油发电机灾难性失效", "LEADS_TO", "全船失电"]
+    ]
+  },
+  {
+    "id": "Q02", "query": "Kommandor Susan全船失电后为什么锚无法释放，应检查什么？",
+    "case_id": "kommandor_susan_dg1_2025",
+    "gold": [
+      ["全船失电", "LEADS_TO", "电动锚机无法释放锚"],
+      ["核验轴承与大修零件来源", "CHECKS", "装入非原厂轴承"]
+    ]
+  },
+  {
+    "id": "Q03", "query": "Windcat 8机油高温报警后又继续高负荷运行，连杆大端轴瓦发生了什么，应如何处置？",
+    "case_id": "windcat8_port_engine_2017",
+    "gold": [
+      ["机油高温报警", "PRECEDED", "连杆大端轴瓦失效"],
+      ["机油高温报警", "PROMPTS", "停用故障主机并查明报警原因"],
+      ["连杆大端轴瓦失效", "LEADS_TO", "曲轴箱被连杆击穿"]
+    ]
+  },
+  {
+    "id": "Q04", "query": "Wight Sky主机重装后油道残留碎屑，为什么会发生轴承断油和灾难性失效？",
+    "case_id": "wight_sky_me_2017",
+    "gold": [
+      ["油道残留碎屑", "CONTRIBUTED_TO", "主轴承瓦片转位"],
+      ["主轴承瓦片转位", "LEADS_TO", "连杆大端轴承断油"],
+      ["在洁净环境装配并整体安装主机", "ADDRESSES", "油道残留碎屑"]
+    ]
+  },
+  {
+    "id": "Q05", "query": "Finlandia Seaways更换活塞销轴套后，连杆小端出现刻痕和疲劳断裂，应检查和改进什么？",
+    "case_id": "finlandia_seaways_me_2018",
+    "gold": [
+      ["连杆小端轴套更换产生应力集中", "INCREASES_RISK_OF", "连杆小端疲劳断裂"],
+      ["检查连杆小端内孔刻痕与热损伤", "CHECKS", "连杆小端轴套更换产生应力集中"],
+      ["按制造商工艺更换活塞销轴套", "ADDRESSES", "连杆小端轴套更换产生应力集中"]
+    ]
+  },
+  {
+    "id": "Q06", "query": "Wight Sky ME2润滑油压力下降，主轴承瓦片转位后曲柄销为何断油？",
+    "case_id": "wight_sky_me2_2018",
+    "gold": [
+      ["主轴承瓦片转位", "LEADS_TO", "曲轴主轴承与曲柄销断油"],
+      ["曲轴主轴承与曲柄销断油", "LEADS_TO", "主机灾难性失效"],
+      ["润滑油压力下降", "PRECEDED", "主机灾难性失效"]
+    ]
+  },
+  {
+    "id": "Q07", "query": "Wight Sky ME4连杆大端轴承盖配对错装，为什么螺栓会松动断裂？",
+    "case_id": "wight_sky_me4_2018",
+    "gold": [
+      ["连杆大端轴承盖配对错装", "LEADS_TO", "连杆盖配合面微动磨损"],
+      ["连杆盖配合面微动磨损", "LEADS_TO", "连杆盖螺栓松动与断裂"],
+      ["核对连杆与轴承盖配对编号", "CHECKS", "连杆大端轴承盖配对错装"]
+    ]
+  },
+  {
+    "id": "Q08", "query": "Spirit of Discovery在大风浪下螺旋桨出水，推进电机超速跳闸并失去操纵，因果链是什么？",
+    "case_id": "spirit_of_discovery_pods_2023",
+    "gold": [
+      ["大风浪中剧烈纵摇", "LEADS_TO", "螺旋桨出水"],
+      ["螺旋桨出水", "LEADS_TO", "推进电机扭矩骤降"],
+      ["推进电机超速", "TRIGGERS", "推进电机保护跳闸"]
+    ]
+  },
+  {
+    "id": "Q09", "query": "吊舱舱底传感器位置过低使进水停机序列误触发，为什么吊舱转到90度，该怎么改？",
+    "case_id": "spirit_of_discovery_pods_2023",
+    "gold": [
+      ["吊舱舱底传感器位置偏低", "TRIGGERS", "进水停机序列启动"],
+      ["进水停机序列启动", "LEADS_TO", "吊舱转至90度停放"],
+      ["改进吊舱舱底传感器布置", "ADDRESSES", "吊舱舱底传感器位置偏低"]
+    ]
+  },
+  {
+    "id": "Q10", "query": "冷却水泵汽蚀在60%负荷有多少条试验数据？",
+    "dataset_run": "Pump_Cavitation/CW_Pump_Cavitation_60_Load.csv",
+    "expected_rows": 5845
+  },
+  {
+    "id": "Q11", "query": "空气冷却器污损在85%负荷有多少条实验数据？",
+    "dataset_run": "AC_Fouling/AC_Fouling_85_Load.csv",
+    "expected_rows": 5801
+  },
+  {
+    "id": "Q12", "query": "轴带发电机和船舶电网发生耦合振荡，联轴器断裂的直接根因是什么？",
+    "coverage": "related_cases_only"
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "url": "http://127.0.0.1:7474",
+  "database": "shipfaultkg",
+  "read_only": true,
+  "discovery": {
+    "query_api": "http://127.0.0.1:7474/db/{databaseName}/query/v{queryApiMajorVersion}",
+    "bolt_routing": "neo4j://127.0.0.1:7687",
+    "query": "http://127.0.0.1:7474/db/{databaseName}/query/v2",
+    "dbms/cluster": "http://127.0.0.1:7474/dbms/cluster",
+    "db/cluster": "http://127.0.0.1:7474/db/{databaseName}/cluster",
+    "transaction": "http://127.0.0.1:7474/db/{databaseName}/tx",
+    "bolt_direct": "bolt://127.0.0.1:7687",
+    "neo4j_version": "2026.09.0",
+    "neo4j_edition": "enterprise",
+    "auth_config": {
+      "oidc_providers": []
+    },
+    "query_api_versions": [
+      "2.0"
+    ]
+  },
+  "bolt_handshake": "000001ff",
+  "login_checks": [
+    {
+      "attempt": 1,
+      "seconds": 4.828,
+      "rows": [
+        {
+          "active_nodes": 500,
+          "active_relationships": 1201,
+          "active_sensors": 15,
+          "archived_sensors": 55
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "seconds": 0.094,
+      "rows": [
+        {
+          "active_nodes": 500,
+          "active_relationships": 1201,
+          "active_sensors": 15,
+          "archived_sensors": 55
+        }
+      ]
+    },
+    {
+      "attempt": 3,
+      "seconds": 0.078,
+      "rows": [
+        {
+          "active_nodes": 500,
+          "active_relationships": 1201,
+          "active_sensors": 15,
+          "archived_sensors": 55
+        }
+      ]
+    },
+    {
+      "attempt": 4,
+      "seconds": 0.063,
+      "rows": [
+        {
+          "active_nodes": 500,
+          "active_relationships": 1201,
+          "active_sensors": 15,
+          "archived_sensors": 55
+        }
+      ]
+    },
+    {
+      "attempt": 5,
+      "seconds": 0.047,
+      "rows": [
+        {
+          "active_nodes": 500,
+          "active_relationships": 1201,
+          "active_sensors": 15,
+          "archived_sensors": 55
+        }
+      ]
+    }
+  ],
+  "databases": [
+    {
+      "name": "neo4j",
+      "currentStatus": "online",
+      "requestedStatus": "online"
+    },
+    {
+      "name": "shipfaultkg",
+      "currentStatus": "online",
+      "requestedStatus": "online"
+    },
+    {
+      "name": "system",
+      "currentStatus": "online",
+      "requestedStatus": "online"
+    }
+  ],
+  "status": "pass"
+}

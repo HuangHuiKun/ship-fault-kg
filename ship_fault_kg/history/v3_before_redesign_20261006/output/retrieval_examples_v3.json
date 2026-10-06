@@ -1,0 +1,1030 @@
+[
+  {
+    "retrieval": {
+      "query": "主机疑似拉缸，如何补充机理解释和检查建议？",
+      "coverage": "reference_knowledge",
+      "coverage_warning": "匹配到厂家机理/论文观察或报告参考单元，不是本船已证实根因。MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+      "primary_context": "knowledge:liner_scuffing",
+      "focused_reference": true,
+      "entity_alignment": [
+        {
+          "id": "shipkg:faulttype:ce7933999459",
+          "name": "拉缸",
+          "kind": "FaultType",
+          "matched": "拉缸"
+        }
+      ],
+      "dataset_matches": [],
+      "cases": [],
+      "knowledge_units": [
+        {
+          "knowledge_id": "knowledge:liner_scuffing",
+          "name": "拉缸",
+          "score": 1.1259,
+          "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。"
+        },
+        {
+          "knowledge_id": "knowledge:coolant_blockage",
+          "name": "冷却水通道堵塞与热过载",
+          "score": 0.0551,
+          "applicability": "MAN四冲程柴油机闭式淡水冷却；水质要求与添加剂须按具体机型手册确认。"
+        },
+        {
+          "knowledge_id": "knowledge:cooling_cavitation",
+          "name": "冷却回路汽蚀",
+          "score": 0.0533,
+          "applicability": "扫气空气冷却器水侧；该证据描述低流量局部沸腾及管路汽蚀，不等同于已证明所有冷却泵汽蚀由此引起。"
+        }
+      ],
+      "causal_paths": [
+        {
+          "case_id": "knowledge:liner_scuffing",
+          "score": 0.5682,
+          "edge_ids": [
+            "edge:b9d9e0cbe35e93fc",
+            "edge:4fc2671e35298eb4",
+            "edge:321c0ccbe27aa769"
+          ],
+          "chain": "缸套表面抛光或涂抹 → 缸套油膜难以维持 → 缸套黏着拉伤 → 缸套表面硬化需修复"
+        },
+        {
+          "case_id": "knowledge:liner_scuffing",
+          "score": 0.5221,
+          "edge_ids": [
+            "edge:4fc2671e35298eb4",
+            "edge:321c0ccbe27aa769"
+          ],
+          "chain": "缸套油膜难以维持 → 缸套黏着拉伤 → 缸套表面硬化需修复"
+        }
+      ],
+      "facts": [
+        {
+          "id": "edge:b9d9e0cbe35e93fc",
+          "case_id": "knowledge:liner_scuffing",
+          "case_name": "拉缸",
+          "context_id": "knowledge:liner_scuffing",
+          "context_kind": "FaultType",
+          "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+          "subject": "缸套表面抛光或涂抹",
+          "relation": "CONTRIBUTED_TO",
+          "relation_zh": "促成",
+          "object": "缸套油膜难以维持",
+          "certainty": "guidance",
+          "score": 0.4376,
+          "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+          "evidence": "to polishing and, possibly, smearing of the surface. When the liner surface is smeared, the open graphite lamel - las are closed making it difficult to keep a proper oil film. When the oil film is compromised, the cast iron piston rings, which are in contact with the cast iron liner, may generate high friction and seizures that will not recover (liner scuffing). During scuffing, the surface of the lin"
+        },
+        {
+          "id": "edge:4fc2671e35298eb4",
+          "case_id": "knowledge:liner_scuffing",
+          "case_name": "拉缸",
+          "context_id": "knowledge:liner_scuffing",
+          "context_kind": "FaultType",
+          "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+          "subject": "缸套油膜难以维持",
+          "relation": "MAY_CONTRIBUTE_TO",
+          "relation_zh": "可能促成",
+          "object": "缸套黏着拉伤",
+          "certainty": "guidance",
+          "score": 0.4638,
+          "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+          "evidence": "l film. When the oil film is compromised, the cast iron piston rings, which are in contact with the cast iron liner, may generate high friction and seizures that will not recover (liner scuffing). During scuffing, the surface of the liner is hardened and will need machining to recover before new rings can be run in. Cermet is a composite, part-ceramic, part-metal material. It combines the best properties of a ceramic, i.e"
+        },
+        {
+          "id": "edge:321c0ccbe27aa769",
+          "case_id": "knowledge:liner_scuffing",
+          "case_name": "拉缸",
+          "context_id": "knowledge:liner_scuffing",
+          "context_kind": "FaultType",
+          "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+          "subject": "缸套黏着拉伤",
+          "relation": "LEADS_TO",
+          "relation_zh": "导致",
+          "object": "缸套表面硬化需修复",
+          "certainty": "guidance",
+          "score": 0.4535,
+          "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+          "evidence": "ct with the cast iron liner, may generate high friction and seizures that will not recover (liner scuffing). During scuffing, the surface of the liner is hardened and will need machining to recover before new rings can be run in. Cermet is a composite, part-ceramic, part-metal material. It combines the best properties of a ceramic, i.e. high tem - perature-resistance and hardness, with tho"
+        },
+        {
+          "id": "edge:54a6f1f6bd496483",
+          "case_id": "knowledge:liner_scuffing",
+          "case_name": "拉缸",
+          "context_id": "knowledge:liner_scuffing",
+          "context_kind": "FaultType",
+          "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+          "subject": "检查缸套表面与活塞环状态",
+          "relation": "CHECKS",
+          "relation_zh": "检查",
+          "object": "缸套黏着拉伤",
+          "certainty": "derived_action",
+          "score": 0.5064,
+          "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+          "page": "3",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+          "evidence": "is recommended. Otherwise, polishing and smearing of the liner surface may occur and, thereby, in - crease the risk for seizures. Conditioning the liner surface When overhauling after prolonged operation on ULSF, the liner surface may not be in an adequate condition to facilitate the running-in of new piston rings as is the case when oper - ating on high-sulphur fuels. It may therefore b"
+        },
+        {
+          "id": "edge:289600202fa8e15f",
+          "case_id": "knowledge:liner_scuffing",
+          "case_name": "拉缸",
+          "context_id": "knowledge:liner_scuffing",
+          "context_kind": "FaultType",
+          "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+          "subject": "按厂家程序及时降负荷并核查气缸润滑",
+          "relation": "ADDRESSES",
+          "relation_zh": "应对",
+          "object": "缸套黏着拉伤",
+          "certainty": "guidance",
+          "score": 0.4581,
+          "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+          "evidence": "rmet will recover after the incident, provided the situ - ation is timely discovered and action is taken to ensure that it stops (increased lubrication and reduced load). However, the liner will need machining at the next overhaul to ensure proper running-in of the new rings. Fig. 1: The CPR ring pack containing 3 high rings with cermet-coating on all rings for 70 bore and above (SL2016-611/JAP)"
+        },
+        {
+          "id": "edge:4af275aa2b680929",
+          "case_id": "knowledge:liner_scuffing",
+          "case_name": "拉缸",
+          "context_id": "knowledge:liner_scuffing",
+          "context_kind": "FaultType",
+          "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+          "subject": "扫气泄放油铁含量升高",
+          "relation": "INDICATES",
+          "relation_zh": "指示",
+          "object": "活塞环与缸套磨损",
+          "certainty": "guidance",
+          "score": 0.4755,
+          "source_file": "MAN_SL2019_685_ring_coating_wear.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2019-685.pdf",
+          "evidence": "ng, and so forth. The wear of the cermet coating can to some extent be assessed by analysis of drain oil samples. If these have a high iron content, the piston rings and the liners are worn correspondingly. Figure 2: Examples of piston ring packs with cermet coating Alu coating CL-groove Double S-lock Cermet High ring High ring High ring Alu coating CL-groove Double S-lock C"
+        },
+        {
+          "id": "edge:b12fa35e7b3df7cf",
+          "case_id": "knowledge:liner_scuffing",
+          "case_name": "拉缸",
+          "context_id": "knowledge:liner_scuffing",
+          "context_kind": "FaultType",
+          "applicability": "MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。",
+          "subject": "按机型与燃料选择气缸油并检查缸况",
+          "relation": "ADDRESSES",
+          "relation_zh": "应对",
+          "object": "缸套油膜难以维持",
+          "certainty": "guidance",
+          "score": 0.4173,
+          "source_file": "MAN_SL2023_737_cylinder_lubrication.pdf",
+          "page": "1",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2023-737.pdf",
+          "evidence": "The lowered fuel sulphur content and the resulting lowering of the cylinder oil feed rate also stresses the importance of always maintaining an adequate oil film. For engines burning high-sulphur fuel, this Service Letter and SL2023-738/IKCA replace SL2014-587. For MC and MC-C engines with Alpha Lubricator Mk. 1 systems, SL2014-587, enclosure 4 should be used. High-performing engines call"
+        }
+      ],
+      "passages": [
+        {
+          "id": "passage:a55272d35651f336",
+          "title": "MAN SL2023-737 cylinder lubrication update",
+          "source_file": "MAN_SL2023_737_cylinder_lubrication.pdf",
+          "page": "1",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2023-737.pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "Action code: WHEN CONVENIENT Head office (& po. address) MAN Energy Solutions Teglholmsgade 41 2450 Copenhagen SV Denmark Phone: +45 33 85 11 00 Fax: +45 33 85 10 30 info-cph@man-es.com www.man-es.com PrimeServ Teglholmsgade 41 2450 Copenhagen SV Denmark Phone: +45 33 85 11 00 Fax: +45 33 85 10 49 PrimeServ-cph@man-es.com Production Teglholmsgade 35 2450 Copenhagen SV Denmark Phone: +45 33 85 11 00 Fax: +45 33 85 10 17 manufacturing-dk@man-es.com Forwarding & Receiving Teglholmsgade 35 2450 Copenhagen SV Denmark Phone: +45 33 85 11 00 Fax: +45 33 85 10 16 shipping-cph@man-es.com MAN Energy Sol"
+        },
+        {
+          "id": "passage:c26bfecc4e5b9cf6",
+          "title": "MAN SL2016-633 hard-coated piston rings and liner scuffing",
+          "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "Service Letter SL2016-633/JAP Hard-coated Piston Rings for Operation on Ultra-Low Sulphur Fuel. Page 2 of 4 pages Operation on ULSF increases the risk of bore polishing of the liner surface and may lead to smearing of the liner. Under normal conditions, when operating on fuel containing sulphur, the sulphuric acid formed during the combustion process will ensure a controlled amount of corrosion. This corrosion causes the liner surface to sustain adequate level of wear that ensures a high number of open graphite lamellas in the cast iron matrix. When operating on ULSF the level of corrosion is "
+        },
+        {
+          "id": "passage:c41ed5c4251c96fb",
+          "title": "MAN SL2016-633 hard-coated piston rings and liner scuffing",
+          "source_file": "MAN_SL2016_633_piston_rings_scuffing.pdf",
+          "page": "3",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "Service Letter SL2016-633/JAP Hard-coated Piston Rings for Operation on Ultra-Low Sulphur Fuel. Page 3 of 4 pages NEW ENGINES with continued service in a SECA or running on gas/liquefied gas New engines still retain the original wave-cut machining marks on the liner surface. The wave-cut retains oil and provides a reliable operation of the engine on ULSF. The liner wear on clean ULSF is very low, but the wave-cut marks will maintain safe operation for a long time. However, if the wave-cut marks are worn away the liner surface may be - come polished. At the first scheduled overhaul, it is recom"
+        },
+        {
+          "id": "passage:f4d10837ade0bbde",
+          "title": "MAN SL2019-685 condition-based overhaul of cermet piston rings",
+          "source_file": "MAN_SL2019_685_ring_coating_wear.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2019-685.pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "Service Letter SL2019-685/KAMO Condition based overhaul ̶ Cermet-coated piston rings. Page 2 of 3 F A B C D E 0 100 200 300 400 Cermet-coated piston ring Cermet is a composite coating material, which is partly ceramic and partly metallic. The two components combine into a material with high elastic durability from the metallic part and high-temperature and seizure resistance from the ceramic part. This improves the overall wear resistance. Guided overhaul values Service experience shows that piston rings do not wear equally around the circumference, thus the applied cermet coating will also no"
+        }
+      ],
+      "retrieval_strategy": "hybrid",
+      "retrieval_method": "alias/entity matching + character TF-IDF + query synonyms + case-scoped graph reranking (not neural embeddings)"
+    },
+    "llm_prompt": "你是船舶动力系统诊断报告辅助撰写员。输入是已有的标准化诊断线索，下面是检索到的历史案例、厂家机理及论文观察。\n只根据证据写报告；区分本船诊断、历史事故、一般机理和论文观察，不把参考知识直接当作本船已证实故障。\n保持原证据的不确定性；若证据不足，明确写出待检查项。不要编造测量值、页码或维修命令。\n输出字段：可能故障、因果链、建议检查、可参考的运维措施、来源与不确定性。全文控制在450字以内。\n不要把英文证据摘录改写成中文后放在引号里，也不要复述证据全文；只在判断后写证据编号[1]、[2]等。\n\n标准化诊断线索：主机疑似拉缸，如何补充机理解释和检查建议？\n\n检索证据：\n覆盖范围提醒：匹配到厂家机理/论文观察或报告参考单元，不是本船已证实根因。MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。\n[1] 证据单元=拉缸；类型=FaultType；关系=缸套表面抛光或涂抹 促成 缸套油膜难以维持；确定性=guidance；来源=MAN_SL2016_633_piston_rings_scuffing.pdf PDF第2页；适用范围=MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。；证据摘录=to polishing and, possibly, smearing of the surface. When the liner surface is smeared, the open graphite lamel - las are closed making it difficult to keep a proper oil film. When the oil film is compromised, the cast iron piston rings, which are in contact with the cast iron liner, may generate high friction and seizures that will not recover (liner scuffing). During scuffing, the surface of the lin\n[2] 证据单元=拉缸；类型=FaultType；关系=缸套油膜难以维持 可能促成 缸套黏着拉伤；确定性=guidance；来源=MAN_SL2016_633_piston_rings_scuffing.pdf PDF第2页；适用范围=MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。；证据摘录=l film. When the oil film is compromised, the cast iron piston rings, which are in contact with the cast iron liner, may generate high friction and seizures that will not recover (liner scuffing). During scuffing, the surface of the liner is hardened and will need machining to recover before new rings can be run in. Cermet is a composite, part-ceramic, part-metal material. It combines the best properties of a ceramic\n[3] 证据单元=拉缸；类型=FaultType；关系=缸套黏着拉伤 导致 缸套表面硬化需修复；确定性=guidance；来源=MAN_SL2016_633_piston_rings_scuffing.pdf PDF第2页；适用范围=MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。；证据摘录=ct with the cast iron liner, may generate high friction and seizures that will not recover (liner scuffing). During scuffing, the surface of the liner is hardened and will need machining to recover before new rings can be run in. Cermet is a composite, part-ceramic, part-metal material. It combines the best properties of a ceramic, i.e. high tem - perature-resistance and hardness, with tho\n[4] 证据单元=拉缸；类型=FaultType；关系=检查缸套表面与活塞环状态 检查 缸套黏着拉伤；确定性=derived_action；来源=MAN_SL2016_633_piston_rings_scuffing.pdf PDF第3页；适用范围=MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。；证据摘录=is recommended. Otherwise, polishing and smearing of the liner surface may occur and, thereby, in - crease the risk for seizures. Conditioning the liner surface When overhauling after prolonged operation on ULSF, the liner surface may not be in an adequate condition to facilitate the running-in of new piston rings as is the case when oper - ating on high-sulphur fuels. It may therefore b\n[5] 证据单元=拉缸；类型=FaultType；关系=按厂家程序及时降负荷并核查气缸润滑 应对 缸套黏着拉伤；确定性=guidance；来源=MAN_SL2016_633_piston_rings_scuffing.pdf PDF第2页；适用范围=MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。；证据摘录=rmet will recover after the incident, provided the situ - ation is timely discovered and action is taken to ensure that it stops (increased lubrication and reduced load). However, the liner will need machining at the next overhaul to ensure proper running-in of the new rings. Fig. 1: The CPR ring pack containing 3 high rings with cermet-coating on all rings for 70 bore and above (SL2016-611/JAP)\n[6] 证据单元=拉缸；类型=FaultType；关系=扫气泄放油铁含量升高 指示 活塞环与缸套磨损；确定性=guidance；来源=MAN_SL2019_685_ring_coating_wear.pdf PDF第2页；适用范围=MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。；证据摘录=ng, and so forth. The wear of the cermet coating can to some extent be assessed by analysis of drain oil samples. If these have a high iron content, the piston rings and the liners are worn correspondingly. Figure 2: Examples of piston ring packs with cermet coating Alu coating CL-groove Double S-lock Cermet High ring High ring High ring Alu coating CL-groove Double S-lock C\n[7] 证据单元=拉缸；类型=FaultType；关系=按机型与燃料选择气缸油并检查缸况 应对 缸套油膜难以维持；确定性=guidance；来源=MAN_SL2023_737_cylinder_lubrication.pdf PDF第1页；适用范围=MAN B&W两冲程柴油机缸套/活塞环；2016通函用于机理，润滑油选择须查2023通函及本机手册。不能把活塞咬死一概等同于已证实拉缸。；证据摘录=The lowered fuel sulphur content and the resulting lowering of the cylinder oil feed rate also stresses the importance of always maintaining an adequate oil film. For engines burning high-sulphur fuel, this Service Letter and SL2023-738/IKCA replace SL2014-587. For MC and MC-C engines with Alpha Lubricator Mk. 1 systems, SL2014-587, enclosure 4 should be used. High-performing engines call\n\n同一证据单元内部的因果路径（不得跨事故/机理单元拼接）：\n- knowledge:liner_scuffing: 缸套表面抛光或涂抹 → 缸套油膜难以维持 → 缸套黏着拉伤 → 缸套表面硬化需修复\n- knowledge:liner_scuffing: 缸套油膜难以维持 → 缸套黏着拉伤 → 缸套表面硬化需修复\n\n请先说明这是参考案例，再给出需要本船数据验证的诊断假设。每项关键判断引用 [编号]；不要重复文件名和证据原文。"
+  },
+  {
+    "retrieval": {
+      "query": "烧瓦与轴承咬死可能是什么原因？",
+      "coverage": "reference_knowledge",
+      "coverage_warning": "匹配到厂家机理/论文观察或报告参考单元，不是本船已证实根因。主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。",
+      "primary_context": "knowledge:bearing_seizure",
+      "focused_reference": true,
+      "entity_alignment": [
+        {
+          "id": "shipkg:faulttype:3353dce7f4ad",
+          "name": "烧瓦与轴承咬死",
+          "kind": "FaultType",
+          "matched": "烧瓦与轴承咬死"
+        }
+      ],
+      "dataset_matches": [],
+      "cases": [
+        {
+          "case_id": "sd2013_05_missing_filter",
+          "name": "货船滑油滤芯漏装与主机抱轴",
+          "score": 0.0936
+        },
+        {
+          "case_id": "wight_sky_me2_2018",
+          "name": "Wight Sky ME2主轴承断油失效",
+          "score": 0.0769
+        }
+      ],
+      "knowledge_units": [
+        {
+          "knowledge_id": "knowledge:bearing_seizure",
+          "name": "烧瓦与轴承咬死",
+          "score": 1.4445,
+          "applicability": "主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。"
+        }
+      ],
+      "causal_paths": [
+        {
+          "case_id": "knowledge:bearing_seizure",
+          "score": 0.9227,
+          "edge_ids": [
+            "edge:dc599b8981d72f53",
+            "edge:88e048fbad4564a1"
+          ],
+          "chain": "异物经滑油进入主轴承 → 主轴承咬死 → 曲轴与机座需大修"
+        },
+        {
+          "case_id": "knowledge:bearing_seizure",
+          "score": 0.8998,
+          "edge_ids": [
+            "edge:7313eba4e604d89f",
+            "edge:88e048fbad4564a1"
+          ],
+          "chain": "未响应轴承磨损报警与减速请求 → 主轴承咬死 → 曲轴与机座需大修"
+        }
+      ],
+      "facts": [
+        {
+          "id": "edge:dc599b8981d72f53",
+          "case_id": "knowledge:bearing_seizure",
+          "case_name": "烧瓦与轴承咬死",
+          "context_id": "knowledge:bearing_seizure",
+          "context_kind": "FaultType",
+          "applicability": "主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。",
+          "subject": "异物经滑油进入主轴承",
+          "relation": "LEADS_TO",
+          "relation_zh": "导致",
+          "object": "主轴承咬死",
+          "certainty": "guidance",
+          "score": 0.7134,
+          "source_file": "MAN_SL2013_569_bearing_wear_monitoring.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2013-569.pdf",
+          "evidence": "C A main bearing damage was recently experienced on an MAN B&W S-MC-C main engine of medium bore size. The damage was caused by a sudden ingress of foreign matter into the bearing via the lubricating oil system, and it devel - oped rapidly into a bearing seizure. The engine was equipped with a bearing wear monitoring (BWM) system as recommended by MAN Diesel & Turbo (MDT). However, for rea"
+        },
+        {
+          "id": "edge:88e048fbad4564a1",
+          "case_id": "knowledge:bearing_seizure",
+          "case_name": "烧瓦与轴承咬死",
+          "context_id": "knowledge:bearing_seizure",
+          "context_kind": "FaultType",
+          "applicability": "主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。",
+          "subject": "主轴承咬死",
+          "relation": "LEADS_TO",
+          "relation_zh": "导致",
+          "object": "曲轴与机座需大修",
+          "certainty": "guidance",
+          "score": 0.7165,
+          "source_file": "MAN_SL2013_569_bearing_wear_monitoring.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2013-569.pdf",
+          "evidence": "ist detec - tor (OMD) alarm set off and requested slow-down. At this stage, the bearing damage had evolved into a situation where comprehensive repair of the crankshaft and bearing housing (bedplate) was called for. Fig. 1: Damaged bearing shell A subsequent analysis of the signals stored in the BWM system log provided detailed information about the course of the bearing failure. It has been established tha"
+        },
+        {
+          "id": "edge:b8ac6af4bce1c7b7",
+          "case_id": "knowledge:bearing_seizure",
+          "case_name": "烧瓦与轴承咬死",
+          "context_id": "knowledge:bearing_seizure",
+          "context_kind": "FaultType",
+          "applicability": "主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。",
+          "subject": "核验轴承磨损监测快速磨损功能",
+          "relation": "CHECKS",
+          "relation_zh": "检查",
+          "object": "主轴承咬死",
+          "certainty": "guidance",
+          "score": 0.6923,
+          "source_file": "MAN_SL2013_569_bearing_wear_monitoring.pdf",
+          "page": "4",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2013-569.pdf",
+          "evidence": "2013-569/HWC Bearing Wear Monitoring. Page 4 of 4 Encl. 2a of 2 Bearing Wear Monitoring Procedures for Checking for Update Status Ability to detect rapidly developing bearing damage Kongsberg Maritime The ability to detect rapid wear can be checked in the fol - lowing manner: From the Navigator panel “Bearing wear” is selected. If a screen named “Rapid wear” appears, the system is ca- pable of early detectio"
+        },
+        {
+          "id": "edge:55618ad87e7f249f",
+          "case_id": "knowledge:bearing_seizure",
+          "case_name": "烧瓦与轴承咬死",
+          "context_id": "knowledge:bearing_seizure",
+          "context_kind": "FaultType",
+          "applicability": "主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。",
+          "subject": "响应轴承磨损报警并按安全程序降负荷",
+          "relation": "ADDRESSES",
+          "relation_zh": "应对",
+          "object": "未响应轴承磨损报警与减速请求",
+          "certainty": "guidance",
+          "score": 0.6266,
+          "source_file": "MAN_SL2013_569_bearing_wear_monitoring.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2013-569.pdf",
+          "evidence": "are capable of early detection of rapidly developing damage. Note that this update introduces connection of the BWM system to the automatic slow-down/load reduction func - tion of the main engine safety system. Questions regarding this service letter can be directed to our Operation department in Copenhagen (email: leo@mandieselturbo.com). -10 0 10 Minutes after damage initiation Damage init"
+        },
+        {
+          "id": "edge:7313eba4e604d89f",
+          "case_id": "knowledge:bearing_seizure",
+          "case_name": "烧瓦与轴承咬死",
+          "context_id": "knowledge:bearing_seizure",
+          "context_kind": "FaultType",
+          "applicability": "主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。",
+          "subject": "未响应轴承磨损报警与减速请求",
+          "relation": "WORSENS",
+          "relation_zh": "加重后果",
+          "object": "主轴承咬死",
+          "certainty": "guidance",
+          "score": 0.6914,
+          "source_file": "MAN_SL2013_569_bearing_wear_monitoring.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2013-569.pdf",
+          "evidence": "g wear monitoring (BWM) system as recommended by MAN Diesel & Turbo (MDT). However, for reasons not relevant in this context, the crew did not react to the alarm and slow-down signals from the BWM system. Operation of the engine continued until the oil mist detec - tor (OMD) alarm set off and requested slow-down. At this stage, the bearing damage had evolved into a situation where compreh"
+        },
+        {
+          "id": "edge:2683a3174de26882",
+          "case_id": "knowledge:bearing_seizure",
+          "case_name": "烧瓦与轴承咬死",
+          "context_id": "knowledge:bearing_seizure",
+          "context_kind": "FaultType",
+          "applicability": "主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。",
+          "subject": "油雾探测器反复报警",
+          "relation": "ASSOCIATED_WITH",
+          "relation_zh": "相关",
+          "object": "主轴承咬死",
+          "certainty": "guidance",
+          "score": 0.687,
+          "source_file": "MAN_SL2013_569_bearing_wear_monitoring.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2013-569.pdf",
+          "evidence": "BWM system. • 58 minutes passed from the initial stage of the seizure until the alarm set off and slow-down was requested by the OMD system. The BWM specification issued by MDT was updated in 2011 to enable early detection of a sudden and rapidly Fig. 2: Sequence of alarms developing damage like the one mentioned above. The system fitted to the engine in question was"
+        }
+      ],
+      "passages": [
+        {
+          "id": "passage:177e3c3d938cdca0",
+          "title": "MAN SL2013-569 bearing wear monitoring and bearing seizure",
+          "source_file": "MAN_SL2013_569_bearing_wear_monitoring.pdf",
+          "page": "4",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2013-569.pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "Service Letter SL2013-569/HWC Bearing Wear Monitoring. Page 4 of 4 Encl. 2a of 2 Bearing Wear Monitoring Procedures for Checking for Update Status Ability to detect rapidly developing bearing damage Kongsberg Maritime The ability to detect rapid wear can be checked in the fol - lowing manner: From the Navigator panel “Bearing wear” is selected. If a screen named “Rapid wear” appears, the system is ca- pable of early detection of rapidly developing damage and no update is required. AMOT The software versions below indicate whether the “rapidly developing bearing damage” detection is implemented"
+        },
+        {
+          "id": "passage:b9d527b4da119910",
+          "title": "MAN SL2013-569 bearing wear monitoring and bearing seizure",
+          "source_file": "MAN_SL2013_569_bearing_wear_monitoring.pdf",
+          "page": "2",
+          "source_url": "https://www.man-es.com/docs/default-source/service-letters/sl2013-569.pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "Bearing Wear Monitoring. Page 2 of 3 Service Letter SL2013-569/HWC A main bearing damage was recently experienced on an MAN B&W S-MC-C main engine of medium bore size. The damage was caused by a sudden ingress of foreign matter into the bearing via the lubricating oil system, and it devel - oped rapidly into a bearing seizure. The engine was equipped with a bearing wear monitoring (BWM) system as recommended by MAN Diesel & Turbo (MDT). However, for reasons not relevant in this context, the crew did not react to the alarm and slow-down signals from the BWM system. Operation of the engine conti"
+        },
+        {
+          "id": "passage:fcac5f2794d92157",
+          "title": "船机帮小型柴油机曲柄连杆机构常见故障分析与排除",
+          "source_file": "marine_diesel_RAG_corpus_All_data.zip",
+          "page": "",
+          "source_url": "https://zenodo.org/records/20258638",
+          "kind": "corpus_article",
+          "score": 0.0699,
+          "excerpt": "# 导读 柴油机曲柄连杆机构是柴油机的“心脏”部件，其技术状态的好坏直接影响整机的运行状态，本文对汽缸垫烧坏、轴瓦烧损、曲轴主轴瓦异响故障产生的原因及排除方法进行了分析。 # 一 汽缸垫烧坏 当汽缸垫烧损时，压缩空气就从烧损处挤入水道进到水箱，这时水箱内就会产生一种“咕噜、咕噜”的翻水声。 在发动机冷却水温低于90℃时，水箱中有气泡冒出，并有大量热气从水箱口散发出来，随着发动机温度的升高，散发出来的热气增多。 若将水箱溢水管堵住，加水至盖口处，则气泡上冒现象更是明显，严重时如同沸腾一样。 因此，在检查缸垫是否烧坏时，不必拆卸汽缸盖，只要在水箱加水口旁听一听，或打开水箱盖(应注意防止烫伤)看一看就知道了。 但要注意，有时因水温过高出现水箱开锅现象，切勿误认为是缸垫烧坏。 ## (1)引起汽缸垫烧坏的原因主要有： ①维修装配中，汽缸盖螺栓的上紧顺序和拧紧力矩是有严格要求的，如果不按要求上紧缸盖螺栓，会导致发动机工作时缸盖螺母松动，汽缸盖与缸体密合不严，燃烧气体冲出烧坏汽缸垫。 ②使用维修中的不当操作，会造成汽缸盖与机体变形，导致汽缸盖与缸体接合面不能很好地结合，使汽缸漏气烧损汽缸垫。 ③换缸垫时要注意检查铜皮面的平整性，有皱纹或凹坑时，安装后容易漏气。 ④安装汽缸垫时，要检查与汽缸垫接触的缸盖、缸体表面，要干净无杂质，各汽缸套高出机体面的高度要一致，以免因漏气烧损汽缸垫。 ## (2)"
+        },
+        {
+          "id": "passage:7044ecbabeea46d8",
+          "title": "船机帮浅谈船用柴油机曲轴轴承损坏的原因与对策",
+          "source_file": "marine_diesel_RAG_corpus_All_data.zip",
+          "page": "",
+          "source_url": "https://zenodo.org/records/20258638",
+          "kind": "corpus_article",
+          "score": 0.0616,
+          "excerpt": "# 导读 柴油机装船使用，长期在大海恶劣的环境中工作，难免会出现各种故障，轻者造成零部件损坏，增加了船舶营运成本；重者机损危及船舶和人生安全，带来巨大的经济损失。 在一台柴油机中，柴油机曲轴的价值约占整台机的三分之一，曲轴在轴承保护下工作，如果管理不善，可能引发故障，修理更换困难且修理周期长。 笔者例举了一些发生在船舶柴油机曲轴轴承损坏的案例，对柴油机曲轴的轴承损坏原因以及如何降低其损坏的问题做初浅的分析探讨，供轮机管理者借鉴参考。 # 一、船舶柴油机曲轴轴承损坏案例 2008年，某轮(柴油机型号B&W 8TLH)，事发时发现滑油压力有些变化，声音有些异常，清洗滑油滤器，发现有合金脱落物，后经彻底检查发现8道连杆轴瓦全部龟裂，曲柄销拉毛。 2009年，某轮(柴油机型号:8PSHTB -26D)第2号发电机第7道轴瓦使用一段时间后就发现有烧熔现象。 2010年，某轮(柴油机型号6270C)事发时柴油机声音异常，转速下降停车。 经查，共有4道主轴承烧毁,抱死曲轴，导致整根曲轴报废。 # 二、轴承的损坏形式及原因分析 通过以上案例不难看到，曲轴轴承损坏主要是轴瓦上的耐磨合金的损坏，其主要损坏形式有:过度磨损、裂纹和剥落、腐蚀和烧熔。 ## 1、轴瓦的过度磨损及其原因分析 柴油机运转一段时间后使主轴承下瓦、十字头轴承下瓦和曲柄销轴承上瓦产生过度磨损。 轴瓦过度磨损将使轴承间隙增大，油膜破坏"
+        }
+      ],
+      "retrieval_strategy": "hybrid",
+      "retrieval_method": "alias/entity matching + character TF-IDF + query synonyms + case-scoped graph reranking (not neural embeddings)"
+    },
+    "llm_prompt": "你是船舶动力系统诊断报告辅助撰写员。输入是已有的标准化诊断线索，下面是检索到的历史案例、厂家机理及论文观察。\n只根据证据写报告；区分本船诊断、历史事故、一般机理和论文观察，不把参考知识直接当作本船已证实故障。\n保持原证据的不确定性；若证据不足，明确写出待检查项。不要编造测量值、页码或维修命令。\n输出字段：可能故障、因果链、建议检查、可参考的运维措施、来源与不确定性。全文控制在450字以内。\n不要把英文证据摘录改写成中文后放在引号里，也不要复述证据全文；只在判断后写证据编号[1]、[2]等。\n\n标准化诊断线索：烧瓦与轴承咬死可能是什么原因？\n\n检索证据：\n覆盖范围提醒：匹配到厂家机理/论文观察或报告参考单元，不是本船已证实根因。主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。\n[1] 证据单元=烧瓦与轴承咬死；类型=FaultType；关系=异物经滑油进入主轴承 导致 主轴承咬死；确定性=guidance；来源=MAN_SL2013_569_bearing_wear_monitoring.pdf PDF第2页；适用范围=主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。；证据摘录=C A main bearing damage was recently experienced on an MAN B&W S-MC-C main engine of medium bore size. The damage was caused by a sudden ingress of foreign matter into the bearing via the lubricating oil system, and it devel - oped rapidly into a bearing seizure. The engine was equipped with a bearing wear monitoring (BWM) system as recommended by MAN Diesel & Turbo (MDT). However, for rea\n[2] 证据单元=烧瓦与轴承咬死；类型=FaultType；关系=主轴承咬死 导致 曲轴与机座需大修；确定性=guidance；来源=MAN_SL2013_569_bearing_wear_monitoring.pdf PDF第2页；适用范围=主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。；证据摘录=ist detec - tor (OMD) alarm set off and requested slow-down. At this stage, the bearing damage had evolved into a situation where comprehensive repair of the crankshaft and bearing housing (bedplate) was called for. Fig. 1: Damaged bearing shell A subsequent analysis of the signals stored in the BWM system log provided detailed information about the course of the bearing failure. It has been established tha\n[3] 证据单元=烧瓦与轴承咬死；类型=FaultType；关系=核验轴承磨损监测快速磨损功能 检查 主轴承咬死；确定性=guidance；来源=MAN_SL2013_569_bearing_wear_monitoring.pdf PDF第4页；适用范围=主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。；证据摘录=2013-569/HWC Bearing Wear Monitoring. Page 4 of 4 Encl. 2a of 2 Bearing Wear Monitoring Procedures for Checking for Update Status Ability to detect rapidly developing bearing damage Kongsberg Maritime The ability to detect rapid wear can be checked in the fol - lowing manner: From the Navigator panel “Bearing wear” is selected. If a screen named “Rapid wear” appears, the system is ca- pable of early detectio\n[4] 证据单元=烧瓦与轴承咬死；类型=FaultType；关系=响应轴承磨损报警并按安全程序降负荷 应对 未响应轴承磨损报警与减速请求；确定性=guidance；来源=MAN_SL2013_569_bearing_wear_monitoring.pdf PDF第2页；适用范围=主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。；证据摘录=are capable of early detection of rapidly developing damage. Note that this update introduces connection of the BWM system to the automatic slow-down/load reduction func - tion of the main engine safety system. Questions regarding this service letter can be directed to our Operation department in Copenhagen (email: leo@mandieselturbo.com). -10 0 10 Minutes after damage initiation Damage init\n[5] 证据单元=烧瓦与轴承咬死；类型=FaultType；关系=未响应轴承磨损报警与减速请求 加重后果 主轴承咬死；确定性=guidance；来源=MAN_SL2013_569_bearing_wear_monitoring.pdf PDF第2页；适用范围=主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。；证据摘录=g wear monitoring (BWM) system as recommended by MAN Diesel & Turbo (MDT). However, for reasons not relevant in this context, the crew did not react to the alarm and slow-down signals from the BWM system. Operation of the engine continued until the oil mist detec - tor (OMD) alarm set off and requested slow-down. At this stage, the bearing damage had evolved into a situation where compreh\n[6] 证据单元=烧瓦与轴承咬死；类型=FaultType；关系=油雾探测器反复报警 相关 主轴承咬死；确定性=guidance；来源=MAN_SL2013_569_bearing_wear_monitoring.pdf PDF第2页；适用范围=主机滑动轴承；烧瓦是检索用的工程统称，不能把全部轴瓦疲劳、瓦片转位或轴承失效直接标成已证实烧瓦。；证据摘录=BWM system. • 58 minutes passed from the initial stage of the seizure until the alarm set off and slow-down was requested by the OMD system. The BWM specification issued by MDT was updated in 2011 to enable early detection of a sudden and rapidly Fig. 2: Sequence of alarms developing damage like the one mentioned above. The system fitted to the engine in question was\n\n同一证据单元内部的因果路径（不得跨事故/机理单元拼接）：\n- knowledge:bearing_seizure: 异物经滑油进入主轴承 → 主轴承咬死 → 曲轴与机座需大修\n- knowledge:bearing_seizure: 未响应轴承磨损报警与减速请求 → 主轴承咬死 → 曲轴与机座需大修\n\n请先说明这是参考案例，再给出需要本船数据验证的诊断假设。每项关键判断引用 [编号]；不要重复文件名和证据原文。"
+  },
+  {
+    "retrieval": {
+      "query": "轴带发电机对中异常与振动损伤如何解释？",
+      "coverage": "reference_knowledge",
+      "coverage_warning": "匹配到厂家机理/论文观察或报告参考单元，不是本船已证实根因。通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。",
+      "primary_context": "knowledge:shaft_generator_alignment",
+      "focused_reference": true,
+      "entity_alignment": [
+        {
+          "id": "shipkg:faulttype:6456485708ad",
+          "name": "轴带发电机对中异常与振动损伤",
+          "kind": "FaultType",
+          "matched": "轴带发电机对中异常与振动损伤"
+        }
+      ],
+      "dataset_matches": [],
+      "cases": [],
+      "knowledge_units": [
+        {
+          "knowledge_id": "knowledge:shaft_generator_alignment",
+          "name": "轴带发电机对中异常与振动损伤",
+          "score": 1.7031,
+          "applicability": "通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。"
+        },
+        {
+          "knowledge_id": "knowledge:shaft_torsional",
+          "name": "轴系扭振与联轴器过载风险",
+          "score": 0.106,
+          "applicability": "内燃机-发电机传动链一般机理；证据支持扭振导致失效风险及电气故障转矩冲击，但未建立某大型船主轴联轴器断裂的已证实事故链。"
+        },
+        {
+          "knowledge_id": "knowledge:generator_bearing_wear",
+          "name": "发电机轴承机械磨损",
+          "score": 0.0693,
+          "applicability": "有滚动轴承的发电机或轴带发电机构型；滚动轴承与主机滑动轴瓦的失效机理不得混用。"
+        }
+      ],
+      "causal_paths": [
+        {
+          "case_id": "knowledge:shaft_generator_alignment",
+          "score": 1.392,
+          "edge_ids": [
+            "edge:0d5490443acb16ee",
+            "edge:61750d355e3fed64"
+          ],
+          "chain": "风浪下船体变形 → 轴带发电机与齿轮箱对中失准 → 轴带发电机振动损伤"
+        }
+      ],
+      "facts": [
+        {
+          "id": "edge:0d5490443acb16ee",
+          "case_id": "knowledge:shaft_generator_alignment",
+          "case_name": "轴带发电机对中异常与振动损伤",
+          "context_id": "knowledge:shaft_generator_alignment",
+          "context_kind": "FaultType",
+          "applicability": "通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。",
+          "subject": "风浪下船体变形",
+          "relation": "LEADS_TO",
+          "relation_zh": "导致",
+          "object": "轴带发电机与齿轮箱对中失准",
+          "certainty": "guidance",
+          "score": 0.9672,
+          "source_file": "STAMFORD_AGN039_marine_shaft_generators.pdf",
+          "page": "2",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-039_C-Marine-Shaft-Generators.pdf",
+          "evidence": "ator damaging vibration when the main engine is running at slow speeds and also when the ship is in storm conditions, because the ship’s hull flexes and so the gearbox to generator alignment becomes distorted. An experienced ship design engineer will know of these potential problems and will ensure that the coupling between gearbox and the shaft generator is a high quality, d"
+        },
+        {
+          "id": "edge:61750d355e3fed64",
+          "case_id": "knowledge:shaft_generator_alignment",
+          "case_name": "轴带发电机对中异常与振动损伤",
+          "context_id": "knowledge:shaft_generator_alignment",
+          "context_kind": "FaultType",
+          "applicability": "通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。",
+          "subject": "轴带发电机与齿轮箱对中失准",
+          "relation": "MAY_CONTRIBUTE_TO",
+          "relation_zh": "可能促成",
+          "object": "轴带发电机振动损伤",
+          "certainty": "guidance",
+          "score": 1.0174,
+          "source_file": "STAMFORD_AGN039_marine_shaft_generators.pdf",
+          "page": "2",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-039_C-Marine-Shaft-Generators.pdf",
+          "evidence": "ansion of the hot gearbox, which may well expand and lift the shaft centre line by < 1 mm. If the alignment is not accurate, then excessive vibration is likely to damage the shaft generator. There can also be lots of generator damaging vibration when the main engine is running at slow speeds and also when the ship is in storm conditions, because the ship’s hull flexes and so the gearbox to genera"
+        },
+        {
+          "id": "edge:75c0835b3c79a209",
+          "case_id": "knowledge:shaft_generator_alignment",
+          "case_name": "轴带发电机对中异常与振动损伤",
+          "context_id": "knowledge:shaft_generator_alignment",
+          "context_kind": "FaultType",
+          "applicability": "通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。",
+          "subject": "核查热态对中和风浪工况下振动",
+          "relation": "CHECKS",
+          "relation_zh": "检查",
+          "object": "轴带发电机与齿轮箱对中失准",
+          "certainty": "derived_action",
+          "score": 0.914,
+          "source_file": "STAMFORD_AGN039_marine_shaft_generators.pdf",
+          "page": "2",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-039_C-Marine-Shaft-Generators.pdf",
+          "evidence": "are to allow for the thermal expansion of the hot gearbox, which may well expand and lift the shaft centre line by < 1 mm. If the alignment is not accurate, then excessive vibration is likely to damage the shaft generator. There can also be lots of generator damaging vibration when the main engine is running at slow speeds and also when the ship is in storm conditions, because the s"
+        },
+        {
+          "id": "edge:708d20013395c142",
+          "case_id": "knowledge:shaft_generator_alignment",
+          "case_name": "轴带发电机对中异常与振动损伤",
+          "context_id": "knowledge:shaft_generator_alignment",
+          "context_kind": "FaultType",
+          "applicability": "通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。",
+          "subject": "按构型复核联轴器补偿与减振能力",
+          "relation": "ADDRESSES",
+          "relation_zh": "应对",
+          "object": "轴带发电机与齿轮箱对中失准",
+          "certainty": "guidance",
+          "score": 0.9287,
+          "source_file": "STAMFORD_AGN039_marine_shaft_generators.pdf",
+          "page": "2",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-039_C-Marine-Shaft-Generators.pdf",
+          "evidence": "and will ensure that the coupling between gearbox and the shaft generator is a high quality, designed for purpose unit, which can absorb misalignment, and also torsional vibrations to help the generator remain reliable. POWER TAKE OUT (PTO) / POWER TAKE IN (PTI) / POWER TAKE HOME (PTH) Marine shaft generators are often required to operate in a multi-function role. They could o"
+        },
+        {
+          "id": "edge:7c4eca2a004acf93",
+          "case_id": "knowledge:shaft_generator_alignment",
+          "case_name": "轴带发电机对中异常与振动损伤",
+          "context_id": "knowledge:shaft_generator_alignment",
+          "context_kind": "FaultType",
+          "applicability": "通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。",
+          "subject": "齿轮箱热膨胀改变轴线位置",
+          "relation": "ASSOCIATED_WITH",
+          "relation_zh": "相关",
+          "object": "轴带发电机与齿轮箱对中失准",
+          "certainty": "guidance",
+          "score": 0.9143,
+          "source_file": "STAMFORD_AGN039_marine_shaft_generators.pdf",
+          "page": "2",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-039_C-Marine-Shaft-Generators.pdf",
+          "evidence": "When the shaft generator is aligned with the gearbox drive shaft, the ships design engineer must take great care to allow for the thermal expansion of the hot gearbox, which may well expand and lift the shaft centre line by < 1 mm. If the alignment is not accurate, then excessive vibration is likely to damage the shaft generator. There can also be lots of generator damaging vibration when the"
+        }
+      ],
+      "passages": [
+        {
+          "id": "passage:80327095cb2230a3",
+          "title": "STAMFORD AGN039 marine shaft generators",
+          "source_file": "STAMFORD_AGN039_marine_shaft_generators.pdf",
+          "page": "2",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-039_C-Marine-Shaft-Generators.pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "AGN 039 ISSUE C/2/10 weight of the coupling half that is to be fitted to the generator shaft. If this coupling half is too heavy it could stress the shaft generator’s bearings. With the shaft generator spinning for many hours at many different speeds and for much of this time unexcited, the ships maintenance schedule should include clear guidance about bearing regreasing instructions. It is recommended that the shaft generator is fitted with re- greasable bearings, which should be specified at time of order. When the shaft generator is aligned with the gearbox drive shaft, the ships design eng"
+        },
+        {
+          "id": "passage:18d8839eb1f5d5b4",
+          "title": "船机帮某轮轴带发电机跳闸的故障处理与思考",
+          "source_file": "marine_diesel_RAG_corpus_All_data.zip",
+          "page": "",
+          "source_url": "https://zenodo.org/records/20258638",
+          "kind": "corpus_article",
+          "score": 0.0767,
+          "excerpt": "# 导读 随着近年来国家推出“碳达峰、碳中和”战略，节能减排成为了现代船舶的必然趋势。 轴带发电机，利用主机推进的余能进行发电，在现代船舶中应用越来越广泛。 因此，对轴带发电机的管理、维护与故障处理能力就显得尤为重要。 从 20 世纪 70 年代轴带发电机系统的初步装船，经历几十年的发展至今，轴带发电机以其节能、稳定可靠得到了广泛应用。 目前，轴带发电装置主要有变矩桨轴带发电机、定矩桨定速轴带发电机、定矩桨恒频轴带发电机三种形式，如图1所示。 图 1 轴带发电机主要形式 变矩桨船舶主机转速恒定，轴带发电机输出电能频率亦恒定； 定矩桨船舶主机转速会受海况及油门影响，主机转速存在一定波动，为使轴带发电机输出电能频率恒定，定矩桨定速轴带发电机是在主机推进轴与轴带发电机之间装有机械控制的定速装置，当主机推进轴转速发生变化时，轴带发电机的转速基本保持恒定； 定矩桨恒频轴带发电机是利用大功率晶闸管变流技术，对轴带发电机输出电能进行整流和逆变来实现恒频控制。 # 一、某轮轴带发电装置简介 本轮轴带发电装置采用定矩桨定速轴带发电形式，安装于主机中间轴上，包括 OMEGA离合器和发电机两部分。 OMEGA 离合器作用在于，通过增速齿轮和离合器，使轴带发电机转速保持恒定，不受主机转速影响，来实现发电机频率恒定作用。 轴带发电机具体参数如表1所示。 ## 1）轴带发电机工作背景 当船舶离泊主机定速后，且"
+        },
+        {
+          "id": "passage:d55b36d882e461ef",
+          "title": "船机帮船舶柴油发电机组振动大故障分析",
+          "source_file": "marine_diesel_RAG_corpus_All_data.zip",
+          "page": "",
+          "source_url": "https://zenodo.org/records/20258638",
+          "kind": "corpus_article",
+          "score": 0.0511,
+          "excerpt": "# 导读 船舶设备振动检测在国外起步较早，我国近 20 年也逐步重视该技术。 近年来，中国船舶行业发展迅猛，随着首艘国产航母“山东舰”服役和大型邮轮“爱达.魔都号”首航，标志着中国造船业综合竞争力已跃居世界首位，成为全球第一大造船国，随之而来船舶振动的研究也正在走深走细，客户也越来越重视船舶设备的振动指标。 下面以某船柴油发电机组振动问题进行分析，总结规律。 ## 一、问题描述 某船列装有 4 台柴油发电机组（原动机为 TBD604BL6型柴油机），柴油机与发电机采用弹性联轴器连接，安装在公共机座上，机座与船体间安装有 10 个 Z-4 圆锥形减震器。 该船 2023 年进我厂二级修理，修前勘验时测量振动情况，除了 2# 发电机组正常外，其余 3 台发电机组振动烈度均超标（1# 机组最大振动烈度 57.94 mm/s，D级；3# 机组最大振动烈度 70.9 mm/s，D 级；4# 机组最大振动烈度 55.22 mm/s，D 级），且振动烈度最大的位置均在增压器。 修理过程中，工厂主要制定如下技术措施：更换公共机座下 10 个减震器；更换联轴器弹性橡胶；更换柴油机硅油减震器及重新对机组对中检查等。 2024年3月29日发电机组系泊试验，1#、2# 发电机组运转振动情况正常，3#、4# 发电机组振动大故障依然存在，振动烈度最大的位置仍然在增压器。 技术部门组织分厂检查了机组对中，更换了"
+        },
+        {
+          "id": "passage:7a3a09ee2b3075f9",
+          "title": "船机帮轮轴带发电机主开关跳闸故障分析与处理",
+          "source_file": "marine_diesel_RAG_corpus_All_data.zip",
+          "page": "",
+          "source_url": "https://zenodo.org/records/20258638",
+          "kind": "corpus_article",
+          "score": 0.0503,
+          "excerpt": "# 导读 本文主要分析轮轴带发电机主开关运行中跳闸故障，找出原因并排除。 # 一、轴发供电及故障现象 船舶发电机轴发（即轮轴带发电机）电力系统电路如图1所示，轴发和侧推可单独工作于主配电板 C 段。 图 1 轴发电力系统 轴发参数：AC400V，1000kW，三相； 侧推参数：电机AC400 V，800kW，三相，外部拖动液压控制的可变螺距螺旋桨。 轴发主开关ACB1和侧推主开关ACB2型号均为 MT25H2，2500 A，开关控制模块型号 micrologic 2.0A，电站管理单元为丹麦 DEIF 公司的 PPU（Paralleling and Protection Unit，并车与保护单元）控制器。 侧推启动器原理为自耦变压器降压起动。 故障现象：轴发和侧推主开关合闸后，启动侧推，有时出现轴发主开关跳闸现象，重新合闸后，大多情况下能启动成功且使用正常。 跳闸时，主配电板及 PPU 无报警。 由于故障并非一直存在，故障查找分析有一定难度。 # 二、故障分析 主开关出现跳闸，可分为接到分闸信号和未接到分闸信号2种情况： 接到分闸信号，PPU 输出分闸信号、手动分闸信号、逆功率保护输入分闸信号等；未接到分闸信号，主开关自身保护环节过载、欠压、短路导致跳闸，或内部机械机构过度磨损及振动引起跳闸。 根据故障现象——跳闸只在侧推启动时出现，说明跳闸原因与启动过程有关，即启动电流过大或过载"
+        }
+      ],
+      "retrieval_strategy": "hybrid",
+      "retrieval_method": "alias/entity matching + character TF-IDF + query synonyms + case-scoped graph reranking (not neural embeddings)"
+    },
+    "llm_prompt": "你是船舶动力系统诊断报告辅助撰写员。输入是已有的标准化诊断线索，下面是检索到的历史案例、厂家机理及论文观察。\n只根据证据写报告；区分本船诊断、历史事故、一般机理和论文观察，不把参考知识直接当作本船已证实故障。\n保持原证据的不确定性；若证据不足，明确写出待检查项。不要编造测量值、页码或维修命令。\n输出字段：可能故障、因果链、建议检查、可参考的运维措施、来源与不确定性。全文控制在450字以内。\n不要把英文证据摘录改写成中文后放在引号里，也不要复述证据全文；只在判断后写证据编号[1]、[2]等。\n\n标准化诊断线索：轴带发电机对中异常与振动损伤如何解释？\n\n检索证据：\n覆盖范围提醒：匹配到厂家机理/论文观察或报告参考单元，不是本船已证实根因。通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。\n[1] 证据单元=轴带发电机对中异常与振动损伤；类型=FaultType；关系=风浪下船体变形 导致 轴带发电机与齿轮箱对中失准；确定性=guidance；来源=STAMFORD_AGN039_marine_shaft_generators.pdf PDF第2页；适用范围=通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。；证据摘录=ator damaging vibration when the main engine is running at slow speeds and also when the ship is in storm conditions, because the ship’s hull flexes and so the gearbox to generator alignment becomes distorted. An experienced ship design engineer will know of these potential problems and will ensure that the coupling between gearbox and the shaft generator is a high quality, d\n[2] 证据单元=轴带发电机对中异常与振动损伤；类型=FaultType；关系=轴带发电机与齿轮箱对中失准 可能促成 轴带发电机振动损伤；确定性=guidance；来源=STAMFORD_AGN039_marine_shaft_generators.pdf PDF第2页；适用范围=通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。；证据摘录=ansion of the hot gearbox, which may well expand and lift the shaft centre line by < 1 mm. If the alignment is not accurate, then excessive vibration is likely to damage the shaft generator. There can also be lots of generator damaging vibration when the main engine is running at slow speeds and also when the ship is in storm conditions, because the ship’s hull flexes and so the gearbox to genera\n[3] 证据单元=轴带发电机对中异常与振动损伤；类型=FaultType；关系=核查热态对中和风浪工况下振动 检查 轴带发电机与齿轮箱对中失准；确定性=derived_action；来源=STAMFORD_AGN039_marine_shaft_generators.pdf PDF第2页；适用范围=通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。；证据摘录=are to allow for the thermal expansion of the hot gearbox, which may well expand and lift the shaft centre line by < 1 mm. If the alignment is not accurate, then excessive vibration is likely to damage the shaft generator. There can also be lots of generator damaging vibration when the main engine is running at slow speeds and also when the ship is in storm conditions, because the s\n[4] 证据单元=轴带发电机对中异常与振动损伤；类型=FaultType；关系=按构型复核联轴器补偿与减振能力 应对 轴带发电机与齿轮箱对中失准；确定性=guidance；来源=STAMFORD_AGN039_marine_shaft_generators.pdf PDF第2页；适用范围=通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。；证据摘录=and will ensure that the coupling between gearbox and the shaft generator is a high quality, designed for purpose unit, which can absorb misalignment, and also torsional vibrations to help the generator remain reliable. POWER TAKE OUT (PTO) / POWER TAKE IN (PTI) / POWER TAKE HOME (PTH) Marine shaft generators are often required to operate in a multi-function role. They could o\n[5] 证据单元=轴带发电机对中异常与振动损伤；类型=FaultType；关系=齿轮箱热膨胀改变轴线位置 相关 轴带发电机与齿轮箱对中失准；确定性=guidance；来源=STAMFORD_AGN039_marine_shaft_generators.pdf PDF第2页；适用范围=通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。；证据摘录=When the shaft generator is aligned with the gearbox drive shaft, the ships design engineer must take great care to allow for the thermal expansion of the hot gearbox, which may well expand and lift the shaft centre line by < 1 mm. If the alignment is not accurate, then excessive vibration is likely to damage the shaft generator. There can also be lots of generator damaging vibration when the\n\n同一证据单元内部的因果路径（不得跨事故/机理单元拼接）：\n- knowledge:shaft_generator_alignment: 风浪下船体变形 → 轴带发电机与齿轮箱对中失准 → 轴带发电机振动损伤\n\n请先说明这是参考案例，再给出需要本船数据验证的诊断假设。每项关键判断引用 [编号]；不要重复文件名和证据原文。"
+  },
+  {
+    "retrieval": {
+      "query": "电机与发电机轴承电蚀如何溯源？",
+      "coverage": "reference_knowledge",
+      "coverage_warning": "匹配到厂家机理/论文观察或报告参考单元，不是本船已证实根因。具有闭合轴电流路径的旋转电机；轴承绝缘和接地刷方案按厂家/机型确定，不能假定全部STAMFORD机型都需要绝缘轴承。",
+      "primary_context": "knowledge:bearing_electrical_erosion",
+      "focused_reference": true,
+      "entity_alignment": [
+        {
+          "id": "shipkg:fault:7dd3cdd4fe58",
+          "name": "轴承电蚀",
+          "kind": "Fault",
+          "matched": "轴承电蚀"
+        },
+        {
+          "id": "shipkg:faulttype:6dbd0d51366c",
+          "name": "电机与发电机轴承电蚀",
+          "kind": "FaultType",
+          "matched": "电机与发电机轴承电蚀"
+        }
+      ],
+      "dataset_matches": [],
+      "cases": [],
+      "knowledge_units": [
+        {
+          "knowledge_id": "knowledge:bearing_electrical_erosion",
+          "name": "电机与发电机轴承电蚀",
+          "score": 1.6427,
+          "applicability": "具有闭合轴电流路径的旋转电机；轴承绝缘和接地刷方案按厂家/机型确定，不能假定全部STAMFORD机型都需要绝缘轴承。"
+        },
+        {
+          "knowledge_id": "knowledge:generator_bearing_wear",
+          "name": "发电机轴承机械磨损",
+          "score": 0.1089,
+          "applicability": "有滚动轴承的发电机或轴带发电机构型；滚动轴承与主机滑动轴瓦的失效机理不得混用。"
+        },
+        {
+          "knowledge_id": "knowledge:shaft_generator_alignment",
+          "name": "轴带发电机对中异常与振动损伤",
+          "score": 0.0556,
+          "applicability": "通过齿轮箱及联轴器驱动的轴带发电机；不能推广到所有同轴无附加轴承的构型。"
+        }
+      ],
+      "causal_paths": [
+        {
+          "case_id": "knowledge:bearing_electrical_erosion",
+          "score": 1.2912,
+          "edge_ids": [
+            "edge:3fa6da5f705760f5",
+            "edge:834325dfe9c79487"
+          ],
+          "chain": "电机磁场不对称产生轴电压 → 轴电流通过滚动轴承 → 轴承电蚀"
+        }
+      ],
+      "facts": [
+        {
+          "id": "edge:3fa6da5f705760f5",
+          "case_id": "knowledge:bearing_electrical_erosion",
+          "case_name": "电机与发电机轴承电蚀",
+          "context_id": "knowledge:bearing_electrical_erosion",
+          "context_kind": "FaultType",
+          "applicability": "具有闭合轴电流路径的旋转电机；轴承绝缘和接地刷方案按厂家/机型确定，不能假定全部STAMFORD机型都需要绝缘轴承。",
+          "subject": "电机磁场不对称产生轴电压",
+          "relation": "MAY_CONTRIBUTE_TO",
+          "relation_zh": "可能促成",
+          "object": "轴电流通过滚动轴承",
+          "certainty": "guidance",
+          "score": 0.8419,
+          "source_file": "STAMFORD_AGN033_bearing_currents.pdf",
+          "page": "1",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-033_C-Shaft-Bearing-Currents.pdf",
+          "evidence": "aft within a rotating electrical machine - motor or alternator – to come under the influence of magnetic fields which result in a voltage (electrical pressure) generated along the axial length of the shaft. This ‘shaft voltage’ will then force current to flow from one end of the shaft, along a path which is radially out of the shaft through an end bracket continue along the alternators stator fra"
+        },
+        {
+          "id": "edge:834325dfe9c79487",
+          "case_id": "knowledge:bearing_electrical_erosion",
+          "case_name": "电机与发电机轴承电蚀",
+          "context_id": "knowledge:bearing_electrical_erosion",
+          "context_kind": "FaultType",
+          "applicability": "具有闭合轴电流路径的旋转电机；轴承绝缘和接地刷方案按厂家/机型确定，不能假定全部STAMFORD机型都需要绝缘轴承。",
+          "subject": "轴电流通过滚动轴承",
+          "relation": "LEADS_TO",
+          "relation_zh": "导致",
+          "object": "轴承电蚀",
+          "certainty": "guidance",
+          "score": 1.0216,
+          "source_file": "STAMFORD_AGN033_bearing_currents.pdf",
+          "page": "1",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-033_C-Shaft-Bearing-Currents.pdf",
+          "evidence": "porting bearings, consequently any resulting current flow will pass across the rolling element of the bearings, and will initiate electrical erosion of the bearing materials, eventually reducing the low friction expectation of the bearing. It is possible for a single bearing alternator to suffer from shaft bearing currents, but here the current flow path at the drive end of the alternator’s shaft mus"
+        },
+        {
+          "id": "edge:c69f85185d1d74c4",
+          "case_id": "knowledge:bearing_electrical_erosion",
+          "case_name": "电机与发电机轴承电蚀",
+          "context_id": "knowledge:bearing_electrical_erosion",
+          "context_kind": "FaultType",
+          "applicability": "具有闭合轴电流路径的旋转电机；轴承绝缘和接地刷方案按厂家/机型确定，不能假定全部STAMFORD机型都需要绝缘轴承。",
+          "subject": "核查轴电压电流与轴承接地绝缘方案",
+          "relation": "CHECKS",
+          "relation_zh": "检查",
+          "object": "轴承电蚀",
+          "certainty": "derived_action",
+          "score": 0.9012,
+          "source_file": "STAMFORD_AGN033_bearing_currents.pdf",
+          "page": "3",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-033_C-Shaft-Bearing-Currents.pdf",
+          "evidence": "measured end to end, along the axial length of the alternator’s shaft was in the region of 60mV. The international standards for shaft voltage measurement differs in their determination of acceptable levels for non-insulated bearings, as shown in Table 1. Standard Description Range NEMA MG 1-2014 If the shaft voltage is larger than 300 millivolts peak, bearing insulation should be"
+        },
+        {
+          "id": "edge:a24644858449eba9",
+          "case_id": "knowledge:bearing_electrical_erosion",
+          "case_name": "电机与发电机轴承电蚀",
+          "context_id": "knowledge:bearing_electrical_erosion",
+          "context_kind": "FaultType",
+          "applicability": "具有闭合轴电流路径的旋转电机；轴承绝缘和接地刷方案按厂家/机型确定，不能假定全部STAMFORD机型都需要绝缘轴承。",
+          "subject": "按适用机型维护接地刷与绝缘轴承",
+          "relation": "ADDRESSES",
+          "relation_zh": "应对",
+          "object": "轴电流通过滚动轴承",
+          "certainty": "guidance",
+          "score": 0.8241,
+          "source_file": "STAMFORD_AGN033_bearing_currents.pdf",
+          "page": "3",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-033_C-Shaft-Bearing-Currents.pdf",
+          "evidence": "life. AvK Alternators. To overcome potential issues caused by induced shaft currents, AvK alternators utilise a combination of a rotor earthing brush and insulated bearings. The selection of these options are application and customer specific and will be determined during alternator specification negotiations. All AvK alternators for marine applications that are fitted with sleeve bearings have the"
+        }
+      ],
+      "passages": [
+        {
+          "id": "passage:319132d51e20a722",
+          "title": "STAMFORD AGN033 shaft bearing currents",
+          "source_file": "STAMFORD_AGN033_bearing_currents.pdf",
+          "page": "3",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-033_C-Shaft-Bearing-Currents.pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "AGN 033 ISSUE C/1/2 Measurements taken during testing have concluded that the shaft voltage measured end to end, along the axial length of the alternator’s shaft was in the region of 60mV. The international standards for shaft voltage measurement differs in their determination of acceptable levels for non-insulated bearings, as shown in Table 1. Standard Description Range NEMA MG 1-2014 If the shaft voltage is larger than 300 millivolts peak, bearing insulation should be utilized induction motors ʢrated 3600 kW or less 7200V or lessʣ IEC60034-25 AC electrical machines used in power drive syste"
+        },
+        {
+          "id": "passage:aa81a0f93d261edf",
+          "title": "STAMFORD AGN033 shaft bearing currents",
+          "source_file": "STAMFORD_AGN033_bearing_currents.pdf",
+          "page": "1",
+          "source_url": "https://www.stamford-avk.com/sites/stamfordavk/files/AGNs/AGN-033_C-Shaft-Bearing-Currents.pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "AGN 033 ISSUE C/1/2 Application Guidance Notes: Technical Information from STAMFORD | AvK It is possible for the shaft within a rotating electrical machine - motor or alternator – to come under the influence of magnetic fields which result in a voltage (electrical pressure) generated along the axial length of the shaft. This ‘shaft voltage’ will then force current to flow from one end of the shaft, along a path which is radially out of the shaft through an end bracket continue along the alternators stator frame, and then radially inward into the opposite end of the shaft and so complete the el"
+        },
+        {
+          "id": "passage:8244dfbb8f827547",
+          "title": "船机帮某轮发电机前端轴承温度过高原因分析与处理",
+          "source_file": "marine_diesel_RAG_corpus_All_data.zip",
+          "page": "",
+          "source_url": "https://zenodo.org/records/20258638",
+          "kind": "corpus_article",
+          "score": 0.064,
+          "excerpt": "# 船机帮某轮发电机前端轴承温度过高原因分析与处理 ## 导读 某轮，柴油发电机组4台： 原动机，WARTSILA 制造，型号 6R32LNE，功率 2 430 KW，转速 720 r/min； 发电机，France制造，型号 AMS630L10，电压440V，频率60 Hz，容量2900KVA，WARTSILA ABB提供。 正常航行期间常用功率1250~1550 KW，使用一台发电机； 机动航行使用 2 台发电机； 使用船艏侧推器期间 3 台发电机供电。 船舶出厂约三年半，发电机前端轴承高温故障，原因是发电机轮毂在轴头上滑移。 故障原因少见，且涉及高弹性胶圈联轴器 （虽日渐广泛应用但实际经验不足），耗时近两年半，走了不少弯路。 事后反思，总结出一些教训，写出来请指正。 ## 一、发电机组传动机构 柴油机通过高弹性胶圈联轴器（见图1）向发电机转子传递扭矩并起缓冲、减振作用。 图1 联轴器和两组推力轴承位置 高弹性胶圈联轴器（见图2），由飞轮、两个高弹性胶圈、钢圈、连接螺栓、发电机轮毂等组成。 图2 高弹性胶圈联轴器 发电机轮毂与发电机轴过盈配合，有键。 柴油机曲轴飞轮端，安装有前、后推力轴承，轴向间隙即曲轴移动量0.25～0.45mm（见图3）。 图3 原动机推力轴承（前后） 发电机轴 ，有前（ 原动机端 ）和后（自由端）两个支撑轴承； 前轴承上、下轴瓦的轴向两端面与轴上的两个推"
+        },
+        {
+          "id": "passage:ba43b72b44329d5b",
+          "title": "船机帮船舶发电机常见故障及对策",
+          "source_file": "marine_diesel_RAG_corpus_All_data.zip",
+          "page": "",
+          "source_url": "https://zenodo.org/records/20258638",
+          "kind": "corpus_article",
+          "score": 0.0625,
+          "excerpt": "# 船机帮船舶发电机常见故障及对策 众所周知，发电机可谓是船舶电力系统的心脏，对船舶的正常工作起着关键作用，关乎着船舶的安全。 近几年国内外优秀故障处理技术为船舶发电机带来了福音，其使用寿命和工作效率得到了极大的优化。 如何在最短时间内检测出电机损坏成因，并及时排除故障是我们的研究重点。 ## 一 船舶发电机的故障诊断 船舶是我国的一个重要交通工具，主要发挥着交通运输的功能，特别是对于海洋运营来说，其运行安全问题至关重要。 在船舶内的众多零部件和组成设备来说，发电机占据着重要的位置。 因此，如何在前期便准确预测发电机的故障发生类型和几率是保证后期能快速排出故障的关键。 以下提出一种故障的诊断方案进行详细说明，以供参考。 某起重工程船，主发电机型号为S6U-PTK，功率为1000kW，转速为 750rmp。 在船舶作业中发现，发电机突然出现跳闸状况。 经过细致分析，是因为发电机盘车正常，但存在烧焦气味，且主要零部件的测量温度正常，但轴承下方出现少量碎片和粉末，初步判断为轴承磨损。 通过对故障的大致分析和判断，技术人员对发电机的关键部位进行了再次确认后提出根本原因： 拆卸发电机后发现轴承内的滚珠因碎裂而移位，导致发电机转子下沉，缩短了定子与转子之间的距离，两者摩擦不断加重，最终引起发电机的短路故障。 此故障普遍但不易察觉，发生的时间较短，只能通过焦味而发现故障，此时电机系统已经开启自动"
+        }
+      ],
+      "retrieval_strategy": "hybrid",
+      "retrieval_method": "alias/entity matching + character TF-IDF + query synonyms + case-scoped graph reranking (not neural embeddings)"
+    },
+    "llm_prompt": "你是船舶动力系统诊断报告辅助撰写员。输入是已有的标准化诊断线索，下面是检索到的历史案例、厂家机理及论文观察。\n只根据证据写报告；区分本船诊断、历史事故、一般机理和论文观察，不把参考知识直接当作本船已证实故障。\n保持原证据的不确定性；若证据不足，明确写出待检查项。不要编造测量值、页码或维修命令。\n输出字段：可能故障、因果链、建议检查、可参考的运维措施、来源与不确定性。全文控制在450字以内。\n不要把英文证据摘录改写成中文后放在引号里，也不要复述证据全文；只在判断后写证据编号[1]、[2]等。\n\n标准化诊断线索：电机与发电机轴承电蚀如何溯源？\n\n检索证据：\n覆盖范围提醒：匹配到厂家机理/论文观察或报告参考单元，不是本船已证实根因。具有闭合轴电流路径的旋转电机；轴承绝缘和接地刷方案按厂家/机型确定，不能假定全部STAMFORD机型都需要绝缘轴承。\n[1] 证据单元=电机与发电机轴承电蚀；类型=FaultType；关系=电机磁场不对称产生轴电压 可能促成 轴电流通过滚动轴承；确定性=guidance；来源=STAMFORD_AGN033_bearing_currents.pdf PDF第1页；适用范围=具有闭合轴电流路径的旋转电机；轴承绝缘和接地刷方案按厂家/机型确定，不能假定全部STAMFORD机型都需要绝缘轴承。；证据摘录=aft within a rotating electrical machine - motor or alternator – to come under the influence of magnetic fields which result in a voltage (electrical pressure) generated along the axial length of the shaft. This ‘shaft voltage’ will then force current to flow from one end of the shaft, along a path which is radially out of the shaft through an end bracket continue along the alternators stator fra\n[2] 证据单元=电机与发电机轴承电蚀；类型=FaultType；关系=轴电流通过滚动轴承 导致 轴承电蚀；确定性=guidance；来源=STAMFORD_AGN033_bearing_currents.pdf PDF第1页；适用范围=具有闭合轴电流路径的旋转电机；轴承绝缘和接地刷方案按厂家/机型确定，不能假定全部STAMFORD机型都需要绝缘轴承。；证据摘录=porting bearings, consequently any resulting current flow will pass across the rolling element of the bearings, and will initiate electrical erosion of the bearing materials, eventually reducing the low friction expectation of the bearing. It is possible for a single bearing alternator to suffer from shaft bearing currents, but here the current flow path at the drive end of the alternator’s shaft mus\n[3] 证据单元=电机与发电机轴承电蚀；类型=FaultType；关系=核查轴电压电流与轴承接地绝缘方案 检查 轴承电蚀；确定性=derived_action；来源=STAMFORD_AGN033_bearing_currents.pdf PDF第3页；适用范围=具有闭合轴电流路径的旋转电机；轴承绝缘和接地刷方案按厂家/机型确定，不能假定全部STAMFORD机型都需要绝缘轴承。；证据摘录=measured end to end, along the axial length of the alternator’s shaft was in the region of 60mV. The international standards for shaft voltage measurement differs in their determination of acceptable levels for non-insulated bearings, as shown in Table 1. Standard Description Range NEMA MG 1-2014 If the shaft voltage is larger than 300 millivolts peak, bearing insulation should be\n[4] 证据单元=电机与发电机轴承电蚀；类型=FaultType；关系=按适用机型维护接地刷与绝缘轴承 应对 轴电流通过滚动轴承；确定性=guidance；来源=STAMFORD_AGN033_bearing_currents.pdf PDF第3页；适用范围=具有闭合轴电流路径的旋转电机；轴承绝缘和接地刷方案按厂家/机型确定，不能假定全部STAMFORD机型都需要绝缘轴承。；证据摘录=life. AvK Alternators. To overcome potential issues caused by induced shaft currents, AvK alternators utilise a combination of a rotor earthing brush and insulated bearings. The selection of these options are application and customer specific and will be determined during alternator specification negotiations. All AvK alternators for marine applications that are fitted with sleeve bearings have the\n\n同一证据单元内部的因果路径（不得跨事故/机理单元拼接）：\n- knowledge:bearing_electrical_erosion: 电机磁场不对称产生轴电压 → 轴电流通过滚动轴承 → 轴承电蚀\n\n请先说明这是参考案例，再给出需要本船数据验证的诊断假设。每项关键判断引用 [编号]；不要重复文件名和证据原文。"
+  },
+  {
+    "retrieval": {
+      "query": "船舶电网耦合振荡如何补充来源和检查？",
+      "coverage": "reference_knowledge",
+      "coverage_warning": "匹配到厂家机理/论文观察或报告参考单元，不是本船已证实根因。2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。",
+      "primary_context": "knowledge:electrical_oscillation",
+      "focused_reference": true,
+      "entity_alignment": [
+        {
+          "id": "shipkg:faulttype:796439daaa03",
+          "name": "船舶电网耦合振荡",
+          "kind": "FaultType",
+          "matched": "船舶电网耦合振荡"
+        }
+      ],
+      "dataset_matches": [],
+      "cases": [],
+      "knowledge_units": [
+        {
+          "knowledge_id": "knowledge:electrical_oscillation",
+          "name": "船舶电网耦合振荡",
+          "score": 1.5034,
+          "applicability": "2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。"
+        }
+      ],
+      "causal_paths": [
+        {
+          "case_id": "knowledge:electrical_oscillation",
+          "score": 1.1552,
+          "edge_ids": [
+            "edge:2582a75e6a4ea98b",
+            "edge:3525910e48ef80d7"
+          ],
+          "chain": "DP船风浪纵摇横摇 → 船舶电网电压频率振荡 → 电机轴振动与绝缘热应力增加"
+        },
+        {
+          "case_id": "knowledge:electrical_oscillation",
+          "score": 1.1055,
+          "edge_ids": [
+            "edge:063d6f3f40f4c6b7",
+            "edge:3525910e48ef80d7"
+          ],
+          "chain": "原动机转矩脉动与负载波动 → 船舶电网电压频率振荡 → 电机轴振动与绝缘热应力增加"
+        }
+      ],
+      "facts": [
+        {
+          "id": "edge:2582a75e6a4ea98b",
+          "case_id": "knowledge:electrical_oscillation",
+          "case_name": "船舶电网耦合振荡",
+          "context_id": "knowledge:electrical_oscillation",
+          "context_kind": "FaultType",
+          "applicability": "2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。",
+          "subject": "DP船风浪纵摇横摇",
+          "relation": "CONTRIBUTED_TO",
+          "relation_zh": "促成",
+          "object": "船舶电网电压频率振荡",
+          "certainty": "research_observation",
+          "score": 0.8608,
+          "source_file": "Frontiers_2021_marine_converter_oscillations.pdf",
+          "page": "6",
+          "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2020.529756/pdf",
+          "evidence": "otational speed of the prime mover is still present adding to the severity of ﬂuctuations due to waves. As a result, the depth of voltage and frequency modulations increase as well. For the presented example, the difference between maximum and minimum instantaneous frequency reaches 0.32 Hz or 0.32% of twice the system rated frequency. This is still below the recommended limit value of 0.5% ( IEEE Standard 4"
+        },
+        {
+          "id": "edge:3525910e48ef80d7",
+          "case_id": "knowledge:electrical_oscillation",
+          "case_name": "船舶电网耦合振荡",
+          "context_id": "knowledge:electrical_oscillation",
+          "context_kind": "FaultType",
+          "applicability": "2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。",
+          "subject": "船舶电网电压频率振荡",
+          "relation": "MAY_CONTRIBUTE_TO",
+          "relation_zh": "可能促成",
+          "object": "电机轴振动与绝缘热应力增加",
+          "certainty": "guidance",
+          "score": 0.8163,
+          "source_file": "Frontiers_2021_marine_converter_oscillations.pdf",
+          "page": "1",
+          "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2020.529756/pdf",
+          "evidence": "frequency ﬂuctuations can lead to undesirable electrical motors shaft vibration and decrease in their energy efﬁciency and add thermal stress to insulation, thus creating hazardous operating conditions for electrical motors onboard ( Gnaci´nski et al., 2020 ). Frequency ﬂuctuations can also lead to undesirable resonances and cause crucial equipment such as measuring instruments to malfunct"
+        },
+        {
+          "id": "edge:e6ab53a8e13e0567",
+          "case_id": "knowledge:electrical_oscillation",
+          "case_name": "船舶电网耦合振荡",
+          "context_id": "knowledge:electrical_oscillation",
+          "context_kind": "FaultType",
+          "applicability": "2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。",
+          "subject": "联合核查调速器AVR与变流器控制变量",
+          "relation": "CHECKS",
+          "relation_zh": "检查",
+          "object": "船舶电网电压频率振荡",
+          "certainty": "derived_action",
+          "score": 0.7981,
+          "source_file": "Frontiers_2021_marine_converter_oscillations.pdf",
+          "page": "13",
+          "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2020.529756/pdf",
+          "evidence": "above described DP ship, a number of factors have to be taken into account: generators ’ prime movers modulated rotational speed, governors, and AVRs settings including droop control for load sharing, power converter parameters, and their control and ﬁnally irregularly modulated load of each drive. Therefore, the work will be pursued. The authors plan to concentrate on ships with elect"
+        },
+        {
+          "id": "edge:063d6f3f40f4c6b7",
+          "case_id": "knowledge:electrical_oscillation",
+          "case_name": "船舶电网耦合振荡",
+          "context_id": "knowledge:electrical_oscillation",
+          "context_kind": "FaultType",
+          "applicability": "2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。",
+          "subject": "原动机转矩脉动与负载波动",
+          "relation": "MAY_CONTRIBUTE_TO",
+          "relation_zh": "可能促成",
+          "object": "船舶电网电压频率振荡",
+          "certainty": "guidance",
+          "score": 0.813,
+          "source_file": "Frontiers_2021_marine_converter_oscillations.pdf",
+          "page": "2",
+          "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2020.529756/pdf",
+          "evidence": "sed in percentage terms. The limits are 0.5% for frequency and 5% for voltage. Well documented causes of such behavior include pulsating torque of generators’ prime movers and/or ﬂuctuating load, which combined with commonly used droop control method for load sharing, possibly leads to severe short and long-term frequency ﬂuctuations. However, little is known about the osci"
+        },
+        {
+          "id": "edge:0afb8ddaa0937ed2",
+          "case_id": "knowledge:electrical_oscillation",
+          "case_name": "船舶电网耦合振荡",
+          "context_id": "knowledge:electrical_oscillation",
+          "context_kind": "FaultType",
+          "applicability": "2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。",
+          "subject": "轴带变流器控制与发电端变频条件",
+          "relation": "ASSOCIATED_WITH",
+          "relation_zh": "相关",
+          "object": "船舶电网电压频率振荡",
+          "certainty": "research_observation",
+          "score": 0.7957,
+          "source_file": "Frontiers_2021_marine_converter_oscillations.pdf",
+          "page": "6",
+          "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2020.529756/pdf",
+          "evidence": "rd 45.1, 2017). Since the majority of loads had linear characteristic and did not vary, such a behavior is to be associated with power converter control under the condition of signi ﬁcantly varying frequency at the shaft generator terminal. Moreover, the level of all parameters oscillation was the highest of all analyzed ships. Research Onboard of Research-Training Ship The case study for the res"
+        },
+        {
+          "id": "edge:a308d2312b6b3634",
+          "case_id": "knowledge:electrical_oscillation",
+          "case_name": "船舶电网耦合振荡",
+          "context_id": "knowledge:electrical_oscillation",
+          "context_kind": "FaultType",
+          "applicability": "2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。",
+          "subject": "分析瞬时频率基波及谐波的调制特征",
+          "relation": "CHECKS",
+          "relation_zh": "检查",
+          "object": "船舶电网电压频率振荡",
+          "certainty": "derived_action",
+          "score": 0.7834,
+          "source_file": "Frontiers_2021_marine_converter_oscillations.pdf",
+          "page": "1",
+          "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2020.529756/pdf",
+          "evidence": "aneous frequency is determined and subsequently ﬂuctuations of fundamental components and chosen harmonics are calculated using zoom- DFT. The characteristics of these irregular ﬂuctuations are compared and commented on. Next, phase portraits and Poincare map of the registered voltages are calculated and compared. Moreover, the impact of ship rolling and pitching"
+        },
+        {
+          "id": "edge:6f704813104a170d",
+          "case_id": "knowledge:electrical_oscillation",
+          "case_name": "船舶电网耦合振荡",
+          "context_id": "knowledge:electrical_oscillation",
+          "context_kind": "FaultType",
+          "applicability": "2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。",
+          "subject": "用电压相轨迹辅助识别振荡且保留局限",
+          "relation": "CHECKS",
+          "relation_zh": "检查",
+          "object": "船舶电网电压频率振荡",
+          "certainty": "derived_action",
+          "score": 0.781,
+          "source_file": "Frontiers_2021_marine_converter_oscillations.pdf",
+          "page": "12",
+          "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2020.529756/pdf",
+          "evidence": "amental voltage and frequency were affected in particular, with only minor impact of sea waves on harmonics modulation. Moreover, phase portraits can be used for fast detection of oscillatory behavior in maritime microgrids and their irregularities. The most important merit of such an approach is its simplicity. The calculations are fast and reliable. The dispersion of the results can"
+        }
+      ],
+      "passages": [
+        {
+          "id": "passage:2a53c911ab6ba715",
+          "title": "Comparative Case Study on Oscillatory Behavior in Power Systems of Marine Vessels With High Power Converters",
+          "source_file": "Frontiers_2021_marine_converter_oscillations.pdf",
+          "page": "2",
+          "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2020.529756/pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "and machine onboard can also result from these power quality issues ( Xu et al., 2006 ; Prousalidis et al., 2007 ; Prousalidis et al., 2009; Jayasinghe et al., 2018 ; Liu et al., 2019 ). The problem of instantaneous frequency modulation is recognized by some ship classiﬁcation societies such as Lloyd Register of shipping which stipulates limits on “a maximum rate of change of frequency not exceeding ±1.5 Hz per second during cyclic frequency ﬂuctuations” (Lloyd’s Register, 2019 ). The permissible limits of these variations are explained in other related standards. According to the IEEE Standar"
+        },
+        {
+          "id": "passage:2b4e3b8a60c318aa",
+          "title": "Comparative Case Study on Oscillatory Behavior in Power Systems of Marine Vessels With High Power Converters",
+          "source_file": "Frontiers_2021_marine_converter_oscillations.pdf",
+          "page": "12",
+          "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2020.529756/pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "that the characteristics of the oscillations of various considered parameters differ depending on the system architecture. Of particular interest is the case of AFE drives used for ship propulsion. For the system with such drives, the oscillations of fundamental voltage parameters were different from harmonics. This means that the frequency, fundamental voltage, and harmonics were modulated with different frequencies, although each is quasi-periodic for calm sea. For the rough sea condition, some additional irregularities were observed in the oscillations but the fundamental voltage and freque"
+        },
+        {
+          "id": "passage:41c64d2c9214309c",
+          "title": "Comparative Case Study on Oscillatory Behavior in Power Systems of Marine Vessels With High Power Converters",
+          "source_file": "Frontiers_2021_marine_converter_oscillations.pdf",
+          "page": "1",
+          "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2020.529756/pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "Comparative Case Study on Oscillatory Behavior in Power Systems of Marine Vessels With High Power Converters Tomasz Tarasiuk 1*, Piotr Jankowski 1, Viknash Shagar 1, Andrzej Piłat 1, Mariusz Górniak 1 and Jarosław Nowak 2 1Department of Marine Electrical Power Engineering, Gdynia Maritime University, Gdynia, Poland, 2MEWO. S.A., Straszyn, Poland The chief aim of the proposed paper is to compare the behavior of supply voltage registered onboard three vessels equipped with high power converters during normal operation. The vessels considered are a chemical tanker with shaft generator working via"
+        },
+        {
+          "id": "passage:c08aaff6be7243a3",
+          "title": "Comparative Case Study on Oscillatory Behavior in Power Systems of Marine Vessels With High Power Converters",
+          "source_file": "Frontiers_2021_marine_converter_oscillations.pdf",
+          "page": "6",
+          "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2020.529756/pdf",
+          "kind": "reference_page",
+          "score": 0.3,
+          "excerpt": "However, modulation frequency of the harmonics differs and this is unrelated to prime movers torque pulsation. Harmonics are modulated with a frequency of approximately 4.21 Hz. The only exception is the seventh harmonic, for which two modulating frequencies of 4.21 and 12.62 Hz exist. The latter is more or less related to fundamental voltage modulation. So, this can be concluded that in the case of AFE drives, the modulation of higher harmonic contents is not directly related to ﬂuctuation of rotational speed. Nevertheless, some oscillatory behaviors of these contents should be expected due t"
+        }
+      ],
+      "retrieval_strategy": "hybrid",
+      "retrieval_method": "alias/entity matching + character TF-IDF + query synonyms + case-scoped graph reranking (not neural embeddings)"
+    },
+    "llm_prompt": "你是船舶动力系统诊断报告辅助撰写员。输入是已有的标准化诊断线索，下面是检索到的历史案例、厂家机理及论文观察。\n只根据证据写报告；区分本船诊断、历史事故、一般机理和论文观察，不把参考知识直接当作本船已证实故障。\n保持原证据的不确定性；若证据不足，明确写出待检查项。不要编造测量值、页码或维修命令。\n输出字段：可能故障、因果链、建议检查、可参考的运维措施、来源与不确定性。全文控制在450字以内。\n不要把英文证据摘录改写成中文后放在引号里，也不要复述证据全文；只在判断后写证据编号[1]、[2]等。\n\n标准化诊断线索：船舶电网耦合振荡如何补充来源和检查？\n\n检索证据：\n覆盖范围提醒：匹配到厂家机理/论文观察或报告参考单元，不是本船已证实根因。2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。\n[1] 证据单元=船舶电网耦合振荡；类型=FaultType；关系=DP船风浪纵摇横摇 促成 船舶电网电压频率振荡；确定性=research_observation；来源=Frontiers_2021_marine_converter_oscillations.pdf PDF第6页；适用范围=2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。；证据摘录=otational speed of the prime mover is still present adding to the severity of ﬂuctuations due to waves. As a result, the depth of voltage and frequency modulations increase as well. For the presented example, the difference between maximum and minimum instantaneous frequency reaches 0.32 Hz or 0.32% of twice the system rated frequency. This is still below the recommended limit value of 0.5% ( IEEE Standard 4\n[2] 证据单元=船舶电网耦合振荡；类型=FaultType；关系=船舶电网电压频率振荡 可能促成 电机轴振动与绝缘热应力增加；确定性=guidance；来源=Frontiers_2021_marine_converter_oscillations.pdf PDF第1页；适用范围=2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。；证据摘录=frequency ﬂuctuations can lead to undesirable electrical motors shaft vibration and decrease in their energy efﬁciency and add thermal stress to insulation, thus creating hazardous operating conditions for electrical motors onboard ( Gnaci´nski et al., 2020 ). Frequency ﬂuctuations can also lead to undesirable resonances and cause crucial equipment such as measuring instruments to malfunct\n[3] 证据单元=船舶电网耦合振荡；类型=FaultType；关系=联合核查调速器AVR与变流器控制变量 检查 船舶电网电压频率振荡；确定性=derived_action；来源=Frontiers_2021_marine_converter_oscillations.pdf PDF第13页；适用范围=2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。；证据摘录=above described DP ship, a number of factors have to be taken into account: generators ’ prime movers modulated rotational speed, governors, and AVRs settings including droop control for load sharing, power converter parameters, and their control and ﬁnally irregularly modulated load of each drive. Therefore, the work will be pursued. The authors plan to concentrate on ships with elect\n[4] 证据单元=船舶电网耦合振荡；类型=FaultType；关系=原动机转矩脉动与负载波动 可能促成 船舶电网电压频率振荡；确定性=guidance；来源=Frontiers_2021_marine_converter_oscillations.pdf PDF第2页；适用范围=2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。；证据摘录=sed in percentage terms. The limits are 0.5% for frequency and 5% for voltage. Well documented causes of such behavior include pulsating torque of generators’ prime movers and/or ﬂuctuating load, which combined with commonly used droop control method for load sharing, possibly leads to severe short and long-term frequency ﬂuctuations. However, little is known about the osci\n[5] 证据单元=船舶电网耦合振荡；类型=FaultType；关系=轴带变流器控制与发电端变频条件 相关 船舶电网电压频率振荡；确定性=research_observation；来源=Frontiers_2021_marine_converter_oscillations.pdf PDF第6页；适用范围=2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。；证据摘录=rd 45.1, 2017). Since the majority of loads had linear characteristic and did not vary, such a behavior is to be associated with power converter control under the condition of signi ﬁcantly varying frequency at the shaft generator terminal. Moreover, the level of all parameters oscillation was the highest of all analyzed ships. Research Onboard of Research-Training Ship The case study for the res\n[6] 证据单元=船舶电网耦合振荡；类型=FaultType；关系=分析瞬时频率基波及谐波的调制特征 检查 船舶电网电压频率振荡；确定性=derived_action；来源=Frontiers_2021_marine_converter_oscillations.pdf PDF第1页；适用范围=2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。；证据摘录=aneous frequency is determined and subsequently ﬂuctuations of fundamental components and chosen harmonics are calculated using zoom- DFT. The characteristics of these irregular ﬂuctuations are compared and commented on. Next, phase portraits and Poincare map of the registered voltages are calculated and compared. Moreover, the impact of ship rolling and pitching\n[7] 证据单元=船舶电网耦合振荡；类型=FaultType；关系=用电压相轨迹辅助识别振荡且保留局限 检查 船舶电网电压频率振荡；确定性=derived_action；来源=Frontiers_2021_marine_converter_oscillations.pdf PDF第12页；适用范围=2021论文三类船舶的实测电网信号，含轴带发电化学品船；不是所有振荡都超限。DP船风浪影响主要作用于基波与频率，不能一概说风浪显著放大所有谐波。；证据摘录=amental voltage and frequency were affected in particular, with only minor impact of sea waves on harmonics modulation. Moreover, phase portraits can be used for fast detection of oscillatory behavior in maritime microgrids and their irregularities. The most important merit of such an approach is its simplicity. The calculations are fast and reliable. The dispersion of the results can\n\n同一证据单元内部的因果路径（不得跨事故/机理单元拼接）：\n- knowledge:electrical_oscillation: DP船风浪纵摇横摇 → 船舶电网电压频率振荡 → 电机轴振动与绝缘热应力增加\n- knowledge:electrical_oscillation: 原动机转矩脉动与负载波动 → 船舶电网电压频率振荡 → 电机轴振动与绝缘热应力增加\n\n请先说明这是参考案例，再给出需要本船数据验证的诊断假设。每项关键判断引用 [编号]；不要重复文件名和证据原文。"
+  }
+]

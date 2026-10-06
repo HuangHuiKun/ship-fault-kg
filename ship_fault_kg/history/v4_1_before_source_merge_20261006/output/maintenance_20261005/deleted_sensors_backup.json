@@ -1,0 +1,3064 @@
+{
+  "timestamp": "2026-10-05T21:51:00.072804",
+  "database": "shipfaultkg",
+  "before": {
+    "all_nodes": 555,
+    "all_relationships": 1287,
+    "active_nodes": 500,
+    "active_relationships": 1201,
+    "sensors": 15,
+    "archived_sensors": 55
+  },
+  "nodes": [
+    {
+      "id": "shipkg:sensor:09fb65289e45",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qrej_air",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Loss in Charge Air IC",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Loss in Charge Air IC\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Loss in Charge Air IC",
+        "id": "shipkg:sensor:09fb65289e45",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:0c9767837a0e",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T22",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Engine room Temp.",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Engine room Temp.\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Engine room Temp.",
+        "id": "shipkg:sensor:0c9767837a0e",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:0d564da1d412",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Efft",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Effective Efficiency",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "%",
+        "props_json": "{\"unit\": \"%\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Effective Efficiency\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Effective Efficiency",
+        "id": "shipkg:sensor:0d564da1d412",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:0d9978f872ad",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qexh2",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Exh.Gas Power",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"other\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Exh.Gas Power\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Exh.Gas Power",
+        "id": "shipkg:sensor:0d9978f872ad",
+        "category": "other",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:0dfc0d5a19c5",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Pmin",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Min. In-Cylinder Press. No.3",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "MPa",
+        "props_json": "{\"unit\": \"MPa\", \"category\": \"pressure / derived pressure\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Min. In-Cylinder Press. No.3\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Min. In-Cylinder Press. No.3",
+        "id": "shipkg:sensor:0dfc0d5a19c5",
+        "category": "pressure / derived pressure",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:1320f5577cf0",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "qexh",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Exh.Gas Vol. Flow (From Engine Speed)",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "NL/min",
+        "props_json": "{\"unit\": \"NL/min\", \"category\": \"flow / fuel / air\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Exh.Gas Vol. Flow (From Engine Speed)\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Exh.Gas Vol. Flow (From Engine Speed)",
+        "id": "shipkg:sensor:1320f5577cf0",
+        "category": "flow / fuel / air",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:173be47ae689",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Mexh",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Exh. Gas Mass Flow",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kg/s",
+        "props_json": "{\"unit\": \"kg/s\", \"category\": \"flow / fuel / air\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Exh. Gas Mass Flow\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Exh. Gas Mass Flow",
+        "id": "shipkg:sensor:173be47ae689",
+        "category": "flow / fuel / air",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:17bbed611e22",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qrej",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Total Heat Loss in Heat Exchangers",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Total Heat Loss in Heat Exchangers\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Total Heat Loss in Heat Exchangers",
+        "id": "shipkg:sensor:17bbed611e22",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:1f391dbaad55",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Pl_fuel",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Fuel transfer pump Press.",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "V",
+        "props_json": "{\"unit\": \"V\", \"category\": \"pressure / derived pressure\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Fuel transfer pump Press.\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Fuel transfer pump Press.",
+        "id": "shipkg:sensor:1f391dbaad55",
+        "category": "pressure / derived pressure",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:2392435fe4ac",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T20",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "LO Temp. TCH Out",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"LO Temp. TCH Out\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "LO Temp. TCH Out",
+        "id": "shipkg:sensor:2392435fe4ac",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:270638670931",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Pmax",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Max. In-Cylinder Press. No.3",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "MPa",
+        "props_json": "{\"unit\": \"MPa\", \"category\": \"pressure / derived pressure\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Max. In-Cylinder Press. No.3\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Max. In-Cylinder Press. No.3",
+        "id": "shipkg:sensor:270638670931",
+        "category": "pressure / derived pressure",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:28c98806fac8",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Wi",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Indicated Work No.2",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "J",
+        "props_json": "{\"unit\": \"J\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Indicated Work No.2\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Indicated Work No.2",
+        "id": "shipkg:sensor:28c98806fac8",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:2c5d17b46b26",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T8",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Cooling Water Temp. Engine Out II",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Cooling Water Temp. Engine Out II\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Cooling Water Temp. Engine Out II",
+        "id": "shipkg:sensor:2c5d17b46b26",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:31faff89b311",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T21",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Fuel Oil Temp. Flow meter In",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Fuel Oil Temp. Flow meter In\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Fuel Oil Temp. Flow meter In",
+        "id": "shipkg:sensor:31faff89b311",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:34c1108e4156",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Wi",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Indicated Work No.3",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "J",
+        "props_json": "{\"unit\": \"J\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Indicated Work No.3\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Indicated Work No.3",
+        "id": "shipkg:sensor:34c1108e4156",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:3a134554df66",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Pl_loturb",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "TCH LO pump Press.",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "V",
+        "props_json": "{\"unit\": \"V\", \"category\": \"pressure / derived pressure\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"TCH LO pump Press.\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "TCH LO pump Press.",
+        "id": "shipkg:sensor:3a134554df66",
+        "category": "pressure / derived pressure",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:421ec2313d7d",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Effn",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Mechanical Efficiency",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "%",
+        "props_json": "{\"unit\": \"%\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Mechanical Efficiency\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Mechanical Efficiency",
+        "id": "shipkg:sensor:421ec2313d7d",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:427673f0da2d",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T14",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Charge Air IC Air Temp. In",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Charge Air IC Air Temp. In\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Charge Air IC Air Temp. In",
+        "id": "shipkg:sensor:427673f0da2d",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:453069f73398",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T19",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "LO Temp. TCH In",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"LO Temp. TCH In\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "LO Temp. TCH In",
+        "id": "shipkg:sensor:453069f73398",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:5acc3a404383",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Pl_valve",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Fuel Injector Cooling Oil Press.",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "V",
+        "props_json": "{\"unit\": \"V\", \"category\": \"pressure / derived pressure\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Fuel Injector Cooling Oil Press.\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Fuel Injector Cooling Oil Press.",
+        "id": "shipkg:sensor:5acc3a404383",
+        "category": "pressure / derived pressure",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:5c1900646ca4",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qw_air",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Charge Air IC Cooling water flow",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "m3/h",
+        "props_json": "{\"unit\": \"m3/h\", \"category\": \"flow / fuel / air\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Charge Air IC Cooling water flow\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Charge Air IC Cooling water flow",
+        "id": "shipkg:sensor:5c1900646ca4",
+        "category": "flow / fuel / air",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:5f5652f7036e",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qw_lo",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "LO Cooling water flow",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "m3/h",
+        "props_json": "{\"unit\": \"m3/h\", \"category\": \"flow / fuel / air\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"LO Cooling water flow\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "LO Cooling water flow",
+        "id": "shipkg:sensor:5f5652f7036e",
+        "category": "flow / fuel / air",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:615199ab193b",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T13",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "LO Cooling Water Temp. Out",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"LO Cooling Water Temp. Out\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "LO Cooling Water Temp. Out",
+        "id": "shipkg:sensor:615199ab193b",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:67bfe0a5f170",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "We",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Effective Work No.3",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Effective Work No.3\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Effective Work No.3",
+        "id": "shipkg:sensor:67bfe0a5f170",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:6cf5ec25b81a",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T3",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "No.3 Exh.Gas Temp.",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"No.3 Exh.Gas Temp.\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "No.3 Exh.Gas Temp.",
+        "id": "shipkg:sensor:6cf5ec25b81a",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:75d18bcbb2d9",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Effi",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Indicated Efficiency",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "%",
+        "props_json": "{\"unit\": \"%\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Indicated Efficiency\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Indicated Efficiency",
+        "id": "shipkg:sensor:75d18bcbb2d9",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:7b9d6be3e1e7",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T17",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Charge Air IC Cooling Water Temp. Out",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Charge Air IC Cooling Water Temp. Out\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Charge Air IC Cooling Water Temp. Out",
+        "id": "shipkg:sensor:7b9d6be3e1e7",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:7e4664b82d74",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qw_turb",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "TCH LO Cooling water flow",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "m3/h",
+        "props_json": "{\"unit\": \"m3/h\", \"category\": \"flow / fuel / air\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"TCH LO Cooling water flow\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "TCH LO Cooling water flow",
+        "id": "shipkg:sensor:7e4664b82d74",
+        "category": "flow / fuel / air",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:805edb9418c2",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Pmin",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Min. In-Cylinder Press. No.1",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "MPa",
+        "props_json": "{\"unit\": \"MPa\", \"category\": \"pressure / derived pressure\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Min. In-Cylinder Press. No.1\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Min. In-Cylinder Press. No.1",
+        "id": "shipkg:sensor:805edb9418c2",
+        "category": "pressure / derived pressure",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:851db4d72803",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "F",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Water Brake Weight",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kgf",
+        "props_json": "{\"unit\": \"kgf\", \"category\": \"operating / load\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Water Brake Weight\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Water Brake Weight",
+        "id": "shipkg:sensor:851db4d72803",
+        "category": "operating / load",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:8529d7e4c296",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qother",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Other Loss",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Other Loss\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Other Loss",
+        "id": "shipkg:sensor:8529d7e4c296",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:870baabfbca3",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T18",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Fuel Temp.",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Fuel Temp.\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Fuel Temp.",
+        "id": "shipkg:sensor:870baabfbca3",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:872567f0bd88",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "We",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Effective Work No.2",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Effective Work No.2\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Effective Work No.2",
+        "id": "shipkg:sensor:872567f0bd88",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:8ad66c87b433",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T2",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "No.2 Exh.Gas Temp.",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"No.2 Exh.Gas Temp.\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "No.2 Exh.Gas Temp.",
+        "id": "shipkg:sensor:8ad66c87b433",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:8b403808fd55",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T5",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Exh.Gas Temp. Turbine Out",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Exh.Gas Temp. Turbine Out\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Exh.Gas Temp. Turbine Out",
+        "id": "shipkg:sensor:8b403808fd55",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:9103d6c847ed",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "We",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Effective Work No.1",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Effective Work No.1\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Effective Work No.1",
+        "id": "shipkg:sensor:9103d6c847ed",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:95cb7f8b5ea4",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Pmax",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Max. In-Cylinder Press. No.2",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "MPa",
+        "props_json": "{\"unit\": \"MPa\", \"category\": \"pressure / derived pressure\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Max. In-Cylinder Press. No.2\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Max. In-Cylinder Press. No.2",
+        "id": "shipkg:sensor:95cb7f8b5ea4",
+        "category": "pressure / derived pressure",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:a4ce7901d117",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Wm",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Mechanical Loss",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Mechanical Loss\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Mechanical Loss",
+        "id": "shipkg:sensor:a4ce7901d117",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:a6b570413502",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qrej_lo",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Loss with LO",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Loss with LO\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Loss with LO",
+        "id": "shipkg:sensor:a6b570413502",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:a99b849d2aad",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qturb",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "TCH Power",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"other\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"TCH Power\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "TCH Power",
+        "id": "shipkg:sensor:a99b849d2aad",
+        "category": "other",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:ad2f7007e3fa",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "We_tot",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Total Effective Work",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Total Effective Work\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Total Effective Work",
+        "id": "shipkg:sensor:ad2f7007e3fa",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:aef67aa11eac",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T16",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Charge Air IC Cooling Water Temp. In",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Charge Air IC Cooling Water Temp. In\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Charge Air IC Cooling Water Temp. In",
+        "id": "shipkg:sensor:aef67aa11eac",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:b3a6d5f659a8",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Wi",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Indicated Work No.1",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "J",
+        "props_json": "{\"unit\": \"J\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Indicated Work No.1\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Indicated Work No.1",
+        "id": "shipkg:sensor:b3a6d5f659a8",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:b7131de34c68",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Pmin",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Min. In-Cylinder Press. No.2",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "MPa",
+        "props_json": "{\"unit\": \"MPa\", \"category\": \"pressure / derived pressure\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Min. In-Cylinder Press. No.2\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Min. In-Cylinder Press. No.2",
+        "id": "shipkg:sensor:b7131de34c68",
+        "category": "pressure / derived pressure",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:ba1e69ac58df",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Wi_tot",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Total Indicated work",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "J",
+        "props_json": "{\"unit\": \"J\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Total Indicated work\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Total Indicated work",
+        "id": "shipkg:sensor:ba1e69ac58df",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:ba5f4c7a3eab",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qexh1",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Exh.Gas Total Power",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"other\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Exh.Gas Total Power\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Exh.Gas Total Power",
+        "id": "shipkg:sensor:ba5f4c7a3eab",
+        "category": "other",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:c6c4a9eaacca",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qtotal",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Total Input Energy",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "W",
+        "props_json": "{\"unit\": \"W\", \"category\": \"other\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Total Input Energy\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Total Input Energy",
+        "id": "shipkg:sensor:c6c4a9eaacca",
+        "category": "other",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:ccfc2a47cee5",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T4",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Exh.Gas Temp. Turbine In",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Exh.Gas Temp. Turbine In\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Exh.Gas Temp. Turbine In",
+        "id": "shipkg:sensor:ccfc2a47cee5",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:e17885e7f77f",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qrej_turb",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Loss with TCH LO",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Loss with TCH LO\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Loss with TCH LO",
+        "id": "shipkg:sensor:e17885e7f77f",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:e47b10fa62e0",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "dPf 压气机滤清器压损",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "压气机滤清器压损",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "Pa",
+        "props_json": "{\"unit\": \"Pa\", \"category\": \"pressure / derived pressure\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"压气机滤清器压损\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Compressor Filter Loss",
+        "id": "shipkg:sensor:e47b10fa62e0",
+        "category": "pressure / derived pressure",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:e56c947d4ba2",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Pl_water2",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Sea Cooling Water Press.",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "V",
+        "props_json": "{\"unit\": \"V\", \"category\": \"pressure / derived pressure\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Sea Cooling Water Press.\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Sea Cooling Water Press.",
+        "id": "shipkg:sensor:e56c947d4ba2",
+        "category": "pressure / derived pressure",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:e94fb52827fa",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "dPex 涡轮背压",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "涡轮背压",
+        "in_reference": "FALSE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "Pa",
+        "props_json": "{\"unit\": \"Pa\", \"category\": \"pressure / derived pressure\", \"in_reference\": \"FALSE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"涡轮背压\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Turbine Back Pressure",
+        "id": "shipkg:sensor:e94fb52827fa",
+        "category": "pressure / derived pressure",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:e98fe7ad595f",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "Qrej_eng",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Loss with cooling water",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "kW",
+        "props_json": "{\"unit\": \"kW\", \"category\": \"performance / derived\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Loss with cooling water\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Loss with cooling water",
+        "id": "shipkg:sensor:e98fe7ad595f",
+        "category": "performance / derived",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:e9b442573c44",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T9",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "Cooling Water Temp. Engine Out III",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"Cooling Water Temp. Engine Out III\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "Cooling Water Temp. Engine Out III",
+        "id": "shipkg:sensor:e9b442573c44",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    },
+    {
+      "id": "shipkg:sensor:fd5659daf34f",
+      "labels": [
+        "ArchivedShipKG",
+        "ArchivedSensor"
+      ],
+      "properties": {
+        "aliases": "T12",
+        "kind": "Sensor",
+        "graph_version": "2.0",
+        "display_name": "LO Cooling Water Temp. In",
+        "in_reference": "TRUE",
+        "archived_reason": "V3 core-sensor selection",
+        "unit": "°C",
+        "props_json": "{\"unit\": \"°C\", \"category\": \"temperature\", \"in_reference\": \"TRUE\", \"in_scenario_files\": \"TRUE\", \"display_name\": \"LO Cooling Water Temp. In\", \"kind_zh\": \"测点\", \"graph_version\": \"2.0\"}",
+        "in_scenario_files": "TRUE",
+        "name": "LO Cooling Water Temp. In",
+        "id": "shipkg:sensor:fd5659daf34f",
+        "category": "temperature",
+        "kind_zh": "测点"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:e56c947d4ba2",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:3341982540eaf56c",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Sea Cooling Water Press.; symbol=Pl_water2; unit=V; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=raw voltage signal associated with LT cooling-water pump pressure; not converted to engineering pressure units",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:001091b260b3062f",
+        "page": "",
+        "locator": "variable_dictionary.csv:Sea Cooling Water Press."
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:e94fb52827fa",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:0f8c03d1dccfd00e",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Turbine Back Pressure; symbol=dPex; unit=Pa; dtype=number; in_reference=FALSE; in_scenario_files=TRUE; category=pressure / derived pressure; note=Present in all scenario files for schema uniformity; recorded values in 10 of 15 scenario files. Empty (not recorded) in: AC_Fouling_85_Load.csv, Clogged_Injector_Nozzle1_40_60_85_Load.csv, Clogged_Injector_Nozzle2_LoadProgram.csv, CW_Pump_Cavitation_60_Load.csv, CW_Pump_Cavitation_85_Load.csv.",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:0343d13eaea989f5",
+        "page": "",
+        "locator": "variable_dictionary.csv:Turbine Back Pressure",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:e98fe7ad595f",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:f5da26689774f64c",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Loss with cooling water; symbol=Qrej_eng; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:037a4d071a6529c2",
+        "page": "",
+        "locator": "variable_dictionary.csv:Loss with cooling water"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:5f5652f7036e",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:09d27f6992891305",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=LO Cooling water flow; symbol=Qw_lo; unit=m3/h; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=flow / fuel / air",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:05e14e29f505ee0b",
+        "page": "",
+        "locator": "variable_dictionary.csv:LO Cooling water flow",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:0dfc0d5a19c5",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:faf8d804f595ba6d",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Min. In-Cylinder Press. No.3; symbol=Pmin; unit=MPa; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=shorthand label is reused across cylinder-resolved and/or aggregate variables; use the full variable-name row during preprocessing",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:060a43e64259ef1e",
+        "page": "",
+        "locator": "variable_dictionary.csv:Min. In-Cylinder Press. No.3"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:427673f0da2d",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:cb384ca96e3f30da",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Charge Air IC Air Temp. In; symbol=T14; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:06d907ccfb2fafcf",
+        "page": "",
+        "locator": "variable_dictionary.csv:Charge Air IC Air Temp. In"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:ad2f7007e3fa",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:94520316eda5367c",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Total Effective Work; symbol=We_tot; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:0bbcabb119a25f70",
+        "page": "",
+        "locator": "variable_dictionary.csv:Total Effective Work"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:851db4d72803",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:a642586c67899f4c",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Water Brake Weight; symbol=F; unit=kgf; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=operating / load",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:1274fdc0acb19045",
+        "page": "",
+        "locator": "variable_dictionary.csv:Water Brake Weight"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:805edb9418c2",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:22b5a08ec87b67c2",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Min. In-Cylinder Press. No.1; symbol=Pmin; unit=MPa; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=shorthand label is reused across cylinder-resolved and/or aggregate variables; use the full variable-name row during preprocessing",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:1d80047b2a112d94",
+        "page": "",
+        "locator": "variable_dictionary.csv:Min. In-Cylinder Press. No.1"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:7e4664b82d74",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:168ca21b8f311885",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=TCH LO Cooling water flow; symbol=Qw_turb; unit=m3/h; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=flow / fuel / air",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:24b011608ed90126",
+        "page": "",
+        "locator": "variable_dictionary.csv:TCH LO Cooling water flow",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:95cb7f8b5ea4",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:e6812da5eb9545f3",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Max. In-Cylinder Press. No.2; symbol=Pmax; unit=MPa; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=shorthand label is reused across cylinder-resolved and/or aggregate variables; use the full variable-name row during preprocessing",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:256e1a9bbcedfe9b",
+        "page": "",
+        "locator": "variable_dictionary.csv:Max. In-Cylinder Press. No.2"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:ba5f4c7a3eab",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:e8941bdb9ca9e23d",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Exh.Gas Total Power; symbol=Qexh1; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=other",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:2739836792a3f6c1",
+        "page": "",
+        "locator": "variable_dictionary.csv:Exh.Gas Total Power"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:0d9978f872ad",
+      "target": "shipkg:subsystem:4539c38d0a84",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:80918215733870aa",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Exh.Gas Power; symbol=Qexh2; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=other",
+        "props_json": "{\"classification_rule\": \"electrical\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:27ba3d29b09b4076",
+        "page": "",
+        "locator": "variable_dictionary.csv:Exh.Gas Power",
+        "classification_rule": "electrical"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:5c1900646ca4",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:300d98a15fc95cf3",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Charge Air IC Cooling water flow; symbol=Qw_air; unit=m3/h; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=flow / fuel / air",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:299ba3b096eaf95f",
+        "page": "",
+        "locator": "variable_dictionary.csv:Charge Air IC Cooling water flow",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:7e4664b82d74",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:168ca21b8f311885",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=TCH LO Cooling water flow; symbol=Qw_turb; unit=m3/h; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=flow / fuel / air",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:2b6706f568793be1",
+        "page": "",
+        "locator": "variable_dictionary.csv:TCH LO Cooling water flow"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:e56c947d4ba2",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:3341982540eaf56c",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Sea Cooling Water Press.; symbol=Pl_water2; unit=V; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=raw voltage signal associated with LT cooling-water pump pressure; not converted to engineering pressure units",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:2d4865509b8beb11",
+        "page": "",
+        "locator": "variable_dictionary.csv:Sea Cooling Water Press.",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:a6b570413502",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:b2c4a9752de11bcb",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Loss with LO; symbol=Qrej_lo; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:2dcda900a2edd521",
+        "page": "",
+        "locator": "variable_dictionary.csv:Loss with LO"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:5c1900646ca4",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:300d98a15fc95cf3",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Charge Air IC Cooling water flow; symbol=Qw_air; unit=m3/h; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=flow / fuel / air",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:3028fbceea0e3edc",
+        "page": "",
+        "locator": "variable_dictionary.csv:Charge Air IC Cooling water flow",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:fd5659daf34f",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:a4e5d5a35775ffd2",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=LO Cooling Water Temp. In; symbol=T12; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:333bbb6be23ee224",
+        "page": "",
+        "locator": "variable_dictionary.csv:LO Cooling Water Temp. In"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:75d18bcbb2d9",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:cf549f4c47fda6b2",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Indicated Efficiency; symbol=Effi; unit=%; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:35b4fc034e64a450",
+        "page": "",
+        "locator": "variable_dictionary.csv:Indicated Efficiency"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:421ec2313d7d",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:1fc7eecec98c89b6",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Mechanical Efficiency; symbol=Effn; unit=%; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:35c465c443d90f42",
+        "page": "",
+        "locator": "variable_dictionary.csv:Mechanical Efficiency"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:427673f0da2d",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:cb384ca96e3f30da",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Charge Air IC Air Temp. In; symbol=T14; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:3e50df8e5d9fe6d4",
+        "page": "",
+        "locator": "variable_dictionary.csv:Charge Air IC Air Temp. In",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:09fb65289e45",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:401af2b35a1b0e89",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Loss in Charge Air IC; symbol=Qrej_air; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:42db8fe2166d1a03",
+        "page": "",
+        "locator": "variable_dictionary.csv:Loss in Charge Air IC",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:8b403808fd55",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:01f0c4c8cc7ce048",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Exh.Gas Temp. Turbine Out; symbol=T5; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:43df28ae28a3fbbf",
+        "page": "",
+        "locator": "variable_dictionary.csv:Exh.Gas Temp. Turbine Out"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:0d564da1d412",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:6a459e615a3b0f50",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Effective Efficiency; symbol=Efft; unit=%; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:4b7f6d0000ba8b85",
+        "page": "",
+        "locator": "variable_dictionary.csv:Effective Efficiency"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:9103d6c847ed",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:d03c38ea8ee2eea4",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Effective Work No.1; symbol=We; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived; note=shorthand label is reused across cylinder-resolved and/or aggregate variables; use the full variable-name row during preprocessing",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:4be6677a2fce9cc4",
+        "page": "",
+        "locator": "variable_dictionary.csv:Effective Work No.1"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:aef67aa11eac",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:45a436ad6dfdc32b",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Charge Air IC Cooling Water Temp. In; symbol=T16; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:53aef46f30bb2a58",
+        "page": "",
+        "locator": "variable_dictionary.csv:Charge Air IC Cooling Water Temp. In",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:2c5d17b46b26",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:9f20c51ce9a64e85",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Cooling Water Temp. Engine Out II; symbol=T8; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:53b6c743d3911d7c",
+        "page": "",
+        "locator": "variable_dictionary.csv:Cooling Water Temp. Engine Out II",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:8529d7e4c296",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:40c03eeb43d8d524",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Other Loss; symbol=Qother; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:595ef591f4214968",
+        "page": "",
+        "locator": "variable_dictionary.csv:Other Loss"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:1f391dbaad55",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:03eb6a301e78c0bb",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Fuel transfer pump Press.; symbol=Pl_fuel; unit=V; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=raw voltage signal associated with fuel-side pressure; not converted to engineering pressure units",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:5b6480e99d1e39fb",
+        "page": "",
+        "locator": "variable_dictionary.csv:Fuel transfer pump Press."
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:ccfc2a47cee5",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:f6d35a82c4676820",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Exh.Gas Temp. Turbine In; symbol=T4; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:5fad3b66d088751f",
+        "page": "",
+        "locator": "variable_dictionary.csv:Exh.Gas Temp. Turbine In"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:453069f73398",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:8bfe43ad048fac31",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=LO Temp. TCH In; symbol=T19; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:637c1d14e0c603a6",
+        "page": "",
+        "locator": "variable_dictionary.csv:LO Temp. TCH In"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:851db4d72803",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:a642586c67899f4c",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Water Brake Weight; symbol=F; unit=kgf; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=operating / load",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:69786e65ac0d4312",
+        "page": "",
+        "locator": "variable_dictionary.csv:Water Brake Weight",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:28c98806fac8",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:51021f36119ca0d4",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Indicated Work No.2; symbol=Wi; unit=J; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived; note=shorthand label is reused across cylinder-resolved and/or aggregate variables; use the full variable-name row during preprocessing",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:6b58a4007c47e288",
+        "page": "",
+        "locator": "variable_dictionary.csv:Indicated Work No.2"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:615199ab193b",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:0cf3e7afa3cd10e1",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=LO Cooling Water Temp. Out; symbol=T13; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:6d43abb57134c895",
+        "page": "",
+        "locator": "variable_dictionary.csv:LO Cooling Water Temp. Out",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:e17885e7f77f",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:a994c6251dbff16c",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Loss with TCH LO; symbol=Qrej_turb; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:70ec9bf53cd508a6",
+        "page": "",
+        "locator": "variable_dictionary.csv:Loss with TCH LO"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:8b403808fd55",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:01f0c4c8cc7ce048",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Exh.Gas Temp. Turbine Out; symbol=T5; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:74788259601dfac1",
+        "page": "",
+        "locator": "variable_dictionary.csv:Exh.Gas Temp. Turbine Out",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:09fb65289e45",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:401af2b35a1b0e89",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Loss in Charge Air IC; symbol=Qrej_air; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:756ee7ab786e2342",
+        "page": "",
+        "locator": "variable_dictionary.csv:Loss in Charge Air IC"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:3a134554df66",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:93774e70cf4f862f",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=TCH LO pump Press.; symbol=Pl_loturb; unit=V; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=raw voltage signal associated with turbocharger LO pump pressure; not converted to engineering pressure units",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:789a40efbf94f045",
+        "page": "",
+        "locator": "variable_dictionary.csv:TCH LO pump Press."
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:7b9d6be3e1e7",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:fab039e22fe38b80",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Charge Air IC Cooling Water Temp. Out; symbol=T17; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:7f5cf32ac1fefe93",
+        "page": "",
+        "locator": "variable_dictionary.csv:Charge Air IC Cooling Water Temp. Out",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:ccfc2a47cee5",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:f6d35a82c4676820",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Exh.Gas Temp. Turbine In; symbol=T4; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:7fc238db427a590a",
+        "page": "",
+        "locator": "variable_dictionary.csv:Exh.Gas Temp. Turbine In",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:e9b442573c44",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:0ee3d29721b3b421",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Cooling Water Temp. Engine Out III; symbol=T9; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:822894e4ee33d35c",
+        "page": "",
+        "locator": "variable_dictionary.csv:Cooling Water Temp. Engine Out III"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:e98fe7ad595f",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:f5da26689774f64c",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Loss with cooling water; symbol=Qrej_eng; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:8e8b5c419663d869",
+        "page": "",
+        "locator": "variable_dictionary.csv:Loss with cooling water",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:a99b849d2aad",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:d4f6a624b9bf3bf5",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=TCH Power; symbol=Qturb; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=other",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:8e8fa2175e5d4990",
+        "page": "",
+        "locator": "variable_dictionary.csv:TCH Power"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:e47b10fa62e0",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:e79a186ddb29e3e0",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Compressor Filter Loss; symbol=dPf; unit=Pa; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=Present in all scenario files for schema uniformity; recorded values in 10 of 15 scenario files. Empty (not recorded) in: AC_Fouling_85_Load.csv, Clogged_Injector_Nozzle1_40_60_85_Load.csv, Clogged_Injector_Nozzle2_LoadProgram.csv, CW_Pump_Cavitation_60_Load.csv, CW_Pump_Cavitation_85_Load.csv.",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:93eb95c46bcd230e",
+        "page": "",
+        "locator": "variable_dictionary.csv:Compressor Filter Loss",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:1320f5577cf0",
+      "target": "shipkg:subsystem:5e357a568055",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:740294f08f945134",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Exh.Gas Vol. Flow (From Engine Speed); symbol=qexh; unit=NL/min; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=flow / fuel / air",
+        "props_json": "{\"classification_rule\": \"transmission\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:958121aa9d470c6d",
+        "page": "",
+        "locator": "variable_dictionary.csv:Exh.Gas Vol. Flow (From Engine Speed)",
+        "classification_rule": "transmission"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:c6c4a9eaacca",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:5e4fab320bfd07ed",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Total Input Energy; symbol=Qtotal; unit=W; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=other",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:992478fc2c14e9b3",
+        "page": "",
+        "locator": "variable_dictionary.csv:Total Input Energy"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:1320f5577cf0",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:740294f08f945134",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Exh.Gas Vol. Flow (From Engine Speed); symbol=qexh; unit=NL/min; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=flow / fuel / air",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:9941cbdbe1cfdf73",
+        "page": "",
+        "locator": "variable_dictionary.csv:Exh.Gas Vol. Flow (From Engine Speed)"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:1f391dbaad55",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:03eb6a301e78c0bb",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Fuel transfer pump Press.; symbol=Pl_fuel; unit=V; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=raw voltage signal associated with fuel-side pressure; not converted to engineering pressure units",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:9e444dcb08b3cf88",
+        "page": "",
+        "locator": "variable_dictionary.csv:Fuel transfer pump Press.",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:aef67aa11eac",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:45a436ad6dfdc32b",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Charge Air IC Cooling Water Temp. In; symbol=T16; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:9e959d93a91dfe5c",
+        "page": "",
+        "locator": "variable_dictionary.csv:Charge Air IC Cooling Water Temp. In"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:ba5f4c7a3eab",
+      "target": "shipkg:subsystem:4539c38d0a84",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:e8941bdb9ca9e23d",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Exh.Gas Total Power; symbol=Qexh1; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=other",
+        "props_json": "{\"classification_rule\": \"electrical\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:a28c301cbad1e0c2",
+        "page": "",
+        "locator": "variable_dictionary.csv:Exh.Gas Total Power",
+        "classification_rule": "electrical"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:615199ab193b",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:0cf3e7afa3cd10e1",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=LO Cooling Water Temp. Out; symbol=T13; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:a937bf8f2b2c652c",
+        "page": "",
+        "locator": "variable_dictionary.csv:LO Cooling Water Temp. Out"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:e47b10fa62e0",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:e79a186ddb29e3e0",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Compressor Filter Loss; symbol=dPf; unit=Pa; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=Present in all scenario files for schema uniformity; recorded values in 10 of 15 scenario files. Empty (not recorded) in: AC_Fouling_85_Load.csv, Clogged_Injector_Nozzle1_40_60_85_Load.csv, Clogged_Injector_Nozzle2_LoadProgram.csv, CW_Pump_Cavitation_60_Load.csv, CW_Pump_Cavitation_85_Load.csv.",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:aae2c66f15b8b768",
+        "page": "",
+        "locator": "variable_dictionary.csv:Compressor Filter Loss"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:5acc3a404383",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:dec41aa5e554ca31",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Fuel Injector Cooling Oil Press.; symbol=Pl_valve; unit=V; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:b1eebdee30fa1762",
+        "page": "",
+        "locator": "variable_dictionary.csv:Fuel Injector Cooling Oil Press.",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:b3a6d5f659a8",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:f03b684739fae393",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Indicated Work No.1; symbol=Wi; unit=J; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived; note=shorthand label is reused across cylinder-resolved and/or aggregate variables; use the full variable-name row during preprocessing",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:b25a5cf32c96c74f",
+        "page": "",
+        "locator": "variable_dictionary.csv:Indicated Work No.1"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:7b9d6be3e1e7",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:fab039e22fe38b80",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Charge Air IC Cooling Water Temp. Out; symbol=T17; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:b3e43455b3218549",
+        "page": "",
+        "locator": "variable_dictionary.csv:Charge Air IC Cooling Water Temp. Out"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:870baabfbca3",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:766b43663daf2a75",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Fuel Temp.; symbol=T18; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:b545dff5546fb648",
+        "page": "",
+        "locator": "variable_dictionary.csv:Fuel Temp.",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:a99b849d2aad",
+      "target": "shipkg:subsystem:4539c38d0a84",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:d4f6a624b9bf3bf5",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=TCH Power; symbol=Qturb; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=other",
+        "props_json": "{\"classification_rule\": \"electrical\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:b843f5e5dcf969b4",
+        "page": "",
+        "locator": "variable_dictionary.csv:TCH Power",
+        "classification_rule": "electrical"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:5acc3a404383",
+      "target": "shipkg:subsystem:d08eaf16cc46",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:dec41aa5e554ca31",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Fuel Injector Cooling Oil Press.; symbol=Pl_valve; unit=V; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure",
+        "props_json": "{\"classification_rule\": \"lubrication\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:be3b5590041e75e9",
+        "page": "",
+        "locator": "variable_dictionary.csv:Fuel Injector Cooling Oil Press.",
+        "classification_rule": "lubrication"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:67bfe0a5f170",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:cc6982ba7e64d2a0",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Effective Work No.3; symbol=We; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived; note=shorthand label is reused across cylinder-resolved and/or aggregate variables; use the full variable-name row during preprocessing",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:bec7be1e9700a814",
+        "page": "",
+        "locator": "variable_dictionary.csv:Effective Work No.3"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:ba1e69ac58df",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:9d4c4111f91d89e1",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Total Indicated work; symbol=Wi_tot; unit=J; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:c1e0fa7428533bc5",
+        "page": "",
+        "locator": "variable_dictionary.csv:Total Indicated work"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:e9b442573c44",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:0ee3d29721b3b421",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Cooling Water Temp. Engine Out III; symbol=T9; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:c4bc9ca7f69ae069",
+        "page": "",
+        "locator": "variable_dictionary.csv:Cooling Water Temp. Engine Out III",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:2392435fe4ac",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:72d13ccbc4af64a2",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=LO Temp. TCH Out; symbol=T20; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:c62ebf3c80e160a0",
+        "page": "",
+        "locator": "variable_dictionary.csv:LO Temp. TCH Out"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:5acc3a404383",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:dec41aa5e554ca31",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Fuel Injector Cooling Oil Press.; symbol=Pl_valve; unit=V; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:cb9aa280fead0205",
+        "page": "",
+        "locator": "variable_dictionary.csv:Fuel Injector Cooling Oil Press."
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:5f5652f7036e",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:09d27f6992891305",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=LO Cooling water flow; symbol=Qw_lo; unit=m3/h; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=flow / fuel / air",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:cf347cc5c62a9275",
+        "page": "",
+        "locator": "variable_dictionary.csv:LO Cooling water flow"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:e94fb52827fa",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:0f8c03d1dccfd00e",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Turbine Back Pressure; symbol=dPex; unit=Pa; dtype=number; in_reference=FALSE; in_scenario_files=TRUE; category=pressure / derived pressure; note=Present in all scenario files for schema uniformity; recorded values in 10 of 15 scenario files. Empty (not recorded) in: AC_Fouling_85_Load.csv, Clogged_Injector_Nozzle1_40_60_85_Load.csv, Clogged_Injector_Nozzle2_LoadProgram.csv, CW_Pump_Cavitation_60_Load.csv, CW_Pump_Cavitation_85_Load.csv.",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:cf8088fbc0fe6263",
+        "page": "",
+        "locator": "variable_dictionary.csv:Turbine Back Pressure"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:6cf5ec25b81a",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:88f82746a258e58a",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=No.3 Exh.Gas Temp.; symbol=T3; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:d2cf7e7328f9b943",
+        "page": "",
+        "locator": "variable_dictionary.csv:No.3 Exh.Gas Temp."
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:a4ce7901d117",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:3329024780d2fb48",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Mechanical Loss; symbol=Wm; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:d550d8d987cbc2ed",
+        "page": "",
+        "locator": "variable_dictionary.csv:Mechanical Loss"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:17bbed611e22",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:2387afdf814fcf9c",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Total Heat Loss in Heat Exchangers; symbol=Qrej; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:d5c1fd3be2416952",
+        "page": "",
+        "locator": "variable_dictionary.csv:Total Heat Loss in Heat Exchangers"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:870baabfbca3",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:766b43663daf2a75",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Fuel Temp.; symbol=T18; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:d633bdf82e73e82e",
+        "page": "",
+        "locator": "variable_dictionary.csv:Fuel Temp."
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:b7131de34c68",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:9500742595c79664",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Min. In-Cylinder Press. No.2; symbol=Pmin; unit=MPa; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=shorthand label is reused across cylinder-resolved and/or aggregate variables; use the full variable-name row during preprocessing",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:d7df018213d853f6",
+        "page": "",
+        "locator": "variable_dictionary.csv:Min. In-Cylinder Press. No.2"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:8ad66c87b433",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:fdaddc4825b4b458",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=No.2 Exh.Gas Temp.; symbol=T2; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:e0284dc52b13fab4",
+        "page": "",
+        "locator": "variable_dictionary.csv:No.2 Exh.Gas Temp."
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:270638670931",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:e83aa95b02c47022",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Max. In-Cylinder Press. No.3; symbol=Pmax; unit=MPa; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=pressure / derived pressure; note=shorthand label is reused across cylinder-resolved and/or aggregate variables; use the full variable-name row during preprocessing",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:e4eaac50a4ee8002",
+        "page": "",
+        "locator": "variable_dictionary.csv:Max. In-Cylinder Press. No.3"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:0c9767837a0e",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:c217155b6979c5d2",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Engine room Temp.; symbol=T22; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:e7103e2d26ceb062",
+        "page": "",
+        "locator": "variable_dictionary.csv:Engine room Temp."
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:fd5659daf34f",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:a4e5d5a35775ffd2",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=LO Cooling Water Temp. In; symbol=T12; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:e7ec06f33098d624",
+        "page": "",
+        "locator": "variable_dictionary.csv:LO Cooling Water Temp. In",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:2c5d17b46b26",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:9f20c51ce9a64e85",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Cooling Water Temp. Engine Out II; symbol=T8; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:ea13b5c72413de93",
+        "page": "",
+        "locator": "variable_dictionary.csv:Cooling Water Temp. Engine Out II"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:34c1108e4156",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:f04d1f439a274c32",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Indicated Work No.3; symbol=Wi; unit=J; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived; note=shorthand label is reused across cylinder-resolved and/or aggregate variables; use the full variable-name row during preprocessing",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:eb9820d2f30f30f4",
+        "page": "",
+        "locator": "variable_dictionary.csv:Indicated Work No.3"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:31faff89b311",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:572a54544e373533",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Fuel Oil Temp. Flow meter In; symbol=T21; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:ede40320c4ce187a",
+        "page": "",
+        "locator": "variable_dictionary.csv:Fuel Oil Temp. Flow meter In"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:872567f0bd88",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:0df6fda26336ffc4",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Effective Work No.2; symbol=We; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=performance / derived; note=shorthand label is reused across cylinder-resolved and/or aggregate variables; use the full variable-name row during preprocessing",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:eedeeafafedb05b6",
+        "page": "",
+        "locator": "variable_dictionary.csv:Effective Work No.2"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:31faff89b311",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:572a54544e373533",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Fuel Oil Temp. Flow meter In; symbol=T21; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:f0336114be21b200",
+        "page": "",
+        "locator": "variable_dictionary.csv:Fuel Oil Temp. Flow meter In",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:aef67aa11eac",
+      "target": "shipkg:subsystem:512427f592b7",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:45a436ad6dfdc32b",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Charge Air IC Cooling Water Temp. In; symbol=T16; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"cooling\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:f19301b64c3cb30b",
+        "page": "",
+        "locator": "variable_dictionary.csv:Charge Air IC Cooling Water Temp. In",
+        "classification_rule": "cooling"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:31faff89b311",
+      "target": "shipkg:subsystem:d08eaf16cc46",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:572a54544e373533",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Fuel Oil Temp. Flow meter In; symbol=T21; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"lubrication\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:f264dbf160f5c998",
+        "page": "",
+        "locator": "variable_dictionary.csv:Fuel Oil Temp. Flow meter In",
+        "classification_rule": "lubrication"
+      }
+    },
+    {
+      "type": "BELONGS_TO_SUBSYSTEM",
+      "source": "shipkg:sensor:7b9d6be3e1e7",
+      "target": "shipkg:subsystem:52e7560c8465",
+      "properties": {
+        "certainty": "curated_classification",
+        "graph_version": "2.0",
+        "evidence_id": "ev:fab039e22fe38b80",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "研究者分类（非因果结论）",
+        "quote": "full_name=Charge Air IC Cooling Water Temp. Out; symbol=T17; unit=°C; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=temperature",
+        "props_json": "{\"classification_rule\": \"fuel_air\", \"name\": \"归属子系统\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "归属子系统",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:f80cec34ea31215a",
+        "page": "",
+        "locator": "variable_dictionary.csv:Charge Air IC Cooling Water Temp. Out",
+        "classification_rule": "fuel_air"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:173be47ae689",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:9adb71d01088504c",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Exh. Gas Mass Flow; symbol=Mexh; unit=kg/s; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=flow / fuel / air",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:fb34bd4df3c583e0",
+        "page": "",
+        "locator": "variable_dictionary.csv:Exh. Gas Mass Flow"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:0d9978f872ad",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:80918215733870aa",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Exh.Gas Power; symbol=Qexh2; unit=kW; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=other",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:fe049a757fc3bcaa",
+        "page": "",
+        "locator": "variable_dictionary.csv:Exh.Gas Power"
+      }
+    },
+    {
+      "type": "HAS_CHANNEL",
+      "source": "shipkg:dataset:1ceeb4cad6d8",
+      "target": "shipkg:sensor:5c1900646ca4",
+      "properties": {
+        "certainty": "reported",
+        "graph_version": "2.0",
+        "evidence_id": "ev:300d98a15fc95cf3",
+        "source_file": "Marine_Engine_Fault_Data_v1.zip",
+        "source_url": "https://zenodo.org/records/19857425",
+        "certainty_zh": "报告明确记载",
+        "quote": "full_name=Charge Air IC Cooling water flow; symbol=Qw_air; unit=m3/h; dtype=number; in_reference=TRUE; in_scenario_files=TRUE; category=flow / fuel / air",
+        "props_json": "{\"name\": \"包含测点\", \"graph_version\": \"2.0\", \"is_causal\": false}",
+        "name": "包含测点",
+        "case_id": "",
+        "is_causal": false,
+        "id": "edge:fe7d4eb6c9fdf2b2",
+        "page": "",
+        "locator": "variable_dictionary.csv:Charge Air IC Cooling water flow"
+      }
+    }
+  ],
+  "restore_note": "Use this script --restore after reviewing the scope; raw datasets untouched."
+}

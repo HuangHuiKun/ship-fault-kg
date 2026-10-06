@@ -1,0 +1,276 @@
+{
+  "created_utc": "2026-10-05T05:31:55.569072+00:00",
+  "model": "qwen2.5:3b-instruct",
+  "query": "标准化诊断线索：Pride of Canterbury可调螺距桨液压背压阀磨损卡滞，CPP系统超压，回油法兰破裂喷油并起火。说明参考故障链、检查项目和运维建议。",
+  "retrieval": {
+    "query": "标准化诊断线索：Pride of Canterbury可调螺距桨液压背压阀磨损卡滞，CPP系统超压，回油法兰破裂喷油并起火。说明参考故障链、检查项目和运维建议。",
+    "coverage": "case_evidence",
+    "coverage_warning": "",
+    "entity_alignment": [
+      {
+        "id": "shipkg:component:282dcd34a768",
+        "name": "SD2016-05右舷可调螺距桨",
+        "kind": "Component",
+        "matched": "CPP"
+      },
+      {
+        "id": "shipkg:component:d16e663b1271",
+        "name": "Pride of Canterbury螺距控制油路",
+        "kind": "Component",
+        "matched": "CPP"
+      },
+      {
+        "id": "shipkg:fault:ae4a492efe41",
+        "name": "CPP系统超压",
+        "kind": "Fault",
+        "matched": "CPP系统超压"
+      },
+      {
+        "id": "shipkg:fault:f078b5a27275",
+        "name": "误选CPP备用控制模式",
+        "kind": "Fault",
+        "matched": "CPP"
+      },
+      {
+        "id": "shipkg:symptom:fa4424a6b543",
+        "name": "CPP备用模式指示灯点亮",
+        "kind": "Symptom",
+        "matched": "CPP"
+      }
+    ],
+    "dataset_matches": [],
+    "cases": [
+      {
+        "case_id": "pride_can_cpp_2014",
+        "name": "Pride of Canterbury液压背压阀卡滞与火灾",
+        "score": 0.6739
+      },
+      {
+        "case_id": "sd2016_05_cpp_backup",
+        "name": "匿名滚装客船误选CPP备用模式与泊位碰撞",
+        "score": 0.1339
+      }
+    ],
+    "causal_paths": [
+      {
+        "case_id": "pride_can_cpp_2014",
+        "score": 1.0804,
+        "edge_ids": [
+          "edge:6dffccd015790a4e",
+          "edge:758bddbadcad8848",
+          "edge:f1855f0334a94c6a",
+          "edge:033974c90eb04867"
+        ],
+        "chain": "CPP背压阀磨损卡滞 → CPP系统超压 → CPP回油法兰破裂 → 液压油喷向高温排气管 → 机舱火灾"
+      },
+      {
+        "case_id": "pride_can_cpp_2014",
+        "score": 1.0503,
+        "edge_ids": [
+          "edge:6dffccd015790a4e",
+          "edge:758bddbadcad8848",
+          "edge:f1855f0334a94c6a"
+        ],
+        "chain": "CPP背压阀磨损卡滞 → CPP系统超压 → CPP回油法兰破裂 → 液压油喷向高温排气管"
+      }
+    ],
+    "facts": [
+      {
+        "id": "edge:6dffccd015790a4e",
+        "case_id": "pride_can_cpp_2014",
+        "case_name": "Pride of Canterbury液压背压阀卡滞与火灾",
+        "subject": "CPP背压阀磨损卡滞",
+        "relation": "LEADS_TO",
+        "relation_zh": "导致",
+        "object": "CPP系统超压",
+        "certainty": "reported",
+        "score": 0.575,
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "29",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "evidence": "akes of the starboard main engines. The flanged joint ruptured because the CPP system became over- pressurised as a result of the back pressure valve (PSV3) becoming jammed in the closed position. The reason for the temporary increase in the starboard main engine load to 100% and corresponding increase in turbocharger rpm has not been determined. However, the reason is not believed to be related to the cause of the fire."
+      },
+      {
+        "id": "edge:758bddbadcad8848",
+        "case_id": "pride_can_cpp_2014",
+        "case_name": "Pride of Canterbury液压背压阀卡滞与火灾",
+        "subject": "CPP系统超压",
+        "relation": "LEADS_TO",
+        "relation_zh": "导致",
+        "object": "CPP回油法兰破裂",
+        "certainty": "reported",
+        "score": 0.5843,
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "29",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "evidence": "oil, from a ruptured pipework joint in the starboard CPP system, onto the hot exhaust uptakes of the starboard main engines. The flanged joint ruptured because the CPP system became over- pressurised as a result of the back pressure valve (PSV3) becoming jammed in the closed position. The reason for the temporary increase in the starboard main engine load to 100% and corresponding increase in turbocharger rpm has not been det"
+      },
+      {
+        "id": "edge:f1855f0334a94c6a",
+        "case_id": "pride_can_cpp_2014",
+        "case_name": "Pride of Canterbury液压背压阀卡滞与火灾",
+        "subject": "CPP回油法兰破裂",
+        "relation": "LEADS_TO",
+        "relation_zh": "导致",
+        "object": "液压油喷向高温排气管",
+        "certainty": "reported",
+        "score": 0.4625,
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "29",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "evidence": "recommendations to prevent similar accidents occurring in the future. 2.2 CAUSE OF THE FIRE The fire was initiated following the spray of hydraulic oil, from a ruptured pipework joint in the starboard CPP system, onto the hot exhaust uptakes of the starboard main engines. The flanged joint ruptured because the CPP system became over- pressurised as a result of the back pressure valve (PSV3) becoming jammed in"
+      },
+      {
+        "id": "edge:033974c90eb04867",
+        "case_id": "pride_can_cpp_2014",
+        "case_name": "Pride of Canterbury液压背压阀卡滞与火灾",
+        "subject": "液压油喷向高温排气管",
+        "relation": "LEADS_TO",
+        "relation_zh": "导致",
+        "object": "机舱火灾",
+        "certainty": "reported",
+        "score": 0.383,
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "29",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "evidence": "he accident as a basis for making recommendations to prevent similar accidents occurring in the future. 2.2 CAUSE OF THE FIRE The fire was initiated following the spray of hydraulic oil, from a ruptured pipework joint in the starboard CPP system, onto the hot exhaust uptakes of the starboard main engines. The flanged joint ruptured because the CPP system became over- pressurised as a result of t"
+      },
+      {
+        "id": "edge:58661885c40c9a23",
+        "case_id": "pride_can_cpp_2014",
+        "case_name": "Pride of Canterbury液压背压阀卡滞与火灾",
+        "subject": "检查CPP背压阀和安全阀功能",
+        "relation": "CHECKS",
+        "relation_zh": "检查",
+        "object": "CPP背压阀磨损卡滞",
+        "certainty": "reported_action",
+        "score": 0.4658,
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "35",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "evidence": "d PSV3 on all CPP hydraulic modules. • Implemented a maintenance programme in which at least PSV1, PSV3 and NRV6 are disabled and their function checked once every 5 years. • Added a full flow check-valve, with an opening pressure of 10-12 bar, in the return oil circuit by-passing PSV3, the Oil Cooler and NRV6. Also, an additional alarm signal was to be fitted in the control system to give an alarm"
+      },
+      {
+        "id": "edge:409d388d1040602f",
+        "case_id": "pride_can_cpp_2014",
+        "case_name": "Pride of Canterbury液压背压阀卡滞与火灾",
+        "subject": "按厂商通告更换背压阀",
+        "relation": "ADDRESSES",
+        "relation_zh": "应对",
+        "object": "CPP背压阀磨损卡滞",
+        "certainty": "reported_action",
+        "score": 0.4622,
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "35",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "evidence": "ull coverage of all high-risk machinery. 4.2 WARTSILA Wartsila has issued a Technical Bulletin (Annex C) instructing operators to replace back pressure valves at least every 15 years."
+      },
+      {
+        "id": "edge:eb00e74b105c9e6b",
+        "case_id": "pride_can_cpp_2014",
+        "case_name": "Pride of Canterbury液压背压阀卡滞与火灾",
+        "subject": "液压油取样未检出背压阀磨损",
+        "relation": "LIMITS_DETECTION_OF",
+        "relation_zh": "妨碍发现",
+        "object": "CPP背压阀磨损卡滞",
+        "certainty": "reported",
+        "score": 0.4691,
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "30",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "evidence": "24 the valves and their refitting was deemed an unnecessary measure. However, the oil sampling programme had not identified the wear in the back pressure valve as it had, most likely, occurred gradually over a long period of time. 2.3.3 Pipework joints and shielding Whereas the main components of Pride of Canterbury’s CPP system were supplied after testing by"
+      },
+      {
+        "id": "edge:e4dc29615b38ae3d",
+        "case_id": "pride_can_cpp_2014",
+        "case_name": "Pride of Canterbury液压背压阀卡滞与火灾",
+        "subject": "安全阀长期未功能检查",
+        "relation": "LIMITS_DETECTION_OF",
+        "relation_zh": "妨碍发现",
+        "object": "CPP背压阀磨损卡滞",
+        "certainty": "reported",
+        "score": 0.4344,
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "29",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "evidence": "ey need to be checked to ensure they continue to function correctly. However, in the case of Pride of Canterbury these valves had never been tested or inspected since the ship was constructed 23 years previously. The LIPS CPP system manual provided some maintenance instructions, including annual testing of pressure safety valve (PSV1) and the back pressure valve (PSV3). However, how this"
+      },
+      {
+        "id": "edge:7f6a0de1a4eca672",
+        "case_id": "pride_can_cpp_2014",
+        "case_name": "Pride of Canterbury液压背压阀卡滞与火灾",
+        "subject": "回油管缺少有效超压释放",
+        "relation": "WORSENS",
+        "relation_zh": "加重后果",
+        "object": "CPP系统超压",
+        "certainty": "reported",
+        "score": 0.431,
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "29",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "evidence": "ation of the CPP system as it maintained the overall system pressure. When this component failed to operate correctly, there were no means within the system to effectively relieve excess pressure. In addition, pressure safety valve (PSV1), which enabled pressure to be dissipated into the return line, was set to operate at 145 bar. This was significantly higher than the pressure at which some parts of the system were able"
+      },
+      {
+        "id": "edge:bc16de904459ec48",
+        "case_id": "pride_can_cpp_2014",
+        "case_name": "Pride of Canterbury液压背压阀卡滞与火灾",
+        "subject": "回油法兰未设喷溅保护",
+        "relation": "INCREASES_RISK_OF",
+        "relation_zh": "增加风险",
+        "object": "液压油喷向高温排气管",
+        "certainty": "reported",
+        "score": 0.3804,
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "30",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "evidence": "from the OD box were protected. Critically, in the zone between the two starboard main engines where the leak occurred, there was no evidence after the fire of shielding on the flanged joints. Given the port side arrangement had no shielding for the same joints (Figure 19), it is concluded unlikely that shielding was ever in place on the starboard side. Although surveyed and inspected on a regular basis, the omission"
+      }
+    ],
+    "passages": [
+      {
+        "id": "passage:3e88a0713198f657",
+        "title": "Pride of Canterbury CPP hydraulic overpressure and fire",
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "29",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "kind": "report_page",
+        "score": 0.4008,
+        "excerpt": "23 SECTION 2 - ANALYSIS 2.1 A IM The purpose of the analysis is to determine the contributory causes and circumstances of the accident as a basis for making recommendations to prevent similar accidents occurring in the future. 2.2 CAUSE OF THE FIRE The fire was initiated following the spray of hydraulic oil, from a ruptured pipework joint in the starboard CPP system, onto the hot exhaust uptakes of the starboard main engines. The flanged joint ruptured because the CPP system became over- pressurised as a result of the back pressure valve (PSV3) becoming jammed in the closed position. The reaso"
+      },
+      {
+        "id": "passage:bd4500970a5b2a3f",
+        "title": "Pride of Canterbury CPP hydraulic overpressure and fire",
+        "source_file": "MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf",
+        "page": "35",
+        "source_url": "https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf",
+        "kind": "report_page",
+        "score": 0.3917,
+        "excerpt": "29 SECTION 4 - ACTION TAKEN 4.1 P&O FERRIES P&O Ferries has: On 13 October 2014, instructed all chief engineers in the fleet to complete a target audit of machinery space fire safety and implement any necessary actions. The scope included: • Identify all areas of increased risk with regard to oil systems adjacent to hot surfaces. • Identify all connections, flanges that if they were to fail would cause oil to leak. • Ensure category A machinery spaces are free of all combustible materials, e.g. pallets. On 5 December 2014, following investigation, instructed the following actions: For Pride of"
+      }
+    ],
+    "retrieval_method": "alias/entity matching + character TF-IDF + query synonyms + case-scoped graph reranking (not neural embeddings)"
+  },
+  "llm_selection_raw": "{\"fault_chain\":[1,2,3,4],\"checks\":[5],\"actions\":[6,7,8,9,10]}",
+  "validated_selection": {
+    "fault_chain": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "checks": [
+      5
+    ],
+    "actions": [
+      6
+    ]
+  },
+  "selection_errors": [
+    "拒绝 actions 中的无效编号 7",
+    "拒绝 actions 中的无效编号 8",
+    "拒绝 actions 中的无效编号 9",
+    "拒绝 actions 中的无效编号 10"
+  ],
+  "final_report_method": "LLM选择证据；依据同一案例中的图谱事实和来源页码确定性生成正文",
+  "final_report": "# 船舶动力系统知识增强诊断草稿\n\n输入线索：标准化诊断线索：Pride of Canterbury可调螺距桨液压背压阀磨损卡滞，CPP系统超压，回油法兰破裂喷油并起火。说明参考故障链、检查项目和运维建议。\n\n参考历史案例：Pride of Canterbury液压背压阀卡滞与火灾。本船具体根因仍需现场数据和检查结果确认。\n\n## 可能故障与因果解释\n\n- CPP背压阀磨损卡滞 导致 CPP系统超压。[1]\n- CPP系统超压 导致 CPP回油法兰破裂。[2]\n- CPP回油法兰破裂 导致 液压油喷向高温排气管。[3]\n- 液压油喷向高温排气管 导致 机舱火灾。[4]\n\n## 建议检查\n\n- 检查CPP背压阀和安全阀功能，核查是否存在“CPP背压阀磨损卡滞”。[5]\n\n## 可参考的运维措施\n\n- 按厂商通告更换背压阀。[6]\n\n## 来源证据\n\n- [1] MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf，PDF第29页；[来源](https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf)；确定性：reported。\n- [2] MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf，PDF第29页；[来源](https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf)；确定性：reported。\n- [3] MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf，PDF第29页；[来源](https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf)；确定性：reported。\n- [4] MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf，PDF第29页；[来源](https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf)；确定性：reported。\n- [5] MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf，PDF第35页；[来源](https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf)；确定性：reported_action。\n- [6] MAIB_2015_22_Pride_of_Canterbury_CPP_hydraulic_fire.pdf，PDF第35页；[来源](https://assets.digital.cabinet-office.gov.uk/media/563092daed915d566d000002/MAIBInvReport-22_2015.pdf)；确定性：reported_action。\n\n这是图谱辅助草稿；实际运维决策需结合本船测点、报警与维修记录及制造商手册。\n"
+}

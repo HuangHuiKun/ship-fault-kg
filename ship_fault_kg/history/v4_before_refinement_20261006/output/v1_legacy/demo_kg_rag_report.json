@@ -1,0 +1,262 @@
+{
+  "created_utc": "2026-09-29T13:12:14.373680+00:00",
+  "model": "qwen2.5:3b-instruct",
+  "query": "标准化诊断结果：柴油发电机出现连杆轴瓦异常磨损，随后机组停机、全船失电并失去推进。分析可能故障链、检查项目和运维建议。",
+  "retrieval": {
+    "query": "标准化诊断结果：柴油发电机出现连杆轴瓦异常磨损，随后机组停机、全船失电并失去推进。分析可能故障链、检查项目和运维建议。",
+    "coverage": "case_evidence",
+    "coverage_warning": "",
+    "dataset_matches": [],
+    "cases": [
+      {
+        "case_id": "kommandor_susan_dg1_2025",
+        "name": "Kommandor Susan DG1发电机故障与失电",
+        "score": 0.1812
+      },
+      {
+        "case_id": "spirit_of_discovery_pods_2023",
+        "name": "Spirit of Discovery大风浪中吊舱推进丧失",
+        "score": 0.0432
+      }
+    ],
+    "causal_paths": [
+      {
+        "case_id": "kommandor_susan_dg1_2025",
+        "score": 0.5317,
+        "edge_ids": [
+          "edge:2d66b2b8782ccd77",
+          "edge:0e92ee66dde8b3d3",
+          "edge:a840667b53ddaf5c"
+        ],
+        "chain": "连杆大端轴瓦失效 → 柴油发电机灾难性失效 → 全船失电 → 失去推进"
+      },
+      {
+        "case_id": "kommandor_susan_dg1_2025",
+        "score": 0.5251,
+        "edge_ids": [
+          "edge:f91e30b569a1ffe4",
+          "edge:2d66b2b8782ccd77",
+          "edge:0e92ee66dde8b3d3",
+          "edge:a840667b53ddaf5c"
+        ],
+        "chain": "非原厂轴承材料粘结较弱 → 连杆大端轴瓦失效 → 柴油发电机灾难性失效 → 全船失电 → 失去推进"
+      },
+      {
+        "case_id": "spirit_of_discovery_pods_2023",
+        "score": 0.1786,
+        "edge_ids": [
+          "edge:b27d395dd7a1eec9",
+          "edge:9fabc8d3664d53d0",
+          "edge:2a3c64ff89df3e30",
+          "edge:a5a324438d9fb4aa",
+          "edge:b00142198fe385e9"
+        ],
+        "chain": "大风浪中剧烈纵摇 → 螺旋桨出水 → 推进电机扭矩骤降 → 推进电机超速 → 推进电机保护跳闸 → 失去推进"
+      },
+      {
+        "case_id": "spirit_of_discovery_pods_2023",
+        "score": 0.1673,
+        "edge_ids": [
+          "edge:9fabc8d3664d53d0",
+          "edge:2a3c64ff89df3e30",
+          "edge:a5a324438d9fb4aa",
+          "edge:b00142198fe385e9"
+        ],
+        "chain": "螺旋桨出水 → 推进电机扭矩骤降 → 推进电机超速 → 推进电机保护跳闸 → 失去推进"
+      }
+    ],
+    "facts": [
+      {
+        "id": "edge:2d66b2b8782ccd77",
+        "case_id": "kommandor_susan_dg1_2025",
+        "case_name": "Kommandor Susan DG1发电机故障与失电",
+        "subject": "连杆大端轴瓦失效",
+        "relation": "LEADS_TO",
+        "relation_zh": "导致",
+        "object": "柴油发电机灾难性失效",
+        "certainty": "probable",
+        "score": 0.1798,
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "5",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "evidence": "lts break by overload and connecting rod cap number six comes off. Pon Power’s report concluded that: With the facts gathered the most likely root cause is failure of connecting rod bearing number five. The excessive wear on the other connecting rod bearings show that the most likely root cause for the bearing failure is weak bonding of the copper layer. Evidence of weak material bonding was found in several bearings (Figure 4)"
+      },
+      {
+        "id": "edge:0e92ee66dde8b3d3",
+        "case_id": "kommandor_susan_dg1_2025",
+        "case_name": "Kommandor Susan DG1发电机故障与失电",
+        "subject": "柴油发电机灾难性失效",
+        "relation": "LEADS_TO",
+        "relation_zh": "导致",
+        "object": "全船失电",
+        "certainty": "reported",
+        "score": 0.2462,
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "1",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "evidence": "r Susan suffered a catastrophic failure of a diesel generator engine while conducting sea trials in the Firth of Forth, Scotland. The failure resulted in an engine room fire and a complete power blackout. The crew responded promptly, extinguished the fire and mustered safely. The vessel lost propulsion and began drifting eastwards. Attempts to deploy anchors were unsuccessful because the anchor winches required electrical power t"
+      },
+      {
+        "id": "edge:a840667b53ddaf5c",
+        "case_id": "kommandor_susan_dg1_2025",
+        "case_name": "Kommandor Susan DG1发电机故障与失电",
+        "subject": "全船失电",
+        "relation": "LEADS_TO",
+        "relation_zh": "导致",
+        "object": "失去推进",
+        "certainty": "reported",
+        "score": 0.2573,
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "1",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "evidence": "ted in an engine room fire and a complete power blackout. The crew responded promptly, extinguished the fire and mustered safely. The vessel lost propulsion and began drifting eastwards. Attempts to deploy anchors were unsuccessful because the anchor winches required electrical power to operate. Kommandor Susan was eventually returned to Leith harbour with limited propulsion restored. The investigation found tha"
+      },
+      {
+        "id": "edge:79cc156b4e7adb2e",
+        "case_id": "kommandor_susan_dg1_2025",
+        "case_name": "Kommandor Susan DG1发电机故障与失电",
+        "subject": "核验轴承与大修零件来源",
+        "relation": "CHECKS",
+        "relation_zh": "检查",
+        "object": "装入非原厂轴承",
+        "certainty": "derived_action",
+        "score": 0.0988,
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "8",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "evidence": "ting priorities during the vessel’s conversion project, this resulted in Hays Ships providing minimal oversight to Holderness and no verification of authenticity for the parts used, enabling the installation of non- OEM components that later contributed to the engine failure. Similar to the lack of oversight highlighted in both the Finlandia Seaways and Finnmaster cases, the lack of structured supervision a"
+      },
+      {
+        "id": "edge:d18a92975542579a",
+        "case_id": "kommandor_susan_dg1_2025",
+        "case_name": "Kommandor Susan DG1发电机故障与失电",
+        "subject": "使用原厂零件重建并大修发电机组",
+        "relation": "ADDRESSES",
+        "relation_zh": "应对",
+        "object": "装入非原厂轴承",
+        "certainty": "reported_action",
+        "score": 0.1047,
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "9",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "evidence": "ns taken by other organisations Gardline Shipping Limited has: • Rebuilt DG1 with genuine spares, including a new engine block; • Completed major overhauls of DG2, DG3 and DG4 using genuine Caterpillar parts; • Changed the onboard anchoring procedure, highlighting that clutches must remain disengaged when the winches are not in use to ensure they remain ready for use in the event of power failure. RECOMMENDATIONS In view of the actio"
+      },
+      {
+        "id": "edge:89d80dca73169f8c",
+        "case_id": "kommandor_susan_dg1_2025",
+        "case_name": "Kommandor Susan DG1发电机故障与失电",
+        "subject": "柴油发电机灾难性失效",
+        "relation": "LEADS_TO",
+        "relation_zh": "导致",
+        "object": "机舱火灾",
+        "certainty": "reported",
+        "score": 0.1742,
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "1",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "evidence": "r Susan suffered a catastrophic failure of a diesel generator engine while conducting sea trials in the Firth of Forth, Scotland. The failure resulted in an engine room fire and a complete power blackout. The crew responded promptly, extinguished the fire and mustered safely. The vessel lost propulsion and began drifting eastwards. Attempts to deploy anchors were unsuccessful because the anchor winches required electrical power t"
+      },
+      {
+        "id": "edge:a9fa64e6e5b6251f",
+        "case_id": "kommandor_susan_dg1_2025",
+        "case_name": "Kommandor Susan DG1发电机故障与失电",
+        "subject": "全船失电",
+        "relation": "LEADS_TO",
+        "relation_zh": "导致",
+        "object": "电动锚机无法释放锚",
+        "certainty": "reported",
+        "score": 0.1501,
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "1",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "evidence": "ustered safely. The vessel lost propulsion and began drifting eastwards. Attempts to deploy anchors were unsuccessful because the anchor winches required electrical power to operate. Kommandor Susan was eventually returned to Leith harbour with limited propulsion restored. The investigation found that the engine failure was caused by premature wear of bearings fitted during a major overhaul in 2019. These co"
+      },
+      {
+        "id": "edge:f91e30b569a1ffe4",
+        "case_id": "kommandor_susan_dg1_2025",
+        "case_name": "Kommandor Susan DG1发电机故障与失电",
+        "subject": "非原厂轴承材料粘结较弱",
+        "relation": "CONTRIBUTED_TO",
+        "relation_zh": "促成",
+        "object": "连杆大端轴瓦失效",
+        "certainty": "probable",
+        "score": 0.1033,
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "5",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "evidence": "oot cause is failure of connecting rod bearing number five. The excessive wear on the other connecting rod bearings show that the most likely root cause for the bearing failure is weak bonding of the copper layer. Evidence of weak material bonding was found in several bearings (Figure 4). Figure 3: Comparison between genuine OEM (left) and CTP bottom end bearings (right) Image courtesy of Pon Power"
+      },
+      {
+        "id": "edge:66cbe293a1e6d6cb",
+        "case_id": "kommandor_susan_dg1_2025",
+        "case_name": "Kommandor Susan DG1发电机故障与失电",
+        "subject": "检查其余机组非原厂轴承并计划更换",
+        "relation": "ADDRESSES",
+        "relation_zh": "应对",
+        "object": "装入非原厂轴承",
+        "certainty": "reported_action",
+        "score": 0.0992,
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "6",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "evidence": "edules are only applicable for these parts. Non-Caterpillar parts used in the engine tent to have a shorter service life. [sic] • Check the use of non-Caterpillar bearings in the other engines on the vessel. If so, plan a early change of the main and connecting rod bearings. [sic] Parts approval process The approval process for a ship’s engine parts involved several steps to ensure compliance with safety and performanc"
+      },
+      {
+        "id": "edge:8fb3da4a6ad8dacd",
+        "case_id": "kommandor_susan_dg1_2025",
+        "case_name": "Kommandor Susan DG1发电机故障与失电",
+        "subject": "非原厂零件超出适用保养周期",
+        "relation": "CONTRIBUTED_TO",
+        "relation_zh": "促成",
+        "object": "连杆大端轴瓦失效",
+        "certainty": "reported",
+        "score": 0.0949,
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "8",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "evidence": "Caterpillar was approved on the basis that genuine parts were used. The CTP parts were designed for a standard service interval. Use of the CTP parts beyond their design life led the connecting rod bearings to fail, initiating a chain of mechanical failures that culminated in the engine failure and subsequent fire. The extended service intervals were inappropriate for these substitute components, accelerating the risk of failure. Anchoring"
+      }
+    ],
+    "passages": [
+      {
+        "id": "passage:0277612f7211f9f5",
+        "title": "Kommandor Susan catastrophic engine failure and fire",
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "6",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "kind": "report_page",
+        "score": 0.3,
+        "excerpt": "6 The report made two recommendations: • Make use of original Caterpillar parts as service interval schedules are only applicable for these parts. Non-Caterpillar parts used in the engine tent to have a shorter service life. [sic] • Check the use of non-Caterpillar bearings in the other engines on the vessel. If so, plan a early change of the main and connecting rod bearings. [sic] Parts approval process The approval process for a ship’s engine parts involved several steps to ensure compliance with safety and performance standards. Classification societies required manufacturers to submit deta"
+      },
+      {
+        "id": "passage:346f17230dd05d50",
+        "title": "Kommandor Susan catastrophic engine failure and fire",
+        "source_file": "MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf",
+        "page": "5",
+        "source_url": "https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan",
+        "kind": "report_page",
+        "score": 0.3,
+        "excerpt": "5 The failed DG1 was removed from Kommandor Susan and transported to a Caterpillar authorised agent, Pon Power, in Papendrecht, the Netherlands. Pon Power technicians stripped the engine into its component parts for detailed inspection. The technicians found that many of the major components of the rotating assembly were not original equipment manufacturer (OEM) parts. The non-OEM parts identified in DG1 were manufactured by Costex Tractor Parts (CTP). The USA-based CTP stated on its website that it provided New Replacement Parts for Caterpillar. CTP was not listed as an authorised dealer on C"
+      }
+    ],
+    "retrieval_method": "character TF-IDF + query synonyms + case-scoped graph reranking"
+  },
+  "llm_selection_raw": "{\"fault_chain\":[1,2,3],\"checks\":[4],\"actions\":[5,9]}",
+  "validated_selection": {
+    "fault_chain": [
+      1,
+      2,
+      3
+    ],
+    "checks": [
+      4
+    ],
+    "actions": [
+      5,
+      9
+    ]
+  },
+  "selection_errors": [],
+  "final_report_method": "LLM选择证据；依据同一案例中的图谱事实和来源页码确定性生成正文",
+  "final_report": "# 船舶动力系统知识增强诊断草稿\n\n输入线索：标准化诊断结果：柴油发电机出现连杆轴瓦异常磨损，随后机组停机、全船失电并失去推进。分析可能故障链、检查项目和运维建议。\n\n参考历史案例：Kommandor Susan DG1发电机故障与失电。本船具体根因仍需现场数据和检查结果确认。\n\n## 可能故障与因果解释\n\n- 连杆大端轴瓦失效 可能促成 柴油发电机灾难性失效。[1]\n- 柴油发电机灾难性失效 导致 全船失电。[2]\n- 全船失电 导致 失去推进。[3]\n\n## 建议检查\n\n- 核验轴承与大修零件来源，核查是否存在“装入非原厂轴承”。[4]（由报告缺陷整理，需专业人员确认。）\n\n## 可参考的运维措施\n\n- 使用原厂零件重建并大修发电机组。[5]\n- 检查其余机组非原厂轴承并计划更换。[9]\n\n## 来源证据\n\n- [1] MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf，PDF第5页；[来源](https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan)；确定性：probable。\n- [2] MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf，PDF第1页；[来源](https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan)；确定性：reported。\n- [3] MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf，PDF第1页；[来源](https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan)；确定性：reported。\n- [4] MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf，PDF第8页；[来源](https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan)；确定性：derived_action。\n- [5] MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf，PDF第9页；[来源](https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan)；确定性：reported_action。\n- [9] MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf，PDF第6页；[来源](https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan)；确定性：reported_action。\n\n这是图谱辅助草稿；实际运维决策需结合本船测点、报警与维修记录及制造商手册。\n"
+}

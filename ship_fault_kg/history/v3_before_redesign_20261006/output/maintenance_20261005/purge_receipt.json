@@ -1,0 +1,26 @@
+{
+  "operation": "delete_55_archived_sensors",
+  "before": {
+    "all_nodes": 555,
+    "all_relationships": 1287,
+    "active_nodes": 500,
+    "active_relationships": 1201,
+    "sensors": 15,
+    "archived_sensors": 55
+  },
+  "after": {
+    "all_nodes": 500,
+    "all_relationships": 1201,
+    "active_nodes": 500,
+    "active_relationships": 1201,
+    "sensors": 15,
+    "archived_sensors": 0
+  },
+  "deleted": {
+    "deleted_nodes": 55,
+    "deleted_relationships": 86
+  },
+  "active_ids_match_sqlite": true,
+  "raw_datasets_deleted": false,
+  "restore_backup": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\maintenance_20261005\\deleted_sensors_backup.json"
+}
