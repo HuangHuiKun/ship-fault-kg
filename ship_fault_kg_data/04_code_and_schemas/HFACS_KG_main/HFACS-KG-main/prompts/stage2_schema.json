@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Stage-2 HFACS-mapping output",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "factor_text",
+      "hfacs_levels",
+      "rationale"
+    ],
+    "properties": {
+      "factor_text": {
+        "type": "string"
+      },
+      "hfacs_levels": {
+        "type": "array",
+        "items": {
+          "type": "integer",
+          "enum": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "rationale": {
+        "type": "string"
+      }
+    }
+  }
+}

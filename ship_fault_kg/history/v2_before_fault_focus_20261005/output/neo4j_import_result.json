@@ -1,0 +1,21 @@
+{
+  "verified_date": "2026-10-05",
+  "database": "shipfaultkg",
+  "connection": "neo4j://localhost:7690",
+  "method": "Authenticated Neo4j Browser; SQLite-generated MERGE/SET Cypher",
+  "source_nodes": 451,
+  "source_edges": 1034,
+  "created_nodes": 217,
+  "created_relationships": 709,
+  "verified_live_nodes": 451,
+  "verified_live_edges": 1034,
+  "labelled_nodes": 451,
+  "labelled_edges": 1034,
+  "causal_edges": 100,
+  "csv_required": false,
+  "verified": true,
+  "constraint": "shipkg_id: ShipKG.id unique",
+  "api_write_path_live_tested": false,
+  "password_read_or_saved": false,
+  "proof": ["neo4j_v2_counts.jpg", "neo4j_v2_graph.jpg"]
+}

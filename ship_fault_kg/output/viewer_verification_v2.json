@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-05",
+  "cases": [
+    {
+      "case": "sd2016_08_generator_oil",
+      "edgeLabels": 10,
+      "edges": 10,
+      "nodes": 12
+    },
+    {
+      "case": "sd2013_02_control_air",
+      "edgeLabels": 12,
+      "edges": 12,
+      "nodes": 14
+    },
+    {
+      "case": "sd2016_05_cpp_backup",
+      "edgeLabels": 10,
+      "edges": 10,
+      "nodes": 11
+    },
+    {
+      "case": "sd2016_09_cpp_response",
+      "edgeLabels": 8,
+      "edges": 8,
+      "nodes": 9
+    },
+    {
+      "case": "sd2013_05_missing_filter",
+      "edgeLabels": 13,
+      "edges": 13,
+      "nodes": 14
+    },
+    {
+      "case": "sd2016_14_sea_valve",
+      "edgeLabels": 10,
+      "edges": 10,
+      "nodes": 13
+    },
+    {
+      "case": "sd2013_12_oily_rag",
+      "edgeLabels": 7,
+      "edges": 7,
+      "nodes": 8
+    },
+    {
+      "case": "sd2016_22_cooling_pipe",
+      "edgeLabels": 9,
+      "edges": 9,
+      "nodes": 10
+    },
+    {
+      "case": "sd2013_03_turning_gear",
+      "edgeLabels": 9,
+      "edges": 9,
+      "nodes": 10
+    },
+    {
+      "case": "finlandia_seaways_me_2018",
+      "edgeLabels": 6,
+      "edges": 6,
+      "nodes": 7
+    },
+    {
+      "case": "kommandor_susan_dg1_2025",
+      "edgeLabels": 11,
+      "edges": 11,
+      "nodes": 13
+    },
+    {
+      "case": "pride_can_cpp_2014",
+      "edgeLabels": 12,
+      "edges": 12,
+      "nodes": 13
+    },
+    {
+      "case": "queen_mary2_hf_2010",
+      "edgeLabels": 15,
+      "edges": 15,
+      "nodes": 16
+    },
+    {
+      "case": "spirit_of_discovery_pods_2023",
+      "edgeLabels": 11,
+      "edges": 11,
+      "nodes": 13
+    },
+    {
+      "case": "stena_europe_fuel_2023",
+      "edgeLabels": 13,
+      "edges": 13,
+      "nodes": 15
+    },
+    {
+      "case": "wight_sky_me2_2018",
+      "edgeLabels": 7,
+      "edges": 7,
+      "nodes": 8
+    },
+    {
+      "case": "wight_sky_me4_2018",
+      "edgeLabels": 4,
+      "edges": 4,
+      "nodes": 5
+    },
+    {
+      "case": "wight_sky_me_2017",
+      "edgeLabels": 7,
+      "edges": 7,
+      "nodes": 10
+    },
+    {
+      "case": "windcat8_port_engine_2017",
+      "edgeLabels": 6,
+      "edges": 6,
+      "nodes": 8
+    }
+  ],
+  "all_cases_rendered": true,
+  "evidence_click_verified": true,
+  "evidence_case": "pride_can_cpp_2014",
+  "evidence_pdf_page": 29
+}

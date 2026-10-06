@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Marine Engine Fault Dataset"
+version: "1.0"
+type: dataset
+date-released: 2026-01-01   # set to your release date
+license: CC-BY-4.0
+doi: 10.5281/zenodo.19857425
+abstract: >-
+  Measurement data from a controlled experimental campaign on a Matsui Iron Works
+  MU323DGSC marine diesel engine, comprising a baseline reference-performance dataset
+  and five fault/anomaly scenario classes (compressor air-filter clogging, air-cooler
+  fouling, injection-valve nozzle clogging, cooling-water pump cavitation, and turbine
+  degradation) recorded at fixed engine loads.
+keywords:
+  - marine diesel engine
+  - condition monitoring
+  - fault diagnosis
+  - anomaly detection
+  - turbocharger
+  - time-series
+authors:
+  - family-names: "BahooToroody"
+    given-names: "Ahmad"
+    orcid: "https://orcid.org/0000-0002-7126-4244"
+    affiliation: "Aalto University, Department of Energy and Mechanical Engineering, Finland; Kotka Maritime Research Centre, Kotka, Finland"
+  - family-names: "Bondarenko"
+    given-names: "Oleksiy"
+    orcid: "https://orcid.org/0000-0002-1811-2372"
+    affiliation: "National Maritime Research Institute, Tokyo, Japan"
+  - family-names: "Abaei"
+    given-names: "Mohammad Mahdi"
+    orcid: "https://orcid.org/0000-0003-1480-2007"
+    affiliation: "Aalto University, Department of Energy and Mechanical Engineering, Finland; Kotka Maritime Research Centre, Kotka, Finland"
+  - family-names: "Niki"
+    given-names: "Yoichi"
+    orcid: "https://orcid.org/0000-0001-6294-542X"
+    affiliation: "National Maritime Research Institute, Tokyo, Japan"
+  - family-names: "Zio"
+    given-names: "Enrico"
+    orcid: "https://orcid.org/0000-0002-7108-637X"
+    affiliation: "Politecnico di Milano, Energy Department, Milano, Italy; MINES Paris-PSL University, CRC, Sophia Antipolis, France"
+
+# Accompanying Data Descriptor (preprint; update the DOI once published):
+preferred-citation:
+  type: article
+  title: "Marine Engine Fault Dataset: Open-Access Data under Controlled Reference and Fault Scenario Conditions"
+  journal: "Scientific Data"
+  year: 2026
+  doi: "10.48550/arXiv.2607.19444"
+  notes: "Preprint (arXiv:2607.19444). Under review at Scientific Data."
+  authors:
+    - family-names: "BahooToroody"
+      given-names: "Ahmad"
+      orcid: "https://orcid.org/0000-0002-7126-4244"
+    - family-names: "Bondarenko"
+      given-names: "Oleksiy"
+      orcid: "https://orcid.org/0000-0002-1811-2372"
+    - family-names: "Abaei"
+      given-names: "Mohammad Mahdi"
+      orcid: "https://orcid.org/0000-0003-1480-2007"
+    - family-names: "Niki"
+      given-names: "Yoichi"
+      orcid: "https://orcid.org/0000-0001-6294-542X"
+    - family-names: "Zio"
+      given-names: "Enrico"
+      orcid: "https://orcid.org/0000-0002-7108-637X"

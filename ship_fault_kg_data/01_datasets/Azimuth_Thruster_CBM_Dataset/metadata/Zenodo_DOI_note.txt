@@ -1,0 +1,4 @@
+Reserved DOI: 10.5281/zenodo.20101612
+Private reviewer access is supplied only through confidential Editorial Manager comments.
+The final Zenodo package includes supplemental SSS pseudocode, reconstructive rounded audit sub-scores and case-level metadata to support reproducibility while preserving confidentiality.
+Publish the Zenodo record no later than final article acceptance.

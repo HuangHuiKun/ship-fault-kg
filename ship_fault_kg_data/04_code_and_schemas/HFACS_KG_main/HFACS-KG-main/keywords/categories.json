@@ -1,0 +1,125 @@
+{
+  "categories": [
+    {
+      "category": "Situational Awareness",
+      "pattern": "situational awareness|lookout|watchkeeping|watch.keep|vigilance|monitor.alarm|fail.*notice|fail.*detect|awareness|attention|maintain.*watch|proper watch|bridge watch"
+    },
+    {
+      "category": "Navigation & Passage Planning",
+      "pattern": "navigat|passage plan|chart|ECDIS|radar|GPS|AIS|course|speed|grounding|collision avoidance|lookout|pilotage|pilot.*error|passage.*plan|route plan|chart correction"
+    },
+    {
+      "category": "Training & Competency",
+      "pattern": "training|competenc|qualification|certif|familiaris|familiariz|skill|experience|knowledge|inexperienc|inadequate.*train|lack.*train|insufficient.*train|lack.*competenc|lack.*skill"
+    },
+    {
+      "category": "Communication",
+      "pattern": "communicat|VHF|language|phraseolog|hand signal|MAYDAY|cross.check|verification|briefing|information.*shar|failure.*communicat|lack.*communicat|ambiguous"
+    },
+    {
+      "category": "Fatigue & Workload",
+      "pattern": "fatig|inattention|fatigue|rest period|work.*hour|overwork|sleep|rest|workload|pressure.*expedit|stress|mental state"
+    },
+    {
+      "category": "Bridge & Crew Resource Management",
+      "pattern": "BRM|bridge resource|crew resource|resource management|team.*work|teamwork|bridge team|cross.check|CRM|supervision.*bridge|bridge.*supervis"
+    },
+    {
+      "category": "Procedures & SMS",
+      "pattern": "procedure|SMS|protocol|work permit|risk assessment|ISM|checklist|standing order|permit.*work|safety management system|lack.*procedure|absent.*procedure|no.*procedure|deficient.*SMS|inadequate.*SMS|fail.*follow.*procedure|non.compliance"
+    },
+    {
+      "category": "Supervision & Oversight",
+      "pattern": "supervis|oversight|monitoring|lack.*supervis|inadequate.*supervis|failure.*supervis|insufficient.*supervis|management.*oversight|organizational.*oversight"
+    },
+    {
+      "category": "Maintenance & Equipment",
+      "pattern": "maintenanc|defect|repair|alarm.*disabl|equipment.*fail|malfunction|out.*service|broken|worn|deteriorat|failure.*maintain|fail.*repair|known.*defect"
+    },
+    {
+      "category": "Emergency Response",
+      "pattern": "emergency.*response|rescue|abandon|evacuat|lifeboat|emergency.*coordinat|delayed.*response|fail.*activat.*alarm|MAYDAY.*delay|emergency.*communicat|emergency.*drill"
+    },
+    {
+      "category": "Manning & Crewing",
+      "pattern": "manning|crew.*compos|under.staff|overmanning|minimum.*safe.*manning|crew.*certif|crew.*qualif|staffing|short.*hand"
+    },
+    {
+      "category": "Enclosed Space & Atmosphere",
+      "pattern": "enclosed space|atmosphere|oxygen|toxic|gas|EEBD|tank.*entry|confined space|inert|asphyxia"
+    },
+    {
+      "category": "Fire & Explosion Safety",
+      "pattern": "fire|explosion|flammable|ignition|extinguish|hotwork|hot.work|fire.*detect|fire.*suppres|combustible"
+    },
+    {
+      "category": "Cargo & Lifting Operations",
+      "pattern": "cargo|crane|lift|load|rigging|mooring|securing|stow|ballast|stability.*cargo|cargo.*shift"
+    },
+    {
+      "category": "PPE & Personal Safety",
+      "pattern": "PPE|lifejacket|harness|life.jacket|protective.*equipment|fall.*arrest|fall.*prevent|safety.*equipment"
+    },
+    {
+      "category": "Organizational & Regulatory",
+      "pattern": "organizat|regulat|compli|enforce|authority|flag.*state|port.*state|ISM.*code|SOLAS|MLC|convention|policy|corporate|company.*policy|management.*system"
+    },
+    {
+      "category": "Safety Culture & Pressure",
+      "pattern": "safety.*cultur|pressure|commercial.*pressure|cost.*driven|production.*pressure|normaliz.*devian|risk.*accept|overrid.*safety|priorit.*commercial"
+    },
+    {
+      "category": "Voyage & Weather Planning",
+      "pattern": "voyage plan|passage.*plan|weather.*risk|weather.*assess|departure.*plan|risk.*departure|Antarctic|high.risk.*area|pre.departure|gale warning|meteorolog|weather.*condition|failure.*assess.*weather|failure.*plan|deficient.*voyage|inadequate.*voyage|absence.*notice.*mariner|Notice.*Mariner"
+    },
+    {
+      "category": "Human Error & Decision Making",
+      "pattern": "misidentif|misjudg|misinterpret|misappl|miscalcul|assumption.based|complacen|distract|inattentive|wrong.*valve|wrong.*helm|incorrect.*assessment|error.*judgment|failure.*anticipate|failure.*appreciate|failure.*recognize|delayed.*recogn|delayed.*evasive|impatien|undue.*rush|routine.*work.*complacen|over.confiden|poor.*judgment|poor.*decision"
+    },
+    {
+      "category": "Vessel Design & Stability",
+      "pattern": "design|stability|watertight|subdivision|structural|ergonomic|lack.*guard|no.*propeller.*guard|inadequate.*stability|stability.*standard|topside.*weight|excessive.*weight|freeboard|lack.*watertight|absence.*watertight|code.*practice"
+    },
+    {
+      "category": "Medical & Physical Condition",
+      "pattern": "alcohol|drug|intoxicat|impair|disease|illness|medical|health|fatigue.*medical|dizziness|ischaemic|diabetes|blister|injury.*physical|physical.*condition"
+    },
+    {
+      "category": "Specific Operational Failures",
+      "pattern": "failure to verify|failure to use|failure to deploy|failure to stop|failure to notify|failure to monitor|failure to update|failure to perform|failure to sound|failure to cool|failure to integrate|failure to resolve|failure to identify|failure to activate|failure to assess|wrong valve|incorrect valve|valve.*opened|failure.*helm|failure.*anchor|failure.*signal"
+    },
+    {
+      "category": "Lessons Learned & Documentation",
+      "pattern": "record.keeping|logbook|documentation|lessons.*learned|fleet.wide|disseminat|feedback|incident.*report|near.miss.*report|VDR|voyage.*data.*recorder|lack.*VDR|absence.*VDR|poor.*record"
+    },
+    {
+      "category": "Resource Allocation & Planning",
+      "pattern": "resource.*allocat|inadequate.*resource|insufficient.*resource|poor.*utiliz|underuse|under.utiliz|cross.departmental|fleet.*resource|inadequate.*company|company.*PMS|PMS"
+    },
+    {
+      "category": "Violation & Non-compliance",
+      "pattern": "violat|unauthoris|unauthorized|non.complian|breach|disregard|ignor.*rule|ignor.*protocol|bypass|working alone|single.handed.*without|unapproved|improper.*use|misuse"
+    },
+    {
+      "category": "Risk Perception & Normalization of Deviation",
+      "pattern": "normali.*deviation|normali.*hazard|risk.*perception|over.reliance|overconfiden|over.confident|tolerance.*risk|historical.*tolerance|years.*routine|complacen.*routine|lack.*risk.*percept|tendency.*normali|acceptable.*risk"
+    },
+    {
+      "category": "Inter-vessel & Team Coordination",
+      "pattern": "coordinat|lack.*coordinat|no.*coordinat|pre.transfer|between.*vessel|between.*team|uncoordinat|opening.*meeting|stevedore.*meet|no.*briefing|absence.*meeting|failure.*call.*master|failure.*notify.*master|failure.*seek.*clarif|failure.*inform"
+    },
+    {
+      "category": "Physical Hazard & Immediate Cause",
+      "pattern": "struck.*wave|tripping|caught.*rope|caught.*line|entangled|slipped|fell|fall.*overboard|working.*height|work.*alone.*height|guardrail|open.*hatch|unsecured|stove.*lit|no.*anchor|anchor.*fitted|wired.open|cap.*off"
+    },
+    {
+      "category": "Contingency & Emergency Planning",
+      "pattern": "contingency|emergency.*plan|DPA|designated.*person|CO2.*not.*activat|CO2.*activat.*uncertain|EPIRB|emergency.*generator|abandon.*ship.*drill|muster.*drill|lack.*emergency.*plan"
+    },
+    {
+      "category": "Other / Unclassified",
+      "pattern": ".+"
+    }
+  ],
+  "count": 30
+}

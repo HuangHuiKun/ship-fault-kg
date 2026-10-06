@@ -1,0 +1,154 @@
+{
+  "summary": {
+    "question_count": 12,
+    "case_question_count": 9,
+    "case_mrr_at_3": 1.0,
+    "case_recall_at_1": 1.0,
+    "fact_recall_at_5": 0.9074,
+    "fact_recall_at_10": 1.0,
+    "fact_precision_at_5": 0.5333,
+    "dataset_lookup_accuracy": 1.0,
+    "coverage_warning_accuracy": 1.0,
+    "limitation": "Developer-authored queries from the same source set; not a held-out expert benchmark."
+  },
+  "details": [
+    {
+      "id": "Q01",
+      "query": "柴油发电机连杆轴瓦提前磨损，随后全船失电失去推进，可能的原因和检查建议是什么？",
+      "top_case": "kommandor_susan_dg1_2025",
+      "coverage": "case_evidence",
+      "case_rr": 1.0,
+      "gold_count": 3,
+      "fact_hits_5": 2,
+      "fact_hits_10": 3,
+      "recall_at_5": 0.6666666666666666,
+      "recall_at_10": 1.0,
+      "precision_at_5": 0.4
+    },
+    {
+      "id": "Q02",
+      "query": "Kommandor Susan全船失电后为什么锚无法释放，应检查什么？",
+      "top_case": "kommandor_susan_dg1_2025",
+      "coverage": "case_evidence",
+      "case_rr": 1.0,
+      "gold_count": 2,
+      "fact_hits_5": 1,
+      "fact_hits_10": 2,
+      "recall_at_5": 0.5,
+      "recall_at_10": 1.0,
+      "precision_at_5": 0.2
+    },
+    {
+      "id": "Q03",
+      "query": "Windcat 8机油高温报警后又继续高负荷运行，连杆大端轴瓦发生了什么，应如何处置？",
+      "top_case": "windcat8_port_engine_2017",
+      "coverage": "case_evidence",
+      "case_rr": 1.0,
+      "gold_count": 3,
+      "fact_hits_5": 3,
+      "fact_hits_10": 3,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "precision_at_5": 0.6
+    },
+    {
+      "id": "Q04",
+      "query": "Wight Sky主机重装后油道残留碎屑，为什么会发生轴承断油和灾难性失效？",
+      "top_case": "wight_sky_me_2017",
+      "coverage": "case_evidence",
+      "case_rr": 1.0,
+      "gold_count": 3,
+      "fact_hits_5": 3,
+      "fact_hits_10": 3,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "precision_at_5": 0.6
+    },
+    {
+      "id": "Q05",
+      "query": "Finlandia Seaways更换活塞销轴套后，连杆小端出现刻痕和疲劳断裂，应检查和改进什么？",
+      "top_case": "finlandia_seaways_me_2018",
+      "coverage": "case_evidence",
+      "case_rr": 1.0,
+      "gold_count": 3,
+      "fact_hits_5": 3,
+      "fact_hits_10": 3,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "precision_at_5": 0.6
+    },
+    {
+      "id": "Q06",
+      "query": "Wight Sky ME2润滑油压力下降，主轴承瓦片转位后曲柄销为何断油？",
+      "top_case": "wight_sky_me2_2018",
+      "coverage": "case_evidence",
+      "case_rr": 1.0,
+      "gold_count": 3,
+      "fact_hits_5": 3,
+      "fact_hits_10": 3,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "precision_at_5": 0.6
+    },
+    {
+      "id": "Q07",
+      "query": "Wight Sky ME4连杆大端轴承盖配对错装，为什么螺栓会松动断裂？",
+      "top_case": "wight_sky_me4_2018",
+      "coverage": "case_evidence",
+      "case_rr": 1.0,
+      "gold_count": 3,
+      "fact_hits_5": 3,
+      "fact_hits_10": 3,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "precision_at_5": 0.6
+    },
+    {
+      "id": "Q08",
+      "query": "Spirit of Discovery在大风浪下螺旋桨出水，推进电机超速跳闸并失去操纵，因果链是什么？",
+      "top_case": "spirit_of_discovery_pods_2023",
+      "coverage": "case_evidence",
+      "case_rr": 1.0,
+      "gold_count": 3,
+      "fact_hits_5": 3,
+      "fact_hits_10": 3,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "precision_at_5": 0.6
+    },
+    {
+      "id": "Q09",
+      "query": "吊舱舱底传感器位置过低使进水停机序列误触发，为什么吊舱转到90度，该怎么改？",
+      "top_case": "spirit_of_discovery_pods_2023",
+      "coverage": "case_evidence",
+      "case_rr": 1.0,
+      "gold_count": 3,
+      "fact_hits_5": 3,
+      "fact_hits_10": 3,
+      "recall_at_5": 1.0,
+      "recall_at_10": 1.0,
+      "precision_at_5": 0.6
+    },
+    {
+      "id": "Q10",
+      "query": "冷却水泵汽蚀在60%负荷有多少条试验数据？",
+      "top_case": null,
+      "coverage": "dataset_metadata_only",
+      "dataset_hit": true
+    },
+    {
+      "id": "Q11",
+      "query": "空气冷却器污损在85%负荷有多少条实验数据？",
+      "top_case": null,
+      "coverage": "dataset_metadata_only",
+      "dataset_hit": true
+    },
+    {
+      "id": "Q12",
+      "query": "轴带发电机和船舶电网发生耦合振荡，联轴器断裂的直接根因是什么？",
+      "top_case": "kommandor_susan_dg1_2025",
+      "coverage": "related_cases_only",
+      "coverage_hit": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+__pycache__/
+*.pyc
+ship_fault_kg/output/*.log
+
+# Local runtimes, caches, editors and transient database files.
+node_modules/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+ship_fault_kg_data/downloads_tmp/
+
+# Never publish credentials or machine-specific connection/config backups.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+credentials.json
+secrets.json
+**/neo4j.conf*
+.codex/
+.agents/
+.aws/

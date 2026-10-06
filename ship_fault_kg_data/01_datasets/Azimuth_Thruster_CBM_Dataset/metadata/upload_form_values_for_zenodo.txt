@@ -1,0 +1,32 @@
+ZENODO UPLOAD FORM VALUES
+
+Resource type:
+Dataset
+
+Title:
+Anonymised vibration, lubricant and availability dataset for multimodal condition-based maintenance of tugboat propulsion systems
+
+Creators:
+Miguel Herrera Suárez; Rafael Andrés Marcillo; Roberto Manuel Torres; Julio Nolberto Pérez Guerrero
+
+Affiliation:
+Universidad Técnica de Manabí
+
+Description:
+This dataset supports a Reliability Engineering & System Safety manuscript on vibration-led multimodal condition-based maintenance decision support for tugboat propulsion. It contains anonymised processed tables, representative FFT spectral features, Spectral Severity Score (SSS), Oil Degradation Index (ODI), Lead-Time Index (LTI), diagnostic-zone economic data, final figures, and Python scripts for summary checks and plotting. Original vessel names, operator identity, port schedules and commercially sensitive records are withheld under confidentiality agreements; engine-family case labels are used for traceability.
+
+Keywords:
+condition-based maintenance; vibration spectroscopy; tugboat propulsion; Lead-Time Index; multimodal diagnosis; Spectral Severity Score; decision support
+
+License suggestion:
+Data: CC BY 4.0
+Code: MIT License
+
+Access:
+Open access, after confirming that no confidential raw files are included.
+
+DOI:
+10.5281/zenodo.20101612
+
+DOI URL:
+https://doi.org/10.5281/zenodo.20101612

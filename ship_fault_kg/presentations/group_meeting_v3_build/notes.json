@@ -1,0 +1,107 @@
+[
+  {
+    "number": 1,
+    "title": "船舶动力系统故障知识图谱",
+    "text": "各位老师、师兄好。我今天汇报的是船舶动力系统故障知识图谱的构建进展，以及后续怎样利用这个图谱增强诊断报告。我负责的重点是承接前面模型给出的初步诊断结果，为它补充故障机理、检查和运维建议，以及能查到原文的来源证据。",
+    "src": [
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\REPORT_KG_V3_FAULT_FOCUS_CN.md",
+      "封面插图：内置图像生成工具，仅为概念装饰，不作工程证据。"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "阶段工作总结",
+    "text": "这段时间，我先搜寻了船舶相关的知识图谱。虽然找到了相关论文和代码，但在已调研范围内，还没有找到能直接下载复用、又满足我们诊断增强需求的完整图谱，所以选择自己搭建。随后，我下载了船舶故障数据集、官方事故报告和厂家技术资料，以这些材料作为事实和溯源依据，构建了一个以故障为入口的知识图谱，并完成了Neo4j建库和可视化。接下来，我会一边根据真实资料优化图谱，一边做检索和报告增强实验，接收师兄模型输出的初步诊断结果，补充机理解释、建议及来源证据。",
+    "src": [
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\REPORT_KG_V3_FAULT_FOCUS_CN.md",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg_data\\05_metadata\\README_CN.md"
+    ]
+  },
+  {
+    "number": 3,
+    "title": "资料来源与各自用途",
+    "text": "资料分成几类。第一类是四个公开数据集，包括实机柴油机故障试验、中文船机语料、推进器状态监测和推进仿真资料，它们提供故障标签、测点和工况。第二类是MAIB官方事故调查报告，主要提供事故原因、经过、后果和建议。第三类是制造商通函，本轮新下载16份PDF，其中15份实际支持新建结构化事实，另一份保留为参考文本。第四类是论文和代码，用来参考本体模式、抽取及检索方法。需要说明：这些资料没有全部转成图谱，仿真数据也没有冒充实船事故，开源代码主要作为参考。",
+    "src": [
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg_data\\05_metadata\\source_manifest.csv",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg_data\\05_metadata\\source_manifest_v3.csv",
+      "https://doi.org/10.3390/jmse13040693",
+      "https://github.com/yijie-sjtu/HFACS-KG",
+      "https://github.com/TS-RF/TSRF"
+    ]
+  },
+  {
+    "number": 4,
+    "title": "知识图谱构建与审核",
+    "text": "构建不是直接让大模型凭空生成一张图。首先确定船舶、设备、部件、故障、原因等实体和关系。接着按原文页码核对，把复杂段落拆成可审核的事实。例如，资料说油膜受损“可能”造成拉缸，我就保留这个可能性，不改成确定结论。然后给实体设置稳定ID，融合重复项，同时给每条关系标注它属于哪起事故或哪一个文献机理单元，避免不同案例拼出一条假的因果链。最后生成SQLite主数据，包含实体、关系、证据和文本片段四张表。当前296个定位锚点检查通过，定位通过仍不能替代专家对工程机理的审核。",
+    "src": [
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\build.py",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\fault_profiles.py",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\source_anchor_audit_v3.json",
+      "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf"
+    ]
+  },
+  {
+    "number": 5,
+    "title": "故障覆盖与子系统范围",
+    "text": "图谱不是围绕某一条船堆资料，而是围绕故障建立检索入口。现在覆盖燃油进排气、润滑轴承、冷却海水、传动推进、电力控制五个功能子系统。本轮补充了拉缸、烧瓦、轴承电蚀、轴带对中异常和电网振荡等经典知识，形成12个参考入口，同时保留19起历史事故。这12个入口不是12起新增事故，105个Fault节点也不代表105类独立确认的故障。一个故障可以同时涉及热、机械和电气。例如齿轮箱热膨胀影响对中，再影响轴带发电机振动。联轴器的事故证据目前是CPP执行器小联轴器失效，不能说已经证实大型船主轴联轴器断裂机理。",
+    "src": [
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\fault_profiles.py",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\build_report.json",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\REPORT_KG_V3_FAULT_FOCUS_CN.md"
+    ]
+  },
+  {
+    "number": 6,
+    "title": "实体、因果关系与来源证据",
+    "text": "可以把图谱理解成一个能沿关系查证据的知识网络。它有20类实体：既有船舶、设备和部件，也有故障、原因、症状、后果、检查和措施，还有案例、来源以及实验数据。32类关系里面，只有部分是因果关系，归属和分类关系不能当成机理结论。左边是本机Neo4j的真实拉缸查询，共返回7条诊断关系、9个实体。核心路径是表面抛光或涂抹促成油膜难以维持，油膜问题可能促成黏着拉伤，拉伤导致表面硬化需要修复。同时连接缸况检查、气缸润滑和负荷处理参考措施。每条边都保留文件、原文、页码和机型限制，后续报告可以引用这些字段。",
+    "src": [
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\neo4j_v3_scuffing.jpg",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\entity_inventory_v3.md",
+      "https://www.man-es.com/docs/default-source/service-letters/sl2016-633.pdf",
+      "https://www.man-es.com/docs/default-source/service-letters/sl2023-737.pdf"
+    ]
+  },
+  {
+    "number": 7,
+    "title": "Neo4j建库与实际核验",
+    "text": "建库时，我把SQLite里面的实体和关系直接转成Neo4j的MERGE和SET语句，通过已经登录的Browser导入shipfaultkg数据库，不需要先转CSV。节点使用稳定ID，并设置ShipKG.id唯一约束，便于后续增量更新。导入后再查询真实数据库统计，当前是500个活动节点、1201条活动关系，15个核心测点、12个故障入口和19起事故。332条证据和852个文本片段来自SQLite主数据，不是这张Neo4j截图单独统计的结果。可视化显示中文名称，按故障查看比一次显示所有边更直观。55个非核心测点及86条关系只是归档，仍能恢复，原始文件保持不变。",
+    "src": [
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\neo4j_import_result.json",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\build_report.json",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\import_neo4j.py",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\queries_v3.cypher"
+    ]
+  },
+  {
+    "number": 8,
+    "title": "知识增强报告原型",
+    "text": "图谱建好以后，我已经跑通了一个报告增强原型。输入是“主机疑似拉缸”，检索得到这个参考单元里的7条事实。大模型选择用于解释、检查和措施的证据编号，程序再核查编号及知识上下文，最后按照约束模板输出带页码引用的草稿。所以现在证明的是检索到报告的流程可以运行，还没有证明真实诊断准确率。当前检索用了实体别名、关键词和字符TF-IDF相似度，再结合图关系补全，尚未接入神经向量语义模型或学习式重排序器。24道题是开发自测，不能把自测结果当成独立专家测试。",
+    "src": [
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\demo_v3_scuffing.md",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\demo_v3_scuffing.json",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\retrieve.py",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\generate_demo.py",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\fault_retrieval_evaluation_v3.json"
+    ]
+  },
+  {
+    "number": 9,
+    "title": "与师兄诊断模块的衔接",
+    "text": "我这部分与师兄的分工是：前面的诊断模块先根据运行数据和模型，给出设备、症状和候选故障等初步判断。我接收这个结果，先识别和对齐实体，再到知识图谱里检索相关原因、因果路径、检查方法和运维措施，把知识融合、排序后组织成Evidence Pack，也就是带来源的证据包，再引导大模型生成增强报告。增强报告要说明为什么这样判断、有什么检查和建议、依据哪份资料，以及哪里还不确定。最后与评价模块衔接，根据反馈补检索或修改报告。目前接口是拟定方案，尚未宣称已经完成真实数据联调，需要和师兄共同确定字段和设备构型信息。",
+    "src": [
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\REPORT_KG_V3_FAULT_FOCUS_CN.md",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\example_diagnosis.json",
+      "模块分工依据用户任务描述；其他师兄的具体模型结构和姓名未获提供，故未编造。"
+    ]
+  },
+  {
+    "number": 10,
+    "title": "后续工作与实验计划",
+    "text": "后续两条线并行。第一条线是持续优化图谱：拿到真实船舶资料后，修订实体、关系和机型适用性，记录每次变更。第二条线是开展RAG实验：先建立独立标注集，明确哪些实体、事实和路径应该检索到，再用Recall、Precision和MRR优化召回与排序。检索之外，还要比较同一批输入下，不检索、普通文本RAG和图谱增强报告的差别，重点看证据是否一致、解释是否合理、有没有遗漏或幻觉。最后接入师兄的标准化初步诊断和评价反馈，形成完整增强报告。近期最需要的是初步诊断输入样例和专家审核，真实电网测点及主轴断裂事故证据也仍需补充。",
+    "src": [
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\REPORT_KG_V3_FAULT_FOCUS_CN.md",
+      "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\evaluate_fault_v3.py",
+      "本页为后续研究计划，不代表神经语义检索、评价闭环或真实数据联调已经完成。"
+    ]
+  }
+]

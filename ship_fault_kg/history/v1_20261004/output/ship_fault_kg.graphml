@@ -1,0 +1,4251 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d10" for="edge" attr.name="source_url" attr.type="string"/>
+<key id="d9" for="edge" attr.name="page" attr.type="string"/>
+<key id="d8" for="edge" attr.name="source_file" attr.type="string"/>
+<key id="d7" for="edge" attr.name="certainty" attr.type="string"/>
+<key id="d6" for="edge" attr.name="case_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d4" for="node" attr.name="case_id" attr.type="string"/>
+<key id="d3" for="node" attr.name="data_origin" attr.type="string"/>
+<key id="d2" for="node" attr.name="aliases" attr.type="string"/>
+<key id="d1" for="node" attr.name="name" attr.type="string"/>
+<key id="d0" for="node" attr.name="kind" attr.type="string"/>
+<graph edgedefault="directed"><node id="shipkg:action:157f8a0199e8">
+  <data key="d0">Action</data>
+  <data key="d1">Oil-confirmed mixed follow-up; 250 h vibration / 250 h oil</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:16d3373950f9">
+  <data key="d0">Action</data>
+  <data key="d1">使用原厂零件重建并大修发电机组</data>
+  <data key="d2">overhaul generators with OEM spares</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:4a27034a0842">
+  <data key="d0">Action</data>
+  <data key="d1">停用故障主机并查明报警原因</data>
+  <data key="d2">stop engine and investigate oil-temperature alarm</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:4f7d85454ee0">
+  <data key="d0">Action</data>
+  <data key="d1">将螺旋桨出水风险纳入耐波决策</data>
+  <data key="d2">include propeller exposure in seakeeping support</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:642ddc0bd6c5">
+  <data key="d0">Action</data>
+  <data key="d1">按制造商工艺更换活塞销轴套</data>
+  <data key="d2">follow manufacturer piston-pin bush procedure</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:6667f1d39b0e">
+  <data key="d0">Action</data>
+  <data key="d1">Vibration-only CBM; 125 h vibration interval</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:752d3ce3e403">
+  <data key="d0">Action</data>
+  <data key="d1">在洁净环境装配并整体安装主机</data>
+  <data key="d2">assemble engine in clean controlled environment</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:984af3c3d6c8">
+  <data key="d0">Action</data>
+  <data key="d1">检查其余机组非原厂轴承并计划更换</data>
+  <data key="d2">inspect other generators for non-OEM bearings</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:9e4b4715011c">
+  <data key="d0">Action</data>
+  <data key="d1">Oil-led CBM; 500 h vibration / 125 h oil</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:9fa28e4c4571">
+  <data key="d0">Action</data>
+  <data key="d1">固定灭火系统灭火</data>
+  <data key="d2">fixed fire extinguishing</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:a153887f0b20">
+  <data key="d0">Action</data>
+  <data key="d1">Standard monitoring; 500 h vibration / 500 h oil</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:b1b278b9bbdd">
+  <data key="d0">Action</data>
+  <data key="d1">修订进水停机序列并允许船员干预</data>
+  <data key="d2">revise WLS sequence to allow crew intervention</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:b39684450af7">
+  <data key="d0">Action</data>
+  <data key="d1">改进吊舱舱底传感器布置</data>
+  <data key="d2">improve pod bilge sensor arrangement</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:action:cc44cd1c6032">
+  <data key="d0">Action</data>
+  <data key="d1">Vibration-led CBM; 125 h vibration / 500 h oil</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:case:00057f56fe39">
+  <data key="d0">Case</data>
+  <data key="d1">Wight Sky主机重装后轴承失效与火灾</data>
+  <data key="d2">wight_sky_me_2017</data>
+  <data key="d3">field_report</data>
+  <data key="d4">wight_sky_me_2017</data>
+</node>
+<node id="shipkg:case:187dc871fbd5">
+  <data key="d0">Case</data>
+  <data key="d1">Spirit of Discovery大风浪中吊舱推进丧失</data>
+  <data key="d2">spirit_of_discovery_pods_2023</data>
+  <data key="d3">field_report</data>
+  <data key="d4">spirit_of_discovery_pods_2023</data>
+</node>
+<node id="shipkg:case:1e6479e108d9">
+  <data key="d0">Case</data>
+  <data key="d1">Kommandor Susan DG1发电机故障与失电</data>
+  <data key="d2">kommandor_susan_dg1_2025</data>
+  <data key="d3">field_report</data>
+  <data key="d4">kommandor_susan_dg1_2025</data>
+</node>
+<node id="shipkg:case:278d7572ef08">
+  <data key="d0">Case</data>
+  <data key="d1">Wight Sky ME4连杆轴承盖错装失效</data>
+  <data key="d2">wight_sky_me4_2018</data>
+  <data key="d3">field_report</data>
+  <data key="d4">wight_sky_me4_2018</data>
+</node>
+<node id="shipkg:case:9792cd36162e">
+  <data key="d0">Case</data>
+  <data key="d1">Windcat 8左舷主机轴瓦失效与火灾</data>
+  <data key="d2">windcat8_port_engine_2017</data>
+  <data key="d3">field_report</data>
+  <data key="d4">windcat8_port_engine_2017</data>
+</node>
+<node id="shipkg:case:adf367a46f33">
+  <data key="d0">Case</data>
+  <data key="d1">Wight Sky ME2主轴承断油失效</data>
+  <data key="d2">wight_sky_me2_2018</data>
+  <data key="d3">field_report</data>
+  <data key="d4">wight_sky_me2_2018</data>
+</node>
+<node id="shipkg:case:d6e9f8f8ade2">
+  <data key="d0">Case</data>
+  <data key="d1">Finlandia Seaways主机连杆小端疲劳断裂</data>
+  <data key="d2">finlandia_seaways_me_2018</data>
+  <data key="d3">field_report</data>
+  <data key="d4">finlandia_seaways_me_2018</data>
+</node>
+<node id="shipkg:cause:0b368a5a5869">
+  <data key="d0">Cause</data>
+  <data key="d1">连杆大端轴承盖配对错装</data>
+  <data key="d2">transposed matched big-end caps</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:cause:0c02674d6024">
+  <data key="d0">Cause</data>
+  <data key="d1">非原厂轴承材料粘结较弱</data>
+  <data key="d2">weak bonding of non-OEM bearing</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:cause:29f8307f5eed">
+  <data key="d0">Cause</data>
+  <data key="d1">连杆小端轴套更换产生应力集中</data>
+  <data key="d2">stress raisers during piston-pin bush replacement</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:cause:8a2abf94d478">
+  <data key="d0">Cause</data>
+  <data key="d1">油路磨粒与污染</data>
+  <data key="d2">abrasive particles and contaminated oil</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:cause:cf3cb78b47cf">
+  <data key="d0">Cause</data>
+  <data key="d1">油道残留碎屑</data>
+  <data key="d2">debris in engine oilways</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:check:1c503f83ef89">
+  <data key="d0">Check</data>
+  <data key="d1">核验轴承与大修零件来源</data>
+  <data key="d2">verify OEM parts and overhaul records</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:check:313a552b87bf">
+  <data key="d0">Check</data>
+  <data key="d1">检查连杆小端内孔刻痕与热损伤</data>
+  <data key="d2">inspect small-end notches and heat damage</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:check:f9cad3df2b98">
+  <data key="d0">Check</data>
+  <data key="d1">监测润滑油和冷却液状态</data>
+  <data key="d2">monitor oil and coolant condition</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:check:fa162d9e9a3f">
+  <data key="d0">Check</data>
+  <data key="d1">核对连杆与轴承盖配对编号</data>
+  <data key="d2">verify matching rod and cap serial numbers</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:component:1157de5d43da">
+  <data key="d0">Component</data>
+  <data key="d1">吊舱推进电机</data>
+  <data key="d2">推进电机</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:component:160bdfff5e4e">
+  <data key="d0">Component</data>
+  <data key="d1">吊舱舱底液位传感器</data>
+  <data key="d2">舱底传感器</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:component:2a19cfd5c18a">
+  <data key="d0">Component</data>
+  <data key="d1">ME4连杆大端轴承盖</data>
+  <data key="d2">连杆大端轴承盖</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:component:3552bc595328">
+  <data key="d0">Component</data>
+  <data key="d1">左舷主机6号连杆大端轴瓦</data>
+  <data key="d2">连杆大端轴瓦</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:component:45c063af0c7c">
+  <data key="d0">Component</data>
+  <data key="d1">故障主机5号主轴承</data>
+  <data key="d2">主轴承瓦片</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:component:8052e7754d5f">
+  <data key="d0">Component</data>
+  <data key="d1">DG1 5号连杆大端轴瓦</data>
+  <data key="d2">连杆大端轴瓦</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:component:be4ab56339d8">
+  <data key="d0">Component</data>
+  <data key="d1">ME2 5号主轴承</data>
+  <data key="d2">主轴承瓦片</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:component:c3d265fa990c">
+  <data key="d0">Component</data>
+  <data key="d1">主机A5连杆小端</data>
+  <data key="d2">连杆小端</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:0a605c97371c">
+  <data key="d0">Condition</data>
+  <data key="d1">大风浪中剧烈纵摇</data>
+  <data key="d2">heavy-weather pitching</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:0f0bb607da60">
+  <data key="d0">Condition</data>
+  <data key="d1">负载 reference operating range</data>
+  <data key="d2">reference operating range</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:103a0ae5358b">
+  <data key="d0">Condition</data>
+  <data key="d1">负载 85%</data>
+  <data key="d2">85%</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:19ae439543bd">
+  <data key="d0">Condition</data>
+  <data key="d1">缺少磨粒预警装置</data>
+  <data key="d2">no wear particle detector</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:1bf60bc6ecb7">
+  <data key="d0">Condition</data>
+  <data key="d1">负载 40%</data>
+  <data key="d2">40%</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:2d805325d843">
+  <data key="d0">Condition</data>
+  <data key="d1">主机不对中与异常振动</data>
+  <data key="d2">engine misalignment and high vibration</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:2ee58a9a8fad">
+  <data key="d0">Condition</data>
+  <data key="d1">螺旋桨出水</data>
+  <data key="d2">propeller emergence</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:6fa538170906">
+  <data key="d0">Condition</data>
+  <data key="d1">装入非原厂轴承</data>
+  <data key="d2">installation of non-OEM bearing</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:6fc146bc433f">
+  <data key="d0">Condition</data>
+  <data key="d1">负载 75%</data>
+  <data key="d2">75%</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:7a0e4d2405ef">
+  <data key="d0">Condition</data>
+  <data key="d1">固定灭火系统释放前通风口未关闭</data>
+  <data key="d2">vents open before fire suppression</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:7fb8a1a33328">
+  <data key="d0">Condition</data>
+  <data key="d1">吊舱舱底传感器位置偏低</data>
+  <data key="d2">low-mounted pod bilge sensor</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:8752a78e143c">
+  <data key="d0">Condition</data>
+  <data key="d1">负载 load program (~40-85%)</data>
+  <data key="d2">load program (~40-85%)</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:8f4ca3980ed8">
+  <data key="d0">Condition</data>
+  <data key="d1">负载 40%, 60%, 85% (stepped)</data>
+  <data key="d2">40%, 60%, 85% (stepped)</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:9e0b58e70948">
+  <data key="d0">Condition</data>
+  <data key="d1">非原厂零件超出适用保养周期</data>
+  <data key="d2">non-OEM parts beyond design life</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:9e280aeb615b">
+  <data key="d0">Condition</data>
+  <data key="d1">未核验大修零件真伪</data>
+  <data key="d2">lack of overhaul parts verification</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:a9a45fb680fd">
+  <data key="d0">Condition</data>
+  <data key="d1">停机时并联机组拖转</data>
+  <data key="d2">parallel engine drives shutdown engine</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:df365e2b0777">
+  <data key="d0">Condition</data>
+  <data key="d1">负载 60%</data>
+  <data key="d2">60%</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:e21862ad051d">
+  <data key="d0">Condition</data>
+  <data key="d1">关键断路器置于手动位</data>
+  <data key="d2">essential-service breaker in manual mode</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:condition:ff44ed04fc9f">
+  <data key="d0">Condition</data>
+  <data key="d1">轴瓦本体可能存在薄弱点</data>
+  <data key="d2">possible shell bearing weakness</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:consequence:4016217446bf">
+  <data key="d0">Consequence</data>
+  <data key="d1">全船失电</data>
+  <data key="d2">complete power blackout</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:consequence:4f46c84c0d64">
+  <data key="d0">Consequence</data>
+  <data key="d1">电动锚机无法释放锚</data>
+  <data key="d2">electric anchor winches unavailable</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:consequence:775549e4c085">
+  <data key="d0">Consequence</data>
+  <data key="d1">机舱火灾</data>
+  <data key="d2">engine room fire</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:consequence:7de07882b364">
+  <data key="d0">Consequence</data>
+  <data key="d1">失去操纵能力</data>
+  <data key="d2">loss of steerage</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:consequence:bcd3a732b87d">
+  <data key="d0">Consequence</data>
+  <data key="d1">关键设备失电</data>
+  <data key="d2">loss of power to critical equipment</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:consequence:d1c468a6b34b">
+  <data key="d0">Consequence</data>
+  <data key="d1">失去推进</data>
+  <data key="d2">loss of propulsion</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:dataset:19e52eb49467">
+  <data key="d0">Dataset</data>
+  <data key="d1">TSRF marine diesel combustion-chamber fault CSVs</data>
+  <data key="d2">燃烧室热力仿真故障数据</data>
+  <data key="d3">thermodynamic_simulation</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:dataset:1ceeb4cad6d8">
+  <data key="d0">Dataset</data>
+  <data key="d1">Marine Engine Fault Dataset (MU323DGSC)</data>
+  <data key="d2">船用柴油机实机故障试验数据</data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:dataset:6ab0788d235b">
+  <data key="d0">Dataset</data>
+  <data key="d1">UCI Naval Propulsion CBM</data>
+  <data key="d2">护卫舰燃气轮机推进仿真数据</data>
+  <data key="d3">simulation</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:dataset:710ea13e53ac">
+  <data key="d0">Dataset</data>
+  <data key="d1">Azimuth Thruster CBM Dataset</data>
+  <data key="d2">方位推进器状态监测数据</data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:equipment:1755b4f618f2">
+  <data key="d0">Equipment</data>
+  <data key="d1">Wight Sky 2017故障主机</data>
+  <data key="d2">柴油机机械推进系统</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:equipment:49d861a78ba3">
+  <data key="d0">Equipment</data>
+  <data key="d1">Kommandor Susan DG1柴油发电机</data>
+  <data key="d2">柴油发电-电力推进系统</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:equipment:563809ad0932">
+  <data key="d0">Equipment</data>
+  <data key="d1">Windcat 8左舷主机</data>
+  <data key="d2">柴油机机械推进系统</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:equipment:61cd855f5970">
+  <data key="d0">Equipment</data>
+  <data key="d1">Wight Sky ME2主机</data>
+  <data key="d2">柴油机机械推进系统</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:equipment:6cc9aa419de7">
+  <data key="d0">Equipment</data>
+  <data key="d1">Wight Sky ME4主机</data>
+  <data key="d2">柴油机机械推进系统</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:equipment:710361995928">
+  <data key="d0">Equipment</data>
+  <data key="d1">Spirit of Discovery吊舱推进系统</data>
+  <data key="d2">电力-吊舱推进系统</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:equipment:aea23b9943a4">
+  <data key="d0">Equipment</data>
+  <data key="d1">Finlandia Seaways主机</data>
+  <data key="d2">柴油机机械推进系统</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:0a5da1da4336">
+  <data key="d0">Fault</data>
+  <data key="d1">Injection-valve nozzle clogging</data>
+  <data key="d2">喷油嘴堵塞 喷油器喷孔堵塞</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:0e24c2957173">
+  <data key="d0">Fault</data>
+  <data key="d1">Air-filter clogging (compressor)</data>
+  <data key="d2">压气机空气滤清器堵塞 进气滤芯堵塞</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:18191226708b">
+  <data key="d0">Fault</data>
+  <data key="d1">Unconfirmed bearing-related warning</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:2c174651a93a">
+  <data key="d0">Fault</data>
+  <data key="d1">Fuel dilution</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:2c644dcfc770">
+  <data key="d0">Fault</data>
+  <data key="d1">连杆大端轴瓦失效</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:2fa5f2876bb5">
+  <data key="d0">Fault</data>
+  <data key="d1">Normal wear trend</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:323fee48e778">
+  <data key="d0">Fault</data>
+  <data key="d1">Ring-adhesion</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:3a609fe447a8">
+  <data key="d0">Fault</data>
+  <data key="d1">Turbine degradation</data>
+  <data key="d2">涡轮退化 涡轮背压异常</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:40fb093312a6">
+  <data key="d0">Fault</data>
+  <data key="d1">Structural looseness</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:423cd9a63be0">
+  <data key="d0">Fault</data>
+  <data key="d1">柴油发电机灾难性失效</data>
+  <data key="d2">diesel generator catastrophic failure</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:4e2929b80b35">
+  <data key="d0">Fault</data>
+  <data key="d1">连杆小端疲劳断裂</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:530d40214e1a">
+  <data key="d0">Fault</data>
+  <data key="d1">Piston-ablation</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:5f59e6b3ca42">
+  <data key="d0">Fault</data>
+  <data key="d1">轴承快速磨损</data>
+  <data key="d2">rapid bearing wear</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:688b83bd7c8b">
+  <data key="d0">Fault</data>
+  <data key="d1">Mass imbalance</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:74505aa1776a">
+  <data key="d0">Fault</data>
+  <data key="d1">Coupling resonance</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:7d0ec41f122b">
+  <data key="d0">Fault</data>
+  <data key="d1">Gear mesh anomaly</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:825e44b518ef">
+  <data key="d0">Fault</data>
+  <data key="d1">Liner-wear</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:8d2d73a67f71">
+  <data key="d0">Fault</data>
+  <data key="d1">曲轴箱被连杆击穿</data>
+  <data key="d2">connecting rod penetrated crankcase</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:911e598cd781">
+  <data key="d0">Fault</data>
+  <data key="d1">Additive depletion</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:91dfc7218234">
+  <data key="d0">Fault</data>
+  <data key="d1">Air-cooler fouling</data>
+  <data key="d2">空气冷却器污损 增压空气冷却器结垢</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:96cc1c0ff36e">
+  <data key="d0">Fault</data>
+  <data key="d1">曲轴主轴承与曲柄销断油</data>
+  <data key="d2">journal and crankpin oil starvation</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:9b3b274b4dbf">
+  <data key="d0">Fault</data>
+  <data key="d1">燃气轮机涡轮退化</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:9b76a4f68834">
+  <data key="d0">Fault</data>
+  <data key="d1">连杆盖螺栓松动与断裂</data>
+  <data key="d2">big-end cap bolt loosening and failure</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:a20cef558a0a">
+  <data key="d0">Fault</data>
+  <data key="d1">连杆盖配合面微动磨损</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:a7ebb889d098">
+  <data key="d0">Fault</data>
+  <data key="d1">Unconfirmed bearing-related spectral anomaly</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:aba0717d72a0">
+  <data key="d0">Fault</data>
+  <data key="d1">主轴承瓦片转位</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:aea71a6801b6">
+  <data key="d0">Fault</data>
+  <data key="d1">High-harmonic impact train</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:bebfb8cfc5f3">
+  <data key="d0">Fault</data>
+  <data key="d1">燃气轮机压气机退化</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:c830e7992f26">
+  <data key="d0">Fault</data>
+  <data key="d1">推进电机保护跳闸</data>
+  <data key="d2">pod motor protection trip</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:c9a34bd46532">
+  <data key="d0">Fault</data>
+  <data key="d1">推进电机扭矩骤降</data>
+  <data key="d2">sudden propulsion-motor torque reduction</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:cba0553c7db4">
+  <data key="d0">Fault</data>
+  <data key="d1">Babbitt wear (Pb)</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:cdf116929c39">
+  <data key="d0">Fault</data>
+  <data key="d1">进水停机序列启动</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:d005e46c6652">
+  <data key="d0">Fault</data>
+  <data key="d1">吊舱转至90度停放</data>
+  <data key="d2">pods parked at 90 degrees</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:d047fdea9ee9">
+  <data key="d0">Fault</data>
+  <data key="d1">连杆大端轴承断油</data>
+  <data key="d2">big-end bearing oil starvation</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:e03af5ed68c1">
+  <data key="d0">Fault</data>
+  <data key="d1">Cooling-water pump cavitation</data>
+  <data key="d2">冷却水泵汽蚀 冷却泵空化</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:e552cc02e03c">
+  <data key="d0">Fault</data>
+  <data key="d1">Normal operation</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:e97eee073fc6">
+  <data key="d0">Fault</data>
+  <data key="d1">推进电机超速</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:ebfac27b4d41">
+  <data key="d0">Fault</data>
+  <data key="d1">Ring-wear</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:f18d7fcb0838">
+  <data key="d0">Fault</data>
+  <data key="d1">Head-crack</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:f343dfd71879">
+  <data key="d0">Fault</data>
+  <data key="d1">Normal</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:fault:fee4df6aeb24">
+  <data key="d0">Fault</data>
+  <data key="d1">主机灾难性失效</data>
+  <data key="d2">catastrophic main engine failure</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:0c0be039e775">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT 3508B/C thruster reference</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:36b9efa16da9">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT 3516C coupling EB 1</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:4cd2541cd04a">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT 3516C azimuth unit EB 2</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:59f88fb7c81e">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT C7 engine case A BB / CAT C7 shaftline case A</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:5d48f4f61abd">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT 3516C intermediate bearing EB 4</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:6bc49fd589cc">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT 3516C MPEB 1V</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:83cf859e3d48">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT C7 shaftline reductor / CAT C7 case B</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:abd23c68d1ce">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT 3516C damper EB 2</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:c07d705f633b">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT C7 engine case A EB / CAT C7 shaftline case A</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:ec255ed61291">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT 3508B/C engine bearing reference</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:f5d747e68b69">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT C7 shaftline reductor / CAT C7 case A</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:observation:fe8f810e77c8">
+  <data key="d0">Observation</data>
+  <data key="d1">CAT 3516C MPEB 3V</data>
+  <data key="d2"></data>
+  <data key="d3">anonymised_field_summary</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:0024b0cf204d">
+  <data key="d0">Run</data>
+  <data key="d1">AF_Clogging/AF_Clogging_60_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:0a0b95755e65">
+  <data key="d0">Run</data>
+  <data key="d1">AC_Fouling/AC_Fouling_75_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:265eab3b4373">
+  <data key="d0">Run</data>
+  <data key="d1">Injector_Nozzle/Clogged_Injector_Nozzle2_LoadProgram.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:2c8ac4d016f4">
+  <data key="d0">Run</data>
+  <data key="d1">Reference_Data.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:6b05eccd173f">
+  <data key="d0">Run</data>
+  <data key="d1">AC_Fouling/AC_Fouling_40_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:6c075208cdc0">
+  <data key="d0">Run</data>
+  <data key="d1">Turbine_Degradation/Turbine_Degradation_40_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:77a7092fcc4e">
+  <data key="d0">Run</data>
+  <data key="d1">AC_Fouling/AC_Fouling_60_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:9690a0157fb9">
+  <data key="d0">Run</data>
+  <data key="d1">Injector_Nozzle/Clogged_Injector_Nozzle1_40_60_85_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:9969547fcdfa">
+  <data key="d0">Run</data>
+  <data key="d1">Turbine_Degradation/Turbine_Degradation_60_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:a43d97ac9f94">
+  <data key="d0">Run</data>
+  <data key="d1">AF_Clogging/AF_Clogging_40_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:a4c3017972ca">
+  <data key="d0">Run</data>
+  <data key="d1">AF_Clogging/AF_Clogging_85_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:a54e4f2dfd8d">
+  <data key="d0">Run</data>
+  <data key="d1">Pump_Cavitation/CW_Pump_Cavitation_85_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:bd1a1e06b4eb">
+  <data key="d0">Run</data>
+  <data key="d1">Pump_Cavitation/CW_Pump_Cavitation_60_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:c2058b46e618">
+  <data key="d0">Run</data>
+  <data key="d1">AC_Fouling/AC_Fouling_85_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:cd33f80ecd69">
+  <data key="d0">Run</data>
+  <data key="d1">Turbine_Degradation/Turbine_Degradation_85_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:run:ce8ec71106fb">
+  <data key="d0">Run</data>
+  <data key="d1">AF_Clogging/AF_Clogging_75_Load.csv</data>
+  <data key="d2"></data>
+  <data key="d3">controlled_experiment</data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:09fb65289e45">
+  <data key="d0">Sensor</data>
+  <data key="d1">Loss in Charge Air IC</data>
+  <data key="d2">Qrej_air</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:0acc03533547">
+  <data key="d0">Sensor</data>
+  <data key="d1">LO Temp. Engine In</data>
+  <data key="d2">T10</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:0c9767837a0e">
+  <data key="d0">Sensor</data>
+  <data key="d1">Engine room Temp.</data>
+  <data key="d2">T22</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:0d564da1d412">
+  <data key="d0">Sensor</data>
+  <data key="d1">Effective Efficiency</data>
+  <data key="d2">Efft</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:0d9978f872ad">
+  <data key="d0">Sensor</data>
+  <data key="d1">Exh.Gas Power</data>
+  <data key="d2">Qexh2</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:0dfc0d5a19c5">
+  <data key="d0">Sensor</data>
+  <data key="d1">Min. In-Cylinder Press. No.3</data>
+  <data key="d2">Pmin</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:1320f5577cf0">
+  <data key="d0">Sensor</data>
+  <data key="d1">Exh.Gas Vol. Flow (From Engine Speed)</data>
+  <data key="d2">qexh</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:173be47ae689">
+  <data key="d0">Sensor</data>
+  <data key="d1">Exh. Gas Mass Flow</data>
+  <data key="d2">Mexh</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:17bbed611e22">
+  <data key="d0">Sensor</data>
+  <data key="d1">Total Heat Loss in Heat Exchangers</data>
+  <data key="d2">Qrej</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:1f391dbaad55">
+  <data key="d0">Sensor</data>
+  <data key="d1">Fuel transfer pump Press.</data>
+  <data key="d2">Pl_fuel</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:2392435fe4ac">
+  <data key="d0">Sensor</data>
+  <data key="d1">LO Temp. TCH Out</data>
+  <data key="d2">T20</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:270638670931">
+  <data key="d0">Sensor</data>
+  <data key="d1">Max. In-Cylinder Press. No.3</data>
+  <data key="d2">Pmax</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:28c98806fac8">
+  <data key="d0">Sensor</data>
+  <data key="d1">Indicated Work No.2</data>
+  <data key="d2">Wi</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:2c5d17b46b26">
+  <data key="d0">Sensor</data>
+  <data key="d1">Cooling Water Temp. Engine Out II</data>
+  <data key="d2">T8</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:2ea813c04f69">
+  <data key="d0">Sensor</data>
+  <data key="d1">Charge Air IC Air Temp. Out</data>
+  <data key="d2">T15</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:31faff89b311">
+  <data key="d0">Sensor</data>
+  <data key="d1">Fuel Oil Temp. Flow meter In</data>
+  <data key="d2">T21</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:34c1108e4156">
+  <data key="d0">Sensor</data>
+  <data key="d1">Indicated Work No.3</data>
+  <data key="d2">Wi</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:366f77564e58">
+  <data key="d0">Sensor</data>
+  <data key="d1">No.1 Exh.Gas Temp.</data>
+  <data key="d2">T1</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:3a134554df66">
+  <data key="d0">Sensor</data>
+  <data key="d1">TCH LO pump Press.</data>
+  <data key="d2">Pl_loturb</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:421ec2313d7d">
+  <data key="d0">Sensor</data>
+  <data key="d1">Mechanical Efficiency</data>
+  <data key="d2">Effn</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:427673f0da2d">
+  <data key="d0">Sensor</data>
+  <data key="d1">Charge Air IC Air Temp. In</data>
+  <data key="d2">T14</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:453069f73398">
+  <data key="d0">Sensor</data>
+  <data key="d1">LO Temp. TCH In</data>
+  <data key="d2">T19</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:482eb47f8513">
+  <data key="d0">Sensor</data>
+  <data key="d1">Shaft Power</data>
+  <data key="d2">Ws</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:5007e1617236">
+  <data key="d0">Sensor</data>
+  <data key="d1">Fresh Cooling Water Press.</data>
+  <data key="d2">Pl_water1</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:54ce9804e4f4">
+  <data key="d0">Sensor</data>
+  <data key="d1">Max. In-Cylinder Press. No.1</data>
+  <data key="d2">Pmax</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:5acc3a404383">
+  <data key="d0">Sensor</data>
+  <data key="d1">Fuel Injector Cooling Oil Press.</data>
+  <data key="d2">Pl_valve</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:5c1900646ca4">
+  <data key="d0">Sensor</data>
+  <data key="d1">Charge Air IC Cooling water flow</data>
+  <data key="d2">Qw_air</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:5c7b83264f58">
+  <data key="d0">Sensor</data>
+  <data key="d1">LO Temp. Engine Out</data>
+  <data key="d2">T11</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:5f5652f7036e">
+  <data key="d0">Sensor</data>
+  <data key="d1">LO Cooling water flow</data>
+  <data key="d2">Qw_lo</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:615199ab193b">
+  <data key="d0">Sensor</data>
+  <data key="d1">LO Cooling Water Temp. Out</data>
+  <data key="d2">T13</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:65ae734da9ec">
+  <data key="d0">Sensor</data>
+  <data key="d1">Charge Air Press.</data>
+  <data key="d2">Pturb 增压空气压力</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:67bfe0a5f170">
+  <data key="d0">Sensor</data>
+  <data key="d1">Effective Work No.3</data>
+  <data key="d2">We</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:6cf5ec25b81a">
+  <data key="d0">Sensor</data>
+  <data key="d1">No.3 Exh.Gas Temp.</data>
+  <data key="d2">T3</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:75d18bcbb2d9">
+  <data key="d0">Sensor</data>
+  <data key="d1">Indicated Efficiency</data>
+  <data key="d2">Effi</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:7675b8a8bef8">
+  <data key="d0">Sensor</data>
+  <data key="d1">Cooling Water Temp. Engine In</data>
+  <data key="d2">T6</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:7b9d6be3e1e7">
+  <data key="d0">Sensor</data>
+  <data key="d1">Charge Air IC Cooling Water Temp. Out</data>
+  <data key="d2">T17</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:7e4664b82d74">
+  <data key="d0">Sensor</data>
+  <data key="d1">TCH LO Cooling water flow</data>
+  <data key="d2">Qw_turb</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:805edb9418c2">
+  <data key="d0">Sensor</data>
+  <data key="d1">Min. In-Cylinder Press. No.1</data>
+  <data key="d2">Pmin</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:851db4d72803">
+  <data key="d0">Sensor</data>
+  <data key="d1">Water Brake Weight</data>
+  <data key="d2">F</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:8529d7e4c296">
+  <data key="d0">Sensor</data>
+  <data key="d1">Other Loss</data>
+  <data key="d2">Qother</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:870baabfbca3">
+  <data key="d0">Sensor</data>
+  <data key="d1">Fuel Temp.</data>
+  <data key="d2">T18</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:872567f0bd88">
+  <data key="d0">Sensor</data>
+  <data key="d1">Effective Work No.2</data>
+  <data key="d2">We</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:8ab013653446">
+  <data key="d0">Sensor</data>
+  <data key="d1">Engine Cooling water flow</data>
+  <data key="d2">Qw_eng</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:8ad66c87b433">
+  <data key="d0">Sensor</data>
+  <data key="d1">No.2 Exh.Gas Temp.</data>
+  <data key="d2">T2</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:8b403808fd55">
+  <data key="d0">Sensor</data>
+  <data key="d1">Exh.Gas Temp. Turbine Out</data>
+  <data key="d2">T5</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:9103d6c847ed">
+  <data key="d0">Sensor</data>
+  <data key="d1">Effective Work No.1</data>
+  <data key="d2">We</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:95cb7f8b5ea4">
+  <data key="d0">Sensor</data>
+  <data key="d1">Max. In-Cylinder Press. No.2</data>
+  <data key="d2">Pmax</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:9785e5456d03">
+  <data key="d0">Sensor</data>
+  <data key="d1">Fuel Flow</data>
+  <data key="d2">Qfuel</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:a4ce7901d117">
+  <data key="d0">Sensor</data>
+  <data key="d1">Mechanical Loss</data>
+  <data key="d2">Wm</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:a6b570413502">
+  <data key="d0">Sensor</data>
+  <data key="d1">Loss with LO</data>
+  <data key="d2">Qrej_lo</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:a99b849d2aad">
+  <data key="d0">Sensor</data>
+  <data key="d1">TCH Power</data>
+  <data key="d2">Qturb</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:ad2f7007e3fa">
+  <data key="d0">Sensor</data>
+  <data key="d1">Total Effective Work</data>
+  <data key="d2">We_tot</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:ae5a2be19a3b">
+  <data key="d0">Sensor</data>
+  <data key="d1">Shaft Torque</data>
+  <data key="d2">Tq</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:aef67aa11eac">
+  <data key="d0">Sensor</data>
+  <data key="d1">Charge Air IC Cooling Water Temp. In</data>
+  <data key="d2">T16</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:b3a6d5f659a8">
+  <data key="d0">Sensor</data>
+  <data key="d1">Indicated Work No.1</data>
+  <data key="d2">Wi</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:b7131de34c68">
+  <data key="d0">Sensor</data>
+  <data key="d1">Min. In-Cylinder Press. No.2</data>
+  <data key="d2">Pmin</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:ba1e69ac58df">
+  <data key="d0">Sensor</data>
+  <data key="d1">Total Indicated work</data>
+  <data key="d2">Wi_tot</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:ba5f4c7a3eab">
+  <data key="d0">Sensor</data>
+  <data key="d1">Exh.Gas Total Power</data>
+  <data key="d2">Qexh1</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:baa3a7477b53">
+  <data key="d0">Sensor</data>
+  <data key="d1">Cooling Water Temp. Engine Out I</data>
+  <data key="d2">T7</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:c6c4a9eaacca">
+  <data key="d0">Sensor</data>
+  <data key="d1">Total Input Energy</data>
+  <data key="d2">Qtotal</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:ccfc2a47cee5">
+  <data key="d0">Sensor</data>
+  <data key="d1">Exh.Gas Temp. Turbine In</data>
+  <data key="d2">T4</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:d07e7ed33e29">
+  <data key="d0">Sensor</data>
+  <data key="d1">LO Circulating Pump Press.</data>
+  <data key="d2">Pl_lo</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:d9ffd75bfab4">
+  <data key="d0">Sensor</data>
+  <data key="d1">Engine Speed</data>
+  <data key="d2">N 发动机转速</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:e17885e7f77f">
+  <data key="d0">Sensor</data>
+  <data key="d1">Loss with TCH LO</data>
+  <data key="d2">Qrej_turb</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:e47b10fa62e0">
+  <data key="d0">Sensor</data>
+  <data key="d1">Compressor Filter Loss</data>
+  <data key="d2">dPf 压气机滤清器压损</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:e56c947d4ba2">
+  <data key="d0">Sensor</data>
+  <data key="d1">Sea Cooling Water Press.</data>
+  <data key="d2">Pl_water2</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:e94fb52827fa">
+  <data key="d0">Sensor</data>
+  <data key="d1">Turbine Back Pressure</data>
+  <data key="d2">dPex 涡轮背压</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:e98fe7ad595f">
+  <data key="d0">Sensor</data>
+  <data key="d1">Loss with cooling water</data>
+  <data key="d2">Qrej_eng</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:e9b442573c44">
+  <data key="d0">Sensor</data>
+  <data key="d1">Cooling Water Temp. Engine Out III</data>
+  <data key="d2">T9</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:sensor:fd5659daf34f">
+  <data key="d0">Sensor</data>
+  <data key="d1">LO Cooling Water Temp. In</data>
+  <data key="d2">T12</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:source:159562b24735">
+  <data key="d0">Source</data>
+  <data key="d1">Kommandor Susan catastrophic engine failure and fire</data>
+  <data key="d2">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:source:21d1480ba4a6">
+  <data key="d0">Source</data>
+  <data key="d1">Wight Sky catastrophic main engine bearing failure</data>
+  <data key="d2">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:source:23fd7f407fe4">
+  <data key="d0">Source</data>
+  <data key="d1">Condition Based Maintenance of Naval Propulsion Plants</data>
+  <data key="d2">UCI_Naval_Propulsion_CBM.zip</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:source:29f30f85af55">
+  <data key="d0">Source</data>
+  <data key="d1">Thermodynamic simulation-assisted random forest</data>
+  <data key="d2">TSRF_main.zip</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:source:5137a1994672">
+  <data key="d0">Source</data>
+  <data key="d1">Anonymised azimuth thruster multimodal CBM dataset</data>
+  <data key="d2">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:source:66b61e38c53f">
+  <data key="d0">Source</data>
+  <data key="d1">Wight Sky multiple engine failures</data>
+  <data key="d2">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:source:a4b58f363149">
+  <data key="d0">Source</data>
+  <data key="d1">Finlandia Seaways engine failure and fire</data>
+  <data key="d2">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:source:af4bce0c23cd">
+  <data key="d0">Source</data>
+  <data key="d1">Windcat 8 connecting rod big-end bearing failure</data>
+  <data key="d2">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:source:d52922af3fc9">
+  <data key="d0">Source</data>
+  <data key="d1">Spirit of Discovery loss of propulsion in heavy weather</data>
+  <data key="d2">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:source:e12fe2e83b8d">
+  <data key="d0">Source</data>
+  <data key="d1">Marine Engine Fault Dataset</data>
+  <data key="d2">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:symptom:601948a19d34">
+  <data key="d0">Symptom</data>
+  <data key="d1">连杆小端刻痕</data>
+  <data key="d2">small-end notch damage</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:symptom:ccae4eb65c57">
+  <data key="d0">Symptom</data>
+  <data key="d1">润滑油压力下降</data>
+  <data key="d2">loss of lubricating oil pressure</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:symptom:d2a57b31e287">
+  <data key="d0">Symptom</data>
+  <data key="d1">机油高温报警</data>
+  <data key="d2">high oil temperature alarm</data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:system:5d1dca19fd66">
+  <data key="d0">System</data>
+  <data key="d1">柴油机机械推进系统</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:system:9bf053394931">
+  <data key="d0">System</data>
+  <data key="d1">柴油发电-电力推进系统</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:system:dacba8b43ef4">
+  <data key="d0">System</data>
+  <data key="d1">电力-吊舱推进系统</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:vessel:2ee30864aa2d">
+  <data key="d0">Vessel</data>
+  <data key="d1">Kommandor Susan</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:vessel:5466bfcfc864">
+  <data key="d0">Vessel</data>
+  <data key="d1">Spirit of Discovery</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:vessel:ce08d017f5c9">
+  <data key="d0">Vessel</data>
+  <data key="d1">Windcat 8</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:vessel:db8f8f17b349">
+  <data key="d0">Vessel</data>
+  <data key="d1">Finlandia Seaways</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<node id="shipkg:vessel:fa10fa0f80d3">
+  <data key="d0">Vessel</data>
+  <data key="d1">Wight Sky</data>
+  <data key="d2"></data>
+  <data key="d3"></data>
+  <data key="d4"></data>
+</node>
+<edge source="shipkg:action:16d3373950f9" target="shipkg:condition:6fa538170906" id="edge:d18a92975542579a">
+  <data key="d5">ADDRESSES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported_action</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:action:4f7d85454ee0" target="shipkg:condition:2ee58a9a8fad" id="edge:0454a6feb9b72426">
+  <data key="d5">ADDRESSES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported_action</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">53</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:action:642ddc0bd6c5" target="shipkg:cause:29f8307f5eed" id="edge:44e25149b87dbc84">
+  <data key="d5">ADDRESSES</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">derived_action</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">56</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:action:752d3ce3e403" target="shipkg:cause:cf3cb78b47cf" id="edge:928fdefd1642c5c5">
+  <data key="d5">ADDRESSES</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported_action</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:action:984af3c3d6c8" target="shipkg:condition:6fa538170906" id="edge:66cbe293a1e6d6cb">
+  <data key="d5">ADDRESSES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported_action</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">6</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:action:b1b278b9bbdd" target="shipkg:fault:d005e46c6652" id="edge:553116897a245486">
+  <data key="d5">ADDRESSES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported_action</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">53</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:action:b39684450af7" target="shipkg:condition:7fb8a1a33328" id="edge:3ce6740666ac6746">
+  <data key="d5">ADDRESSES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported_action</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">53</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:cause:cf3cb78b47cf" id="edge:11e5f29a1f7dfe4f">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:fault:d047fdea9ee9" id="edge:11ef722062ee75f5">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:condition:19ae439543bd" id="edge:2f2a629e62f4e00e">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:action:752d3ce3e403" id="edge:4329884f77eb369a">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:equipment:1755b4f618f2" id="edge:4f987e939c176b16">
+  <data key="d5">HAS_EQUIPMENT</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:fault:fee4df6aeb24" id="edge:71c93c3028f0d7ae">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:condition:e21862ad051d" id="edge:7b9be00c22960658">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:consequence:bcd3a732b87d" id="edge:9b4b0272e8704850">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:fault:5f59e6b3ca42" id="edge:9fd3b3bba35df042">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:fault:aba0717d72a0" id="edge:a6ff3d7bef862430">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:source:21d1480ba4a6" id="edge:ac6908ec9f47ee7b">
+  <data key="d5">DOCUMENTED_BY</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:consequence:775549e4c085" id="edge:b15cee873e9d5efd">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:00057f56fe39" target="shipkg:system:5d1dca19fd66" id="edge:cb7ed140bf8fa929">
+  <data key="d5">IN_SYSTEM</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:condition:2ee58a9a8fad" id="edge:12639aeeb7d3d60d">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:system:dacba8b43ef4" id="edge:1900f0977ec59f80">
+  <data key="d5">IN_SYSTEM</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:fault:d005e46c6652" id="edge:3540543d2a826525">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:equipment:710361995928" id="edge:5e7a6c288d988ead">
+  <data key="d5">HAS_EQUIPMENT</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:condition:0a605c97371c" id="edge:5f9cae20edd98540">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:fault:c9a34bd46532" id="edge:659bbf10be517468">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:fault:cdf116929c39" id="edge:6e209903c83a94e7">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">43</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:consequence:d1c468a6b34b" id="edge:70aa583bbf239778">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:condition:7fb8a1a33328" id="edge:7d59998bfaf8fb98">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">43</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:action:4f7d85454ee0" id="edge:a32459f38be8571e">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">53</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:fault:e97eee073fc6" id="edge:a4cdf2d395f09c13">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:source:d52922af3fc9" id="edge:cd4443bced5710fe">
+  <data key="d5">DOCUMENTED_BY</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:action:b39684450af7" id="edge:cf91d9f25181f963">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">53</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:action:b1b278b9bbdd" id="edge:ec34500d561a3beb">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">53</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:fault:c830e7992f26" id="edge:ee29e9d5aa94c5ec">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:187dc871fbd5" target="shipkg:consequence:7de07882b364" id="edge:f7f3e6ed5fcb1562">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">51</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:fault:2c644dcfc770" id="edge:00e268c583920977">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">5</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:condition:9e0b58e70948" id="edge:21aa538ccb186c35">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">8</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:consequence:775549e4c085" id="edge:24678dd0c27492bb">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:equipment:49d861a78ba3" id="edge:3884973f837051d2">
+  <data key="d5">HAS_EQUIPMENT</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:source:159562b24735" id="edge:647dcdf90cfc8204">
+  <data key="d5">DOCUMENTED_BY</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:action:984af3c3d6c8" id="edge:6c3befd77e6fe6f6">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">6</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:check:1c503f83ef89" id="edge:6d2b0bee1d6de6c7">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">8</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:condition:9e280aeb615b" id="edge:6dfe9b41b6b14146">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">8</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:system:9bf053394931" id="edge:7e9d424e9efc7234">
+  <data key="d5">IN_SYSTEM</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:consequence:d1c468a6b34b" id="edge:87f629c6df27074a">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:action:16d3373950f9" id="edge:89354445a36570a7">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:cause:0c02674d6024" id="edge:898e34cfb1079802">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">5</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:condition:6fa538170906" id="edge:a4b835efae9cbcac">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">8</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:consequence:4f46c84c0d64" id="edge:d2f632d6c0fb6506">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:fault:423cd9a63be0" id="edge:d7a2187500e9acc9">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">5</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:1e6479e108d9" target="shipkg:consequence:4016217446bf" id="edge:ecd21828868f7b9d">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:case:278d7572ef08" target="shipkg:fault:a20cef558a0a" id="edge:2b009d7f31dff02d">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:278d7572ef08" target="shipkg:check:fa162d9e9a3f" id="edge:372f4d4cfd3bf6cd">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">72</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:278d7572ef08" target="shipkg:fault:9b76a4f68834" id="edge:4079815458cd42f4">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:278d7572ef08" target="shipkg:fault:fee4df6aeb24" id="edge:63f50ee6c2328b58">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:278d7572ef08" target="shipkg:equipment:6cc9aa419de7" id="edge:88ab1a090195de96">
+  <data key="d5">HAS_EQUIPMENT</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:278d7572ef08" target="shipkg:system:5d1dca19fd66" id="edge:bc128c07c9354ca4">
+  <data key="d5">IN_SYSTEM</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:278d7572ef08" target="shipkg:cause:0b368a5a5869" id="edge:cccd4ad38e79c3fa">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:278d7572ef08" target="shipkg:source:66b61e38c53f" id="edge:e372613b572c153f">
+  <data key="d5">DOCUMENTED_BY</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:9792cd36162e" target="shipkg:fault:8d2d73a67f71" id="edge:132a3aef440a9e86">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:9792cd36162e" target="shipkg:symptom:d2a57b31e287" id="edge:1c226d729369d0f6">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:9792cd36162e" target="shipkg:fault:2c644dcfc770" id="edge:215927f377f46931">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:9792cd36162e" target="shipkg:consequence:775549e4c085" id="edge:3aa989245b5650ef">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">11</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:9792cd36162e" target="shipkg:condition:7a0e4d2405ef" id="edge:6004491261f8dd90">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">11</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:9792cd36162e" target="shipkg:action:4a27034a0842" id="edge:60450c763db70e7c">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">11</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:9792cd36162e" target="shipkg:system:5d1dca19fd66" id="edge:72203146f77ec8eb">
+  <data key="d5">IN_SYSTEM</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:9792cd36162e" target="shipkg:condition:ff44ed04fc9f" id="edge:c738aa985d178c94">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:9792cd36162e" target="shipkg:action:9fa28e4c4571" id="edge:c73b68793ef21e47">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">11</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:9792cd36162e" target="shipkg:equipment:563809ad0932" id="edge:ce93f8439e66ac3c">
+  <data key="d5">HAS_EQUIPMENT</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:9792cd36162e" target="shipkg:source:af4bce0c23cd" id="edge:d74ebf20cc5e3892">
+  <data key="d5">DOCUMENTED_BY</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:case:adf367a46f33" target="shipkg:condition:2d805325d843" id="edge:2b331df2c1fbca59">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:adf367a46f33" target="shipkg:source:66b61e38c53f" id="edge:64d0a22d1da79381">
+  <data key="d5">DOCUMENTED_BY</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:adf367a46f33" target="shipkg:check:f9cad3df2b98" id="edge:6a0c01b673ea0882">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:adf367a46f33" target="shipkg:fault:96cc1c0ff36e" id="edge:7f08ab11206bc8bc">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:adf367a46f33" target="shipkg:fault:fee4df6aeb24" id="edge:98c5383ab9790842">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:adf367a46f33" target="shipkg:fault:aba0717d72a0" id="edge:b1e927b793b4c3b4">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:adf367a46f33" target="shipkg:condition:a9a45fb680fd" id="edge:b985df217b70c920">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">85</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:adf367a46f33" target="shipkg:equipment:61cd855f5970" id="edge:bfb0d14c4ff5888e">
+  <data key="d5">HAS_EQUIPMENT</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:adf367a46f33" target="shipkg:symptom:ccae4eb65c57" id="edge:d34cfe896e4d0cec">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">70</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:adf367a46f33" target="shipkg:cause:8a2abf94d478" id="edge:f666dae6f01177ac">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:adf367a46f33" target="shipkg:system:5d1dca19fd66" id="edge:fd4ddfffcf5bc874">
+  <data key="d5">IN_SYSTEM</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:case:d6e9f8f8ade2" target="shipkg:cause:29f8307f5eed" id="edge:0194af9f6cddb0da">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:case:d6e9f8f8ade2" target="shipkg:equipment:aea23b9943a4" id="edge:08944f6f37ecd17d">
+  <data key="d5">HAS_EQUIPMENT</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:case:d6e9f8f8ade2" target="shipkg:system:5d1dca19fd66" id="edge:08f490051756c0e1">
+  <data key="d5">IN_SYSTEM</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:case:d6e9f8f8ade2" target="shipkg:fault:4e2929b80b35" id="edge:63290134edaabcd8">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:case:d6e9f8f8ade2" target="shipkg:fault:fee4df6aeb24" id="edge:83c25edbca1b855a">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:case:d6e9f8f8ade2" target="shipkg:check:313a552b87bf" id="edge:b6118df8e96d8f9a">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">56</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:case:d6e9f8f8ade2" target="shipkg:symptom:601948a19d34" id="edge:b87ce74b0276fc85">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">56</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:case:d6e9f8f8ade2" target="shipkg:action:642ddc0bd6c5" id="edge:c7203100f1a0ed3b">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">56</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:case:d6e9f8f8ade2" target="shipkg:consequence:775549e4c085" id="edge:e6221cf6d8ff0c74">
+  <data key="d5">INVOLVES</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:case:d6e9f8f8ade2" target="shipkg:source:a4b58f363149" id="edge:f7d3c136149f9f3e">
+  <data key="d5">DOCUMENTED_BY</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:cause:0b368a5a5869" target="shipkg:fault:a20cef558a0a" id="edge:561c285555c25a69">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:cause:0c02674d6024" target="shipkg:fault:2c644dcfc770" id="edge:f91e30b569a1ffe4">
+  <data key="d5">CONTRIBUTED_TO</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">probable</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">5</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:cause:29f8307f5eed" target="shipkg:fault:4e2929b80b35" id="edge:740e9eb1e7a243da">
+  <data key="d5">INCREASES_RISK_OF</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:cause:8a2abf94d478" target="shipkg:fault:aba0717d72a0" id="edge:906419b0e1885484">
+  <data key="d5">MAY_CONTRIBUTE_TO</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">possible</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:cause:cf3cb78b47cf" target="shipkg:fault:aba0717d72a0" id="edge:8891c036cde74d94">
+  <data key="d5">CONTRIBUTED_TO</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">probable</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:check:1c503f83ef89" target="shipkg:condition:6fa538170906" id="edge:79cc156b4e7adb2e">
+  <data key="d5">CHECKS</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">derived_action</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">8</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:check:313a552b87bf" target="shipkg:cause:29f8307f5eed" id="edge:f88ba84487c8e409">
+  <data key="d5">CHECKS</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">derived_action</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">56</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:check:f9cad3df2b98" target="shipkg:cause:8a2abf94d478" id="edge:75841e23b89f0d54">
+  <data key="d5">CHECKS</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">derived_action</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:check:fa162d9e9a3f" target="shipkg:cause:0b368a5a5869" id="edge:bf07e6903aa4cc76">
+  <data key="d5">CHECKS</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">derived_action</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">72</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:condition:0a605c97371c" target="shipkg:condition:2ee58a9a8fad" id="edge:b27d395dd7a1eec9">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:condition:19ae439543bd" target="shipkg:fault:5f59e6b3ca42" id="edge:46fbc1fad6f5bc77">
+  <data key="d5">LIMITS_DETECTION_OF</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:condition:2d805325d843" target="shipkg:fault:aba0717d72a0" id="edge:9f7a4ae4b1796cdb">
+  <data key="d5">MAY_CONTRIBUTE_TO</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">possible</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:condition:2ee58a9a8fad" target="shipkg:fault:c9a34bd46532" id="edge:9fabc8d3664d53d0">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:condition:7a0e4d2405ef" target="shipkg:action:9fa28e4c4571" id="edge:23d24efd05e23e3e">
+  <data key="d5">REDUCES_EFFECTIVENESS_OF</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">11</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:condition:7fb8a1a33328" target="shipkg:fault:cdf116929c39" id="edge:1a8d22464c3d1c3c">
+  <data key="d5">TRIGGERS</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">43</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:condition:9e0b58e70948" target="shipkg:fault:2c644dcfc770" id="edge:8fb3da4a6ad8dacd">
+  <data key="d5">CONTRIBUTED_TO</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">8</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:condition:9e280aeb615b" target="shipkg:condition:6fa538170906" id="edge:80d60dbbffd49fa6">
+  <data key="d5">CONTRIBUTED_TO</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">8</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:condition:a9a45fb680fd" target="shipkg:fault:fee4df6aeb24" id="edge:78eb1892f1bf4469">
+  <data key="d5">INCREASES_SEVERITY_OF</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">85</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:condition:e21862ad051d" target="shipkg:consequence:bcd3a732b87d" id="edge:d5e855bff1694f60">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:consequence:4016217446bf" target="shipkg:consequence:d1c468a6b34b" id="edge:a840667b53ddaf5c">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:consequence:4016217446bf" target="shipkg:consequence:4f46c84c0d64" id="edge:a9fa64e6e5b6251f">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:dataset:19e52eb49467" target="shipkg:fault:f343dfd71879" id="edge:1933ff91eaa2eec3">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">simulated</data>
+  <data key="d8">TSRF_main.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://github.com/TS-RF/TSRF</data>
+</edge>
+<edge source="shipkg:dataset:19e52eb49467" target="shipkg:fault:530d40214e1a" id="edge:1aca33edc46a1890">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">simulated</data>
+  <data key="d8">TSRF_main.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://github.com/TS-RF/TSRF</data>
+</edge>
+<edge source="shipkg:dataset:19e52eb49467" target="shipkg:fault:f18d7fcb0838" id="edge:292a1e69ac584423">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">simulated</data>
+  <data key="d8">TSRF_main.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://github.com/TS-RF/TSRF</data>
+</edge>
+<edge source="shipkg:dataset:19e52eb49467" target="shipkg:source:29f30f85af55" id="edge:689bc09d8ef4cf1e">
+  <data key="d5">DOCUMENTED_BY</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">TSRF_main.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://github.com/TS-RF/TSRF</data>
+</edge>
+<edge source="shipkg:dataset:19e52eb49467" target="shipkg:fault:825e44b518ef" id="edge:7a2bc0ec43b6d142">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">simulated</data>
+  <data key="d8">TSRF_main.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://github.com/TS-RF/TSRF</data>
+</edge>
+<edge source="shipkg:dataset:19e52eb49467" target="shipkg:fault:323fee48e778" id="edge:e77fbbaaae4588fe">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">simulated</data>
+  <data key="d8">TSRF_main.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://github.com/TS-RF/TSRF</data>
+</edge>
+<edge source="shipkg:dataset:19e52eb49467" target="shipkg:fault:ebfac27b4d41" id="edge:ea408031a5706e10">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">simulated</data>
+  <data key="d8">TSRF_main.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://github.com/TS-RF/TSRF</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:e56c947d4ba2" id="edge:001091b260b3062f">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:e98fe7ad595f" id="edge:037a4d071a6529c2">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:0dfc0d5a19c5" id="edge:060a43e64259ef1e">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:54ce9804e4f4" id="edge:062801f83d96feec">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:427673f0da2d" id="edge:06d907ccfb2fafcf">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:a54e4f2dfd8d" id="edge:081a15901d300d4e">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:2ea813c04f69" id="edge:0a24bd303dcf92da">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:ad2f7007e3fa" id="edge:0bbcabb119a25f70">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:a43d97ac9f94" id="edge:102a13c903708c04">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:851db4d72803" id="edge:1274fdc0acb19045">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:805edb9418c2" id="edge:1d80047b2a112d94">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:95cb7f8b5ea4" id="edge:256e1a9bbcedfe9b">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:2c8ac4d016f4" id="edge:26403b326b714b90">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:ba5f4c7a3eab" id="edge:2739836792a3f6c1">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:0acc03533547" id="edge:275d59fbfcdac99f">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:7e4664b82d74" id="edge:2b6706f568793be1">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:5007e1617236" id="edge:2d4ab44518b3d476">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:a6b570413502" id="edge:2dcda900a2edd521">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:c2058b46e618" id="edge:32526435fe30bfd2">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:fd5659daf34f" id="edge:333bbb6be23ee224">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:75d18bcbb2d9" id="edge:35b4fc034e64a450">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:421ec2313d7d" id="edge:35c465c443d90f42">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:a4c3017972ca" id="edge:366e11a509d15229">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:9969547fcdfa" id="edge:376720fbff4125a2">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:8b403808fd55" id="edge:43df28ae28a3fbbf">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:0d564da1d412" id="edge:4b7f6d0000ba8b85">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:9103d6c847ed" id="edge:4be6677a2fce9cc4">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:77a7092fcc4e" id="edge:50217468aa7c2916">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:8529d7e4c296" id="edge:595ef591f4214968">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:5c7b83264f58" id="edge:5a4a453ccb62f51c">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:1f391dbaad55" id="edge:5b6480e99d1e39fb">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:ccfc2a47cee5" id="edge:5fad3b66d088751f">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:6b05eccd173f" id="edge:62d57ee2f3704c0d">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:453069f73398" id="edge:637c1d14e0c603a6">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:65ae734da9ec" id="edge:64948e1ebd01df51">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:ae5a2be19a3b" id="edge:6afbc52a8d356e95">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:28c98806fac8" id="edge:6b58a4007c47e288">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:e17885e7f77f" id="edge:70ec9bf53cd508a6">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:d07e7ed33e29" id="edge:7295ba48ef93039c">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:baa3a7477b53" id="edge:7508d061b6587515">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:09fb65289e45" id="edge:756ee7ab786e2342">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:ce8ec71106fb" id="edge:75da217ae54634ea">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:3a134554df66" id="edge:789a40efbf94f045">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:e9b442573c44" id="edge:822894e4ee33d35c">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:source:e12fe2e83b8d" id="edge:82e23e98294389fd">
+  <data key="d5">DOCUMENTED_BY</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:d9ffd75bfab4" id="edge:8b2de4d98a15c5a7">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:a99b849d2aad" id="edge:8e8fa2175e5d4990">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:0a0b95755e65" id="edge:8fc5d9e12519404f">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:c6c4a9eaacca" id="edge:992478fc2c14e9b3">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:1320f5577cf0" id="edge:9941cbdbe1cfdf73">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:aef67aa11eac" id="edge:9e959d93a91dfe5c">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:615199ab193b" id="edge:a937bf8f2b2c652c">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:482eb47f8513" id="edge:a95ad793386ee8d9">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:e47b10fa62e0" id="edge:aae2c66f15b8b768">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:b3a6d5f659a8" id="edge:b25a5cf32c96c74f">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:7b9d6be3e1e7" id="edge:b3e43455b3218549">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:9690a0157fb9" id="edge:b675bb7c1f4fc2de">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:cd33f80ecd69" id="edge:bc42dd4b0e37d4eb">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:67bfe0a5f170" id="edge:bec7be1e9700a814">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:ba1e69ac58df" id="edge:c1e0fa7428533bc5">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:2392435fe4ac" id="edge:c62ebf3c80e160a0">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:265eab3b4373" id="edge:c7489feb424fc12e">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:5acc3a404383" id="edge:cb9aa280fead0205">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:5f5652f7036e" id="edge:cf347cc5c62a9275">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:e94fb52827fa" id="edge:cf8088fbc0fe6263">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:6cf5ec25b81a" id="edge:d2cf7e7328f9b943">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:a4ce7901d117" id="edge:d550d8d987cbc2ed">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:17bbed611e22" id="edge:d5c1fd3be2416952">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:870baabfbca3" id="edge:d633bdf82e73e82e">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:b7131de34c68" id="edge:d7df018213d853f6">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:0024b0cf204d" id="edge:dea8c1a697e532a0">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:8ad66c87b433" id="edge:e0284dc52b13fab4">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:8ab013653446" id="edge:e0b43824fecda57c">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:9785e5456d03" id="edge:e2129d57449bdc1b">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:270638670931" id="edge:e4eaac50a4ee8002">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:7675b8a8bef8" id="edge:e6111625394e9a53">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:0c9767837a0e" id="edge:e7103e2d26ceb062">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:bd1a1e06b4eb" id="edge:e8c8577267a9233d">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:2c5d17b46b26" id="edge:ea13b5c72413de93">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:34c1108e4156" id="edge:eb9820d2f30f30f4">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:run:6c075208cdc0" id="edge:ec95dc1fa6992435">
+  <data key="d5">HAS_RUN</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:31faff89b311" id="edge:ede40320c4ce187a">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:872567f0bd88" id="edge:eedeeafafedb05b6">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:366f77564e58" id="edge:f331bb2d23d88bfe">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:173be47ae689" id="edge:fb34bd4df3c583e0">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:0d9978f872ad" id="edge:fe049a757fc3bcaa">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:1ceeb4cad6d8" target="shipkg:sensor:5c1900646ca4" id="edge:fe7d4eb6c9fdf2b2">
+  <data key="d5">HAS_CHANNEL</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:dataset:6ab0788d235b" target="shipkg:fault:bebfb8cfc5f3" id="edge:3874928f0c540ca9">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">simulated</data>
+  <data key="d8">UCI_Naval_Propulsion_CBM.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://archive.ics.uci.edu/dataset/316/condition%2Bbased%2Bmaintenance%2Bof%2Bnaval%2Bpropulsion%2Bplants</data>
+</edge>
+<edge source="shipkg:dataset:6ab0788d235b" target="shipkg:fault:9b3b274b4dbf" id="edge:5ee1e01da6b9555d">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">simulated</data>
+  <data key="d8">UCI_Naval_Propulsion_CBM.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://archive.ics.uci.edu/dataset/316/condition%2Bbased%2Bmaintenance%2Bof%2Bnaval%2Bpropulsion%2Bplants</data>
+</edge>
+<edge source="shipkg:dataset:6ab0788d235b" target="shipkg:source:23fd7f407fe4" id="edge:d8c026f85cad1492">
+  <data key="d5">DOCUMENTED_BY</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">UCI_Naval_Propulsion_CBM.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://archive.ics.uci.edu/dataset/316/condition%2Bbased%2Bmaintenance%2Bof%2Bnaval%2Bpropulsion%2Bplants</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:4cd2541cd04a" id="edge:075d99bfeb060614">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:c07d705f633b" id="edge:201dbbe3d7f97841">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:fe8f810e77c8" id="edge:2e9fac7b2910f282">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:source:5137a1994672" id="edge:356ae76177cbd32c">
+  <data key="d5">DOCUMENTED_BY</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:0c0be039e775" id="edge:44fec12dd8e5ffda">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:36b9efa16da9" id="edge:49f7e11530350ed5">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:5d48f4f61abd" id="edge:657fc4209b73ad18">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:abd23c68d1ce" id="edge:822ca9633b38e4b4">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:59f88fb7c81e" id="edge:9e58c904e378fd8f">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:ec255ed61291" id="edge:bebf0efb0d77f9ae">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:83cf859e3d48" id="edge:d7a5a80824d95559">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:6bc49fd589cc" id="edge:df2a656e57b6a266">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:dataset:710ea13e53ac" target="shipkg:observation:f5d747e68b69" id="edge:ec32b6f345cc361f">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:equipment:1755b4f618f2" target="shipkg:component:45c063af0c7c" id="edge:e3e5a53f0f25b5db">
+  <data key="d5">HAS_COMPONENT</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:equipment:49d861a78ba3" target="shipkg:component:8052e7754d5f" id="edge:ae255bc80cc879b8">
+  <data key="d5">HAS_COMPONENT</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">5</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:equipment:563809ad0932" target="shipkg:component:3552bc595328" id="edge:42516587b10b039a">
+  <data key="d5">HAS_COMPONENT</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:equipment:61cd855f5970" target="shipkg:component:be4ab56339d8" id="edge:79d4c4c8f1593b12">
+  <data key="d5">HAS_COMPONENT</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:equipment:6cc9aa419de7" target="shipkg:component:2a19cfd5c18a" id="edge:1788d18b9c1165b1">
+  <data key="d5">HAS_COMPONENT</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:equipment:710361995928" target="shipkg:component:1157de5d43da" id="edge:6d7bd55a38b00562">
+  <data key="d5">HAS_COMPONENT</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:equipment:710361995928" target="shipkg:component:160bdfff5e4e" id="edge:e55aa08dc1ef25d1">
+  <data key="d5">HAS_COMPONENT</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">43</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:equipment:aea23b9943a4" target="shipkg:component:c3d265fa990c" id="edge:57dbe6924d21326b">
+  <data key="d5">HAS_COMPONENT</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:fault:2c644dcfc770" target="shipkg:condition:ff44ed04fc9f" id="edge:00d23d64eeab966b">
+  <data key="d5">ASSOCIATED_WITH</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">probable</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:fault:2c644dcfc770" target="shipkg:component:8052e7754d5f" id="edge:1c7edb137cc82c49">
+  <data key="d5">AFFECTS_COMPONENT</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">5</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:fault:2c644dcfc770" target="shipkg:fault:423cd9a63be0" id="edge:2d66b2b8782ccd77">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">probable</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">5</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:fault:2c644dcfc770" target="shipkg:component:3552bc595328" id="edge:41c38630e54eb5b6">
+  <data key="d5">AFFECTS_COMPONENT</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:fault:2c644dcfc770" target="shipkg:fault:8d2d73a67f71" id="edge:7571a5635e421ac3">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:fault:423cd9a63be0" target="shipkg:consequence:4016217446bf" id="edge:0e92ee66dde8b3d3">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:fault:423cd9a63be0" target="shipkg:consequence:775549e4c085" id="edge:89d80dca73169f8c">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:fault:4e2929b80b35" target="shipkg:component:c3d265fa990c" id="edge:78663b40c46179a3">
+  <data key="d5">AFFECTS_COMPONENT</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:fault:4e2929b80b35" target="shipkg:fault:fee4df6aeb24" id="edge:c89e9a0773956752">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:fault:8d2d73a67f71" target="shipkg:consequence:775549e4c085" id="edge:4fa1a9255234d951">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">11</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:fault:96cc1c0ff36e" target="shipkg:fault:fee4df6aeb24" id="edge:961d8e73eae49028">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:fault:9b76a4f68834" target="shipkg:fault:fee4df6aeb24" id="edge:0f4a666fd242e2a4">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:fault:a20cef558a0a" target="shipkg:component:2a19cfd5c18a" id="edge:01fc144895cef73d">
+  <data key="d5">AFFECTS_COMPONENT</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:fault:a20cef558a0a" target="shipkg:fault:9b76a4f68834" id="edge:a2e2e760f4405d47">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:fault:aba0717d72a0" target="shipkg:component:45c063af0c7c" id="edge:2e10fd82cbcb1ef5">
+  <data key="d5">AFFECTS_COMPONENT</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:fault:aba0717d72a0" target="shipkg:fault:d047fdea9ee9" id="edge:a3e2a6f635c06758">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:fault:aba0717d72a0" target="shipkg:component:be4ab56339d8" id="edge:c92d57e440182816">
+  <data key="d5">AFFECTS_COMPONENT</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:fault:aba0717d72a0" target="shipkg:fault:96cc1c0ff36e" id="edge:d49bfb0e69feaca9">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:fault:c830e7992f26" target="shipkg:consequence:d1c468a6b34b" id="edge:b00142198fe385e9">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:fault:c9a34bd46532" target="shipkg:fault:e97eee073fc6" id="edge:2a3c64ff89df3e30">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:fault:cdf116929c39" target="shipkg:component:160bdfff5e4e" id="edge:192176bf64b44fd8">
+  <data key="d5">AFFECTS_COMPONENT</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">43</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:fault:cdf116929c39" target="shipkg:fault:d005e46c6652" id="edge:41ca30b8f935e1bc">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:fault:d005e46c6652" target="shipkg:consequence:7de07882b364" id="edge:2567df4a8d750e32">
+  <data key="d5">WORSENS</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">51</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:fault:d047fdea9ee9" target="shipkg:fault:fee4df6aeb24" id="edge:45eb816cfdbcbdf9">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">14</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:fault:e97eee073fc6" target="shipkg:component:1157de5d43da" id="edge:5fc9dfa91d77c020">
+  <data key="d5">AFFECTS_COMPONENT</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:fault:e97eee073fc6" target="shipkg:fault:c830e7992f26" id="edge:a5a324438d9fb4aa">
+  <data key="d5">TRIGGERS</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:fault:fee4df6aeb24" target="shipkg:consequence:775549e4c085" id="edge:7c222be8825bc855">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:fault:fee4df6aeb24" target="shipkg:consequence:775549e4c085" id="edge:ab3cbed2a2a61e2c">
+  <data key="d5">LEADS_TO</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:observation:0c0be039e775" target="shipkg:action:a153887f0b20" id="edge:0a4f90ffd11313dc">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:0c0be039e775" target="shipkg:fault:e552cc02e03c" id="edge:71d804cba18cd5f9">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:36b9efa16da9" target="shipkg:fault:74505aa1776a" id="edge:1d3a1552dbb0119f">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:36b9efa16da9" target="shipkg:action:cc44cd1c6032" id="edge:ccd6112a8f27fefe">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:4cd2541cd04a" target="shipkg:fault:7d0ec41f122b" id="edge:62b14918a4163ca2">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:4cd2541cd04a" target="shipkg:action:cc44cd1c6032" id="edge:87f45fa93ed0eaf7">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:59f88fb7c81e" target="shipkg:action:9e4b4715011c" id="edge:b823f509dcdde6a0">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:59f88fb7c81e" target="shipkg:fault:911e598cd781" id="edge:e8b49fbfdae596c8">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:5d48f4f61abd" target="shipkg:fault:18191226708b" id="edge:3d45893b3e5f37fb">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:5d48f4f61abd" target="shipkg:action:6667f1d39b0e" id="edge:4ce17dd1ba28fe38">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:6bc49fd589cc" target="shipkg:fault:a7ebb889d098" id="edge:55ad11a155cf1fdb">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:6bc49fd589cc" target="shipkg:action:cc44cd1c6032" id="edge:a434c932c85b6a89">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:83cf859e3d48" target="shipkg:action:157f8a0199e8" id="edge:10b86056b2bc9afc">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:83cf859e3d48" target="shipkg:fault:cba0553c7db4" id="edge:474d7fcf6c9b1ef8">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:abd23c68d1ce" target="shipkg:fault:688b83bd7c8b" id="edge:aa824603cc492268">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:abd23c68d1ce" target="shipkg:action:cc44cd1c6032" id="edge:d62e07c551845238">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:c07d705f633b" target="shipkg:fault:2c174651a93a" id="edge:2efb30905f43e6ee">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:c07d705f633b" target="shipkg:action:9e4b4715011c" id="edge:a7e00e91b645017a">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:ec255ed61291" target="shipkg:fault:2fa5f2876bb5" id="edge:2012e39a8ebe24ff">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:ec255ed61291" target="shipkg:action:9e4b4715011c" id="edge:98807e8099b08cb6">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:f5d747e68b69" target="shipkg:action:6667f1d39b0e" id="edge:11a1c3a31e11dad7">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:f5d747e68b69" target="shipkg:fault:40fb093312a6" id="edge:1fec1859e7634a15">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:fe8f810e77c8" target="shipkg:action:6667f1d39b0e" id="edge:1e82921cb7781b48">
+  <data key="d5">HAS_RECOMMENDED_ACTION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:observation:fe8f810e77c8" target="shipkg:fault:aea71a6801b6" id="edge:5c374fffb81cbd81">
+  <data key="d5">SHOWS_CONDITION</data>
+  <data key="d6"></data>
+  <data key="d7">dataset_label</data>
+  <data key="d8">Azimuth_Thruster_CBM_Dataset.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/20101612</data>
+</edge>
+<edge source="shipkg:run:0024b0cf204d" target="shipkg:condition:df365e2b0777" id="edge:85078bc503bba6b0">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:0024b0cf204d" target="shipkg:fault:0e24c2957173" id="edge:e8fb5d6d9da903c6">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:0a0b95755e65" target="shipkg:condition:6fc146bc433f" id="edge:0307cafb7e2f681b">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:0a0b95755e65" target="shipkg:fault:91dfc7218234" id="edge:3dd5af79ed75a435">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:265eab3b4373" target="shipkg:fault:0a5da1da4336" id="edge:0282634add32d0ba">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:265eab3b4373" target="shipkg:condition:8752a78e143c" id="edge:6985167100c8f387">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:2c8ac4d016f4" target="shipkg:condition:0f0bb607da60" id="edge:db0088fe22e7b9d8">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:6b05eccd173f" target="shipkg:fault:91dfc7218234" id="edge:4e94809cc83cc3af">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:6b05eccd173f" target="shipkg:condition:1bf60bc6ecb7" id="edge:8607e2b32381e3c7">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:6c075208cdc0" target="shipkg:fault:3a609fe447a8" id="edge:15dbac98a016a502">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:6c075208cdc0" target="shipkg:condition:1bf60bc6ecb7" id="edge:62263a7850294b21">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:77a7092fcc4e" target="shipkg:fault:91dfc7218234" id="edge:740f05e54dc174ba">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:77a7092fcc4e" target="shipkg:condition:df365e2b0777" id="edge:885d4b7ffa8db622">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:9690a0157fb9" target="shipkg:condition:8f4ca3980ed8" id="edge:6028ca25550d0ff9">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:9690a0157fb9" target="shipkg:fault:0a5da1da4336" id="edge:8aa09d71bdfa2547">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:9969547fcdfa" target="shipkg:fault:3a609fe447a8" id="edge:b5b9a8f6a11c57df">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:9969547fcdfa" target="shipkg:condition:df365e2b0777" id="edge:e1dbbf16bba0de0d">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:a43d97ac9f94" target="shipkg:fault:0e24c2957173" id="edge:5044a5a20833e063">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:a43d97ac9f94" target="shipkg:condition:1bf60bc6ecb7" id="edge:53899ce13cba2d7c">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:a4c3017972ca" target="shipkg:fault:0e24c2957173" id="edge:634131f76f12f441">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:a4c3017972ca" target="shipkg:condition:103a0ae5358b" id="edge:a918c8c57b76ba09">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:a54e4f2dfd8d" target="shipkg:fault:e03af5ed68c1" id="edge:123deda463edf92b">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:a54e4f2dfd8d" target="shipkg:condition:103a0ae5358b" id="edge:8281fc7890092d08">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:bd1a1e06b4eb" target="shipkg:fault:e03af5ed68c1" id="edge:314f1984c1930931">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:bd1a1e06b4eb" target="shipkg:condition:df365e2b0777" id="edge:f1e601e66751d624">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:c2058b46e618" target="shipkg:fault:91dfc7218234" id="edge:b55b6cc776deffeb">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:c2058b46e618" target="shipkg:condition:103a0ae5358b" id="edge:f019e5835fab2c46">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:cd33f80ecd69" target="shipkg:condition:103a0ae5358b" id="edge:4eedf3573d684193">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:cd33f80ecd69" target="shipkg:fault:3a609fe447a8" id="edge:98bbe8fc1a7058f4">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:ce8ec71106fb" target="shipkg:condition:6fc146bc433f" id="edge:1ae77cc39d2c3647">
+  <data key="d5">AT_LOAD</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:run:ce8ec71106fb" target="shipkg:fault:0e24c2957173" id="edge:3f169ae7c0bee360">
+  <data key="d5">TESTS_FAULT</data>
+  <data key="d6"></data>
+  <data key="d7">reported</data>
+  <data key="d8">Marine_Engine_Fault_Data_v1.zip</data>
+  <data key="d9"></data>
+  <data key="d10">https://zenodo.org/records/19857425</data>
+</edge>
+<edge source="shipkg:symptom:601948a19d34" target="shipkg:cause:29f8307f5eed" id="edge:7b9d6bca057b15ae">
+  <data key="d5">INDICATES</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">56</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:symptom:ccae4eb65c57" target="shipkg:fault:fee4df6aeb24" id="edge:097cdade9d0e4641">
+  <data key="d5">PRECEDED</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">70</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:symptom:d2a57b31e287" target="shipkg:action:4a27034a0842" id="edge:029449bcbefa2848">
+  <data key="d5">PROMPTS</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported_action</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">11</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:symptom:d2a57b31e287" target="shipkg:fault:2c644dcfc770" id="edge:916e961e0139fa0d">
+  <data key="d5">PRECEDED</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:vessel:2ee30864aa2d" target="shipkg:case:1e6479e108d9" id="edge:dbb7fc5be3025318">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6">kommandor_susan_dg1_2025</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan</data>
+</edge>
+<edge source="shipkg:vessel:5466bfcfc864" target="shipkg:case:187dc871fbd5" id="edge:b6bc3f8a3d0ccec3">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6">spirit_of_discovery_pods_2023</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf</data>
+  <data key="d9">42</data>
+  <data key="d10">https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality</data>
+</edge>
+<edge source="shipkg:vessel:ce08d017f5c9" target="shipkg:case:9792cd36162e" id="edge:46fa980554b1dcb7">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6">windcat8_port_engine_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_01_Windcat8_bearing_failure_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf</data>
+</edge>
+<edge source="shipkg:vessel:db8f8f17b349" target="shipkg:case:d6e9f8f8ade2" id="edge:68dbd2748e6de55c">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6">finlandia_seaways_me_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf</data>
+  <data key="d9">9</data>
+  <data key="d10">https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured</data>
+</edge>
+<edge source="shipkg:vessel:fa10fa0f80d3" target="shipkg:case:278d7572ef08" id="edge:3387676e26c9f1cc">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6">wight_sky_me4_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+<edge source="shipkg:vessel:fa10fa0f80d3" target="shipkg:case:00057f56fe39" id="edge:8187c11f67a30611">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6">wight_sky_me_2017</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf</data>
+  <data key="d9">1</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf</data>
+</edge>
+<edge source="shipkg:vessel:fa10fa0f80d3" target="shipkg:case:adf367a46f33" id="edge:b0a7b8cd30d6fc97">
+  <data key="d5">HAS_CASE</data>
+  <data key="d6">wight_sky_me2_2018</data>
+  <data key="d7">reported</data>
+  <data key="d8">MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf</data>
+  <data key="d9">84</data>
+  <data key="d10">https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf</data>
+</edge>
+</graph></graphml>

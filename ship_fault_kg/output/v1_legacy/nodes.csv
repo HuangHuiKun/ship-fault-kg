@@ -1,0 +1,235 @@
+﻿id,kind,name,aliases,props
+shipkg:action:157f8a0199e8,Action,Oil-confirmed mixed follow-up; 250 h vibration / 250 h oil,,{}
+shipkg:action:16d3373950f9,Action,使用原厂零件重建并大修发电机组,overhaul generators with OEM spares,{}
+shipkg:action:4a27034a0842,Action,停用故障主机并查明报警原因,stop engine and investigate oil-temperature alarm,{}
+shipkg:action:4f7d85454ee0,Action,将螺旋桨出水风险纳入耐波决策,include propeller exposure in seakeeping support,{}
+shipkg:action:642ddc0bd6c5,Action,按制造商工艺更换活塞销轴套,follow manufacturer piston-pin bush procedure,{}
+shipkg:action:6667f1d39b0e,Action,Vibration-only CBM; 125 h vibration interval,,{}
+shipkg:action:752d3ce3e403,Action,在洁净环境装配并整体安装主机,assemble engine in clean controlled environment,{}
+shipkg:action:984af3c3d6c8,Action,检查其余机组非原厂轴承并计划更换,inspect other generators for non-OEM bearings,{}
+shipkg:action:9e4b4715011c,Action,Oil-led CBM; 500 h vibration / 125 h oil,,{}
+shipkg:action:9fa28e4c4571,Action,固定灭火系统灭火,fixed fire extinguishing,{}
+shipkg:action:a153887f0b20,Action,Standard monitoring; 500 h vibration / 500 h oil,,{}
+shipkg:action:b1b278b9bbdd,Action,修订进水停机序列并允许船员干预,revise WLS sequence to allow crew intervention,{}
+shipkg:action:b39684450af7,Action,改进吊舱舱底传感器布置,improve pod bilge sensor arrangement,{}
+shipkg:action:cc44cd1c6032,Action,Vibration-led CBM; 125 h vibration / 500 h oil,,{}
+shipkg:case:00057f56fe39,Case,Wight Sky主机重装后轴承失效与火灾,wight_sky_me_2017,"{""case_id"": ""wight_sky_me_2017"", ""data_origin"": ""field_report""}"
+shipkg:case:187dc871fbd5,Case,Spirit of Discovery大风浪中吊舱推进丧失,spirit_of_discovery_pods_2023,"{""case_id"": ""spirit_of_discovery_pods_2023"", ""data_origin"": ""field_report""}"
+shipkg:case:1e6479e108d9,Case,Kommandor Susan DG1发电机故障与失电,kommandor_susan_dg1_2025,"{""case_id"": ""kommandor_susan_dg1_2025"", ""data_origin"": ""field_report""}"
+shipkg:case:278d7572ef08,Case,Wight Sky ME4连杆轴承盖错装失效,wight_sky_me4_2018,"{""case_id"": ""wight_sky_me4_2018"", ""data_origin"": ""field_report""}"
+shipkg:case:9792cd36162e,Case,Windcat 8左舷主机轴瓦失效与火灾,windcat8_port_engine_2017,"{""case_id"": ""windcat8_port_engine_2017"", ""data_origin"": ""field_report""}"
+shipkg:case:adf367a46f33,Case,Wight Sky ME2主轴承断油失效,wight_sky_me2_2018,"{""case_id"": ""wight_sky_me2_2018"", ""data_origin"": ""field_report""}"
+shipkg:case:d6e9f8f8ade2,Case,Finlandia Seaways主机连杆小端疲劳断裂,finlandia_seaways_me_2018,"{""case_id"": ""finlandia_seaways_me_2018"", ""data_origin"": ""field_report""}"
+shipkg:cause:0b368a5a5869,Cause,连杆大端轴承盖配对错装,transposed matched big-end caps,{}
+shipkg:cause:0c02674d6024,Cause,非原厂轴承材料粘结较弱,weak bonding of non-OEM bearing,{}
+shipkg:cause:29f8307f5eed,Cause,连杆小端轴套更换产生应力集中,stress raisers during piston-pin bush replacement,{}
+shipkg:cause:8a2abf94d478,Cause,油路磨粒与污染,abrasive particles and contaminated oil,{}
+shipkg:cause:cf3cb78b47cf,Cause,油道残留碎屑,debris in engine oilways,{}
+shipkg:check:1c503f83ef89,Check,核验轴承与大修零件来源,verify OEM parts and overhaul records,{}
+shipkg:check:313a552b87bf,Check,检查连杆小端内孔刻痕与热损伤,inspect small-end notches and heat damage,{}
+shipkg:check:f9cad3df2b98,Check,监测润滑油和冷却液状态,monitor oil and coolant condition,{}
+shipkg:check:fa162d9e9a3f,Check,核对连杆与轴承盖配对编号,verify matching rod and cap serial numbers,{}
+shipkg:component:1157de5d43da,Component,吊舱推进电机,推进电机,{}
+shipkg:component:160bdfff5e4e,Component,吊舱舱底液位传感器,舱底传感器,{}
+shipkg:component:2a19cfd5c18a,Component,ME4连杆大端轴承盖,连杆大端轴承盖,{}
+shipkg:component:3552bc595328,Component,左舷主机6号连杆大端轴瓦,连杆大端轴瓦,{}
+shipkg:component:45c063af0c7c,Component,故障主机5号主轴承,主轴承瓦片,{}
+shipkg:component:8052e7754d5f,Component,DG1 5号连杆大端轴瓦,连杆大端轴瓦,{}
+shipkg:component:be4ab56339d8,Component,ME2 5号主轴承,主轴承瓦片,{}
+shipkg:component:c3d265fa990c,Component,主机A5连杆小端,连杆小端,{}
+shipkg:condition:0a605c97371c,Condition,大风浪中剧烈纵摇,heavy-weather pitching,{}
+shipkg:condition:0f0bb607da60,Condition,负载 reference operating range,reference operating range,{}
+shipkg:condition:103a0ae5358b,Condition,负载 85%,85%,{}
+shipkg:condition:19ae439543bd,Condition,缺少磨粒预警装置,no wear particle detector,{}
+shipkg:condition:1bf60bc6ecb7,Condition,负载 40%,40%,{}
+shipkg:condition:2d805325d843,Condition,主机不对中与异常振动,engine misalignment and high vibration,{}
+shipkg:condition:2ee58a9a8fad,Condition,螺旋桨出水,propeller emergence,{}
+shipkg:condition:6fa538170906,Condition,装入非原厂轴承,installation of non-OEM bearing,{}
+shipkg:condition:6fc146bc433f,Condition,负载 75%,75%,{}
+shipkg:condition:7a0e4d2405ef,Condition,固定灭火系统释放前通风口未关闭,vents open before fire suppression,{}
+shipkg:condition:7fb8a1a33328,Condition,吊舱舱底传感器位置偏低,low-mounted pod bilge sensor,{}
+shipkg:condition:8752a78e143c,Condition,负载 load program (~40-85%),load program (~40-85%),{}
+shipkg:condition:8f4ca3980ed8,Condition,"负载 40%, 60%, 85% (stepped)","40%, 60%, 85% (stepped)",{}
+shipkg:condition:9e0b58e70948,Condition,非原厂零件超出适用保养周期,non-OEM parts beyond design life,{}
+shipkg:condition:9e280aeb615b,Condition,未核验大修零件真伪,lack of overhaul parts verification,{}
+shipkg:condition:a9a45fb680fd,Condition,停机时并联机组拖转,parallel engine drives shutdown engine,{}
+shipkg:condition:df365e2b0777,Condition,负载 60%,60%,{}
+shipkg:condition:e21862ad051d,Condition,关键断路器置于手动位,essential-service breaker in manual mode,{}
+shipkg:condition:ff44ed04fc9f,Condition,轴瓦本体可能存在薄弱点,possible shell bearing weakness,{}
+shipkg:consequence:4016217446bf,Consequence,全船失电,complete power blackout,{}
+shipkg:consequence:4f46c84c0d64,Consequence,电动锚机无法释放锚,electric anchor winches unavailable,{}
+shipkg:consequence:775549e4c085,Consequence,机舱火灾,engine room fire,{}
+shipkg:consequence:7de07882b364,Consequence,失去操纵能力,loss of steerage,{}
+shipkg:consequence:bcd3a732b87d,Consequence,关键设备失电,loss of power to critical equipment,{}
+shipkg:consequence:d1c468a6b34b,Consequence,失去推进,loss of propulsion,{}
+shipkg:dataset:19e52eb49467,Dataset,TSRF marine diesel combustion-chamber fault CSVs,燃烧室热力仿真故障数据,"{""data_origin"": ""thermodynamic_simulation""}"
+shipkg:dataset:1ceeb4cad6d8,Dataset,Marine Engine Fault Dataset (MU323DGSC),船用柴油机实机故障试验数据,"{""data_origin"": ""controlled_experiment""}"
+shipkg:dataset:6ab0788d235b,Dataset,UCI Naval Propulsion CBM,护卫舰燃气轮机推进仿真数据,"{""data_origin"": ""simulation"", ""instances"": 11934}"
+shipkg:dataset:710ea13e53ac,Dataset,Azimuth Thruster CBM Dataset,方位推进器状态监测数据,"{""data_origin"": ""anonymised_field_summary""}"
+shipkg:equipment:1755b4f618f2,Equipment,Wight Sky 2017故障主机,柴油机机械推进系统,{}
+shipkg:equipment:49d861a78ba3,Equipment,Kommandor Susan DG1柴油发电机,柴油发电-电力推进系统,{}
+shipkg:equipment:563809ad0932,Equipment,Windcat 8左舷主机,柴油机机械推进系统,{}
+shipkg:equipment:61cd855f5970,Equipment,Wight Sky ME2主机,柴油机机械推进系统,{}
+shipkg:equipment:6cc9aa419de7,Equipment,Wight Sky ME4主机,柴油机机械推进系统,{}
+shipkg:equipment:710361995928,Equipment,Spirit of Discovery吊舱推进系统,电力-吊舱推进系统,{}
+shipkg:equipment:aea23b9943a4,Equipment,Finlandia Seaways主机,柴油机机械推进系统,{}
+shipkg:fault:0a5da1da4336,Fault,Injection-valve nozzle clogging,喷油嘴堵塞 喷油器喷孔堵塞,{}
+shipkg:fault:0e24c2957173,Fault,Air-filter clogging (compressor),压气机空气滤清器堵塞 进气滤芯堵塞,{}
+shipkg:fault:18191226708b,Fault,Unconfirmed bearing-related warning,,{}
+shipkg:fault:2c174651a93a,Fault,Fuel dilution,,{}
+shipkg:fault:2c644dcfc770,Fault,连杆大端轴瓦失效,,{}
+shipkg:fault:2fa5f2876bb5,Fault,Normal wear trend,,{}
+shipkg:fault:323fee48e778,Fault,Ring-adhesion,,{}
+shipkg:fault:3a609fe447a8,Fault,Turbine degradation,涡轮退化 涡轮背压异常,{}
+shipkg:fault:40fb093312a6,Fault,Structural looseness,,{}
+shipkg:fault:423cd9a63be0,Fault,柴油发电机灾难性失效,diesel generator catastrophic failure,{}
+shipkg:fault:4e2929b80b35,Fault,连杆小端疲劳断裂,,{}
+shipkg:fault:530d40214e1a,Fault,Piston-ablation,,{}
+shipkg:fault:5f59e6b3ca42,Fault,轴承快速磨损,rapid bearing wear,{}
+shipkg:fault:688b83bd7c8b,Fault,Mass imbalance,,{}
+shipkg:fault:74505aa1776a,Fault,Coupling resonance,,{}
+shipkg:fault:7d0ec41f122b,Fault,Gear mesh anomaly,,{}
+shipkg:fault:825e44b518ef,Fault,Liner-wear,,{}
+shipkg:fault:8d2d73a67f71,Fault,曲轴箱被连杆击穿,connecting rod penetrated crankcase,{}
+shipkg:fault:911e598cd781,Fault,Additive depletion,,{}
+shipkg:fault:91dfc7218234,Fault,Air-cooler fouling,空气冷却器污损 增压空气冷却器结垢,{}
+shipkg:fault:96cc1c0ff36e,Fault,曲轴主轴承与曲柄销断油,journal and crankpin oil starvation,{}
+shipkg:fault:9b3b274b4dbf,Fault,燃气轮机涡轮退化,,{}
+shipkg:fault:9b76a4f68834,Fault,连杆盖螺栓松动与断裂,big-end cap bolt loosening and failure,{}
+shipkg:fault:a20cef558a0a,Fault,连杆盖配合面微动磨损,,{}
+shipkg:fault:a7ebb889d098,Fault,Unconfirmed bearing-related spectral anomaly,,{}
+shipkg:fault:aba0717d72a0,Fault,主轴承瓦片转位,,{}
+shipkg:fault:aea71a6801b6,Fault,High-harmonic impact train,,{}
+shipkg:fault:bebfb8cfc5f3,Fault,燃气轮机压气机退化,,{}
+shipkg:fault:c830e7992f26,Fault,推进电机保护跳闸,pod motor protection trip,{}
+shipkg:fault:c9a34bd46532,Fault,推进电机扭矩骤降,sudden propulsion-motor torque reduction,{}
+shipkg:fault:cba0553c7db4,Fault,Babbitt wear (Pb),,{}
+shipkg:fault:cdf116929c39,Fault,进水停机序列启动,,{}
+shipkg:fault:d005e46c6652,Fault,吊舱转至90度停放,pods parked at 90 degrees,{}
+shipkg:fault:d047fdea9ee9,Fault,连杆大端轴承断油,big-end bearing oil starvation,{}
+shipkg:fault:e03af5ed68c1,Fault,Cooling-water pump cavitation,冷却水泵汽蚀 冷却泵空化,{}
+shipkg:fault:e552cc02e03c,Fault,Normal operation,,{}
+shipkg:fault:e97eee073fc6,Fault,推进电机超速,,{}
+shipkg:fault:ebfac27b4d41,Fault,Ring-wear,,{}
+shipkg:fault:f18d7fcb0838,Fault,Head-crack,,{}
+shipkg:fault:f343dfd71879,Fault,Normal,,{}
+shipkg:fault:fee4df6aeb24,Fault,主机灾难性失效,catastrophic main engine failure,{}
+shipkg:observation:0c0be039e775,Observation,CAT 3508B/C thruster reference,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 12, ""warning_hours"": """", ""warning_months"": """", ""reference_class"": """"}"
+shipkg:observation:36b9efa16da9,Observation,CAT 3516C coupling EB 1,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 4, ""warning_hours"": ""300.0"", ""warning_months"": ""2.0"", ""reference_class"": ""LTI_maintenance""}"
+shipkg:observation:4cd2541cd04a,Observation,CAT 3516C azimuth unit EB 2,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 6, ""warning_hours"": ""150.0"", ""warning_months"": ""1.0"", ""reference_class"": ""LTI_maintenance""}"
+shipkg:observation:59f88fb7c81e,Observation,CAT C7 engine case A BB / CAT C7 shaftline case A,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 11, ""warning_hours"": """", ""warning_months"": """", ""reference_class"": ""ND (oil-led)""}"
+shipkg:observation:5d48f4f61abd,Observation,CAT 3516C intermediate bearing EB 4,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 7, ""warning_hours"": ""300.0"", ""warning_months"": ""2.0"", ""reference_class"": ""LTI_maintenance""}"
+shipkg:observation:6bc49fd589cc,Observation,CAT 3516C MPEB 1V,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 2, ""warning_hours"": ""255.0"", ""warning_months"": ""1.7"", ""reference_class"": ""LTI_oil""}"
+shipkg:observation:83cf859e3d48,Observation,CAT C7 shaftline reductor / CAT C7 case B,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 8, ""warning_hours"": ""420.0"", ""warning_months"": ""2.8"", ""reference_class"": ""LTI_oil""}"
+shipkg:observation:abd23c68d1ce,Observation,CAT 3516C damper EB 2,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 5, ""warning_hours"": ""225.0"", ""warning_months"": ""1.5"", ""reference_class"": ""LTI_maintenance""}"
+shipkg:observation:c07d705f633b,Observation,CAT C7 engine case A EB / CAT C7 shaftline case A,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 10, ""warning_hours"": """", ""warning_months"": """", ""reference_class"": ""ND (oil-led)""}"
+shipkg:observation:ec255ed61291,Observation,CAT 3508B/C engine bearing reference,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 9, ""warning_hours"": """", ""warning_months"": """", ""reference_class"": ""ND (oil-led)""}"
+shipkg:observation:f5d747e68b69,Observation,CAT C7 shaftline reductor / CAT C7 case A,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 1, ""warning_hours"": ""525.0"", ""warning_months"": ""3.5"", ""reference_class"": ""LTI_operational""}"
+shipkg:observation:fe8f810e77c8,Observation,CAT 3516C MPEB 3V,,"{""data_origin"": ""anonymised_field_summary"", ""record"": 3, ""warning_hours"": ""450.0"", ""warning_months"": ""3.0"", ""reference_class"": ""LTI_operational""}"
+shipkg:run:0024b0cf204d,Run,AF_Clogging/AF_Clogging_60_Load.csv,,"{""data_rows"": 6819, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:0a0b95755e65,Run,AC_Fouling/AC_Fouling_75_Load.csv,,"{""data_rows"": 6354, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:265eab3b4373,Run,Injector_Nozzle/Clogged_Injector_Nozzle2_LoadProgram.csv,,"{""data_rows"": 6791, ""columns"": 73, ""anomaly_state"": ""all-anomaly (no baseline segment)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:2c8ac4d016f4,Run,Reference_Data.csv,,"{""data_rows"": 25302, ""columns"": 70, ""anomaly_state"": ""none (baseline)"", ""schema_type"": ""reference"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:6b05eccd173f,Run,AC_Fouling/AC_Fouling_40_Load.csv,,"{""data_rows"": 4678, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:6c075208cdc0,Run,Turbine_Degradation/Turbine_Degradation_40_Load.csv,,"{""data_rows"": 6397, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:77a7092fcc4e,Run,AC_Fouling/AC_Fouling_60_Load.csv,,"{""data_rows"": 6698, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:9690a0157fb9,Run,Injector_Nozzle/Clogged_Injector_Nozzle1_40_60_85_Load.csv,,"{""data_rows"": 6492, ""columns"": 73, ""anomaly_state"": ""all-anomaly (no baseline segment)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:9969547fcdfa,Run,Turbine_Degradation/Turbine_Degradation_60_Load.csv,,"{""data_rows"": 4905, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:a43d97ac9f94,Run,AF_Clogging/AF_Clogging_40_Load.csv,,"{""data_rows"": 4820, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:a4c3017972ca,Run,AF_Clogging/AF_Clogging_85_Load.csv,,"{""data_rows"": 6398, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:a54e4f2dfd8d,Run,Pump_Cavitation/CW_Pump_Cavitation_85_Load.csv,,"{""data_rows"": 6263, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:bd1a1e06b4eb,Run,Pump_Cavitation/CW_Pump_Cavitation_60_Load.csv,,"{""data_rows"": 5845, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:c2058b46e618,Run,AC_Fouling/AC_Fouling_85_Load.csv,,"{""data_rows"": 5801, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:cd33f80ecd69,Run,Turbine_Degradation/Turbine_Degradation_85_Load.csv,,"{""data_rows"": 5289, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:run:ce8ec71106fb,Run,AF_Clogging/AF_Clogging_75_Load.csv,,"{""data_rows"": 5918, ""columns"": 73, ""anomaly_state"": ""binary (0=pre-anomaly, 1=anomaly)"", ""schema_type"": ""scenario"", ""data_origin"": ""controlled_experiment""}"
+shipkg:sensor:09fb65289e45,Sensor,Loss in Charge Air IC,Qrej_air,"{""unit"": ""kW"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:0acc03533547,Sensor,LO Temp. Engine In,T10,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:0c9767837a0e,Sensor,Engine room Temp.,T22,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:0d564da1d412,Sensor,Effective Efficiency,Efft,"{""unit"": ""%"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:0d9978f872ad,Sensor,Exh.Gas Power,Qexh2,"{""unit"": ""kW"", ""category"": ""other"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:0dfc0d5a19c5,Sensor,Min. In-Cylinder Press. No.3,Pmin,"{""unit"": ""MPa"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:1320f5577cf0,Sensor,Exh.Gas Vol. Flow (From Engine Speed),qexh,"{""unit"": ""NL/min"", ""category"": ""flow / fuel / air"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:173be47ae689,Sensor,Exh. Gas Mass Flow,Mexh,"{""unit"": ""kg/s"", ""category"": ""flow / fuel / air"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:17bbed611e22,Sensor,Total Heat Loss in Heat Exchangers,Qrej,"{""unit"": ""kW"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:1f391dbaad55,Sensor,Fuel transfer pump Press.,Pl_fuel,"{""unit"": ""V"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:2392435fe4ac,Sensor,LO Temp. TCH Out,T20,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:270638670931,Sensor,Max. In-Cylinder Press. No.3,Pmax,"{""unit"": ""MPa"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:28c98806fac8,Sensor,Indicated Work No.2,Wi,"{""unit"": ""J"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:2c5d17b46b26,Sensor,Cooling Water Temp. Engine Out II,T8,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:2ea813c04f69,Sensor,Charge Air IC Air Temp. Out,T15,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:31faff89b311,Sensor,Fuel Oil Temp. Flow meter In,T21,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:34c1108e4156,Sensor,Indicated Work No.3,Wi,"{""unit"": ""J"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:366f77564e58,Sensor,No.1 Exh.Gas Temp.,T1,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:3a134554df66,Sensor,TCH LO pump Press.,Pl_loturb,"{""unit"": ""V"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:421ec2313d7d,Sensor,Mechanical Efficiency,Effn,"{""unit"": ""%"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:427673f0da2d,Sensor,Charge Air IC Air Temp. In,T14,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:453069f73398,Sensor,LO Temp. TCH In,T19,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:482eb47f8513,Sensor,Shaft Power,Ws,"{""unit"": ""kW"", ""category"": ""other"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:5007e1617236,Sensor,Fresh Cooling Water Press.,Pl_water1,"{""unit"": ""V"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:54ce9804e4f4,Sensor,Max. In-Cylinder Press. No.1,Pmax,"{""unit"": ""MPa"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:5acc3a404383,Sensor,Fuel Injector Cooling Oil Press.,Pl_valve,"{""unit"": ""V"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:5c1900646ca4,Sensor,Charge Air IC Cooling water flow,Qw_air,"{""unit"": ""m3/h"", ""category"": ""flow / fuel / air"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:5c7b83264f58,Sensor,LO Temp. Engine Out,T11,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:5f5652f7036e,Sensor,LO Cooling water flow,Qw_lo,"{""unit"": ""m3/h"", ""category"": ""flow / fuel / air"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:615199ab193b,Sensor,LO Cooling Water Temp. Out,T13,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:65ae734da9ec,Sensor,Charge Air Press.,Pturb 增压空气压力,"{""unit"": ""kgf/cm2"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:67bfe0a5f170,Sensor,Effective Work No.3,We,"{""unit"": ""kW"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:6cf5ec25b81a,Sensor,No.3 Exh.Gas Temp.,T3,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:75d18bcbb2d9,Sensor,Indicated Efficiency,Effi,"{""unit"": ""%"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:7675b8a8bef8,Sensor,Cooling Water Temp. Engine In,T6,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:7b9d6be3e1e7,Sensor,Charge Air IC Cooling Water Temp. Out,T17,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:7e4664b82d74,Sensor,TCH LO Cooling water flow,Qw_turb,"{""unit"": ""m3/h"", ""category"": ""flow / fuel / air"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:805edb9418c2,Sensor,Min. In-Cylinder Press. No.1,Pmin,"{""unit"": ""MPa"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:851db4d72803,Sensor,Water Brake Weight,F,"{""unit"": ""kgf"", ""category"": ""operating / load"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:8529d7e4c296,Sensor,Other Loss,Qother,"{""unit"": ""kW"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:870baabfbca3,Sensor,Fuel Temp.,T18,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:872567f0bd88,Sensor,Effective Work No.2,We,"{""unit"": ""kW"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:8ab013653446,Sensor,Engine Cooling water flow,Qw_eng,"{""unit"": ""m3/h"", ""category"": ""flow / fuel / air"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:8ad66c87b433,Sensor,No.2 Exh.Gas Temp.,T2,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:8b403808fd55,Sensor,Exh.Gas Temp. Turbine Out,T5,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:9103d6c847ed,Sensor,Effective Work No.1,We,"{""unit"": ""kW"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:95cb7f8b5ea4,Sensor,Max. In-Cylinder Press. No.2,Pmax,"{""unit"": ""MPa"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:9785e5456d03,Sensor,Fuel Flow,Qfuel,"{""unit"": ""m3/h"", ""category"": ""flow / fuel / air"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:a4ce7901d117,Sensor,Mechanical Loss,Wm,"{""unit"": ""kW"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:a6b570413502,Sensor,Loss with LO,Qrej_lo,"{""unit"": ""kW"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:a99b849d2aad,Sensor,TCH Power,Qturb,"{""unit"": ""kW"", ""category"": ""other"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:ad2f7007e3fa,Sensor,Total Effective Work,We_tot,"{""unit"": ""kW"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:ae5a2be19a3b,Sensor,Shaft Torque,Tq,"{""unit"": ""Nm"", ""category"": ""other"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:aef67aa11eac,Sensor,Charge Air IC Cooling Water Temp. In,T16,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:b3a6d5f659a8,Sensor,Indicated Work No.1,Wi,"{""unit"": ""J"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:b7131de34c68,Sensor,Min. In-Cylinder Press. No.2,Pmin,"{""unit"": ""MPa"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:ba1e69ac58df,Sensor,Total Indicated work,Wi_tot,"{""unit"": ""J"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:ba5f4c7a3eab,Sensor,Exh.Gas Total Power,Qexh1,"{""unit"": ""kW"", ""category"": ""other"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:baa3a7477b53,Sensor,Cooling Water Temp. Engine Out I,T7,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:c6c4a9eaacca,Sensor,Total Input Energy,Qtotal,"{""unit"": ""W"", ""category"": ""other"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:ccfc2a47cee5,Sensor,Exh.Gas Temp. Turbine In,T4,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:d07e7ed33e29,Sensor,LO Circulating Pump Press.,Pl_lo,"{""unit"": ""V"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:d9ffd75bfab4,Sensor,Engine Speed,N 发动机转速,"{""unit"": ""rpm"", ""category"": ""operating / load"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:e17885e7f77f,Sensor,Loss with TCH LO,Qrej_turb,"{""unit"": ""kW"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:e47b10fa62e0,Sensor,Compressor Filter Loss,dPf 压气机滤清器压损,"{""unit"": ""Pa"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:e56c947d4ba2,Sensor,Sea Cooling Water Press.,Pl_water2,"{""unit"": ""V"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:e94fb52827fa,Sensor,Turbine Back Pressure,dPex 涡轮背压,"{""unit"": ""Pa"", ""category"": ""pressure / derived pressure"", ""in_reference"": ""FALSE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:e98fe7ad595f,Sensor,Loss with cooling water,Qrej_eng,"{""unit"": ""kW"", ""category"": ""performance / derived"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:e9b442573c44,Sensor,Cooling Water Temp. Engine Out III,T9,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:sensor:fd5659daf34f,Sensor,LO Cooling Water Temp. In,T12,"{""unit"": ""°C"", ""category"": ""temperature"", ""in_reference"": ""TRUE"", ""in_scenario_files"": ""TRUE""}"
+shipkg:source:159562b24735,Source,Kommandor Susan catastrophic engine failure and fire,MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf,"{""url"": ""https://www.gov.uk/maib-reports/catastrophic-engine-failure-and-subsequent-fire-on-board-the-site-investigation-vessel-kommandor-susan"", ""local_item"": ""02_reports/MAIB_2026_10_Kommandor_Susan_generator_bearing_failure.pdf"", ""license"": ""OGL v3.0 except third-party material"", ""category"": ""report""}"
+shipkg:source:21d1480ba4a6,Source,Wight Sky catastrophic main engine bearing failure,MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf,"{""url"": ""https://assets.publishing.service.gov.uk/media/5b5217c7ed915d0b81e003df/MAIBInvReport14_2018.pdf"", ""local_item"": ""02_reports/MAIB_2018_14_Wight_Sky_engine_bearing_fire.pdf"", ""license"": ""OGL v3.0 except third-party material"", ""category"": ""report""}"
+shipkg:source:23fd7f407fe4,Source,Condition Based Maintenance of Naval Propulsion Plants,UCI_Naval_Propulsion_CBM.zip,"{""url"": ""https://archive.ics.uci.edu/dataset/316/condition%2Bbased%2Bmaintenance%2Bof%2Bnaval%2Bpropulsion%2Bplants"", ""local_item"": ""01_datasets/UCI_Naval_Propulsion_CBM.zip"", ""license"": ""license wording conflict; verify before publication"", ""category"": ""dataset""}"
+shipkg:source:29f30f85af55,Source,Thermodynamic simulation-assisted random forest,TSRF_main.zip,"{""url"": ""https://github.com/TS-RF/TSRF"", ""local_item"": ""04_code_and_schemas/TSRF_main.zip"", ""license"": ""MIT"", ""category"": ""code""}"
+shipkg:source:5137a1994672,Source,Anonymised azimuth thruster multimodal CBM dataset,Azimuth_Thruster_CBM_Dataset.zip,"{""url"": ""https://zenodo.org/records/20101612"", ""local_item"": ""01_datasets/Azimuth_Thruster_CBM_Dataset.zip"", ""license"": ""data CC BY 4.0; code MIT"", ""category"": ""dataset""}"
+shipkg:source:66b61e38c53f,Source,Wight Sky multiple engine failures,MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf,"{""url"": ""https://assets.publishing.service.gov.uk/media/6267cc85e90e071690c1b679/2022-4-WightSky-Report.pdf"", ""local_item"": ""02_reports/MAIB_2022_04_Wight_Sky_multiple_engine_failures.pdf"", ""license"": ""OGL v3.0 except third-party material"", ""category"": ""report""}"
+shipkg:source:a4b58f363149,Source,Finlandia Seaways engine failure and fire,MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf,"{""url"": ""https://www.gov.uk/maib-reports/engine-failure-and-subsequent-fire-on-ro-ro-cargo-vessel-finlandia-seaways-with-1-person-injured"", ""local_item"": ""02_reports/MAIB_2021_02_Finlandia_Seaways_connecting_rod_failure.pdf"", ""license"": ""OGL v3.0 except third-party material"", ""category"": ""report""}"
+shipkg:source:af4bce0c23cd,Source,Windcat 8 connecting rod big-end bearing failure,MAIB_2018_01_Windcat8_bearing_failure_fire.pdf,"{""url"": ""https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/683922/MAIBInvReport01_2018.pdf"", ""local_item"": ""02_reports/MAIB_2018_01_Windcat8_bearing_failure_fire.pdf"", ""license"": ""OGL v3.0 except third-party material"", ""category"": ""report""}"
+shipkg:source:d52922af3fc9,Source,Spirit of Discovery loss of propulsion in heavy weather,MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf,"{""url"": ""https://www.gov.uk/maib-reports/loss-of-propulsion-in-heavy-weather-experienced-by-the-passenger-vessel-spirit-of-discovery-leading-to-over-100-injuries-and-one-fatality"", ""local_item"": ""02_reports/MAIB_2026_06_Spirit_of_Discovery_propulsion_loss.pdf"", ""license"": ""OGL v3.0 except third-party material"", ""category"": ""report""}"
+shipkg:source:e12fe2e83b8d,Source,Marine Engine Fault Dataset,Marine_Engine_Fault_Data_v1.zip,"{""url"": ""https://zenodo.org/records/19857425"", ""local_item"": ""01_datasets/Marine_Engine_Fault_Data_v1.zip"", ""license"": ""CC BY 4.0"", ""category"": ""dataset""}"
+shipkg:symptom:601948a19d34,Symptom,连杆小端刻痕,small-end notch damage,{}
+shipkg:symptom:ccae4eb65c57,Symptom,润滑油压力下降,loss of lubricating oil pressure,{}
+shipkg:symptom:d2a57b31e287,Symptom,机油高温报警,high oil temperature alarm,{}
+shipkg:system:5d1dca19fd66,System,柴油机机械推进系统,,{}
+shipkg:system:9bf053394931,System,柴油发电-电力推进系统,,{}
+shipkg:system:dacba8b43ef4,System,电力-吊舱推进系统,,{}
+shipkg:vessel:2ee30864aa2d,Vessel,Kommandor Susan,,{}
+shipkg:vessel:5466bfcfc864,Vessel,Spirit of Discovery,,{}
+shipkg:vessel:ce08d017f5c9,Vessel,Windcat 8,,{}
+shipkg:vessel:db8f8f17b349,Vessel,Finlandia Seaways,,{}
+shipkg:vessel:fa10fa0f80d3,Vessel,Wight Sky,,{}
