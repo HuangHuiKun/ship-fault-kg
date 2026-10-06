@@ -92,6 +92,6 @@ Git回退仅改变文件，**不会自动改变Neo4j**。`import_neo4j.py`是MER
 
 本地Git与LFS已初始化，首个快照为`e5043f4`，回退标签为`shipkg-v3-baseline-20261006`；1659个文件纳入该快照，其中131个文件使用LFS，本地完整性检查通过。
 
-用户已要求在本人GitHub账号`HuangHuiKun`下新建私有仓库，拟命名`ship-fault-kg`。当前Git Credential Manager没有可用的GitHub凭据，内置浏览器亦需要登录，因此尚未创建远程或上传。请在GitHub登录页自行登录，后续Git上传授权也由本人完成，不要把密码或令牌写进代码/聊天。
+已在本人GitHub账号`HuangHuiKun`下创建[私有仓库ship-fault-kg](https://github.com/HuangHuiKun/ship-fault-kg)，并设置为本地`origin`：`https://github.com/HuangHuiKun/ship-fault-kg.git`。网页已登录，当前正在等待Git Credential Manager设备授权，尚未完成文件推送。Git上传授权由本人完成，不要把密码或令牌写进代码/聊天。
 
 完成上传后须核对远程提交号与本地一致，并确认Git LFS对象上传成功。未推送前本地提交只是本机版本历史，不算GitHub备份。`tools/github_private_repo.py`仅使用既有Git凭据进行私有仓库创建/检查，不显示或持久化令牌；默认只检查，创建需显式`--create`。
