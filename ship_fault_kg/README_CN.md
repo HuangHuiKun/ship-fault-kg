@@ -1,6 +1,8 @@
 # 船舶动力系统故障知识图谱：统一项目说明
 
-更新日期：2026-10-06。知识版本：V4.2；按用户确认将12个Observation统一为记录级Source，原30个Source设为资料级；保留每条记录ID、状态、建议及来源关系，没有新增事故或知识事实。
+更新日期：2026-10-07。知识版本：V4.2；按用户确认将12个Observation统一为记录级Source，原30个Source设为资料级；保留每条记录ID、状态、建议及来源关系，没有新增事故或知识事实。
+
+目录整理：旧版本查询、展示和评价产物已归档至`history/organization_20261007/`；当前主数据与运行入口不变。详见[文件组织与归档索引](FILE_LAYOUT.md)，逐文件位置及SHA256见`history/organization_20261007/move_manifest.json`。历史快照中的重复文件保留，没有删除图谱数据。
 
 项目目录：`D:\RAGQnASystem\RAGQnASystem-main\ship_fault_kg`；Desktop实例：`ShipFaultKG`；数据库：`shipfaultkg`。
 
@@ -41,11 +43,11 @@
 
 V4.2当前目标与核验数量：ShipKG节点491、关系1185、核心Sensor15、Source42；FaultType、Dataset、VesselType、Subsystem、Observation不再作为节点标签使用。实际建库成功以`output/neo4j_import_result.json`的version=4.2、verified=true为准。若Desktop仍显示旧数量或标签，请刷新、重连并重新运行旧结果帧；不能凭旧帧判断当前数据。
 
-![历史V3数据库统计（500/1201，非当前V4）](output/maintenance_20261005/neo4j_full_counts.png)
+![历史V3数据库统计（500/1201，非当前V4）](history/organization_20261007/sensor_maintenance/output/maintenance_20261005/neo4j_full_counts.png)
 
 仍保留既有原生配色及ShipKG最低显示优先级；FaultType已合并为Fault，不再单独设置其标签颜色和大小。以下截图仅说明历史V3显示效果，不代表V4结果。
 
-![历史V3原生配色：Fault与FaultType合并前](output/maintenance_20261005/neo4j_native_style_restored.png)
+![历史V3原生配色：Fault与FaultType合并前](history/organization_20261007/sensor_maintenance/output/maintenance_20261005/neo4j_native_style_restored.png)
 
 ### V4.0重新设计做了什么（前一轮）
 
@@ -126,17 +128,33 @@ V4.2当前目标与核验数量：ShipKG节点491、关系1185、核心Sensor15�
 | `naming_v4.json` / `redesign.py` | 经确认的稳定ID命名规则 / 最后阶段类型与来源迁移 |
 | `refinement_v4_1.json` | 本轮5个船型入口精确ID及13个设备改名规则 |
 | `output/entity_inventory_v4.md` / `graph_inventory_v4.json` | 全部491实体、1185关系、属性和证据详单；文件名v4表示主版本，内容版本4.2 |
+| `output/知识图谱_关系节点属性.csv` / `export_readable_csv.py` | 中文关系、两端节点主要属性及来源定位表；每次构建或导出清单时刷新，也可单独刷新 |
 | `import_neo4j.py` / `output/neo4j_direct_plan.json` / `neo4j_direct_import.cypher` / `neo4j_import_guide.html` | SQLite直接生成和执行MERGE/SET；CSV非必需 |
 | `sync_neo4j_v4.py` / `output/neo4j_import_result.json` | 已有V3/V4库定向同步 / 实际数据库核验回执 |
 | `visualize_graph.py` / `output/shipkg_v4.grass` / `graph_viewer.html` / `export_graphml.py` | Neo4j样式、离线图谱、GraphML |
 | `queries_v4.cypher` | 当前类型与角色的统计、故障/案例/来源查询 |
 | `retrieve.py` / `generate_demo.py` / `example_diagnosis.json` | 轻量混合检索、标准输入和约束报告原型 |
 | `evaluate.py` / `evaluate_fault_v3.py` / `verify_v4.py` | 开发评价和V4结构/检索回归；旧V2/V3测试是历史版本的断言 |
-| `purge_archived_sensors.py` / `output/maintenance_20261005/` | 本轮55测点真实删除、外部备份及恢复入口 |
+| `purge_archived_sensors.py` / `history/organization_20261007/sensor_maintenance/output/maintenance_20261005/` | 历史55测点真实删除备份及显式恢复入口，非日常步骤 |
 | `check_neo4j_ready.ps1` / `check_neo4j_connection.py` | 只读服务/认证检查，不保存密码 |
-| `history/` / `output/v1_legacy/` | 历史代码文档和旧格式，不是当前默认导入包 |
+| `history/` / `FILE_LAYOUT.md` | 历史代码文档、旧产物及归档索引，不是当前默认导入包 |
 
 完整清单见[实体清单](D:/RAGQnASystem/RAGQnASystem-main/ship_fault_kg/output/entity_inventory_v4.md)及[结构JSON](D:/RAGQnASystem/RAGQnASystem-main/ship_fault_kg/output/graph_inventory_v4.json)。V2/V3文件和截图为历史产物，不作为当前导入依据。
+
+### 中文关系节点属性CSV的使用与更新
+
+`output/知识图谱_关系节点属性.csv`是一行一条有向关系的易读表：起点节点、起点类型、起点主要属性、关系名称、终点节点、终点类型、终点主要属性。后面附关系性质、证据性质、案例或知识单元、来源文件、物理页或记录位置、来源链接及稳定ID。当前1185行关系覆盖全部491节点。以后有孤立节点时，也会单独列出“暂无关联关系”，不会漏掉。
+
+节点属性只展示主要业务字段，如船型、系统层级、故障层级、适用范围、来源层级、记录行、测点单位、试验数据行数等。空白表示没有相应业务属性。完整别名、旧名称和迁移审计属性仍见`graph_inventory_v4.json`，不把大段JSON堆进这份易读表。关系确定性保留“可能”“很可能”等区别，分类和检查关系不冒充因果结论。
+
+每次成功执行`build.py`，以及执行`export_inventory.py`时，都会从本次SQLite主数据刷新同名CSV。只是改了源代码但未重建时，CSV不会先于图谱变化。单独刷新无需重建、无需连接Neo4j：
+
+```powershell
+$kgPython='C:\Users\18270\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+& $kgPython .\ship_fault_kg\export_readable_csv.py
+```
+
+CSV采用UTF-8 BOM，方便Excel/WPS读取中文。更新前关闭正在打开这份CSV的Excel/WPS窗口；文件被占用时保留上一份完整CSV并报错，关闭后重试即可。CSV是展示产物，直接改它不会写回图谱，下次刷新会覆盖手改内容。仅在Neo4j里改节点不会自动写回SQLite或CSV，应先把获批修改落实到构建事实/规则并重建，再同步数据库。本次未增加后台监控任务，也未改动Neo4j。
 
 ## 3. 构建步骤及每一步缘由
 
@@ -303,7 +321,7 @@ Wight Sky有三起案例；Pride同时出现在摘要和专门报告，只计一
 
 原先55点只改为ArchivedSensor/ArchivedShipKG，所以全库仍555。2026-10-05按用户要求核对精确55个ID和86条直接边ID，导出完整标签/属性/端点，备份读回后在一条受保护事务中DETACH DELETE。当时删除后全库500/1201，Sensor15、ArchivedSensor0；V4再删除4个Dataset入口后为496/1197。本轮未再次删除测点，故障链未变。
 
-备份：`output/maintenance_20261005/deleted_sensors_backup.json`；记录：`purge_receipt.json`。Neo4j删除不能直接撤销，但可用外部备份重建；原始数据未删除。日常导入不会加回55点，因为SQLite只保留15点。
+备份：`history/organization_20261007/sensor_maintenance/output/maintenance_20261005/deleted_sensors_backup.json`；同目录记录：`purge_receipt.json`。Neo4j删除不能直接撤销，但可用外部备份重建；原始数据未删除。日常导入不会加回55点，因为SQLite只保留15点。
 
 旧“取消归档”脚本只能改标签，不能恢复已删除节点。需要回退本轮删除时，审阅备份后显式运行（不是日常操作）：
 
@@ -466,7 +484,7 @@ Evidence Pack是带来源的证据包，保存事实、路径、证据编号、�
 & $kgPython .\ship_fault_kg\generate_demo.py --query '主机疑似拉缸，如何补充机理解释和检查建议？' --output-name my_scuffing_demo
 ```
 
-最后需Ollama运行且已有模型，无需下载更大模型。既有3B文件约1.9GB、使用较短上下文与受限输出，图谱/字符检索无需GPU；文件大小不保证运行内存要求。V3草稿见demo_v3_scuffing.md/json。V2曾拒绝4个不合规措施编号，说明LLM选择不保证正确。
+最后需Ollama运行且已有模型，无需下载更大模型。既有3B文件约1.9GB、使用较短上下文与受限输出，图谱/字符检索无需GPU；文件大小不保证运行内存要求。历史V3草稿见`history/organization_20261007/v3_artifacts/output/demo_v3_scuffing.md`及同名json。V2曾拒绝4个不合规措施编号，说明LLM选择不保证正确。
 
 ### 9.1.1 记录级Source的作用、实际检索覆盖及已执行合并
 
@@ -564,11 +582,11 @@ V4故障开发24题（12故障名+12改写）：MRR@3=1、Recall@5=0.9107、Reca
 
 本次版本4.2属于来源实体分层整理，不虚增故障事实数量。当前核验见`output/neo4j_import_result.json`、`output/neo4j_snapshot_v4.json`、`output/build_report.json`。以下是历史维护记录，不代表当前491/1185的截图：
 
-- `output/maintenance_20261005/purge_receipt.json`：删除及ID一致性。
-- `output/maintenance_20261005/deleted_sensors_backup.json`：完整外部恢复资料。
-- `output/maintenance_20261005/neo4j_native_style_restored.png`：V3原生配色恢复、Fault与FaultType合并前对比。
-- `output/maintenance_20261005/neo4j_colors.png`：上一轮配色截图，已撤回，仅作历史记录；`neo4j_full_counts.png`为删除后全库统计。
-- `output/neo4j_connection_repair_20261005/`：连接修正、配置备份、无密码检查结果。
+- `history/organization_20261007/sensor_maintenance/output/maintenance_20261005/purge_receipt.json`：历史删除及ID一致性。
+- `history/organization_20261007/sensor_maintenance/output/maintenance_20261005/deleted_sensors_backup.json`：完整外部恢复资料。
+- `history/organization_20261007/sensor_maintenance/output/maintenance_20261005/neo4j_native_style_restored.png`：V3原生配色恢复、Fault与FaultType合并前对比。
+- `history/organization_20261007/sensor_maintenance/output/maintenance_20261005/neo4j_colors.png`：上一轮配色截图，已撤回，仅作历史记录；同目录`neo4j_full_counts.png`为删除后全库统计。
+- `history/organization_20261007/connection_maintenance/output/neo4j_connection_repair_20261005/`：历史连接修正、配置备份、无密码检查结果。
 - `history/docs_before_consolidation_20261005/`：原六文档；旧端口/数量/归档说明已过时。
 
 ## 12. 官方与原始资料参考

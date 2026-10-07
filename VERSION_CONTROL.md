@@ -86,7 +86,7 @@ git worktree add --detach '..\shipkg-old-version' <旧提交号>
 
 Git回退仅改变文件，**不会自动改变Neo4j**。`import_neo4j.py`是MERGE增量导入，不会删去数据库中多出来的节点，不能当作数据库完整回退命令。
 
-最稳妥是在Neo4j中另建测试实例/空数据库，导入旧版本SQLite并核验；正式库的替换须先备份及确认。此前55个传感器的恢复资料位于`ship_fault_kg/output/maintenance_20261005/deleted_sensors_backup.json`，仅用于显式恢复，不应日常执行。
+最稳妥是在Neo4j中另建测试实例/空数据库，导入旧版本SQLite并核验；正式库的替换须先备份及确认。此前55个传感器的恢复资料位于`ship_fault_kg/history/organization_20261007/sensor_maintenance/output/maintenance_20261005/deleted_sensors_backup.json`，仅用于显式恢复，不应日常执行。
 
 ## 远程上传状态
 

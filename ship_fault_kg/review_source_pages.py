@@ -3,7 +3,7 @@ from pathlib import Path
 import pypdfium2 as pdfium
 
 ROOT=Path(__file__).resolve().parent.parent
-OUT=ROOT/'ship_fault_kg'/'output'/'source_review_v3'
+OUT=ROOT/'ship_fault_kg'/'output'/'source_review'
 OUT.mkdir(exist_ok=True)
 for filename,page in [('MAN_SL2016_633_piston_rings_scuffing.pdf',2),
                       ('STAMFORD_AGN039_marine_shaft_generators.pdf',2),

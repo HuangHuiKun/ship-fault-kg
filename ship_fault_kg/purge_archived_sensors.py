@@ -13,7 +13,9 @@ import sqlite3
 from import_neo4j import QueryClient
 
 HERE = Path(__file__).resolve().parent
-OUT = HERE / 'output' / 'maintenance_20261005'
+ARCHIVE = HERE / 'history' / 'organization_20261007' / 'sensor_maintenance' / 'output'
+OUT = ARCHIVE / 'maintenance_20261005'
+CHANGES = ARCHIVE / 'revision_changes_v3.json'
 COUNTS = '''
 CALL () { MATCH (n) RETURN count(n) AS all_nodes }
 CALL () { MATCH ()-[r]->() RETURN count(r) AS all_relationships }
@@ -43,7 +45,7 @@ def checked_backup(client, ids):
                          RETURN type(r) AS type, startNode(r).id AS source,
                          endNode(r).id AS target, properties(r) AS properties
                          ORDER BY properties.id''', {'ids': ids})
-    expected_edges = set(json.loads((HERE / 'output/revision_changes_v3.json').read_text(encoding='utf-8'))['removed_edges'])
+    expected_edges = set(json.loads(CHANGES.read_text(encoding='utf-8'))['removed_edges'])
     if len(edges) != 86 or {r['properties'].get('id') for r in edges} != expected_edges:
         raise RuntimeError('Relationships do not match the 86 expected direct sensor edges')
     backup = {'timestamp': datetime.now().isoformat(), 'database': 'shipfaultkg',
@@ -131,7 +133,7 @@ def main():
         parser.error('Choose at most one operation')
     password = getpass.getpass('Neo4j password (hidden, not saved): ')
     client = QueryClient('http://127.0.0.1:7474', 'shipfaultkg', 'neo4j', password)
-    changes = json.loads((HERE / 'output/revision_changes_v3.json').read_text(encoding='utf-8'))
+    changes = json.loads(CHANGES.read_text(encoding='utf-8'))
     ids = sorted(row['id'] for row in changes['removed_nodes'])
     if len(ids) != 55 or len(set(ids)) != 55:
         raise RuntimeError('Invalid target list')

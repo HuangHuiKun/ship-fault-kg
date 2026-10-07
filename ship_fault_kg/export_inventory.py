@@ -19,6 +19,8 @@ def main():
         lines.append('')
     (output / f'entity_inventory_v{major}.md').write_text('\n'.join(lines), encoding='utf-8')
     (output / f'graph_inventory_v{major}.json').write_text(json.dumps(store, ensure_ascii=False, indent=2), encoding='utf-8')
+    from export_readable_csv import export_csv
+    export_csv(output / 'ship_fault_kg.sqlite')
     print(f"Inventory: {len(store['nodes'])} nodes, {len(store['edges'])} edges")
 
 

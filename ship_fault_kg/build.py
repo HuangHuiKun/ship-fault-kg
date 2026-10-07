@@ -526,6 +526,8 @@ class Builder:
             "redesign": self.redesign_report,
         }
         (OUTPUT / "build_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+        from export_readable_csv import export_csv as export_readable_csv
+        export_readable_csv(OUTPUT / "ship_fault_kg.sqlite")
         print(json.dumps(report, ensure_ascii=False, indent=2))
 
 
