@@ -1,4 +1,4 @@
-"""Read-only verification of this private GitHub backup, including LFS objects.
+"""Read-only verification of this GitHub backup, including LFS objects.
 
 Uses existing Git Credential Manager credentials only. Never prints tokens,
 authorization headers or signed LFS download URLs. Does not create/push anything.
@@ -13,6 +13,7 @@ import subprocess
 import sys
 import urllib.error
 import urllib.request
+from github_private_repo import validate_repository
 
 OWNER = 'HuangHuiKun'
 REPO = 'ship-fault-kg'
@@ -31,6 +32,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--committed-only', action='store_true',
         help='Verify committed HEAD only; preserve/report uncommitted local edits')
+    parser.add_argument('--expect-visibility', choices=['any', 'private', 'public'], default='any')
     args = parser.parse_args()
     if git('remote', 'get-url', 'origin') != ORIGIN:
         raise RuntimeError('Unexpected origin; refuse sending credentials elsewhere')
@@ -53,13 +55,12 @@ def main():
         with urllib.request.urlopen(req, timeout=30) as response:
             return json.load(response)
 
-    print('Checking GitHub identity and private repository...', flush=True)
+    print('Checking GitHub identity and repository visibility...', flush=True)
     user = api('/user')
     if user['login'].lower() != OWNER.lower():
         raise RuntimeError('Stored Git credential belongs to a different account')
     metadata = api(f'/repos/{OWNER}/{REPO}')
-    if not metadata['private']:
-        raise RuntimeError('Remote repository is not private')
+    visibility = validate_repository(metadata, OWNER, REPO, args.expect_visibility)
     print('Checking remote main and baseline tag...', flush=True)
     local = git('rev-parse', 'HEAD')
     remote = git('ls-remote', '--heads', 'origin', 'refs/heads/main').split()[0]
@@ -113,7 +114,8 @@ def main():
             size += len(chunk)
     if digest.hexdigest() != snapshot['oid'] or size != snapshot['size']:
         raise RuntimeError('Remote SQLite download hash/size mismatch')
-    print(json.dumps({'result': 'PASS', 'repository': metadata['html_url'], 'private': True,
+    print(json.dumps({'result': 'PASS', 'repository': metadata['html_url'], 'private': metadata['private'],
+        'visibility': visibility,
         'local_head': local, 'remote_main': remote, 'baseline_tag': BASELINE,
         'baseline_commit': tag_remote, 'tracked_files': len(git('ls-tree', '-r', '--name-only', 'HEAD').splitlines()),
         'lfs_files': len(files), 'lfs_unique_objects_available': len(available),
