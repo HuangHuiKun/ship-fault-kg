@@ -1,0 +1,4 @@
+# Core dependency pinned to the version actually used in this rebuild.
+# Python 3.12.14 was used; sqlite3 and the remaining core modules are built-in.
+pypdf==6.10.0
+# Optional PDF page visual QA: pypdfium2==5.13.0 (not required for building).

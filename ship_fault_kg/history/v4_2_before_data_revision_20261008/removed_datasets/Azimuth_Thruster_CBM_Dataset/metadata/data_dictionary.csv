@@ -1,0 +1,75 @@
+file,field,description
+case_level_metadata_and_sss_examples.csv,Case,Anonymised case identifier; no vessel name or operator-identifying code is disclosed.
+case_level_metadata_and_sss_examples.csv,Engine-family case,Anonymised engine-family case label used instead of any vessel name or vessel code.
+case_level_metadata_and_sss_examples.csv,Evidence layer,See README.md and the corresponding CSV header context.
+case_level_metadata_and_sss_examples.csv,Reference class,See README.md and the corresponding CSV header context.
+case_level_metadata_and_sss_examples.csv,Local RPM/CPM basis,See README.md and the corresponding CSV header context.
+case_level_metadata_and_sss_examples.csv,Dominant spectral feature,See README.md and the corresponding CSV header context.
+case_level_metadata_and_sss_examples.csv,S1,Releasable rounded Spectral Severity Score sub-score for audit reconstruction.
+case_level_metadata_and_sss_examples.csv,S2,Releasable rounded Spectral Severity Score sub-score for audit reconstruction.
+case_level_metadata_and_sss_examples.csv,S3,Releasable rounded Spectral Severity Score sub-score for audit reconstruction.
+case_level_metadata_and_sss_examples.csv,S4,Releasable rounded Spectral Severity Score sub-score for audit reconstruction.
+case_level_metadata_and_sss_examples.csv,Thermography status,See README.md and the corresponding CSV header context.
+case_level_metadata_and_sss_examples.csv,w1_eff,Effective SSS weight after applying the missing-thermography rule when needed.
+case_level_metadata_and_sss_examples.csv,w2_eff,Effective SSS weight after applying the missing-thermography rule when needed.
+case_level_metadata_and_sss_examples.csv,w3_eff,Effective SSS weight after applying the missing-thermography rule when needed.
+case_level_metadata_and_sss_examples.csv,w4_eff,Effective SSS weight after applying the missing-thermography rule when needed.
+case_level_metadata_and_sss_examples.csv,SSS_recalculated,Recalculated or reported Spectral Severity Score used to audit internal consistency.
+case_level_metadata_and_sss_examples.csv,SSS_reported,Recalculated or reported Spectral Severity Score used to audit internal consistency.
+case_level_metadata_and_sss_examples.csv,Notes,See README.md and the corresponding CSV header context.
+measurement_counts.csv,metric,See README.md and the corresponding CSV header context.
+measurement_counts.csv,value,See README.md and the corresponding CSV header context.
+measurement_counts.csv,unit,See README.md and the corresponding CSV header context.
+measurement_counts.csv,notes,See README.md and the corresponding CSV header context.
+representative_fft_features_anonymised.csv,spectrum_id,Anonymised case identifier; no vessel name or operator-identifying code is disclosed.
+representative_fft_features_anonymised.csv,engine_case_label,Anonymised case identifier; no vessel name or operator-identifying code is disclosed.
+representative_fft_features_anonymised.csv,system_or_position,See README.md and the corresponding CSV header context.
+representative_fft_features_anonymised.csv,direction,See README.md and the corresponding CSV header context.
+representative_fft_features_anonymised.csv,dominant_feature,See README.md and the corresponding CSV header context.
+representative_fft_features_anonymised.csv,frequency_cpm,See README.md and the corresponding CSV header context.
+representative_fft_features_anonymised.csv,frequency_hz,See README.md and the corresponding CSV header context.
+representative_fft_features_anonymised.csv,amplitude,See README.md and the corresponding CSV header context.
+representative_fft_features_anonymised.csv,amplitude_unit,See README.md and the corresponding CSV header context.
+representative_fft_features_anonymised.csv,diagnostic_interpretation,See README.md and the corresponding CSV header context.
+representative_fft_features_anonymised.csv,notes,See README.md and the corresponding CSV header context.
+sss_formula_parameters.csv,parameter,See README.md and the corresponding CSV header context.
+sss_formula_parameters.csv,value,See README.md and the corresponding CSV header context.
+sss_formula_parameters.csv,unit_or_range,See README.md and the corresponding CSV header context.
+sss_formula_parameters.csv,description,See README.md and the corresponding CSV header context.
+sss_ht_regression_summary.csv,statistic,See README.md and the corresponding CSV header context.
+sss_ht_regression_summary.csv,value,See README.md and the corresponding CSV header context.
+sss_ht_regression_summary.csv,unit,See README.md and the corresponding CSV header context.
+sss_ht_regression_summary.csv,notes,See README.md and the corresponding CSV header context.
+table1_propulsion_architecture_anonymised.csv,Engine-family case,Anonymised engine-family case label used instead of any vessel name or vessel code.
+table1_propulsion_architecture_anonymised.csv,Engine-family case label,Anonymised engine-family case label used for traceability.
+table1_propulsion_architecture_anonymised.csv,Propulsion type,See README.md and the corresponding CSV header context.
+table1_propulsion_architecture_anonymised.csv,Prime mover,See README.md and the corresponding CSV header context.
+table1_propulsion_architecture_anonymised.csv,Propulsion / gearbox architecture,See README.md and the corresponding CSV header context.
+table1_propulsion_architecture_anonymised.csv,Measurement protocol,See README.md and the corresponding CSV header context.
+table1_propulsion_architecture_anonymised.csv,Dataset role,See README.md and the corresponding CSV header context.
+table2_oil_cross_validation_anonymised.csv,System / case,Subsystem/case label using anonymised engine-family terminology.
+table2_oil_cross_validation_anonymised.csv,Vibration status,See README.md and the corresponding CSV header context.
+table2_oil_cross_validation_anonymised.csv,Oil evidence at same epoch,See README.md and the corresponding CSV header context.
+table2_oil_cross_validation_anonymised.csv,Interpretation for cross-validation,See README.md and the corresponding CSV header context.
+table3_lti_by_fault_type_anonymised.csv,System / engine-family case,Subsystem and anonymised engine-family case label; no vessel name or vessel code is disclosed.
+table3_lti_by_fault_type_anonymised.csv,Fault or condition,See README.md and the corresponding CSV header context.
+table3_lti_by_fault_type_anonymised.csv,Detection/event reference,See README.md and the corresponding CSV header context.
+table3_lti_by_fault_type_anonymised.csv,Reference class,See README.md and the corresponding CSV header context.
+table3_lti_by_fault_type_anonymised.csv,LTI / warning (mo),Lead-Time Index or warning interval field as defined in the manuscript.
+table3_lti_by_fault_type_anonymised.csv,Warning (h),See README.md and the corresponding CSV header context.
+table3_lti_by_fault_type_anonymised.csv,Recommended CBM action,See README.md and the corresponding CSV header context.
+table3_lti_by_fault_type_anonymised.csv,Included in mechanical LTI summary,Lead-Time Index or warning interval field as defined in the manuscript.
+table4A_sensitivity_checks.csv,Check,See README.md and the corresponding CSV header context.
+table4A_sensitivity_checks.csv,Base value / assumption,See README.md and the corresponding CSV header context.
+table4A_sensitivity_checks.csv,Sensitivity alternative,See README.md and the corresponding CSV header context.
+table4A_sensitivity_checks.csv,Interpretation used in manuscript,See README.md and the corresponding CSV header context.
+table4_diagnostic_zones_economics.csv,Zone,See README.md and the corresponding CSV header context.
+table4_diagnostic_zones_economics.csv,Zone name,See README.md and the corresponding CSV header context.
+table4_diagnostic_zones_economics.csv,SSS rule,See README.md and the corresponding CSV header context.
+table4_diagnostic_zones_economics.csv,ODI rule,See README.md and the corresponding CSV header context.
+table4_diagnostic_zones_economics.csv,Vibration interval (h),See README.md and the corresponding CSV header context.
+table4_diagnostic_zones_economics.csv,Oil interval (h),See README.md and the corresponding CSV header context.
+table4_diagnostic_zones_economics.csv,Annual monitoring cost (USD),See README.md and the corresponding CSV header context.
+table4_diagnostic_zones_economics.csv,Cost avoidance (USD),See README.md and the corresponding CSV header context.
+table4_diagnostic_zones_economics.csv,Cost-avoidance ratio,See README.md and the corresponding CSV header context.
+table4_diagnostic_zones_economics.csv,n systems,See README.md and the corresponding CSV header context.

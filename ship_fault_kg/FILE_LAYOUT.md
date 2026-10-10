@@ -1,7 +1,54 @@
-# 文件组织与历史归档索引
+# V5 文件导航与历史归档
 
-整理日期：2026-10-07。当前知识版本仍是 **V4.2**，491个节点、1185条关系。
-本次只整理文件和修正路径，不修改图谱事实、SQLite内容或Neo4j数据库，不自动提交或推送Git。
+当前版本：V5，2026-10-09。原始 ship_fault_kg_data 未改动。
+
+## 当前代码
+
+| 路径 | 作用 |
+| --- | --- |
+| manage_v5.py | 版本显式入口：build / verify / retrieve / neo4j / report |
+| build.py、retrieve.py、import_neo4j.py | 指向 V5 的兼容入口，不运行旧版算法 |
+| v5/schema.py | 12 类实体、23 业务关系＋溯源、端点规范 |
+| v5/preprocess.py | 原件指纹、来源注册、PDF页/文章分块、数据索引与变量字典 |
+| v5/curation.py | 新增原文核对声明；旧声明从冻结 history 输入 |
+| v5/build.py | 稳定ID、情境隔离、规范化、结构检查、SQLite和导出 |
+| v5/verify.py | 独立一致性与原文件核验、开发检索探针 |
+| v5/retrieve.py | 别名词法匹配与同scope扩展，不是语义向量模型 |
+| v5/neo4j.py | 实时备份、单事务同步、全属性核验、恢复；密码不落盘 |
+| v5/release.py | 从实际构建数据生成报告、清单、可选样式、备份指纹 |
+| v5/pdf_qa.py | 厂家原文关键页渲染核对 |
+| v5/archive_legacy.py | 本次一次性归档；不要当日常构建入口反复运行 |
+
+## 当前输出
+
+唯一图谱主数据为 output/v5/ship_fault_kg.sqlite；output/CURRENT_VERSION.json 只是导航。
+
+- entities.jsonl / relationships.jsonl：节点和边。
+- assertions.jsonl / passages.jsonl / sources.jsonl：本地证据链，Passage/Assertion 不入 Neo4j。
+- preprocessed_pages.jsonl / preprocess_cache.json：原文抽取缓存与原件指纹。
+- dataset_records.jsonl / parameter_dictionary.jsonl：原生试验索引和变量，不是新检索金标准。
+- schema.json / build_report.json / verification_report.json：模式、实际数量和校验。
+- neo4j_snapshot_v5.json：本次拟导入全部节点/边属性。
+- last_deployed_snapshot.json / neo4j_import_result.json / neo4j_verify_result.json：实际建库状态。
+- deployment_backups/：后续更新前的实时快照；不能删除后再声称可回滚。
+- 知识图谱_关系节点属性_V5.csv：逐边中文清单；output/知识图谱_关系节点属性.csv 为便捷同内容副本。
+- 新版知识图谱构建与建库报告_V5.md / entity_inventory_v5.md：说明与清单。
+- queries_v5.cypher / shipkg_v5.grass：查询与可选样式；样式不会自动覆盖 Browser 设置。
+- retrieval_example.json：诊断句子的实际检索证据。
+- migration_exclusions.jsonl：15 条不能忠实映射的旧声明，仅用于迁移审计。
+- qa/：已核对的厂家原文页图。
+
+## 历史
+
+history/v4_3_before_v5_rebuild_20261009/ 保存重建前的文件、代码、整个 output 和资料元数据；neo4j_live_before_v5.json 为更新前实时数据库，backup_manifest.json 为备份指纹。
+
+retired_active_entries/ 收纳移出原活动路径的旧脚本、旧快照、旧报告与旧展示。move_manifest.json 记录原位置、归档位置和 SHA256。被其他软件占用的文件可能保留在原路径，清单会明确标记。
+
+V5 重建仍以此 history 内的旧病例声明、故障参考声明、4篇试点和冻结SQLite作为输入，不要为了清理目录而删除这份备份。此前更早的 history 内容未动。
+
+恢复旧图谱用 manage_v5.py neo4j restore；旧本地工作流的恢复须先备份 V5 再从原文件/旧 output 复位。不要在 history 中直接运行相对路径敏感的旧构建器。
+整理日期：2026-10-07；知识修订：2026-10-08。当前知识版本 **V4.3**，491个节点、1200条关系。
+V4.3移出两个数据集独有内容，全量接入中文语料；旧快照见 `history/v4_2_before_data_revision_20261008/`。不自动提交或推送Git。
 
 ## 一、现在从哪里开始
 
@@ -13,7 +60,8 @@
 | `output/知识图谱_关系节点属性.csv` | 当前中文易读关系表；构建或导出清单时自动刷新，单独刷新用`export_readable_csv.py` |
 | `queries_v4.cypher` | 当前Neo4j查询；不要再用旧V2/V3标签查询判断当前库 |
 | `output/graph_viewer.html`、`ship_fault_kg.graphml`、`shipkg_v4*.grass` | 当前离线展示、交换格式、Neo4j样式 |
-| `output/neo4j_import_result.json`、`neo4j_snapshot_v4.json` | 当前数据库的既有核验回执与快照；本次未重新连接数据库 |
+| `output/neo4j_import_result.json`、`neo4j_snapshot_v4.json` | 当前数据库V4.3同步后的核验回执与快照 |
+| `output/corpus_inventory.json`、`corpus_candidates_pending_review.json` | 全量语料溯源清单和待审核候选句；候选句不是图谱关系 |
 | `history/README.md` | 各历史阶段与归档的用途、恢复注意事项 |
 | `history/organization_20261007/move_manifest.json` | 每个文件整理前后的位置、SHA256、长度及移动核验结果 |
 | `history/organization_20261007/DUPLICATES.md`、`duplicates.json` | 完全重复文件检查的可读报告及机器清单 |
@@ -47,9 +95,9 @@ ship_fault_kg/
 - `eval_cases_v2.py`仍被`evaluate.py`导入，必须保留。
 - `evaluate_fault_v3.py`仍是当前故障评价入口，实际输出是`fault_retrieval_evaluation_v4.json`，必须保留。
 - `output/new_source_pages_v3.json`与`source_anchor_audit_v3.json`由当前下载/来源核验脚本生成；资料适用于当前知识，因此保留。
-- `refinement_v4_1.json`是当前V4.2重建要应用的规则，不是可以随意移走的旧备份。
+- `refinement_v4_1.json`是当前V4.3重建要应用的规则，不是可以随意移走的旧备份。
 - `prepare_neo4j_admin_import.py`是可选的离线CSV准备工具；当前直接导入不依赖它，仍保留备用。
-- `purge_archived_sensors.py`保留显式恢复入口，已改为读取history中的55点备份。**不要日常执行删除或恢复命令**；旧删除计数防护针对V3，不适用于当前V4.2。
+- `purge_archived_sensors.py`保留显式恢复入口，已改为读取history中的55点备份。**不要日常执行删除或恢复命令**；旧删除计数防护针对V3，不适用于当前V4.3。
 - `review_source_pages.py`以后生成新来源截图到`output/source_review/`；已有V3截图在history中。
 
 ## 三、历史文件移到了哪里

@@ -1,0 +1,27 @@
+{
+  "version": "4.1",
+  "date": "2026-10-06",
+  "scope": "V4.1 vessel/equipment stage: remove only the five named generic vessel-type nodes and preserve case-scoped vessels. The later approved V4.2 Observation-to-Source merger is applied separately by redesign.apply_source_levels().",
+  "remove_vessel_types": {
+    "shipkg:vesseltype:1831d47f0525": "双体客船",
+    "shipkg:vesseltype:21e082f35a40": "专用货船",
+    "shipkg:vesseltype:3c0f99655948": "化学品船",
+    "shipkg:vesseltype:4b3a114ff733": "滚装客船",
+    "shipkg:vesseltype:ba47bdb9e2f3": "拖网渔船"
+  },
+  "equipment_names": {
+    "shipkg:equipment:00688defba1b": ["柴油发电机润滑与排气系统", "柴油发电机润滑与排气装置"],
+    "shipkg:equipment:0d7957f0c12c": ["左舷主机排气系统", "左舷主机排气装置"],
+    "shipkg:equipment:1755b4f618f2": ["2017故障主机", "故障主机"],
+    "shipkg:equipment:23fe6c4f1acc": ["右舷可调螺距桨液压系统", "右舷可调螺距桨液压装置"],
+    "shipkg:equipment:361590fc68c0": ["海水压载与机舱排水系统", "海水压载与机舱排水装置"],
+    "shipkg:equipment:38482b664e19": ["主机启动与盘车系统", "主机启动与盘车装置"],
+    "shipkg:equipment:385291025daa": ["ME3燃油与排气系统", "ME3主机燃油供给与排气装置"],
+    "shipkg:equipment:3e7f89ac810b": ["主机海水冷却与舱底系统", "主机海水冷却与舱底排水装置"],
+    "shipkg:equipment:47a6f6945bb5": ["可调螺距推进控制系统", "可调螺距桨推进控制装置"],
+    "shipkg:equipment:5d25f4bda048": ["控制空气与主机离合系统", "控制空气供给与主机离合装置"],
+    "shipkg:equipment:5ed28aa334b7": ["主机润滑系统", "主机润滑装置"],
+    "shipkg:equipment:710361995928": ["吊舱推进系统", "吊舱推进装置"],
+    "shipkg:equipment:8c8343c45190": ["可调螺距推进系统", "可调螺距桨推进装置"]
+  }
+}

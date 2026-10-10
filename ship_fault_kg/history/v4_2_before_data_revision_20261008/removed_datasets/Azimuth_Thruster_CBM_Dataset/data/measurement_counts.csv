@@ -1,0 +1,7 @@
+metric,value,unit,notes
+fleet_size,15,vessels,anonymised South American coastal tugboat fleet
+complete_same_route_map_vessels,2,vessels,the CAT C7 shaftline case A and CAT 3516C azimuth case complete same-route spectral maps used for Fig. 2
+vibration_contributing_vessels,3,vessels,the CAT C7 shaftline case A and CAT 3516C azimuth case complete maps; CAT C7 shaftline case B contributes vibration-availability regression records
+fft_derived_features,>30,features,complete point-level FFT arrays withheld; representative spectral features and processed indices provided
+lubricant_analyses_count,>120,samples,anonymised lubricant variables used for lubricant cross-reference
+availability_window,24,months,operational availability records aggregated under confidentiality constraints

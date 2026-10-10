@@ -1,0 +1,4 @@
+Engine-family case,Engine-family case label,Propulsion type,Prime mover,Propulsion / gearbox architecture,Measurement protocol,Dataset role
+CAT 3516C azimuth case,CAT 3516C azimuth case,Azimuth tractor tug,CAT 3516C family,Rolls-Royce US 205/255 CP azimuth propellers; Twin Disc reduction gearboxes; Vulkardan E coupling,Protocol A: 3 h navigation at operational RPM,"Primary azimuth case, bearing/coupling faults"
+CAT C7 shaftline case A,CAT C7 shaftline case A,Conventional shaftline tug,CAT C7 family,Fixed-pitch propeller; conventional reduction gearbox and intermediate shaft,Protocol B: stepped RPM manoeuvring trials,Structural looseness and oil-dominant cases
+CAT C7 shaftline case B,CAT C7 shaftline case B,Conventional shaftline tug,CAT C7 family,Fixed-pitch propeller; conventional reduction gearbox,Protocol B: stepped RPM manoeuvring trials,Availability and downtime validation case

@@ -1,0 +1,5 @@
+spectrum_id,engine_case_label,system_or_position,direction,dominant_feature,frequency_cpm,frequency_hz,amplitude,amplitude_unit,diagnostic_interpretation,notes
+FFT_01,CAT C7 shaftline case A,gearbox-aft / reductor aft,horizontal,subsynchronous peak,160,2.7,9.12,mm/s RMS,structural looseness,"first bending mode, vibration-exclusive"
+FFT_02,CAT 3516C azimuth case,MPEB 1V / port engine bearing,vertical,unconfirmed bearing-related spectral anomaly near 14× shaft speed,23114,385.2,,mm/s 0-P,unconfirmed bearing-related spectral anomaly,"22% difference from catalogue BPFI; interpreted conservatively, not BPFI-confirmed"
+FFT_03,CAT 3516C azimuth case,MPEB 3V / starboard engine-coupling zone,vertical,high-harmonic impact train,17034,283.9,10.0,mm/s 0-P,coupling-specific high-harmonic impact train,peak at 51× of 334 CPM coupling response; train extends to 57×; field screening indicator
+FFT_04,CAT 3516C azimuth case,Coupling EB 1 / flexible coupling,horizontal,coupling bending resonance,1628,27.1,,mm/s 0-P,coupling resonance,non-harmonic resonance indicator

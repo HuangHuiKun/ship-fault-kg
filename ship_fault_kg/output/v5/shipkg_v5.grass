@@ -1,0 +1,14 @@
+node.Vessel { color: #ffb2d7; diameter: 25px; caption: "{display_name}"; }
+node.System { color: #e7b04f; diameter: 25px; caption: "{display_name}"; }
+node.Case { color: #7ad7d1; diameter: 25px; caption: "{display_name}"; }
+node.Equipment { color: #59a9e7; diameter: 25px; caption: "{display_name}"; }
+node.Component { color: #abae8a; diameter: 25px; caption: "{display_name}"; }
+node.Fault { color: #e5dfff; diameter: 25px; caption: "{display_name}"; }
+node.State { color: #ffc736; diameter: 25px; caption: "{display_name}"; }
+node.Factor { color: #b1de38; diameter: 25px; caption: "{display_name}"; }
+node.Check { color: #ffbc00; diameter: 25px; caption: "{display_name}"; }
+node.Action { color: #b4dbff; diameter: 25px; caption: "{display_name}"; }
+node.Parameter { color: #ffd8ff; diameter: 25px; caption: "{display_name}"; }
+node.Source { color: #c1d1ff; diameter: 25px; caption: "{display_name}"; }
+node.ShipKG { color: #ffd95a; diameter: 25px; caption: "{display_name}"; }
+relationship { color: #74889A; shaft-width: 2px; caption: "{name}"; }

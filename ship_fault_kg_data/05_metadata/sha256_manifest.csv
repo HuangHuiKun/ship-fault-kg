@@ -1,8 +1,6 @@
 "relative_path","bytes","sha256"
-"01_datasets/Azimuth_Thruster_CBM_Dataset.zip","5885245","6ecfd1ffff2d1482588128a9fb02f61a55712381830d672e2d5835a497d682f9"
 "01_datasets/marine_diesel_RAG_corpus_All_data.zip","5371114","197afe3c928c4f2e138e960ffe7c3b922786b87b1d5f8f250db39fb4ca9a63e2"
 "01_datasets/Marine_Engine_Fault_Data_v1.zip","26538633","3fba7aa0c288ae1bc05383fb54bf67cbde209d61b26e3e811d4bc2f22f97442b"
-"01_datasets/UCI_Naval_Propulsion_CBM.zip","567071","91a3815da80b5ab7e2d5b82ac82f1c2cbf89182c7a65bcdf240db1e014423cb9"
 "02_reports/MAIB_2013_Safety_Digest_lubrication_bearing_cases.pdf","7976027","88d9e40de2dd344b9a66d03a38b65ad32e91674d5d8a224c6a2065e17f9bb168"
 "02_reports/MAIB_2016_Safety_Digest_generator_oil_fire.pdf","8937785","d0c306371aa292169afb3f7ecb38af5881117f473c2ed8752c6dfbde2b0cf653"
 "02_reports/MAIB_2018_01_Windcat8_bearing_failure_fire.pdf","2115648","59ff21e5f01d50dc3c7a03873f0a355c50dcb8b1cefff84e22d6ea70c32a1864"

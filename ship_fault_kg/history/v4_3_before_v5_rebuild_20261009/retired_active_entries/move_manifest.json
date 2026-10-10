@@ -1,0 +1,386 @@
+[
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\audit_sources.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\audit_sources.py",
+    "moved": true,
+    "sha256": "c2c9ce316d9c9eaf326de5230ba194b760417ac93fdcfe669106523d70c6888f"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\build.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\build.py",
+    "moved": true,
+    "sha256": "bfb60dbc2418557ec0d089d13717c7aeddf4620ffa7763336d1430955e303449"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\check_neo4j_connection.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\check_neo4j_connection.py",
+    "moved": true,
+    "sha256": "9cc4b73d77871fb8f22d94f5b17ded71001efe511ef465da167070e58adb0675"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\check_neo4j_ready.ps1",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\check_neo4j_ready.ps1",
+    "moved": true,
+    "sha256": "e486424151095ea95bdd8125bf99b6ee74783cb27f05422196c7754d6201f74a"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\corpus_knowledge.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\corpus_knowledge.py",
+    "moved": true,
+    "sha256": "63123bfc4971a5003c2caac1b351b5d79a0aba1dbe824a213e19da59d23c0bfe"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\curated_cases.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\curated_cases.py",
+    "moved": true,
+    "sha256": "00d348cf8bbcbd504c13e7af4370b107745233902a1a296fc3f9147d3e88f3ee"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\download_fault_sources.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\download_fault_sources.py",
+    "moved": true,
+    "sha256": "5ca5d576386cae1a36dd38a1732ebd61cb3960380cc261a639fc4caf297084f1"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\entity_inventory_v4.md",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\entity_inventory_v4.md",
+    "moved": true,
+    "sha256": "69be2d705dea0733c2118240e3b0031a3e4cc677ee216b0f0d1adcc5d194e80f"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\evaluate.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\evaluate.py",
+    "moved": true,
+    "sha256": "d74513f301de0fd845961a82718cede8f5728cfec493d209a5f428c16fad27bb"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\evaluate_fault_v3.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\evaluate_fault_v3.py",
+    "moved": true,
+    "sha256": "1749d6583387116b277ce3fb04f7f53553a1e2d0237d6cf96461b45727aac833"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\eval_cases_v2.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\eval_cases_v2.py",
+    "moved": true,
+    "sha256": "8b3ea39d1498f8ab6081e600a82996b8c086d80883c41dd8dd782e8ad8c1cb3e"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\eval_queries.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\eval_queries.json",
+    "moved": true,
+    "sha256": "456083d8175c58917332bf4734dae6f179594b9733fa6b6acc300b79316bc480"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\example_diagnosis.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\example_diagnosis.json",
+    "moved": true,
+    "sha256": "be0437bb7fe678f179d2580f53d85fa84dc2a39d83a9f371b2d1982ad38055d5"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\expanded_cases.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\expanded_cases.py",
+    "moved": true,
+    "sha256": "82f76ebe40cd9b80d36a2368e7aed450d35e6b622d11a70354ed4789056f85db"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\export_graphml.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\export_graphml.py",
+    "moved": true,
+    "sha256": "ce60e60fc39626d3d2fd5aa2942d8e0db9a3d5384a554af554f20c12bb68e2ca"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\export_inventory.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\export_inventory.py",
+    "moved": true,
+    "sha256": "1254e899d37ac535af4a91aaa028a5403b83300d3b9b3e79c94fc51b9aad8c07"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\export_readable_csv.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\export_readable_csv.py",
+    "moved": true,
+    "sha256": "503929471a69479c60ac23b9f9eb386d44d4d09f2deee2502c4680af577cc256"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\fault_profiles.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\fault_profiles.py",
+    "moved": true,
+    "sha256": "f41c885d1023d52e1251e41205e91c2ddf52d0740bcb2e2547181ae75b903179"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\generate_demo.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\generate_demo.py",
+    "moved": true,
+    "sha256": "21d37fbd8050d5707948497cd8221721947ad4a5bb44b132fa42570224dc08ae"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\import_neo4j.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\import_neo4j.py",
+    "moved": true,
+    "sha256": "c0515921a98f14a224c97e3a2d51a6386803063e6079f11df33391a64cd761ae"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\naming_v4.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\naming_v4.json",
+    "moved": true,
+    "sha256": "9baff77888803960e7ea1ffece1f294e347209096b4944f00237916e1000e11a"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\organize_files.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\organize_files.py",
+    "moved": true,
+    "sha256": "4b0a519b4a6b4cabb982bc29b35180f1f88d5d771d5e5f663266d9fee77069fc"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\prepare_neo4j_admin_import.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\prepare_neo4j_admin_import.py",
+    "moved": true,
+    "sha256": "ee61a48b73ca9e7463b1f3d523cd763a74db32b9266607a8db2fa629a4112cbd"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\purge_archived_sensors.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\purge_archived_sensors.py",
+    "moved": true,
+    "sha256": "f020ec0ce97641d8ab5a2229a6a3dc890bc66117254cbf819d476547e4438faa"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\queries_v4.cypher",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\queries_v4.cypher",
+    "moved": true,
+    "sha256": "725edd43039d2d9b4a38c3bd0126c7829982f34484e1bbb3720ce6df1e4a2ee8"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\redesign.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\redesign.py",
+    "moved": true,
+    "sha256": "e4128483c6a616c18a57c6cf7b10cd35194ed976273dc27dd5d5f307ace0b70e"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\refinement_v4_1.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\refinement_v4_1.json",
+    "moved": true,
+    "sha256": "d4c9c0dbe040bc86bcc08bfda662fa61f6bf3fae03376e34ea91022b6b8f4fa1"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\report_data_revision.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\report_data_revision.py",
+    "moved": true,
+    "sha256": "ae81f98dd5c8d95836f476ec8e591b9709643a1599800fae3512b675e2cfff09"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\retrieve.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\retrieve.py",
+    "moved": true,
+    "sha256": "2ec367d51c44f3fa2c4fa6feb3adbab28a318af3a56147913956c8a3944d955a"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\review_source_pages.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\review_source_pages.py",
+    "moved": true,
+    "sha256": "110b5ebd22055462c9b33196b57be2ad0e547bd3b27fbeacecd874e901d73e69"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\schema.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\schema.py",
+    "moved": true,
+    "sha256": "7eed7f372baa9d1961d6eb92b350875aafb25a935621476ed865cafdf35ccbe8"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\serve_output.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\serve_output.py",
+    "moved": true,
+    "sha256": "14e530d0e5c800aa6b3942c03697a36a3083ed769a901f9b05552ccfbe0af4a6"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\sync_data_revision.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\sync_data_revision.py",
+    "moved": true,
+    "sha256": "007ea19afc80ad4dd1e349e2aaa1109de046b6c498ced03bba51dce9ece1f7d6"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\sync_neo4j_v4.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\sync_neo4j_v4.py",
+    "moved": true,
+    "sha256": "5c1c2a39658f9ac683814e44147443134f70c8be358918cab2728dd9a448031b"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\test_export_readable_csv.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\test_export_readable_csv.py",
+    "moved": true,
+    "sha256": "ceb6a9ba19a58c81e98aa37d9848076675022106c9f63161844f128247d4c62f"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\verify_revision.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\verify_revision.py",
+    "moved": true,
+    "sha256": "f41dbc769c7cac5d37d44a37cea229cc33ed4bf5e319ba9a8584309c20a091cc"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\verify_v4.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\verify_v4.py",
+    "moved": true,
+    "sha256": "203aa2d46ea48b71890f10f90dd294a58e38621cf1300b8bf286e2ee9750616e"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\visualize_graph.py",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\visualize_graph.py",
+    "moved": true,
+    "sha256": "e46278ce0dd45a9ec45f41f15ca2d4a4ff3491a9863a7b557a745e5d1d70e7cd"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\build_report.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\build_report.json",
+    "moved": true,
+    "sha256": "ea6ff8e20185960b56c5dc231289bc4d74b83a661a8c45bd62d52333f1141607"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\corpus_candidates_pending_review.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\corpus_candidates_pending_review.json",
+    "moved": true,
+    "sha256": "59cdd3e6970153b488237e947cc61700fea7359f2622546cca183f0a90c08208"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\corpus_inventory.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\corpus_inventory.json",
+    "moved": true,
+    "sha256": "63efb03410ea4cbbc69d23bf8e40e46eb02a3dfe8ff5764ad152997f6491c71e"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\data_revision_v4_3.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\data_revision_v4_3.json",
+    "moved": true,
+    "sha256": "e6218f594867413ffd6728682fe89649634da29e3197c7b15f1678ec16d20e26"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\entity_inventory_v4.md",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\entity_inventory_v4.md",
+    "moved": true,
+    "sha256": "dad14f827aa7748f5f92c480ab64b02ec3fb5b8742c6a29b73853ce4a8ef2bc1"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\eval_queries_v4.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\eval_queries_v4.json",
+    "moved": true,
+    "sha256": "796ab18e005265344286862724bf6bc31a3533595b7d1bf7fcc81102397ef4c8"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\fault_retrieval_evaluation_v4.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\fault_retrieval_evaluation_v4.json",
+    "moved": true,
+    "sha256": "043bd9464742b7b0be1c3aecf2bd1fe65667f50308ddd240c6eb13c9e81d7318"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\graph_inventory_v4.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\graph_inventory_v4.json",
+    "moved": true,
+    "sha256": "d75686fc0609f297aafbcfe9f39571d8bbaeafe28c81abd71598b0677758d755"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\graph_viewer.html",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\graph_viewer.html",
+    "moved": true,
+    "sha256": "57aca95db236ecc2beb007b16b369f852ecfa13140100d3bbd191a5b0ead5ad0"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\neo4j_direct_import.cypher",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\neo4j_direct_import.cypher",
+    "moved": true,
+    "sha256": "d497dd7b5b8454d14ce53d08e2f962721666376cb75694d9db1027002e91f13e"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\neo4j_direct_plan.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\neo4j_direct_plan.json",
+    "moved": true,
+    "sha256": "724da31ef316e5ea203c72f5733436f6e359dbe21c1872671ad3f5f367ba1910"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\neo4j_import_guide.html",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\neo4j_import_guide.html",
+    "moved": true,
+    "sha256": "c4ea700088aad7ddba15cf5dd3225318e67fcd63bfa282bf068c36b40163c098"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\neo4j_import_result.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\neo4j_import_result.json",
+    "moved": true,
+    "sha256": "67f1d436dd70bc026cff91d55383a66092db85f0b6dfb2d33899b09e7e230c9a"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\neo4j_snapshot_v4.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\neo4j_snapshot_v4.json",
+    "moved": true,
+    "sha256": "202bc285575cc9014cd604231f6e09c9ab1510e91443f56d850ab75c1ef3bc08"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\new_source_pages_v3.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\new_source_pages_v3.json",
+    "moved": true,
+    "sha256": "5f23709e00fc188e5b15e34fcd99a71a0846dbec0d47557c4345c665c7f73bc3"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\retrieval_evaluation_v4.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\retrieval_evaluation_v4.json",
+    "moved": true,
+    "sha256": "8b770995964ab648d7738c1b53a5b12ae2ed15b4bc6c7fb2190fd7fc3d67184e"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\shipkg_v4.grass",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\shipkg_v4.grass",
+    "moved": true,
+    "sha256": "e05042f53b03f54c9dff334136d6279359fa0d29e2447e9c5392ecb2cc8de798"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\shipkg_v4_json.grass",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\shipkg_v4_json.grass",
+    "moved": true,
+    "sha256": "cf46909ea6acc88fd5e47c62cdde2bb91d1a1d193343005b1652b68ec13932c4"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\ship_fault_kg.graphml",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\ship_fault_kg.graphml",
+    "moved": true,
+    "sha256": "ed4e0d793c3ef2182cd465bb85a2c80756fbd17e8683146d76e613eefb52cd50"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\ship_fault_kg.sqlite",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\ship_fault_kg.sqlite",
+    "moved": true,
+    "sha256": "e027967835baf395adf011e91bc3137634f52e257c43994ee57cccedb41c6496"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\source_anchor_audit_v3.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\source_anchor_audit_v3.json",
+    "moved": true,
+    "sha256": "6e7e5c777801cfd8e1ef3d52673e0091a147e3dd3f8aa61f9a648759fc5cbcbe"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\检索流程报告_V4.2_20261007.md",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\检索流程报告_V4.2_20261007.md",
+    "moved": true,
+    "sha256": "e2818f9d5653d51461e584c757fcce776f683cf124c67293d043ad56bc563f3b"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\检索流程报告_复核数据_V4.2_20261007.json",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\检索流程报告_复核数据_V4.2_20261007.json",
+    "moved": true,
+    "sha256": "c32c0f0ac615fd3eac571e73e9bcc71319e7e4d2daf442cb833d359cac71b979"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\船舶动力系统故障知识图谱_构建与检索计划_V4.2_20261008.pptx",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\船舶动力系统故障知识图谱_构建与检索计划_V4.2_20261008.pptx",
+    "moved": true,
+    "sha256": "b042feecb067b4d3d55da07f46eabe0117a99949ee4ddaa44a6c22430a1f6931"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\船舶动力系统故障知识图谱_构建与检索计划_V4.3_20261008.pptx",
+    "moved": false,
+    "reason": "Open file; original retained",
+    "sha256": "4ae2e9207cc3ff383b92cd48d995d0dfc453565b0c65e5422851018d70317950"
+  },
+  {
+    "original": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\资料修订与语料建图报告_V4.3_20261008.md",
+    "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v4_3_before_v5_rebuild_20261009\\retired_active_entries\\output\\资料修订与语料建图报告_V4.3_20261008.md",
+    "moved": true,
+    "sha256": "5d3963b5d6569766b00a495ce06999265d9070b374b662bb82467a8dfe28d9e7"
+  }
+]

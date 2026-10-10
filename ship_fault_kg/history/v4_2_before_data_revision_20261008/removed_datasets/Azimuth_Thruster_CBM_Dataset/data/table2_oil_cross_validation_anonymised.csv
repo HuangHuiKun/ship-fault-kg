@@ -1,0 +1,6 @@
+System / case,Vibration status,Oil evidence at same epoch,Interpretation for cross-validation
+CAT C7 shaftline reductor case A,SSS = 92; 160 CPM subsynchronous peak,No gearbox oil sample in route,Vibration-exclusive detection; oil route gap
+CAT 3516C MPEB 1V,"SSS = 78; 23,114 CPM anomaly",Fe = 7 ppm; Cu = 8 ppm; viscosity = 13.0 cSt,Oil normal at vibration alert; later oil confirmation
+CAT 3516C MPEB 3V,SSS = 95; 51×–57× impact train; 73.6 °C surface temperature,No oil sample available,Vibration warning interval reported; sampling gap documented
+CAT C7 engine case A EB,No diagnostic vibration alert,Fuel dilution = 10.85%; viscosity = 9.745 cSt,Oil-dominant chemical fault; no vibration LTI
+CAT C7 engine case A BB,No diagnostic vibration alert,Additive depletion trend,Oil-led degradation; vibration not primary

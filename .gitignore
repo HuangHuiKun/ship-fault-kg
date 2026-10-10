@@ -14,6 +14,8 @@ venv/
 .vscode/
 .DS_Store
 Thumbs.db
+# Office/WPS document lock files, including copies in historical archives.
+~$*
 *.log
 *.tmp
 *.sqlite-wal

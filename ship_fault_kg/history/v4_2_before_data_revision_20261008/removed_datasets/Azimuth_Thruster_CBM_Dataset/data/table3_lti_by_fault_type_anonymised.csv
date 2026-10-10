@@ -1,0 +1,13 @@
+System / engine-family case,Fault or condition,Detection/event reference,Reference class,LTI / warning (mo),Warning (h),Recommended CBM action,Included in mechanical LTI summary
+CAT C7 shaftline reductor / CAT C7 case A,Structural looseness,Vibration alert Month -3.5; operational failure/gearbox repair,LTI_operational,3.5,525.0,Vibration-only CBM; 125 h vibration interval,yes
+CAT 3516C MPEB 1V,Unconfirmed bearing-related spectral anomaly,Vibration alert Month -2.5; oil alert at Month -0.8,LTI_oil,1.7,255.0,Vibration-led CBM; 125 h vibration / 500 h oil,yes
+CAT 3516C MPEB 3V,High-harmonic impact train,Vibration alert Month -3.0; no oil sample; operational downtime event,LTI_operational,3.0,450.0,Vibration-only CBM; 125 h vibration interval,yes
+CAT 3516C coupling EB 1,Coupling resonance,Vibration alert Month -2.0; maintenance event,LTI_maintenance,2.0,300.0,Vibration-led CBM; 125 h vibration / 500 h oil,yes
+CAT 3516C damper EB 2,Mass imbalance,Vibration alert Month -1.5; maintenance event,LTI_maintenance,1.5,225.0,Vibration-led CBM; 125 h vibration / 500 h oil,yes
+CAT 3516C azimuth unit EB 2,Gear mesh anomaly,Vibration alert Month -1.0; maintenance event,LTI_maintenance,1.0,150.0,Vibration-led CBM; 125 h vibration / 500 h oil,yes
+CAT 3516C intermediate bearing EB 4,Unconfirmed bearing-related warning,Vibration alert Month -2.0; maintenance event,LTI_maintenance,2.0,300.0,Vibration-only CBM; 125 h vibration interval,yes
+CAT C7 shaftline reductor / CAT C7 case B,Babbitt wear (Pb),Vibration alert Month -4.0; oil alert at Month -1.2,LTI_oil,2.8,420.0,Oil-confirmed mixed follow-up; 250 h vibration / 250 h oil,yes
+CAT 3508B/C engine bearing reference,Normal wear trend,Oil-led; ND (oil-led),ND (oil-led),,,Oil-led CBM; 500 h vibration / 125 h oil,no
+CAT C7 engine case A EB / CAT C7 shaftline case A,Fuel dilution,Oil-dominant alert at Month -0.3; ND (oil-led),ND (oil-led),,,Oil-led CBM; 500 h vibration / 125 h oil,no
+CAT C7 engine case A BB / CAT C7 shaftline case A,Additive depletion,Oil-led alert at Month -1.0; ND (oil-led),ND (oil-led),,,Oil-led CBM; 500 h vibration / 125 h oil,no
+CAT 3508B/C thruster reference,Normal operation,Normal vibration and oil condition; N/A,,,,Standard monitoring; 500 h vibration / 500 h oil,no

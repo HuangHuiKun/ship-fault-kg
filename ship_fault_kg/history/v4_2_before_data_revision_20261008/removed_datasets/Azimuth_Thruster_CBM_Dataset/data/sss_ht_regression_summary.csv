@@ -1,0 +1,9 @@
+statistic,value,unit,notes
+n_observations,20.0,vessel-month observations,as reported in manuscript
+intercept,-218.65,h,linear regression H_t = 7.56 × SSS − 218.65
+slope,7.56,h per SSS point,monthly unavailability increase per SSS point
+slope_CI95_lower,3.5,h per SSS point,approximate 95% confidence interval
+slope_CI95_upper,11.6,h per SSS point,approximate 95% confidence interval
+R_squared,0.461,dimensionless,coefficient of determination
+adjusted_R_squared,0.431,dimensionless,adjusted for one predictor
+p_value,0.001,dimensionless,reported significance

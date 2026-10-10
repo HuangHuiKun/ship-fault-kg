@@ -1,0 +1,9 @@
+figure_file,caption_short,source,dpi,notes
+Figure_1_IM_CBM_Framework.png,Integrated Multimodal Condition-Based Maintenance framework,final submission manuscript and dataset package,600,framework diagram; separate PNG/TIFF/PDF supplied
+Figure_2_SSS_Heatmap.png,Spectral Severity Score heatmap,final submission manuscript and dataset package,500,clean artwork; no internal title or red annotations; blue/yellow/orange/vermillion scale aligned with manuscript caption
+Figure_3_Representative_FFT_Spectra.png,Representative FFT spectra for four field signatures,final submission manuscript and dataset package,300,representative spectra figure; not raw spectral arrays
+Figure_4_Harmonic_Order_Analysis.png,Harmonic-order energy analysis,final submission manuscript and dataset package,300,normalised harmonic energy; HPI labels aligned with public SSS audit table; panel (a) HPI = 0.25
+Figure_5_Lead_Time_Analysis.png,Lead-time timeline for critical events,final submission manuscript and dataset package,300,timeline with vibration/oil/event markers
+Figure_6_SSS_vs_Unavailability.png,SSS vs monthly technical unavailability,final submission manuscript and dataset package,300,regression summary included in data/sss_ht_regression_summary.csv
+Figure_7_Diagnostic_Matrix_and_Economic_Screening.png,Integrated diagnostic matrix and scenario-based economic screening,final submission manuscript and dataset package,300,exhaustive SSS-ODI decision zones; bearing-related anomaly LTI aligned to Table 5
+Graphical_Abstract_Key_Findings.png,Graphical abstract,final submission manuscript and dataset package,300,summary visual; PNG/TIFF/PDF supplied

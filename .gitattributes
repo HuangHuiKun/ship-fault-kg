@@ -26,3 +26,8 @@ ship_fault_kg_data/01_datasets/**/*.csv filter=lfs diff=lfs merge=lfs -text
 *.html text eol=lf
 *.mjs text eol=lf
 *.ps1 text eol=crlf
+
+# Frozen backups must retain exact bytes for their SHA256 recovery manifests.
+# This overrides text conversion only; existing Git LFS filters still apply.
+ship_fault_kg/history/v4_2_before_data_revision_20261008/** -text
+ship_fault_kg/history/v4_3_before_v5_rebuild_20261009/** -text

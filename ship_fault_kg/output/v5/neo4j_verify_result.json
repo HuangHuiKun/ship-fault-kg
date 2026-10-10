@@ -1,0 +1,36 @@
+{
+  "nodes": 1356,
+  "edges": 3343,
+  "exact_property_match": true,
+  "classes": {
+    "Action": 170,
+    "Case": 19,
+    "Check": 143,
+    "Component": 140,
+    "Equipment": 64,
+    "Factor": 110,
+    "Fault": 216,
+    "Parameter": 84,
+    "Source": 46,
+    "State": 350,
+    "System": 6,
+    "Vessel": 8
+  },
+  "constraints": [
+    {
+      "id": 3,
+      "name": "shipkg_id",
+      "type": "NODE_PROPERTY_UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "ShipKG"
+      ],
+      "properties": [
+        "id"
+      ],
+      "enforcedLabel": null,
+      "ownedIndex": "shipkg_id",
+      "propertyType": null
+    }
+  ]
+}

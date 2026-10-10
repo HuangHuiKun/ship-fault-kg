@@ -1,0 +1,14 @@
+parameter,value,unit_or_range,description
+w1,0.35,dimensionless,weight for overall RMS velocity sub-score S1
+w2,0.30,dimensionless,weight for maximum peak/baseline sub-score S2
+w3,0.20,dimensionless,weight for non-harmonicity sub-score S3 = (1 - HPI) x 100
+w4,0.15,dimensionless,weight for surface-temperature sub-score S4 when thermography is available
+missing_S4_rule,renormalise_w1_to_w3,rule,"if thermography is unavailable, exclude S4 and renormalise w1-w3 to sum to 1"
+w1_noS4,0.411765,dimensionless,effective S1 weight when S4 is excluded
+w2_noS4,0.352941,dimensionless,effective S2 weight when S4 is excluded
+w3_noS4,0.235294,dimensionless,effective S3 weight when S4 is excluded
+DeltaT_ref,45.6,degC,reference temperature rise from CAT 3516C MPEB 3V critical case
+SSS_Normal,0-40,score,normal operation
+SSS_Warning,40-70,score,warning/intensified monitoring
+SSS_Alert,70-85,score,alert/high severity
+SSS_Critical,85-100,score,critical/immediate action

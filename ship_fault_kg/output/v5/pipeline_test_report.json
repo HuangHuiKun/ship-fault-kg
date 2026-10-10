@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": {
+    "cached_rebuild_matches_deployed_snapshot": true,
+    "real_old_database_preserved": true,
+    "original_sqlite_sha256_unchanged": true,
+    "restore_plan_valid_without_database_write": true,
+    "readable_csv_complete": true,
+    "root_csv_matches_v5": true,
+    "no_passage_assertion_run_sensor_nodes": true,
+    "archive_files_sha256_match": true,
+    "xlsx_zip_integrity": true,
+    "xlsx_has_four_review_sheets": true,
+    "xlsx_cached_formulas_have_no_errors": true
+  },
+  "archive_files_checked": 143,
+  "excluded_machine_artifacts": [
+    "__pycache__/corpus_knowledge.cpython-312.pyc",
+    "__pycache__/curated_cases.cpython-312.pyc",
+    "__pycache__/expanded_cases.cpython-312.pyc",
+    "__pycache__/fault_profiles.cpython-312.pyc",
+    "output/~$船舶动力系统故障知识图谱_构建与检索计划_V4.3_20261008.pptx"
+  ],
+  "note": "恢复SQL只作结构校验，未实际回滚当前数据库；重建一致性以当前已部署快照为比较基准。"
+}
