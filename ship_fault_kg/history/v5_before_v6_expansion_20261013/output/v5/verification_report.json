@@ -1,0 +1,169 @@
+{
+  "passed": true,
+  "errors": [],
+  "snapshot_sha256": "852fc308fbc3603e7931da56f83677116dcc58947d9c3701d1c24ebe223c3b8b",
+  "raw_sources_verified": 46,
+  "edges": 3343,
+  "unique_business_triples": 3327,
+  "unique_scoped_triples": 3332,
+  "smoke_tests": [
+    {
+      "query": "拉缸",
+      "gold_name": "缸套黏着拉伤",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "缸套黏着拉伤",
+        "缸套局部拉伤",
+        "缸套裂纹"
+      ],
+      "evidence_assertions": 61
+    },
+    {
+      "query": "轴瓦烧伤",
+      "gold_name": "轴瓦烧伤",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "轴瓦烧伤",
+        "增压器轴承烧伤",
+        "主轴瓦磨损失效"
+      ],
+      "evidence_assertions": 41
+    },
+    {
+      "query": "压气机喘振",
+      "gold_name": "压气机喘振",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "压气机喘振",
+        "压气机叶片损坏",
+        "压气机叶轮变形"
+      ],
+      "evidence_assertions": 25
+    },
+    {
+      "query": "排气阀烧损",
+      "gold_name": "排气阀烧损",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "排气阀烧损",
+        "排气阀磨损",
+        "排气阀故障"
+      ],
+      "evidence_assertions": 3
+    },
+    {
+      "query": "离合器打滑",
+      "gold_name": "离合器打滑",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "离合器打滑",
+        "离合器活塞磨损",
+        "主机离合器脱开"
+      ],
+      "evidence_assertions": 16
+    },
+    {
+      "query": "喷油器喷嘴堵塞",
+      "gold_name": "喷油器喷嘴堵塞",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "喷油器喷嘴堵塞",
+        "喷油器泄漏",
+        "喷油器裂纹"
+      ],
+      "evidence_assertions": 3
+    },
+    {
+      "query": "共轨冲洗单向阀止回失效",
+      "gold_name": "共轨冲洗单向阀止回失效",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "共轨冲洗单向阀止回失效",
+        "共轨滑油泄漏",
+        "主轴瓦磨损失效"
+      ],
+      "evidence_assertions": 10
+    },
+    {
+      "query": "测速板整形比较器输出故障",
+      "gold_name": "测速板整形比较器输出故障",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "测速板整形比较器输出故障",
+        "排气阀故障",
+        "安全停车中间继电器故障"
+      ],
+      "evidence_assertions": 6
+    },
+    {
+      "query": "发电机内部短路",
+      "gold_name": "发电机内部短路",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "发电机内部短路",
+        "发电机短路或非同期并机",
+        "发电机绝缘热劣化"
+      ],
+      "evidence_assertions": 5
+    },
+    {
+      "query": "主轴承咬死",
+      "gold_name": "主轴承咬死",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "主轴承咬死",
+        "轴承咬死与烧瓦（工程检索统称）",
+        "主轴承损伤"
+      ],
+      "evidence_assertions": 21
+    },
+    {
+      "query": "缸套裂纹",
+      "gold_name": "缸套裂纹",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "缸套裂纹",
+        "齿轮裂纹",
+        "喷油器裂纹"
+      ],
+      "evidence_assertions": 6
+    },
+    {
+      "query": "海水泵轴封失效",
+      "gold_name": "海水泵轴封失效",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "海水泵轴封失效",
+        "水泵轴承磨损",
+        "海水泵密封摩擦副磨损"
+      ],
+      "evidence_assertions": 5
+    },
+    {
+      "query": "主机可能拉缸，排气温度升高，冷却水出口温度偏高",
+      "gold_name": "缸套黏着拉伤",
+      "rank": 1,
+      "found": true,
+      "returned_faults": [
+        "缸套黏着拉伤",
+        "冷却水泵吸空",
+        "冷却水管路汽蚀"
+      ],
+      "evidence_assertions": 67
+    }
+  ],
+  "smoke_passed": 13,
+  "evaluation_note": "12个故障短词加1个诊断文本样例仅为开发冒烟测试，不是独立检索质量评估；旧38/24题尚未迁移，不能沿用旧指标。"
+}

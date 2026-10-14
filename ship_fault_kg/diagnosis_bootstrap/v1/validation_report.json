@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": {
+    "passed": 3677
+  },
+  "errors": [],
+  "json_schema_validation": "passed_current_schema_keywords_stdlib",
+  "report_count": 100,
+  "reference_evidence_links": 370,
+  "candidate_paths": 104,
+  "knowledge_graph_unchanged": true,
+  "note": "自动检查验证结构、数值、引用和分区一致性，不证明合成诊断合理性、实船有效性或完整标签正确性。"
+}

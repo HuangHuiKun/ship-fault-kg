@@ -1,0 +1,718 @@
+{
+  "date": "2026-10-13",
+  "graph_version": "6.0-assistant-in-progress",
+  "scope": "代表性片段审阅；不是全文审阅",
+  "sources_processed": 77,
+  "sources_with_claims": 74,
+  "sources_excluded": 3,
+  "new_direct_statements": 189,
+  "before": {
+    "nodes": 5178,
+    "edges": 13229,
+    "direct_statements": 3085,
+    "reviewed_sources": 185,
+    "pending_sources": 1077
+  },
+  "after": {
+    "nodes": 5581,
+    "edges": 14071,
+    "direct_statements": 3274,
+    "reviewed_sources": 262,
+    "pending_sources": 1000
+  },
+  "sources": [
+    {
+      "index": 1,
+      "source_id": "src:bc7523ad3fdf93ec8fab8dfa",
+      "title": "船机帮一例船舶发电机滑油日耗量增加故障分析",
+      "claims": 3,
+      "batch": "batch_034.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 2,
+      "source_id": "src:8c7304ae18afb9e6678f43ed",
+      "title": "船机帮中高速柴油机润滑故障排查",
+      "claims": 2,
+      "batch": "batch_034.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 3,
+      "source_id": "src:9c3c7c29f5e04097b9c6699e",
+      "title": "船机帮MAN10L3244CR柴油机燃油系统故障分析及管理建议",
+      "claims": 4,
+      "batch": "batch_034.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 4,
+      "source_id": "src:9fe8bd080cd3e2052454f90d",
+      "title": "船机帮小型船用柴油机涡轮增压器漏油故障分析",
+      "claims": 3,
+      "batch": "batch_034.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 5,
+      "source_id": "src:5e26e42a8eaa098563e86d55",
+      "title": "船机帮船用12PA6V280型柴油机PCOT报警停车故障分析与排除",
+      "claims": 3,
+      "batch": "batch_034.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 6,
+      "source_id": "src:dcf47fd4147cb31ea10a7e98",
+      "title": "船机帮船用中速柴油机凸轮轴故障原因及分析",
+      "claims": 3,
+      "batch": "batch_034.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 7,
+      "source_id": "src:2a8139e2012c2281e799d9f1",
+      "title": "船机帮QSK60型柴油机冒黑烟故障诊断策略",
+      "claims": 3,
+      "batch": "batch_034.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 8,
+      "source_id": "src:ea897675b69f8fe4ab2c6c4e",
+      "title": "船机帮一例ABBVTR160增压器喘振非常规故障的排除及原因分析",
+      "claims": 1,
+      "batch": "batch_034.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 9,
+      "source_id": "src:98cc04ed3420f13bd4734460",
+      "title": "船机帮某船副机振动故障定位与排除",
+      "claims": 3,
+      "batch": "batch_034.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 10,
+      "source_id": "src:accee668e3eaf08be195b5c6",
+      "title": "船机帮某船发电柴油机启动困难故障分析与排除",
+      "claims": 2,
+      "batch": "batch_034.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 11,
+      "source_id": "src:5ecbdef0b95d8924328a5f77",
+      "title": "船机帮柴油发电机组负荷突降故障分析及解决方案",
+      "claims": 1,
+      "batch": "batch_035.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 12,
+      "source_id": "src:1e1d0f5caffe880b7d4d8c2c",
+      "title": "船机帮MTU16V396TE74L柴油机的排烟异常及故障浅析",
+      "claims": 2,
+      "batch": "batch_035.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 13,
+      "source_id": "src:e06efaa64b28935a98f8d6a6",
+      "title": "船机帮PA6柴油机STC增压器故障案例分析排除",
+      "claims": 3,
+      "batch": "batch_035.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 14,
+      "source_id": "src:8f3c32d3f0403c24add8c07c",
+      "title": "船机帮中高速大功率柴油机轴瓦故障原因分析及预防措施",
+      "claims": 2,
+      "batch": "batch_035.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 15,
+      "source_id": "src:78090a38ef453ea1f28bc635",
+      "title": "船机帮大型柴油机两侧增压器转速差增大故障原因及排查方法",
+      "claims": 4,
+      "batch": "batch_035.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 16,
+      "source_id": "src:b407bdeedae1a4c6d541e2fc",
+      "title": "船机帮废气涡轮增压器典型故障分析与排除以康明斯NTA855型柴油机为例",
+      "claims": 3,
+      "batch": "batch_035.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 17,
+      "source_id": "src:9bce701599fde736c05c9f9b",
+      "title": "船机帮浅析船舶建造中柴油机的故障",
+      "claims": 4,
+      "batch": "batch_035.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 18,
+      "source_id": "src:0e4f40f78c3b9cf27e80a214",
+      "title": "船机帮瓦锡兰柴油机高温水传感器报警故障分析",
+      "claims": 2,
+      "batch": "batch_035.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 19,
+      "source_id": "src:6c1f7397198d90f80d4fd581",
+      "title": "船机帮CENTRIESHAPPYquot轮发电柴油机增压器故障分析",
+      "claims": 4,
+      "batch": "batch_035.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 20,
+      "source_id": "src:e5954d533b0fe88db2b0bfdc",
+      "title": "船机帮原油主机调速系统介绍及游车故障实例",
+      "claims": 4,
+      "batch": "batch_035.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 21,
+      "source_id": "src:f37d049bc5eb9e0d2ec7c23a",
+      "title": "船机帮某型柴油机滑油压力低故障原因分析与处理",
+      "claims": 3,
+      "batch": "batch_036.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 22,
+      "source_id": "src:39155d1adda5d40f9217d922",
+      "title": "船机帮某船中速主机止推轴承高温故障原因分析及解决方案",
+      "claims": 1,
+      "batch": "batch_036.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 23,
+      "source_id": "src:c1cf09ad5e9804b950450ca2",
+      "title": "船机帮某船副机高压油泵内弹簧损坏故障实例",
+      "claims": 3,
+      "batch": "batch_036.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 24,
+      "source_id": "src:da520d98a5f66b77500fff53",
+      "title": "船机帮某船用柴油机拉缸故障分析",
+      "claims": 3,
+      "batch": "batch_036.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 25,
+      "source_id": "src:c0ecc9633763b0370c603eff",
+      "title": "船机帮洋马6EY26柴油机冷却器泄漏故障原因及解决方案",
+      "claims": 3,
+      "batch": "batch_036.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 26,
+      "source_id": "src:6178a85e1e414a408adc26c2",
+      "title": "船机帮船舶发电柴油机连杆故障分析",
+      "claims": 2,
+      "batch": "batch_036.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 27,
+      "source_id": "src:51c7c2d777be476ebabc9b8f",
+      "title": "船机帮船舶柴油机惊现金属碎屑故障树分析揪出主轴瓦损伤元凶",
+      "claims": 2,
+      "batch": "batch_036.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 28,
+      "source_id": "src:52aa8ffa444be52f2f38338d",
+      "title": "船机帮190系列柴油机故障诊断与排除",
+      "claims": 2,
+      "batch": "batch_036.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 29,
+      "source_id": "src:620418f0efeb5205355271af",
+      "title": "船机帮MANL4860CＲ型主机燃油系统故障",
+      "claims": 1,
+      "batch": "batch_036.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 30,
+      "source_id": "src:cd26df62d54ee1fe36e3c572",
+      "title": "船机帮PA6B柴油机缸套异常磨损机理分析",
+      "claims": 3,
+      "batch": "batch_036.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 31,
+      "source_id": "src:b315974b3228638cc773e1b4",
+      "title": "船机帮TBD234V6型柴油机机油压力异常故障分析",
+      "claims": 3,
+      "batch": "batch_037.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 32,
+      "source_id": "src:fe790997ca9f5ab3ac0d2294",
+      "title": "船机帮关于某型中速柴油机排温高故障的排查和讨论",
+      "claims": 2,
+      "batch": "batch_037.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 33,
+      "source_id": "src:dc46887df31dd2361104b2e6",
+      "title": "船机帮几例船舶主机故障现象及其分析",
+      "claims": 3,
+      "batch": "batch_037.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 34,
+      "source_id": "src:0f883e2dd0556d8b4d44605c",
+      "title": "船机帮大功率发动机缸套异常磨损原因分析与优化",
+      "claims": 2,
+      "batch": "batch_037.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 35,
+      "source_id": "src:e4622a3a74b726879eece983",
+      "title": "船机帮某型柴油机砸缸故障原因分析",
+      "claims": 1,
+      "batch": "batch_037.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 36,
+      "source_id": "src:d6589374ccbf7ea95101690a",
+      "title": "船机帮某大功率主机缸套活塞异常磨损原因分析",
+      "claims": 3,
+      "batch": "batch_037.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 37,
+      "source_id": "src:b736ba3eea94b6f4da3dfbe2",
+      "title": "船机帮某海轮主机偶发不能启动故障分析",
+      "claims": 2,
+      "batch": "batch_037.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 38,
+      "source_id": "src:947ecd31d2abe69d4b5d1141",
+      "title": "船机帮某艇TBD620柴油机拉缸故障原因分析及排除措施",
+      "claims": 3,
+      "batch": "batch_037.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 39,
+      "source_id": "src:dd95f9fd83d1e9476e9c3f65",
+      "title": "船机帮某轮主机增压器转子断裂故障的分析与处理",
+      "claims": 4,
+      "batch": "batch_037.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 40,
+      "source_id": "src:fca5e4a42bf783e3e43086d1",
+      "title": "船机帮某轮主机连杆大端轴瓦烧损的原因及排除",
+      "claims": 3,
+      "batch": "batch_037.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 41,
+      "source_id": "src:9106494f66f36577c468e737",
+      "title": "船机帮浅谈瓦锡兰9L20柴油机故障分析与管理",
+      "claims": 0,
+      "batch": "batch_038.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": "只审阅代表性段落；启动电机与喷嘴术语混用，电启动和气启动叙述缺少构型解释，暂不采纳该段，未对全文做最终判定。"
+    },
+    {
+      "index": 42,
+      "source_id": "src:8ff4f48ee68826f510f70e4b",
+      "title": "船机帮海洋石油295船滑油分油机排渣口跑油故障分析及维修",
+      "claims": 1,
+      "batch": "batch_038.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 43,
+      "source_id": "src:710a91f2b24b5b7a7a7ff5a6",
+      "title": "船机帮船用中高速柴油机轴瓦故障原因分析及预防措施",
+      "claims": 0,
+      "batch": "batch_038.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": "所读代表性段落与本轮第13个来源的轴瓦烧熔检查近似重复，没有新增机理；只排除该段，不声称全文无新增知识。"
+    },
+    {
+      "index": 44,
+      "source_id": "src:63608c0eb92004537a36e534",
+      "title": "船机帮船用柴油主机的几种故障分析",
+      "claims": 2,
+      "batch": "batch_038.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 45,
+      "source_id": "src:cb3e4d95f5d206841babb93f",
+      "title": "船机帮防范四冲程柴油机曲柄销轴承损坏的措施",
+      "claims": 4,
+      "batch": "batch_038.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 46,
+      "source_id": "src:60f32c75cc8e192e5385ccb0",
+      "title": "船机帮DUSULZEＲ6ＲTA72型主机排气阀液压驱动机构滚轮异常磨损故障实例",
+      "claims": 2,
+      "batch": "batch_038.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 47,
+      "source_id": "src:4d49b72de34980c79da78690",
+      "title": "船机帮从一起船舶主机拉缸故障谈柴油机润滑油的选用",
+      "claims": 2,
+      "batch": "batch_038.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 48,
+      "source_id": "src:086f0eb1cd848645405061af",
+      "title": "船机帮基于气启动方式的港口拖轮主机故障分析与研究",
+      "claims": 2,
+      "batch": "batch_038.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 49,
+      "source_id": "src:be02639b611833af31345bb2",
+      "title": "船机帮某16V柴油机增压器漏油故障排查与分析",
+      "claims": 2,
+      "batch": "batch_038.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 50,
+      "source_id": "src:7eacdce5a3dd30f57c790e44",
+      "title": "船机帮某船MTU956V20型主柴油机故障原因分析",
+      "claims": 2,
+      "batch": "batch_038.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 51,
+      "source_id": "src:b7025f55d16646b95363d038",
+      "title": "船机帮绞吸式挖泥船主机常见故障诊断与分析",
+      "claims": 2,
+      "batch": "batch_039.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 52,
+      "source_id": "src:5746c8f69e7cd1d45087c5ab",
+      "title": "船机帮9L2027柴油机连杆轴承烧蚀故障分析与排除",
+      "claims": 1,
+      "batch": "batch_039.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 53,
+      "source_id": "src:8bb690ae2136f4d4019627f6",
+      "title": "船机帮MANBampWMEB电喷主机MEV阀故障",
+      "claims": 5,
+      "batch": "batch_039.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 54,
+      "source_id": "src:cabd6cb579ff612fff5df23b",
+      "title": "船机帮MANBampWMECB电喷主机常见故障及管理浅析",
+      "claims": 4,
+      "batch": "batch_039.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 55,
+      "source_id": "src:bb5ab78cc5b23f55ec8e3744",
+      "title": "船机帮MSCBelem轮副机超速故障分析与处理",
+      "claims": 2,
+      "batch": "batch_039.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 56,
+      "source_id": "src:9e6b789a2c23201d08db6b79",
+      "title": "船机帮一次主机气缸油注入故障",
+      "claims": 1,
+      "batch": "batch_039.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 57,
+      "source_id": "src:28a77abb02044880327c2dc4",
+      "title": "船机帮关于12VPA6280型柴油机连杆瓦故障分析及改进措施",
+      "claims": 1,
+      "batch": "batch_039.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 58,
+      "source_id": "src:64dafecb4d9acbd8d8e4b94d",
+      "title": "船机帮关于MC型主机气缸注油器的故障案例分析",
+      "claims": 1,
+      "batch": "batch_039.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 59,
+      "source_id": "src:4f2b669fb1bafcbf26acea12",
+      "title": "船机帮关于MTU396TE系列柴油机少水的故障分析及其排除",
+      "claims": 2,
+      "batch": "batch_039.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 60,
+      "source_id": "src:a88657d5f964a76ca4e7b3fb",
+      "title": "船机帮关于某轮主机高压油泵故障的排除及思考",
+      "claims": 1,
+      "batch": "batch_039.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 61,
+      "source_id": "src:b31d2fec68e011e7a1065a98",
+      "title": "船机帮副机高压油泵咬死故障分析与应对",
+      "claims": 4,
+      "batch": "batch_040.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 62,
+      "source_id": "src:10e6c3e55c2ec7ea93687fd8",
+      "title": "船机帮如何根据示功阀的排放物判断柴油机故障",
+      "claims": 4,
+      "batch": "batch_040.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 63,
+      "source_id": "src:1cdfbd919c5c17f6ca4d898b",
+      "title": "船机帮某型柴油发电机组超功率故障原因分析及排除",
+      "claims": 2,
+      "batch": "batch_040.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 64,
+      "source_id": "src:cfdfc922a2e62ecd05c4fe4a",
+      "title": "船机帮某型柴油机异常停机故障原因分析",
+      "claims": 2,
+      "batch": "batch_040.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 65,
+      "source_id": "src:96404dc56f79df2e913607a4",
+      "title": "船机帮某型柴油机气缸套损坏故障诊断分析",
+      "claims": 2,
+      "batch": "batch_040.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 66,
+      "source_id": "src:39cf515a6b874909bd3c347a",
+      "title": "船机帮某型柴油机系泊试验时的故障分析与排除",
+      "claims": 4,
+      "batch": "batch_040.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 67,
+      "source_id": "src:bb39778483db6f1a5a5c1bd7",
+      "title": "船机帮某型柴油机高压燃油泵滚轮衬套磨损脱落失效分析",
+      "claims": 2,
+      "batch": "batch_040.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 68,
+      "source_id": "src:9c156fb3e0f55f2ef6eabef7",
+      "title": "船机帮某船发电柴油机排气温度过高故障分析及排除",
+      "claims": 2,
+      "batch": "batch_040.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 69,
+      "source_id": "src:ec03214cb2bb002480e1f225",
+      "title": "船机帮某轮船舶发电机损坏故障诊断与分析",
+      "claims": 5,
+      "batch": "batch_040.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 70,
+      "source_id": "src:d164120bf2aa14209a2eece9",
+      "title": "船机帮某轮试航时主机咬缸故障的原因分析",
+      "claims": 2,
+      "batch": "batch_040.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 71,
+      "source_id": "src:ff6151248f34f83fed03e21c",
+      "title": "船机帮柴油机喷油器常见故障的分析与维修",
+      "claims": 4,
+      "batch": "batch_041.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 72,
+      "source_id": "src:07edff30433bdf2481ecf3fe",
+      "title": "船机帮柴油机调速系统典型故障案例分析",
+      "claims": 4,
+      "batch": "batch_041.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 73,
+      "source_id": "src:c2098d9798d8c9110081d316",
+      "title": "船机帮浅析某轮发电副机滑油变质故障",
+      "claims": 2,
+      "batch": "batch_041.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 74,
+      "source_id": "src:c4f420b496cbb09c26b66cc5",
+      "title": "船机帮煤层气发电机组故障排除",
+      "claims": 0,
+      "batch": "batch_041.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": "代表段落及标题显示为陆用煤层气机组，不是船舶动力构型；燃气阀火花塞知识可作类比但本轮为保证范围一致暂不入图。"
+    },
+    {
+      "index": 75,
+      "source_id": "src:607ecfea077ed6e09fd5a5dd",
+      "title": "船机帮燃油中CATALYSTFINES超标引起船舶柴油机故障浅析与排除",
+      "claims": 2,
+      "batch": "batch_041.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 76,
+      "source_id": "src:21891d904f0fdc9ab04406ee",
+      "title": "船机帮电控高速柴油机柴油喷射系统的常见故障及预防管理",
+      "claims": 4,
+      "batch": "batch_041.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    },
+    {
+      "index": 77,
+      "source_id": "src:88bca2de87dafc81978c785f",
+      "title": "船机帮船用柴油机发电机组振动问题的解决方法",
+      "claims": 2,
+      "batch": "batch_041.py",
+      "review_extent": "representative_excerpt",
+      "exclusion_reason": ""
+    }
+  ]
+}

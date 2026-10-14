@@ -1,0 +1,323 @@
+{
+  "version": "5.0",
+  "classes": {
+    "Vessel": "船舶",
+    "System": "系统",
+    "Equipment": "设备",
+    "Component": "部件",
+    "Fault": "故障",
+    "State": "状态",
+    "Factor": "影响因素",
+    "Parameter": "参数",
+    "Check": "检查方法",
+    "Action": "运维措施",
+    "Case": "事故案例",
+    "Source": "来源"
+  },
+  "relations": {
+    "IS_SUBSYSTEM_OF": "属于上级系统",
+    "SERVES_SYSTEM": "服务于系统",
+    "HAS_COMPONENT": "包含部件",
+    "INSTANCE_OF": "是概念的实例",
+    "APPLIES_TO": "适用于",
+    "CAUSES": "导致",
+    "CONTRIBUTES_TO": "促成",
+    "INCREASES_RISK_OF": "增加风险",
+    "WORSENS": "加剧",
+    "HAS_MANIFESTATION": "表现为",
+    "INDICATES": "提示",
+    "ASSOCIATED_WITH": "相关联",
+    "PRECEDES": "先于发生",
+    "CHECKS": "检查",
+    "ADDRESSES": "应对",
+    "ACTS_ON": "作用于",
+    "INVOLVES": "涉及",
+    "OCCURS_ON": "发生于",
+    "HAS_CASE": "发生案例",
+    "DESCRIBED_BY_PARAMETER": "以参数描述",
+    "CHARACTERIZES": "表征",
+    "USES_PARAMETER": "使用参数",
+    "IS_A": "属于概念类别",
+    "DOCUMENTED_BY": "记载于"
+  },
+  "endpoints": {
+    "IS_SUBSYSTEM_OF": [
+      [
+        "System"
+      ],
+      [
+        "System"
+      ]
+    ],
+    "SERVES_SYSTEM": [
+      [
+        "Component",
+        "Equipment"
+      ],
+      [
+        "System"
+      ]
+    ],
+    "HAS_COMPONENT": [
+      [
+        "Component",
+        "Equipment"
+      ],
+      [
+        "Component"
+      ]
+    ],
+    "APPLIES_TO": [
+      [
+        "Action",
+        "Check",
+        "Fault"
+      ],
+      [
+        "Component",
+        "Equipment",
+        "System"
+      ]
+    ],
+    "INCREASES_RISK_OF": [
+      [
+        "Factor",
+        "Fault",
+        "State"
+      ],
+      [
+        "Fault",
+        "State"
+      ]
+    ],
+    "WORSENS": [
+      [
+        "Factor",
+        "Fault",
+        "State"
+      ],
+      [
+        "Fault",
+        "State"
+      ]
+    ],
+    "CONTRIBUTES_TO": [
+      [
+        "Factor",
+        "Fault",
+        "State"
+      ],
+      [
+        "Fault",
+        "State"
+      ]
+    ],
+    "CAUSES": [
+      [
+        "Factor",
+        "Fault",
+        "State"
+      ],
+      [
+        "Fault",
+        "State"
+      ]
+    ],
+    "HAS_MANIFESTATION": [
+      [
+        "Fault"
+      ],
+      [
+        "State"
+      ]
+    ],
+    "INDICATES": [
+      [
+        "State"
+      ],
+      [
+        "Fault"
+      ]
+    ],
+    "ASSOCIATED_WITH": [
+      [
+        "Factor",
+        "Fault",
+        "State"
+      ],
+      [
+        "Factor",
+        "Fault",
+        "State"
+      ]
+    ],
+    "PRECEDES": [
+      [
+        "Fault",
+        "State"
+      ],
+      [
+        "Fault",
+        "State"
+      ]
+    ],
+    "CHECKS": [
+      [
+        "Check"
+      ],
+      [
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "State"
+      ]
+    ],
+    "ADDRESSES": [
+      [
+        "Action"
+      ],
+      [
+        "Factor",
+        "Fault",
+        "State"
+      ]
+    ],
+    "ACTS_ON": [
+      [
+        "Action"
+      ],
+      [
+        "Component",
+        "Equipment"
+      ]
+    ],
+    "INVOLVES": [
+      [
+        "Case"
+      ],
+      [
+        "Action",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "State",
+        "System",
+        "Vessel"
+      ]
+    ],
+    "OCCURS_ON": [
+      [
+        "Fault"
+      ],
+      [
+        "Component",
+        "Equipment"
+      ]
+    ],
+    "HAS_CASE": [
+      [
+        "Vessel"
+      ],
+      [
+        "Case"
+      ]
+    ],
+    "DESCRIBED_BY_PARAMETER": [
+      [
+        "State"
+      ],
+      [
+        "Parameter"
+      ]
+    ],
+    "CHARACTERIZES": [
+      [
+        "Parameter"
+      ],
+      [
+        "Component",
+        "Equipment",
+        "System"
+      ]
+    ],
+    "USES_PARAMETER": [
+      [
+        "Check"
+      ],
+      [
+        "Parameter"
+      ]
+    ],
+    "DOCUMENTED_BY": [
+      [
+        "Action",
+        "Case",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "Source",
+        "State",
+        "System",
+        "Vessel"
+      ],
+      [
+        "Source"
+      ]
+    ],
+    "INSTANCE_OF": [
+      [
+        "Action",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "State",
+        "System"
+      ],
+      [
+        "Action",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "State",
+        "System"
+      ]
+    ],
+    "IS_A": [
+      [
+        "Action",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "State",
+        "System"
+      ],
+      [
+        "Action",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "State",
+        "System"
+      ]
+    ]
+  }
+}

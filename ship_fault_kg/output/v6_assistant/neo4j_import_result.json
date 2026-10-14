@@ -1,0 +1,70 @@
+{
+  "graph_version": "6.0",
+  "database": "shipfaultkg",
+  "url": "http://127.0.0.1:7474",
+  "nodes": 5591,
+  "edges": 14334,
+  "exact_property_match": true,
+  "snapshot_sha256": "0913eb94399ab3110b2ce263592269c6d2d96ff105ad6013ecd59db717089bf3",
+  "live_sha256": "0913eb94399ab3110b2ce263592269c6d2d96ff105ad6013ecd59db717089bf3",
+  "classes": {
+    "Action": 631,
+    "Case": 88,
+    "Check": 592,
+    "Component": 301,
+    "Equipment": 312,
+    "Factor": 492,
+    "Fault": 1021,
+    "Parameter": 150,
+    "Source": 299,
+    "State": 1669,
+    "System": 28,
+    "Vessel": 8
+  },
+  "relation_types": {
+    "ACTS_ON": 183,
+    "ADDRESSES": 463,
+    "APPLIES_TO": 2136,
+    "ASSOCIATED_WITH": 61,
+    "CAUSES": 884,
+    "CHARACTERIZES": 132,
+    "CHECKS": 593,
+    "CONTRIBUTES_TO": 516,
+    "DESCRIBED_BY_PARAMETER": 16,
+    "DOCUMENTED_BY": 5806,
+    "HAS_CASE": 10,
+    "HAS_COMPONENT": 173,
+    "HAS_MANIFESTATION": 97,
+    "INCREASES_RISK_OF": 225,
+    "INDICATES": 22,
+    "INSTANCE_OF": 811,
+    "INVOLVES": 1314,
+    "IS_A": 14,
+    "IS_SUBSYSTEM_OF": 27,
+    "OCCURS_ON": 256,
+    "PRECEDES": 6,
+    "SERVES_SYSTEM": 567,
+    "USES_PARAMETER": 12,
+    "WORSENS": 10
+  },
+  "constraints": [
+    {
+      "id": 3,
+      "name": "shipkg_id",
+      "type": "NODE_PROPERTY_UNIQUENESS",
+      "entityType": "NODE",
+      "labelsOrTypes": [
+        "ShipKG"
+      ],
+      "properties": [
+        "id"
+      ],
+      "enforcedLabel": null,
+      "ownedIndex": "shipkg_id",
+      "propertyType": null
+    }
+  ],
+  "mode": "apply",
+  "backup": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v6_publication_20261013\\neo4j_live_before_v6.json",
+  "atomic_transaction": true
+}

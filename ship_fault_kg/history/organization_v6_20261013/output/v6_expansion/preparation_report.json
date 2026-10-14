@@ -1,0 +1,12 @@
+{
+  "archive": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\history\\v5_before_v6_expansion_20261013",
+  "archived_files": 50,
+  "sources_registered": 1308,
+  "sources_with_text": 1308,
+  "jobs": 6552,
+  "source_pages": 2098,
+  "empty_pages": 1,
+  "chunk_chars": 1200,
+  "overlap_chars": 180,
+  "caveat": "Every job is audited; an empty/rejected extraction is not accepted graph knowledge."
+}

@@ -1,0 +1,13 @@
+{
+  "total_sources": 1308,
+  "with_representative_excerpts": 1308,
+  "without_signal_excerpts": 0,
+  "status": {
+    "pending_assistant_review": 1000,
+    "assistant_full_text_review": 162,
+    "assistant_excerpt_review": 91,
+    "baseline_selected_evidence_only": 46,
+    "assistant_no_claim": 9
+  },
+  "method": "mechanical indexing only; not assistant inference or knowledge declarations"
+}

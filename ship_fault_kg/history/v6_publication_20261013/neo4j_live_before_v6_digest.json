@@ -1,0 +1,7 @@
+{
+  "sha256": "852fc308fbc3603e7931da56f83677116dcc58947d9c3701d1c24ebe223c3b8b",
+  "nodes": 1356,
+  "edges": 3343,
+  "database": "shipfaultkg",
+  "includes_all_properties": true
+}

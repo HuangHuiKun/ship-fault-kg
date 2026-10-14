@@ -1,0 +1,14 @@
+{
+  "nodes": 5591,
+  "edges": 14334,
+  "isolated_rebuild_matches_published_snapshot": true,
+  "sqlite_integrity": "ok",
+  "snapshot_sha256": "0913eb94399ab3110b2ce263592269c6d2d96ff105ad6013ecd59db717089bf3",
+  "archived_files": 110,
+  "neo4j_changed": false,
+  "removed_from_active_output": [
+    "v5",
+    "v6_expansion"
+  ],
+  "note": "V5 baseline remains an archived read-only build dependency; expansion has zero valid statements."
+}

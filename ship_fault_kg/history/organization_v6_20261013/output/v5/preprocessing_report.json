@@ -1,0 +1,16 @@
+{
+  "source_count": 1308,
+  "corpus_files": 1275,
+  "duplicate_paths": 0,
+  "passages": 6358,
+  "dataset_records": 16,
+  "parameters": 74,
+  "issues": [
+    {
+      "file": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg_data\\02_reports\\STAMFORD_AGN076_alternator_bearings.pdf",
+      "page": 9,
+      "issue": "No text; OCR/review required"
+    }
+  ],
+  "note": "数据集原有train/val/test目录仅为来源信息，不作为新检索实验的划分；来源注册数量不等于Neo4j Source节点数。"
+}

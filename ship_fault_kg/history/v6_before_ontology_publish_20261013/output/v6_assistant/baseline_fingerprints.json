@@ -1,0 +1,7 @@
+{
+  "entities.jsonl": "cb9a0702f638136801658bf5cb415f3a8639759d22288d4c877c8af602e800c6",
+  "relationships.jsonl": "4180069d4ab81aea41ae5e52f0ee02c284a4e81db91eb5e57a6902f4b77692a0",
+  "assertions.jsonl": "eeab9a8c1bccfbd08f4da768e39f7995bed118c9ba3f4dd4726027627ae376ff",
+  "ship_fault_kg.sqlite": "40390f5a8935690c6d811ded89ed49b00ba8566ddaed47dd903210856158c218",
+  "neo4j_snapshot_v5.json": "20cd9fd462e574c4c598785990352e1ff2c56155becddcd7782377fae76984b4"
+}

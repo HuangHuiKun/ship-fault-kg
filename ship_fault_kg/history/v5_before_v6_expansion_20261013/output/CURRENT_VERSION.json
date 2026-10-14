@@ -1,0 +1,7 @@
+{
+  "version": "5.0",
+  "sqlite": "v5/ship_fault_kg.sqlite",
+  "entrypoint": "../manage_v5.py",
+  "report": "v5/新版知识图谱构建与建库报告_V5.md",
+  "legacy_backup": "history/v4_3_before_v5_rebuild_20261009"
+}

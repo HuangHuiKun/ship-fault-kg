@@ -1,0 +1,9 @@
+{
+  "version": "6.0",
+  "rows": 14334,
+  "columns": 22,
+  "node_count": 5591,
+  "all_values_match": true,
+  "encoding": "UTF-8 BOM",
+  "output": "D:\\RAGQnASystem\\RAGQnASystem-main\\ship_fault_kg\\output\\知识图谱_关系节点属性.csv"
+}

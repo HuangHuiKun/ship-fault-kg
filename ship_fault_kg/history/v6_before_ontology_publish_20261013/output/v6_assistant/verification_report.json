@@ -1,0 +1,234 @@
+{
+  "graph_version": "6.0-assistant-in-progress",
+  "checks": [
+    {
+      "name": "unique_entity_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unique_edge_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unique_assertion_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "every_edge_has_entities_and_assertion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "valid_relation_endpoints",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_authored_records_pass_raw_source_quote_and_type_gates",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "authored_statement_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_authored_claims_mark_assistant_not_expert",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_authored_quotes_match_exported_claim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline_nodes_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline_edges_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "baseline_files_unchanged_since_build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "archived_v5_files_match_manifest",
+      "passed": true,
+      "detail": {
+        "checked_files": 50,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "archived_v5_graph_matches_current_v5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sqlite_integrity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sqlite_export_counts_agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sqlite_entity_values_agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_entity_ids_agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_edge_ids_agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "snapshot_properties_do_not_contain_nested_maps",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reject_unknown_source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reject_unrecorded_review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reject_invented_quote",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reject_action_as_causal_subject",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "round_077_exactly_77_unique_processed_sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "round_077_partial_review_and_exclusion_extent_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reject_claim_evidence_outside_declared_reviewed_excerpt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coverage_lists_all_registered_sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reading_queue_covers_every_registered_source_without_claiming_review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reading_queue_excerpts_are_literal_source_text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reading_queue_review_status_matches_current_coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only_actually_curated_sources_marked_full_review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only_actually_curated_sources_marked_excerpt_review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parameter_property_evidence_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retrieval_smoke:凸轮轴轴承烧伤",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retrieval_smoke:连杆大端击穿机体",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retrieval_smoke:发电机电刷卡住",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retrieval_smoke:精密偶件卡紧咬死",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retrieval_smoke:VIT电气转换器失效",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retrieval_smoke:供电副机因燃油进气停车",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retrieval_smoke:舵桨离合器接排失败",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retrieval_smoke:发电机输入端轴承保持架碎裂",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retrieval_smoke:ME-V阀驱动活塞卡阻",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retrieval_smoke:柴油机启动超速",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed_checks": 44,
+  "total_checks": 44,
+  "all_passed": true,
+  "mechanism_and_maintenance_edges": 3393,
+  "unique_concept_business_triples": 3378,
+  "note": "测试只核验存储、类型、引句定位与样例可检索，不证明声明机理正确，不代表专家审核或正式Recall/MRR评价。"
+}

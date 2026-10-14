@@ -1,0 +1,257 @@
+{
+  "created_at": "2026-10-13T12:40:20.649611",
+  "files": [
+    {
+      "path": "manage_v5.py",
+      "sha256": "47f15e258a192bb3ce26d3fd3957735d4a021d70ee560b31dfa0d9b804e26bcc",
+      "bytes": 530
+    },
+    {
+      "path": "output/CURRENT_VERSION.json",
+      "sha256": "e5817b247504d1911c9d288270598a683ea846a813f942e3155c7d090dc09de1",
+      "bytes": 228
+    },
+    {
+      "path": "output/v5/assertions.jsonl",
+      "sha256": "eeab9a8c1bccfbd08f4da768e39f7995bed118c9ba3f4dd4726027627ae376ff",
+      "bytes": 7063406
+    },
+    {
+      "path": "output/v5/build_report.json",
+      "sha256": "ea3a117977b129ba09616fa8d4ca0b707450e0f1ec80b3f267fce45d634f3507",
+      "bytes": 2936
+    },
+    {
+      "path": "output/v5/dataset_records.jsonl",
+      "sha256": "a5112bb82a0c6793ffebc9e3205f8a81a911c54fcc3c90e64c57593d18f343d8",
+      "bytes": 8097
+    },
+    {
+      "path": "output/v5/deployment_backups/8393c2a3111991191328f921a6a7ae46fe6e4b7a0d4c342ffbb6d894b9f34b90.json",
+      "sha256": "1ea951fac43ffd91931f851080a92e9aac9595aac3d89298b5a4ff6193d15d5f",
+      "bytes": 6136635
+    },
+    {
+      "path": "output/v5/entities.jsonl",
+      "sha256": "cb9a0702f638136801658bf5cb415f3a8639759d22288d4c877c8af602e800c6",
+      "bytes": 539121
+    },
+    {
+      "path": "output/v5/entity_inventory_v5.md",
+      "sha256": "9479d0b141bb0cda163da72e80c478bed86b402aff768ec84e3eb11ca075a1c6",
+      "bytes": 7557
+    },
+    {
+      "path": "output/v5/last_deployed_snapshot.json",
+      "sha256": "d6f8d225fe8418d23d7d98c5e7ae190c63e8e2cc38f6e58de6f25ca83f2a96d7",
+      "bytes": 6126950
+    },
+    {
+      "path": "output/v5/migration_exclusions.jsonl",
+      "sha256": "26357a64a0a5fbb16b894539477e14aac308d3372bf4290c940db3b44f2c73ef",
+      "bytes": 4697
+    },
+    {
+      "path": "output/v5/neo4j_import_result.json",
+      "sha256": "febe874dcd4b3a070fc3d9eb8eb975d27d61cb406ce92ba80ecdf4ee850bcc01",
+      "bytes": 92
+    },
+    {
+      "path": "output/v5/neo4j_snapshot_v5.json",
+      "sha256": "20cd9fd462e574c4c598785990352e1ff2c56155becddcd7782377fae76984b4",
+      "bytes": 6126601
+    },
+    {
+      "path": "output/v5/neo4j_verify_result.json",
+      "sha256": "be09d75ea93320ef0a240ef391372fca82bc89994006e3ae50154f76eb274c3c",
+      "bytes": 678
+    },
+    {
+      "path": "output/v5/outputs/kg_v5_20261009/summary_preview.png",
+      "sha256": "6a0c5b79ac7eeb58327c27a696544eafcfe2da755309155b6296fb0e9efd5ab1",
+      "bytes": 97904
+    },
+    {
+      "path": "output/v5/outputs/kg_v5_20261009/知识图谱清单_V5.xlsx",
+      "sha256": "8a0d93532161359fd24ea877ebda2270b40908c0bf95075b9d026ff5f2821910",
+      "bytes": 862181
+    },
+    {
+      "path": "output/v5/outputs/kg_v5_20261009/知识图谱清单_V5.xlsx.inspect.ndjson",
+      "sha256": "772031e818ea595a48d70d6c755aa2b3da9738d4f9ef7bec1f003b2a00b88c53",
+      "bytes": 20559226
+    },
+    {
+      "path": "output/v5/parameter_dictionary.jsonl",
+      "sha256": "646fcfcbd098468d025f318c3ef3066525b8e51d5c1de8163e0a6899db7233c2",
+      "bytes": 24481
+    },
+    {
+      "path": "output/v5/passages.jsonl",
+      "sha256": "27b457aedaec9d4f6a5e9c96b14b2dd2ad6fb8483417f8d32b480e872de84613",
+      "bytes": 15078610
+    },
+    {
+      "path": "output/v5/pipeline_test_report.json",
+      "sha256": "f9b88422f2b72d52b0908a9e82539d051d8d93efc631929acd0eaa05eb5902ee",
+      "bytes": 1038
+    },
+    {
+      "path": "output/v5/preprocess_cache.json",
+      "sha256": "17f20c86dac38521687572c08c343f696e625e0a283436ac4a49f85965393b0e",
+      "bytes": 87
+    },
+    {
+      "path": "output/v5/preprocessed_pages.jsonl",
+      "sha256": "4b3f1be277662f6307afaa3d3634811578833bec7774d0a0590547688e470ae3",
+      "bytes": 26057250
+    },
+    {
+      "path": "output/v5/preprocessing_report.json",
+      "sha256": "6b4db5050c6606cc7e9cf2a27e3bdc36e9d8cd2e5c2d27192ffc44889e085a7b",
+      "bytes": 531
+    },
+    {
+      "path": "output/v5/qa/MAN_SL2016_633_piston_rings_scuffing_2.png",
+      "sha256": "48e2d8fdb44c5a6da1842ebb691649cad7382de1c0889c0159d30f16f8391a70",
+      "bytes": 344349
+    },
+    {
+      "path": "output/v5/qa/STAMFORD_AGN040_winding_insulation_7.png",
+      "sha256": "422d1412911f69a39425e04838a1c5be0352b83770f5000f29fff29a87a0db12",
+      "bytes": 269934
+    },
+    {
+      "path": "output/v5/qa/STAMFORD_AGN076_alternator_bearings_8.png",
+      "sha256": "bf086dddb51c7b7842eade7ce27c7ff47d4a05ea9b35ef7cff2eed9c333c6204",
+      "bytes": 90605
+    },
+    {
+      "path": "output/v5/queries_v5.cypher",
+      "sha256": "294229b3a9fee098f2b3c3d8c3857ed03987b0fcaa69a4031d5b3da85dd8677a",
+      "bytes": 2510
+    },
+    {
+      "path": "output/v5/relationships.jsonl",
+      "sha256": "4180069d4ab81aea41ae5e52f0ee02c284a4e81db91eb5e57a6902f4b77692a0",
+      "bytes": 4352171
+    },
+    {
+      "path": "output/v5/retrieval_example.json",
+      "sha256": "55d73e1de1401d081cd591a772b905a9f0146c4dfa1abe4fcf5ac71f42d83705",
+      "bytes": 85629
+    },
+    {
+      "path": "output/v5/schema.json",
+      "sha256": "ef62b2f39d68c6c768ac56ac6e381ad73df2c87d2d6a6d36c5bf32642d595944",
+      "bytes": 5401
+    },
+    {
+      "path": "output/v5/ship_fault_kg.sqlite",
+      "sha256": "40390f5a8935690c6d811ded89ed49b00ba8566ddaed47dd903210856158c218",
+      "bytes": 51331072
+    },
+    {
+      "path": "output/v5/shipkg_v5.grass",
+      "sha256": "934a84a7ab32658dbde600645abc34eb125564e8b65830000091d7c021e7c72f",
+      "bytes": 1063
+    },
+    {
+      "path": "output/v5/sources.jsonl",
+      "sha256": "6fccb64be72b9b82dde7b01e7a21d3c179ae74a27affdcba556116a277402cba",
+      "bytes": 804497
+    },
+    {
+      "path": "output/v5/verification_report.json",
+      "sha256": "9b600ca050c04a62924c42d40e2d490903223b5a61547966ba92d7b48fa423f0",
+      "bytes": 4501
+    },
+    {
+      "path": "output/v5/新版知识图谱构建与建库报告_V5.md",
+      "sha256": "ab1cf6b26239cafc25de11a606b2cde0cdec7c48ea41c3b7d2c556d0f8ec695f",
+      "bytes": 29808
+    },
+    {
+      "path": "output/v5/知识图谱_关系节点属性_V5.csv",
+      "sha256": "770070fad30e0ca307fc9699d6bf7077cf2adb2db2231a6e4d4a8aafeb5d8fc3",
+      "bytes": 1432893
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "d50262aecb2c8d45e7301b801604f9f9537845a4c4042f6b631a00d2335ab67a",
+      "bytes": 13399
+    },
+    {
+      "path": "v5/__init__.py",
+      "sha256": "7c75660b04b32b27e5f8b9f0a38c6e3bd07291f7e304f77d7b85bd7759cc79de",
+      "bytes": 79
+    },
+    {
+      "path": "v5/archive_legacy.py",
+      "sha256": "103cec9bea85de61e0794509eaa7b0cff8716e1e4b05872f60d662c6dd58f4f5",
+      "bytes": 2003
+    },
+    {
+      "path": "v5/build.py",
+      "sha256": "653edb7174825817e9547ab6a2bf072b62324b35bdf4caeb10e56a0dfc199243",
+      "bytes": 37903
+    },
+    {
+      "path": "v5/build_inventory.mjs",
+      "sha256": "788797d9243e27b83d2a4da93f0b6382cb2481693bdd378f9a6abba362ce9806",
+      "bytes": 8035
+    },
+    {
+      "path": "v5/curation.py",
+      "sha256": "a9acb29f889bf327e66a485794374fe83cc42f3a74a2098b5dbcf7abf7811a52",
+      "bytes": 60880
+    },
+    {
+      "path": "v5/neo4j.py",
+      "sha256": "ecfbc2a218d85051593c25d34099e55b92ede980132184bff78731eddfe6d69a",
+      "bytes": 8177
+    },
+    {
+      "path": "v5/pdf_qa.py",
+      "sha256": "4a0de4c89687e8073d758e582099e5ef62dacc7a30bcd926e18dfa77b872160f",
+      "bytes": 664
+    },
+    {
+      "path": "v5/preprocess.py",
+      "sha256": "0ca317cfdfef09a3c789cc2aafd7802d1a009b9135b1c2ab77f817e1cb6627f2",
+      "bytes": 9337
+    },
+    {
+      "path": "v5/release.py",
+      "sha256": "6d9248a40a64ffaf846cd3df94bb40274672b2289d388328f626a18eb94f8499",
+      "bytes": 22390
+    },
+    {
+      "path": "v5/requirements.txt",
+      "sha256": "35ecaeb38f22a56122ae667b50f311ea1d31c902a07e63630601027bb0ba1b7a",
+      "bytes": 243
+    },
+    {
+      "path": "v5/retrieve.py",
+      "sha256": "a2b5410ba2d7a5aa605a31b23cd0b5f17f7d892acbddca92640ec06b914bcd6f",
+      "bytes": 4322
+    },
+    {
+      "path": "v5/schema.py",
+      "sha256": "5fd57b24797fc7fca00dfeea042a2bc219d7b3dbf59fd18ce1e1c32f7a43712d",
+      "bytes": 2390
+    },
+    {
+      "path": "v5/test_pipeline.py",
+      "sha256": "07de61e4c29c99ff314fefaf8e86bd6cf682f4a24989c3ee941cf6924b4bfda4",
+      "bytes": 3727
+    },
+    {
+      "path": "v5/verify.py",
+      "sha256": "bd82451a1685a2e95b69f1b8b5dcc25b2c8428c0f99b629707ea8bcbf9071939",
+      "bytes": 5199
+    }
+  ],
+  "neo4j_live_backup": false,
+  "note": "Neo4j was not running; last deployed snapshot is archived, not a fresh live backup."
+}

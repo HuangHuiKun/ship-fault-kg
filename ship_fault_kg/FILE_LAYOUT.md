@@ -1,6 +1,19 @@
-# V5 文件导航与历史归档
+# V6 当前入口与 V5 历史文件导航
 
-当前版本：V5，2026-10-09。原始 ship_fault_kg_data 未改动。
+当前版本：V6，2026-10-13。默认数据位于 output/v6_assistant，入口为 manage_v6.py。
+build.py、retrieve.py、import_neo4j.py 已切换 V6；完整说明见 README_CN.md 与 output/v6_assistant/新版架构复核与建库报告_V6.md。
+V6 的 pipeline/schema/subsystems/verify/neo4j/retrieve/release 代码位于 v6_assistant。
+原 v5/、output/v5/ 已分别归档至 history/organization_v6_20261013/v5、history/organization_v6_20261013/output/v5。
+V6 底层共用代码位于 v6_assistant/core，已修正路径；history 中的冻结输入仍是 V6 构建依赖，不可删除。
+无有效声明的早期 output/v6_expansion 已移入该归档目录，不参与 V6 建图。
+manage_v5.py 归档到该目录的 entrypoints_before；旧诊断试验路径已修正，仍使用原 V5 数据。
+本轮实时库备份为 history/v6_publication_20261013/neo4j_live_before_v6.json；默认入口和说明的旧版保存在 history/v6_before_ontology_publish_20261013。
+
+## 以下为冻结 V5 的原目录导航，不代表当前版本
+
+下表路径均为归档前路径，仅用于了解历史结构。完整恢复旧版时应先恢复原目录结构，勿直接在 history 中运行旧入口。
+
+历史版本：V5，2026-10-09。原始 ship_fault_kg_data 未改动。
 
 ## 当前代码
 

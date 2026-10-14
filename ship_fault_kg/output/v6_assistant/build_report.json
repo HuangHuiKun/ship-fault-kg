@@ -1,0 +1,161 @@
+{
+  "graph_version": "6.0",
+  "nodes": 5591,
+  "edges": 14334,
+  "node_types": {
+    "Action": 631,
+    "Case": 88,
+    "Check": 592,
+    "Component": 301,
+    "Equipment": 312,
+    "Factor": 492,
+    "Fault": 1021,
+    "Parameter": 150,
+    "Source": 299,
+    "State": 1669,
+    "System": 28,
+    "Vessel": 8
+  },
+  "concept_counts": {
+    "Action": 631,
+    "Check": 592,
+    "Component": 268,
+    "Equipment": 293,
+    "Factor": 384,
+    "Fault": 765,
+    "Parameter": 150,
+    "State": 1274,
+    "System": 28
+  },
+  "context_records": 811,
+  "business_nodes_excluding_sources": 5292,
+  "relations": {
+    "DOCUMENTED_BY": 5806,
+    "APPLIES_TO": 2136,
+    "CONTRIBUTES_TO": 516,
+    "INVOLVES": 1314,
+    "HAS_CASE": 10,
+    "ACTS_ON": 183,
+    "CHECKS": 593,
+    "HAS_COMPONENT": 173,
+    "CAUSES": 884,
+    "INSTANCE_OF": 811,
+    "ADDRESSES": 463,
+    "INCREASES_RISK_OF": 225,
+    "ASSOCIATED_WITH": 61,
+    "CHARACTERIZES": 132,
+    "HAS_MANIFESTATION": 97,
+    "INDICATES": 22,
+    "PRECEDES": 6,
+    "WORSENS": 10,
+    "IS_SUBSYSTEM_OF": 27,
+    "SERVES_SYSTEM": 567,
+    "OCCURS_ON": 256,
+    "IS_A": 14,
+    "DESCRIBED_BY_PARAMETER": 16,
+    "USES_PARAMETER": 12
+  },
+  "assertion_count": 14334,
+  "explicit_knowledge_statements": 3274,
+  "causal_assertions": 1635,
+  "corpus_new_articles": 262,
+  "source_registry": 1308,
+  "passages": 7845,
+  "source_reference_coverage": 1.0,
+  "locator_coverage": 1.0,
+  "structural_errors": [],
+  "class_ratios_vs_fault_concepts": {
+    "State": {
+      "count": 1274,
+      "fault_concepts": 765,
+      "ratio": 1.665,
+      "planning_range": [
+        1.5,
+        3
+      ],
+      "within_planning_range": true
+    },
+    "Factor": {
+      "count": 384,
+      "fault_concepts": 765,
+      "ratio": 0.502,
+      "planning_range": [
+        0.5,
+        1.5
+      ],
+      "within_planning_range": true
+    },
+    "Check": {
+      "count": 592,
+      "fault_concepts": 765,
+      "ratio": 0.774,
+      "planning_range": [
+        0.8,
+        1.5
+      ],
+      "within_planning_range": false
+    },
+    "Action": {
+      "count": 631,
+      "fault_concepts": 765,
+      "ratio": 0.825,
+      "planning_range": [
+        1,
+        2
+      ],
+      "within_planning_range": false
+    }
+  },
+  "expert_reviewed_assertions": 0,
+  "review_policy": "仅为实验进行原文定位核验和声明整理；未经过船舶专业专家复核，不可直接用于实船操作",
+  "baseline": {
+    "version": "5.0",
+    "nodes": 1356,
+    "edges": 3343
+  },
+  "growth": {
+    "nodes": 4.123,
+    "edges": 4.288
+  },
+  "excluded_legacy_statements": 15,
+  "schema_defined_business_relations": 23,
+  "automatically_invented_causal_edges": 0,
+  "candidate_zone": false,
+  "passage_assertion_neo4j_nodes": false,
+  "status": "published_reviewed_subset",
+  "new_direct_knowledge_statements": 2548,
+  "current_assistant_full_documents_reviewed": 168,
+  "current_assistant_sources_reviewed": 262,
+  "total_graph_sources": 299,
+  "local_model_calls": 0,
+  "external_model_api_calls": 0,
+  "published_to_neo4j": true,
+  "schema_extensions": [
+    "extraction_actor",
+    "extraction_batch",
+    "semantic_review",
+    "source_property_evidence_json",
+    "schema_version",
+    "certainty_group",
+    "source_review_extent",
+    "classification_role"
+  ],
+  "duplicate_claim_policy": "dedup within same evidence scope; separate evidence may support same triple",
+  "detailed_system_classifications": 264,
+  "detailed_system_classification_method": "multi-role explicit equipment-name functional taxonomy; non-causal curator index",
+  "baseline_direct_knowledge_statements": 726,
+  "new_parameter_property_records": 6,
+  "source_review_counts": {
+    "pending_assistant_review": 1000,
+    "assistant_full_text_review": 162,
+    "assistant_excerpt_review": 91,
+    "baseline_selected_evidence_only": 46,
+    "assistant_no_claim": 9
+  },
+  "original_passages_total": 6358,
+  "original_fixed_chunks_reviewed": 288,
+  "used_exact_passages": 2085,
+  "sqlite_integrity": "ok",
+  "baseline_files_unchanged": true,
+  "deployed_snapshot_sha256": "0913eb94399ab3110b2ce263592269c6d2d96ff105ad6013ecd59db717089bf3"
+}

@@ -1,0 +1,43 @@
+{
+  "dataset_version": "diagnosis-bootstrap/1.0",
+  "created_date": "2026-10-12",
+  "reports": 100,
+  "graph_version": "5.0",
+  "graph_sqlite_sha256": "40390f5a8935690c6d811ded89ed49b00ba8566ddaed47dd903210856158c218",
+  "counts_by_system": {
+    "燃油与进排气系统": 20,
+    "润滑与轴承系统": 20,
+    "冷却与海水系统": 20,
+    "传动与推进系统": 20,
+    "电力与控制系统": 20
+  },
+  "counts_by_type": {
+    "explicit_fault": 40,
+    "symptom_only": 40,
+    "negated_normal": 5,
+    "missing_fields": 5,
+    "competing_hypotheses": 5,
+    "unsupported_threshold": 5
+  },
+  "counts_by_split": {
+    "bootstrap_dev": 60,
+    "bootstrap_check": 40
+  },
+  "base_scenarios": 40,
+  "numeric_origin": "deterministic_assistant_authored_synthetic_fixture",
+  "confidence_origin": "synthetic_fixture_assigned_not_calibrated",
+  "expert_review_count": 0,
+  "reference_label_status": "silver_partial_not_independent_gold",
+  "split_policy": "配对报告按基础场景分组；60开发/40检查；边界组和基础组独立编号。",
+  "source_overlap_ids": [
+    "src:1b6d84a474f7c6ab85c7806f",
+    "src:56dd07314f198900598d29a2",
+    "src:7f4000aab7f2ca9bd691e6a1",
+    "src:fc3cd905fda8e914de25fe6a"
+  ],
+  "source_disjoint": false,
+  "evaluation_limit": "检查分区仍共享知识来源且由同一规则合成，不能作为独立泛化、诊断准确率或完整Recall实验。",
+  "source_measurements_reproduced": false,
+  "real_signal_or_waveform_included": false,
+  "graph_sqlite_unchanged": true
+}

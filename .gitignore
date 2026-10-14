@@ -36,3 +36,7 @@ secrets.json
 .codex/
 .agents/
 .aws/
+
+# Private artifact-tool workspaces and temporary chart workbooks.
+.artifacts/
+.chart-data-*/

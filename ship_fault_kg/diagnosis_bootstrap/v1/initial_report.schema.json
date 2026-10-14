@@ -1,0 +1,468 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "上游初始诊断报告 v1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "report_id",
+    "generated_at",
+    "data_status",
+    "disclaimer",
+    "equipment",
+    "operating_context",
+    "upstream_model",
+    "diagnosis",
+    "physical_quantities",
+    "observations",
+    "initial_evidence_chain",
+    "initial_trace_text",
+    "missing_information",
+    "retrieval_request"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "upstream_diagnosis_report/1.0"
+    },
+    "report_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "data_status": {
+      "enum": [
+        "synthetic_bootstrap",
+        "simulation",
+        "real"
+      ]
+    },
+    "disclaimer": {
+      "type": "string"
+    },
+    "equipment": {
+      "type": "object",
+      "required": [
+        "vessel_id",
+        "system",
+        "equipment_name",
+        "equipment_model",
+        "equipment_id",
+        "architecture_status"
+      ],
+      "properties": {
+        "vessel_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "system": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "equipment_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "equipment_model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "equipment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "architecture_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "operating_context": {
+      "type": "object",
+      "required": [
+        "load_pct",
+        "operating_mode",
+        "observation_window_seconds",
+        "context_origin"
+      ],
+      "properties": {
+        "load_pct": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "operating_mode": {
+          "type": "string"
+        },
+        "observation_window_seconds": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sampling_interval_seconds": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "context_origin": {
+          "type": "string"
+        },
+        "ambient_temperature_c": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "upstream_model": {
+      "type": "object",
+      "required": [
+        "model_id",
+        "model_version",
+        "trained_model",
+        "raw_signal_reference",
+        "intermediate_prediction_reference"
+      ],
+      "properties": {
+        "model_id": {
+          "type": "string"
+        },
+        "model_version": {
+          "type": "string"
+        },
+        "trained_model": {
+          "type": "boolean"
+        },
+        "raw_signal_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "intermediate_prediction_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "diagnosis": {
+      "type": "object",
+      "required": [
+        "summary",
+        "candidates",
+        "confirmed_root_cause",
+        "diagnostic_status",
+        "confidence"
+      ],
+      "properties": {
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "confirmed_root_cause": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "diagnostic_status": {
+          "enum": [
+            "preliminary",
+            "no_abnormality_observed",
+            "insufficient_information",
+            "confirmed"
+          ]
+        },
+        "candidates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "category",
+              "status",
+              "model_score"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "category": {
+                "enum": [
+                  "fault_hypothesis",
+                  "abnormal_state",
+                  "excluded_hypothesis"
+                ]
+              },
+              "status": {
+                "type": "string"
+              },
+              "model_score": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          }
+        },
+        "confidence": {
+          "type": "object",
+          "required": [
+            "value",
+            "target",
+            "method",
+            "calibrated",
+            "probability_interpretation",
+            "explanation"
+          ],
+          "properties": {
+            "value": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 1
+            },
+            "target": {
+              "type": "string"
+            },
+            "method": {
+              "type": "string"
+            },
+            "calibrated": {
+              "type": "boolean"
+            },
+            "probability_interpretation": {
+              "type": "boolean"
+            },
+            "method_version": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "stochastic_constraint_result": {},
+            "prediction_distribution": {},
+            "explanation": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "physical_quantities": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "quantity_id",
+          "name",
+          "value",
+          "unit",
+          "channel_role",
+          "acquisition",
+          "baseline_value",
+          "baseline_basis",
+          "delta_from_baseline",
+          "trend",
+          "validity",
+          "engineering_threshold",
+          "threshold_source",
+          "uncertainty"
+        ],
+        "properties": {
+          "quantity_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": "string"
+          },
+          "channel_role": {
+            "enum": [
+              "observed",
+              "predicted",
+              "derived"
+            ]
+          },
+          "acquisition": {
+            "type": "string"
+          },
+          "baseline_value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "baseline_basis": {
+            "type": "string"
+          },
+          "delta_from_baseline": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "trend": {
+            "enum": [
+              "up",
+              "down",
+              "stable",
+              "unknown"
+            ]
+          },
+          "validity": {
+            "type": "string"
+          },
+          "engineering_threshold": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "threshold_source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "uncertainty": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "observations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "observation_id",
+          "description",
+          "polarity",
+          "quantity_ids"
+        ],
+        "properties": {
+          "observation_id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "polarity": {
+            "enum": [
+              "positive",
+              "negative",
+              "unknown"
+            ]
+          },
+          "quantity_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "initial_evidence_chain": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "chain_id",
+          "observation_id",
+          "quantity_ids",
+          "inference_type",
+          "interpretation",
+          "verified_root_cause"
+        ],
+        "properties": {
+          "chain_id": {
+            "type": "string"
+          },
+          "observation_id": {
+            "type": "string"
+          },
+          "quantity_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "inference_type": {
+            "type": "string"
+          },
+          "interpretation": {
+            "type": "string"
+          },
+          "verified_root_cause": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "initial_trace_text": {
+      "type": "string"
+    },
+    "missing_information": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "retrieval_request": {
+      "type": "object",
+      "required": [
+        "goal",
+        "preserve_upstream_confidence",
+        "manufacturer_threshold_required"
+      ],
+      "properties": {
+        "goal": {
+          "type": "string"
+        },
+        "preserve_upstream_confidence": {
+          "type": "boolean"
+        },
+        "manufacturer_threshold_required": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

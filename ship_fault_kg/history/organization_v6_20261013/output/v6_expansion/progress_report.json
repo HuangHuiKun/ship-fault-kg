@@ -1,0 +1,14 @@
+{
+  "jobs": {
+    "pending": 6551,
+    "running": 1
+  },
+  "documents_attempted": 1,
+  "documents_with_grounded_facts": 0,
+  "validation_counts": {},
+  "model_calls": 0,
+  "inference_seconds": 0,
+  "published_to_neo4j": false,
+  "current_version_unchanged": true,
+  "note": "Grounded facts still require semantic quality review; not automatically formal graph assertions."
+}

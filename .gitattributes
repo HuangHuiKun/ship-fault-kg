@@ -31,3 +31,8 @@ ship_fault_kg_data/01_datasets/**/*.csv filter=lfs diff=lfs merge=lfs -text
 # This overrides text conversion only; existing Git LFS filters still apply.
 ship_fault_kg/history/v4_2_before_data_revision_20261008/** -text
 ship_fault_kg/history/v4_3_before_v5_rebuild_20261009/** -text
+ship_fault_kg/history/organization_v6_20261013/** -text
+ship_fault_kg/history/output_refresh_v6_20261013/** -text
+ship_fault_kg/history/v5_before_v6_expansion_20261013/** -text
+ship_fault_kg/history/v6_before_ontology_publish_20261013/** -text
+ship_fault_kg/history/v6_publication_20261013/** -text

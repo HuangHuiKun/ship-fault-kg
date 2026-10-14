@@ -1,187 +1,67 @@
-# 船舶故障实验知识图谱 V5
+# 船舶故障实验知识图谱 V6
 
-更新：2026-10-09。当前默认构建器、数据库快照和检索入口均为 V5。
+更新：2026-10-13。当前默认版本为 V6，已发布到本机 Neo4j 的 shipfaultkg 数据库。
 
-目标：为上游初步诊断提供故障机理、症状、检查、运维及出处证据，供可替换的知识图谱增强诊断实验使用。不是训练完成的大模型或实船安全决策系统。
+## 当前成果
 
-## 当前结果
+- 5,591 个节点、14,334 条关系；12 类实体、24 类关系（包括溯源）。
+- 3,274 条直接知识声明；765 个故障概念、1,021 个 Fault 节点（含情境记录）。
+- System 共 28 个：1 个根系统、5 个大系统、22 个细分系统。
+- 使用 299 个资料来源；注册表共有 1,308 个来源，仍有 1,000 个未完成本轮助手阅读。
+- 50 项结构/定位/样例检查通过，Neo4j 与本地快照全部节点、边、属性一致。
+- 专家审核数为 0；这不是实船诊断系统，也不是训练好的大模型。
 
-- 1,356 个节点、3,343 条关系；12 类实体、23 种业务关系＋溯源关系。
-- 168 个通用故障概念＋48 条事故内故障记录，350 个状态、110 个影响因素、143 个检查、170 个运维措施。
-- 5 个功能子系统＋1 个动力系统根节点；19 个原有正式案例、8 条具名船舶、46 个实际使用来源。
-- 关系中含 1,381 条溯源边、352 条因果类声明，不应把全部关系当成不同故障机理。
-- Passage、Assertion 在本地 SQLite/JSONL 中，不作为 Neo4j 节点。试验工况保留为本地资料索引，不建 Run 节点。
-- Neo4j 已实际更新 shipfaultkg，1,356/3,343，全部节点和关系属性与本地快照一致。后续状态以 output/v5/neo4j_verify_result.json 为准。
+图谱用于为上游初步诊断提供机理、症状、检查、运维与出处证据，支撑可替换的知识图谱增强诊断实验。系统分类是整理者设计的检索索引，不应当作原文因果事实。
 
-## 从哪里读起
+## 从这里开始
 
-| 文件 | 用途 |
+| 路径 | 用途 |
 | --- | --- |
-| [构建与建库报告](output/v5/新版知识图谱构建与建库报告_V5.md) | 每一步做法与缘由、统计、来源、限制、回滚 |
-| [实体关系属性清单](output/v5/entity_inventory_v5.md) | 当前类别、属性及关系统计 |
-| output/v5/ship_fault_kg.sqlite | V5 唯一本地图谱主数据 |
-| [中文逐关系表](output/v5/知识图谱_关系节点属性_V5.csv) | 实体－关系－实体、出处、确定性及引用；构建自动刷新 |
-| [Neo4j 查询](output/v5/queries_v5.cypher) | 子系统总览、拉缸局部、逐跳因果与溯源 |
-| output/v5/retrieval_example.json | 真实运行的诊断文本检索证据包 |
-| v5/schema.py、v5/curation.py | 类别/关系规则、新增知识声明 |
-| [文件导航](FILE_LAYOUT.md) | 当前与历史文件分工 |
+| [架构复核与建库报告](output/v6_assistant/新版架构复核与建库报告_V6.md) | 类别、系统、属性、声明、流程、规模、限制、恢复方法 |
+| [节点关系完整清单](output/v6_assistant/节点关系完整清单_V6.md) | 全部节点与关系，运行 report 后自动更新 |
+| [模式清单](output/v6_assistant/schema.json) | 12 类、24 类、端点约束和属性 |
+| [可视化查询](output/v6_assistant/queries_v6.cypher) | 系统层次、保持架局部、同范围因果链、证据表 |
+| output/v6_assistant/ship_fault_kg.sqlite | 当前本地存储；包含图结构和证据 |
+| output/v6_assistant/neo4j_import_result.json | 真实导入统计及指纹核验 |
+| output/CURRENT_VERSION.json | 当前版本导航 |
+| FILE_LAYOUT.md | 文件导航与历史说明 |
 
-## 运行命令
+output 下的 [关系节点属性 CSV](output/知识图谱_关系节点属性.csv)、[质量评价文档](output/船舶故障知识图谱_质量评价标准与实施方案_V6_20261013.md)和[汇报 PPT](output/船舶动力系统故障知识图谱_流程与构建汇报_V6_20261013_更新版.pptx)已按当前 V6 更新。CSV 每行一条关系，包含 22 列及节点、关系属性 JSON。PPT 沿用的局部截图已标注为历史截图，整体统计使用 V6 可编辑图表。
 
-在安装 pypdf 的 Python 环境中，从项目根目录运行。本次实际环境为 Python 3.12.14、pypdf 6.10.0；锁定依赖见 v5/requirements.txt。先用 python -c "import pypdf, sqlite3" 检查，缺失时执行 python -m pip install -r ship_fault_kg/v5/requirements.txt。
+旧输出备份在 history/output_refresh_v6_20261013，不能用于代表 V6 实时规模。以后重建图谱后，可运行 `python -m ship_fault_kg.v6_assistant.update_quality` 刷新质量统计与文档，运行 `node ship_fault_kg/v6_assistant/export_readable_csv.mjs` 刷新 CSV（需使用本机已配置的 Node 和 Artifact Tool 运行环境）；PPT 不会自动随建库更新，需另行更新。
 
-```powershell
-cd D:\RAGQnASystem\RAGQnASystem-main
-python ship_fault_kg/manage_v5.py build
-python ship_fault_kg/manage_v5.py verify
-python ship_fault_kg/manage_v5.py retrieve "主机可能拉缸，排气温度升高"
-# Neo4j Desktop 启动后，终端隐藏输入密码：
-python ship_fault_kg/manage_v5.py neo4j apply
-python ship_fault_kg/manage_v5.py neo4j verify
-python ship_fault_kg/manage_v5.py report
-```
+## 日常命令
 
-build.py、retrieve.py、import_neo4j.py 是兼容入口，均已指向 V5。不要运行 history 中的旧构建器更新当前数据库。SQLite 通过 HTTP Query API 直接同步，CSV 仅用于阅读，不是导入必经环节。
+在项目根目录，用安装了项目依赖的 Python 解释器运行：
 
-数据库连接：http://127.0.0.1:7474/browser/；Bolt 端口 7687；数据库 shipfaultkg。项目未修改端口和 Browser 自定义颜色。可选样式 output/v5/shipkg_v5.grass 沿用旧类别配色；若需要手动导入，并把 ShipKG 标签优先级放在业务标签之后。
+~~~powershell
+python ship_fault_kg/manage_v6.py retrieve "柴油机启动超速" --top-k 3
+python ship_fault_kg/manage_v6.py verify
+python ship_fault_kg/manage_v6.py report
+python ship_fault_kg/manage_v6.py neo4j verify
+~~~
 
-## 回滚
+检索目前为实体别名/字符词法匹配与同 scope 关系扩展，尚不是语义向量混合检索。返回原文引用、出处、范围及确定性；不要跨案例拼接原因。
 
-旧版文件、代码、中间数据与实时数据库备份：history/v4_3_before_v5_rebuild_20261009/。原始资料包未改变。
+只有修改声明或模式后才需运行 build。build 只重建本地文件，不更新 Neo4j；之后必须 verify，再另行发布。
+本次 Neo4j 导入器有实时备份和并发修改保护，未来再发布应准备新版本备份路径；不能删除旧备份绕过保护。
 
-```powershell
-python ship_fault_kg/manage_v5.py neo4j restore
-```
+build.py、retrieve.py、import_neo4j.py 已指向 V6。manage_v5.py 已归档到 history/organization_v6_20261013/entrypoints_before，不应直接在归档目录运行相对路径敏感的旧入口。
+V6 必需的底层函数现位于 v6_assistant/core；冻结 V5 输入现位于 history/organization_v6_20261013/output/v5。原 v5 代码整体归档到 history/organization_v6_20261013/v5。
+history 中的冻结基线仍是 V6 重建依赖，不能删除。diagnosis_bootstrap 的旧 V5 对照试验已修正路径，仍使用同一份 V5 基线，未偷偷改为 V6 试验。
+早期 v6_expansion 无有效声明、不参与当前构建，已移至 history/organization_v6_20261013/output/v6_expansion，不合并进 V6 主数据。
 
-该操作恢复旧 ShipKG 节点与关系及属性，并先备份当前图谱；不自动还原 Browser 样式或清除约束。旧文件复位方法和备份 SHA256 清单见构建报告与 history 下 backup_manifest.json。
+## 备份与恢复
 
-## 必须知道的边界
+- history/v6_publication_20261013/neo4j_live_before_v6.json：发布前真实 V5 图，包含所有属性。
+- history/v6_before_ontology_publish_20261013/：本轮架构复核前代码、中间输出、默认入口和说明文件。
+- history/v5_before_v6_expansion_20261013/：扩充前 V5 归档。
 
-全部 1,275 篇中文语料已索引，但正式建图目前用 18 篇，不能说全部已审核入图。来源定位与结构检查通过，不代表专家已验证所有机理；专家复核数为 0。
+数据库恢复命令及完整回滚步骤见架构报告。只恢复数据库不会自动恢复本地版本指针和默认入口。
+未在本次任务中上传 GitHub。
 
-当前检索是别名＋词法匹配＋同范围关系扩展，未实现语义向量、成熟混合重排或 LLM 联调。旧 38/24 题的 ID 与标签已不适用；新开发样例不等同独立检索评测。后续需新金标准、语义检索与诊断报告质量评价。
+## 安全及来源声明
 
-科研方法原型，实船操作必须依据适用厂家规程与专业审核。第三方资料保留原有权利；参见[项目免责声明](../DISCLAIMER.md)。本次未提交或推送 Git。
-更新：2026-10-08。当前知识版本 **V4.3**。
-
-> 科研方法原型，不用于无人审核的船舶运维决策。第三方资料保留原有权利；公开仓库、引用与免责声明不构成再分发许可。见[项目免责声明](../DISCLAIMER.md)。
-
-## 1. 目标与交付
-
-本项目将事故调查报告、厂家通函、论文和受控试验资料整理为小规模、有证据和适用范围的知识图谱，辅助增强前级模型的初步诊断文本。交付的是图谱、可复现的构建与检索程序、证据包和评测记录，不是训练完成的新诊断大模型。
-
-```text
-官方报告 / 厂家手册 / 论文 ──人工整理、原文锚点核对──┐
-保留的实验数据 ──字段、工况、故障标签映射──────────┤
-全部中文语料 ──分块检索 + 候选句筛选 + 原文审核────┤
-                                                     ↓
-                实体、关系、证据、文本片段 → SQLite 主数据
-                                         ├→ Neo4j 直接同步与可视化
-前级模型的诊断文本 → 实体对齐 + 文本匹配 + 同单元路径检索
-                                         ↓
-                          Evidence Pack：来源、位置、确定性、适用范围
-                                         ↓
-                             LLM辅助生成 + 人工核验（待实际联调）
-```
-
-## 2. 当前规模与本次变化
-
-| 内容 | V4.3 |
-| --- | ---: |
-| 节点 / 关系 | 491 / 1200 |
-| 实体类型 / 实际关系类型 | 15 / 28 |
-| 正式历史事故 / 原有故障参考单元 | 19 / 12 |
-| 核心测点 / 试验运行 | 15 / 16 |
-| 来源节点 | 33：资料级29、文章级4；记录级0 |
-| 证据记录 / 可检索文本片段 | 335 / 4406 |
-| 中文语料文章 / 中文语料分块 | 1275 / 3699 |
-| 中文语料建图试点 | 4篇文章、22条诊断关系，全部待专家核验 |
-
-两个数据集已从活动资料包移出：Azimuth Thruster CBM、UCI Naval Propulsion CBM。它们的独有节点和相关关系、证据不再参与当前图谱构建。**原有12条记录级Source来自Azimuth，因此本次一并移出**，没有改成12起真实事故。被保留的同名或共享知识，仅能通过其他仍保留的来源支持。
-
-原有图谱与原始资料可从 `history/v4_2_before_data_revision_20261008/` 恢复。中文语料仅增加文章级知识单元，不增加无法核实船名的事故Case。节点总数与旧版同为491是移出和新增相抵，不表示未修改。
-
-电网振荡论文移到 `ship_fault_kg_data/03_papers/Frontiers_2021_marine_converter_oscillations.pdf`，文件名及原证据ID不变；读取路径由清单决定，不能再硬编码到02_reports。
-
-## 3. 文件分工
-
-| 文件 | 用途 |
-| --- | --- |
-| `build.py` | 唯一默认构建入口；不修改Neo4j |
-| `schema.py` | 类型、关系、确定性与版本定义 |
-| `curated_cases.py`、`expanded_cases.py` | 19起正式案例的来源锚点和事实 |
-| `fault_profiles.py` | 12个参考故障机理单元、保留测点清单 |
-| `redesign.py`、`naming_v4.json`、`refinement_v4_1.json` | 既有稳定ID的命名与本体整理规则；旧数据命名条目保留作历史映射，不等于仍参与建图 |
-| `corpus_knowledge.py` | 全量中文语料索引、候选句筛选、4篇原文核对试点 |
-| `output/ship_fault_kg.sqlite` | 当前主数据：nodes、edges、evidence、passages四表 |
-| `output/build_report.json` | 实际规模和构建状态；CSV是否成功覆盖也在这里 |
-| `output/corpus_inventory.json` | 全部文章的路径、指纹、重复项、分块ID和资料包原始分组 |
-| `output/corpus_candidates_pending_review.json` | 25762条因果/运维候选句；**不是图谱边，也不是已审核的金标准** |
-| `output/知识图谱_关系节点属性.csv` | 当前新版易读表；文件被占用时构建器保留旧表并输出带版本号的备用表 |
-| `output/entity_inventory_v4.md`、`graph_inventory_v4.json` | 当前实体/关系清单，v4代表本体主版本 |
-| `sync_data_revision.py` | V4.2→V4.3范围受限、先备份、单事务同步 |
-| `import_neo4j.py` | 新空库的直接导入；SQLite→HTTP Query API，不必经过CSV |
-| `retrieve.py` | 本地SQLite检索与LLM提示词组装 |
-| `verify_revision.py` / `verify_v4.py` | 当前版本回归测试；旧测试保存在历史备份 |
-| `evaluate.py`、`evaluate_fault_v3.py` | 38题案例/数据开发自检和24题参考故障开发自检 |
-| `output/neo4j_import_result.json` | 只有实际同步核验成功才更新的Neo4j回执 |
-
-`history`仅作归档，不参与默认构建；之前的PPT和V4.2检索报告属于历史版本，没有冒充V4.3结果。旧版完整说明与连接排错过程在本次备份内的README_CN.md。
-
-## 4. 为什么这样使用中文语料
-
-所有1275篇文章均全文检查并分块，单块最多1400个字符、相邻块重叠150字符。不再按标题关键词每类选12篇，也不再截掉6000字符之后的内容。重复文章标注在清单中，保留文件溯源，不擅自删除原文。
-
-因果/运维关键词只用于筛候选句，不能证明因果。只有 `corpus_knowledge.py` 内逐条配置且引文能在原文精确找到的22条诊断关系进入试点；会区分可能关系、风险关系和处置关系，限定共享回路或特定机型。
-
-来源层级：`Source(source_level=文章级)` → `Source(source_level=资料级)` → 本地文章与Zenodo资料包入口。文中没有可核实的原始报告/作者链接时，不虚构原始来源。
-
-所有试点标注 `knowledge_layer=corpus_secondary`、`expert_review=pending`，关系确定性为 `corpus_statement`。它表示“文章这样记载”，不表示厂家认可或本船根因确诊。温度、压力、力矩、清洗或运行参数不能跨机型照搬；运维输出需核对本机手册。
-
-原资料包train/val/test只记录文章所在目录。现在全部参与检索，**不能把原test目录当作本项目独立测试集**。今后应按来源/事故划分独立专家标注测试集。
-
-## 5. 构建、测试与同步命令
-
-在项目根目录，用已安装pypdf的Python运行。下面的python可替换成当前实际解释器路径。
-
-```powershell
-python ship_fault_kg/build.py
-python ship_fault_kg/verify_v4.py
-python ship_fault_kg/test_export_readable_csv.py
-python ship_fault_kg/audit_sources.py
-python ship_fault_kg/export_inventory.py
-python ship_fault_kg/export_graphml.py
-python ship_fault_kg/visualize_graph.py
-python ship_fault_kg/evaluate.py
-python ship_fault_kg/evaluate_fault_v3.py
-```
-
-先在Neo4j Desktop启动ShipFaultKG实例，再同步现有V4.2库：
-
-```powershell
-python ship_fault_kg/sync_data_revision.py --apply
-```
-
-交互输入密码，不保存密码。该程序先核对本地历史快照与数据库ID；只允许删除由两个指定移出来源独立支持的节点。发现未知节点/关系或删除节点连着外部关系会拒绝同步或回滚，不使用全库清空。所有增删改置于一笔事务，不调整Browser已有配色。
-
-日常本地图谱再次修改后需要基于新的明确快照审核差异，不应将这条V4.2迁移命令当作任意修改的通用强制覆盖。空库用 `import_neo4j.py`；对非空旧库仅MERGE不会去除过时节点。
-
-Browser地址：`http://127.0.0.1:7474/browser/`，连接地址：`neo4j://127.0.0.1:7687`，数据库选择 `shipfaultkg`。
-
-## 6. 检索示例与边界
-
-```powershell
-python ship_fault_kg/retrieve.py --query "空压机高压冷却器渗漏，副机冷却水中断并高温停机" --prompt
-```
-
-当前是实体名称/别名对齐、字符n-gram TF-IDF匹配、上下文分数融合与同知识单元内的有向路径检索。**尚未部署向量语义模型、交叉编码器重排序或自动LLM抽取**，不能把关键词匹配称为完整语义检索。
-
-输出包含实体匹配、事故或参考单元、事实、因果路径、全文分块、来源URL及locator、确定性、适用范围和覆盖提醒。只有文本匹配、没有已建图事实时标为text_evidence_only，不能输出已证实因果链。LLM提示词将补充文本和结构化事实分开。不同事故/文章的路径不拼接为一条已证实因果链。中文文章不伪造PDF页码，使用文章相对路径和标准化字符区间定位。
-
-38题和24题是同源人工编写的开发测试，不是独立泛化实验，也不是诊断正确率。全量文本召回已经扩展，但新增语料的专家标注、独立测试及LLM生成质量评价仍需继续建设。
-
-## 7. 恢复与Git
-
-旧输出、代码、元数据、移出资料在 `history/v4_2_before_data_revision_20261008/`。Neo4j同步前还会在其中保存 `neo4j_snapshot.json`。恢复需将代码与数据快照作为同一版本处理，不能只导入旧SQLite后又运行新版构建。
-
-本次不自动提交或推送Git；原有未提交PPT、报告及用户变更均保留。
+资料用于研究与实验，不意味着获得再分发授权；请遵守各来源许可。
+助手整理并定位核验不等于领域专家审核。建议、假设、案例观察与已实施措施必须区分。
+不能仅凭本实验图谱或 LLM 输出执行实船维修、安全操作或故障处置。

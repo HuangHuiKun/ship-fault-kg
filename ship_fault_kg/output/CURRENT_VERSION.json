@@ -1,7 +1,9 @@
 {
-  "version": "5.0",
-  "sqlite": "v5/ship_fault_kg.sqlite",
-  "entrypoint": "../manage_v5.py",
-  "report": "v5/新版知识图谱构建与建库报告_V5.md",
-  "legacy_backup": "history/v4_3_before_v5_rebuild_20261009"
+  "version": "6.0",
+  "sqlite": "v6_assistant/ship_fault_kg.sqlite",
+  "entrypoint": "../manage_v6.py",
+  "report": "v6_assistant/新版架构复核与建库报告_V6.md",
+  "legacy_backup": "../history/v6_publication_20261013/neo4j_live_before_v6.json",
+  "published_database": "shipfaultkg",
+  "snapshot_sha256": "0913eb94399ab3110b2ce263592269c6d2d96ff105ad6013ecd59db717089bf3"
 }

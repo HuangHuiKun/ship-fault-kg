@@ -1,0 +1,550 @@
+{
+  "version": "6.0",
+  "classes": {
+    "Vessel": "船舶",
+    "System": "系统",
+    "Equipment": "设备",
+    "Component": "部件",
+    "Fault": "故障",
+    "State": "状态",
+    "Factor": "影响因素",
+    "Parameter": "参数",
+    "Check": "检查方法",
+    "Action": "运维措施",
+    "Case": "事故案例",
+    "Source": "来源"
+  },
+  "relations": {
+    "IS_SUBSYSTEM_OF": "属于上级系统",
+    "SERVES_SYSTEM": "服务于系统",
+    "HAS_COMPONENT": "包含部件",
+    "INSTANCE_OF": "是概念的实例",
+    "APPLIES_TO": "适用于",
+    "CAUSES": "导致",
+    "CONTRIBUTES_TO": "促成",
+    "INCREASES_RISK_OF": "增加风险",
+    "WORSENS": "加剧",
+    "HAS_MANIFESTATION": "表现为",
+    "INDICATES": "提示",
+    "ASSOCIATED_WITH": "相关联",
+    "PRECEDES": "先于发生",
+    "CHECKS": "检查",
+    "ADDRESSES": "应对",
+    "ACTS_ON": "作用于",
+    "INVOLVES": "涉及",
+    "OCCURS_ON": "发生于",
+    "HAS_CASE": "发生案例",
+    "DESCRIBED_BY_PARAMETER": "以参数描述",
+    "CHARACTERIZES": "表征",
+    "USES_PARAMETER": "使用参数",
+    "IS_A": "属于概念类别",
+    "DOCUMENTED_BY": "记载于"
+  },
+  "endpoints": {
+    "IS_SUBSYSTEM_OF": {
+      "subject": [
+        "System"
+      ],
+      "object": [
+        "System"
+      ]
+    },
+    "SERVES_SYSTEM": {
+      "subject": [
+        "Component",
+        "Equipment"
+      ],
+      "object": [
+        "System"
+      ]
+    },
+    "HAS_COMPONENT": {
+      "subject": [
+        "Component",
+        "Equipment"
+      ],
+      "object": [
+        "Component"
+      ]
+    },
+    "APPLIES_TO": {
+      "subject": [
+        "Action",
+        "Check",
+        "Fault"
+      ],
+      "object": [
+        "Component",
+        "Equipment",
+        "System"
+      ]
+    },
+    "INCREASES_RISK_OF": {
+      "subject": [
+        "Factor",
+        "Fault",
+        "State"
+      ],
+      "object": [
+        "Fault",
+        "State"
+      ]
+    },
+    "CONTRIBUTES_TO": {
+      "subject": [
+        "Factor",
+        "Fault",
+        "State"
+      ],
+      "object": [
+        "Fault",
+        "State"
+      ]
+    },
+    "CAUSES": {
+      "subject": [
+        "Factor",
+        "Fault",
+        "State"
+      ],
+      "object": [
+        "Fault",
+        "State"
+      ]
+    },
+    "WORSENS": {
+      "subject": [
+        "Factor",
+        "Fault",
+        "State"
+      ],
+      "object": [
+        "Fault",
+        "State"
+      ]
+    },
+    "HAS_MANIFESTATION": {
+      "subject": [
+        "Fault"
+      ],
+      "object": [
+        "State"
+      ]
+    },
+    "INDICATES": {
+      "subject": [
+        "State"
+      ],
+      "object": [
+        "Fault"
+      ]
+    },
+    "ASSOCIATED_WITH": {
+      "subject": [
+        "Factor",
+        "Fault",
+        "State"
+      ],
+      "object": [
+        "Factor",
+        "Fault",
+        "State"
+      ]
+    },
+    "PRECEDES": {
+      "subject": [
+        "Fault",
+        "State"
+      ],
+      "object": [
+        "Fault",
+        "State"
+      ]
+    },
+    "CHECKS": {
+      "subject": [
+        "Check"
+      ],
+      "object": [
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "State"
+      ]
+    },
+    "ADDRESSES": {
+      "subject": [
+        "Action"
+      ],
+      "object": [
+        "Factor",
+        "Fault",
+        "State"
+      ]
+    },
+    "ACTS_ON": {
+      "subject": [
+        "Action"
+      ],
+      "object": [
+        "Component",
+        "Equipment"
+      ]
+    },
+    "INVOLVES": {
+      "subject": [
+        "Case"
+      ],
+      "object": [
+        "Action",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "State",
+        "System",
+        "Vessel"
+      ]
+    },
+    "OCCURS_ON": {
+      "subject": [
+        "Fault"
+      ],
+      "object": [
+        "Component",
+        "Equipment"
+      ]
+    },
+    "HAS_CASE": {
+      "subject": [
+        "Vessel"
+      ],
+      "object": [
+        "Case"
+      ]
+    },
+    "DESCRIBED_BY_PARAMETER": {
+      "subject": [
+        "State"
+      ],
+      "object": [
+        "Parameter"
+      ]
+    },
+    "CHARACTERIZES": {
+      "subject": [
+        "Parameter"
+      ],
+      "object": [
+        "Component",
+        "Equipment",
+        "System"
+      ]
+    },
+    "USES_PARAMETER": {
+      "subject": [
+        "Check"
+      ],
+      "object": [
+        "Parameter"
+      ]
+    },
+    "DOCUMENTED_BY": {
+      "subject": [
+        "Action",
+        "Case",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "Source",
+        "State",
+        "System",
+        "Vessel"
+      ],
+      "object": [
+        "Source"
+      ]
+    },
+    "INSTANCE_OF": {
+      "subject": [
+        "Action",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "State",
+        "System"
+      ],
+      "object": [
+        "Action",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "State",
+        "System"
+      ]
+    },
+    "IS_A": {
+      "subject": [
+        "Action",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "State",
+        "System"
+      ],
+      "object": [
+        "Action",
+        "Check",
+        "Component",
+        "Equipment",
+        "Factor",
+        "Fault",
+        "Parameter",
+        "State",
+        "System"
+      ]
+    }
+  },
+  "neo4j_entity_base_fields": [
+    "id",
+    "kind",
+    "name",
+    "aliases"
+  ],
+  "entity_property_fields": [
+    "applicability",
+    "case_code",
+    "case_id",
+    "classification_basis",
+    "definition",
+    "display_name",
+    "entity_level",
+    "expert_review",
+    "graph_version",
+    "kind_zh",
+    "knowledge_zone",
+    "license",
+    "local_paths",
+    "measurement_form",
+    "native_note",
+    "not_diagnostic_threshold",
+    "ontology_origin",
+    "parameter_source",
+    "propulsion_architecture",
+    "quantity",
+    "reference_unit",
+    "schema_version",
+    "scope_id",
+    "sha256",
+    "source_id",
+    "source_level",
+    "source_property_evidence_json",
+    "source_tier",
+    "symbol",
+    "system_level",
+    "unit",
+    "url",
+    "vessel_identity_status",
+    "vessel_name",
+    "vessel_type"
+  ],
+  "relation_property_fields": [
+    "action_status",
+    "applicability",
+    "assertion_id",
+    "certainty",
+    "certainty_group",
+    "classification_role",
+    "expert_review",
+    "extraction_actor",
+    "extraction_batch",
+    "graph_version",
+    "id",
+    "is_causal",
+    "locator",
+    "name",
+    "page",
+    "passage_id",
+    "polarity",
+    "quote",
+    "review_method",
+    "schema_version",
+    "scope_id",
+    "semantic_review",
+    "source_file",
+    "source_id",
+    "source_review_extent",
+    "source_sha256",
+    "source_tier",
+    "source_url",
+    "statement_nature"
+  ],
+  "entity_property_fields_by_class": {
+    "Vessel": [
+      "display_name",
+      "entity_level",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "propulsion_architecture",
+      "schema_version",
+      "scope_id",
+      "vessel_type"
+    ],
+    "System": [
+      "classification_basis",
+      "display_name",
+      "entity_level",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "ontology_origin",
+      "schema_version",
+      "scope_id",
+      "system_level"
+    ],
+    "Equipment": [
+      "applicability",
+      "case_code",
+      "display_name",
+      "entity_level",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "propulsion_architecture",
+      "schema_version",
+      "scope_id"
+    ],
+    "Component": [
+      "case_code",
+      "display_name",
+      "entity_level",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "schema_version",
+      "scope_id"
+    ],
+    "Fault": [
+      "applicability",
+      "case_code",
+      "display_name",
+      "entity_level",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "reference_unit",
+      "schema_version",
+      "scope_id"
+    ],
+    "State": [
+      "case_code",
+      "display_name",
+      "entity_level",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "schema_version",
+      "scope_id"
+    ],
+    "Factor": [
+      "case_code",
+      "display_name",
+      "entity_level",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "schema_version",
+      "scope_id"
+    ],
+    "Parameter": [
+      "definition",
+      "display_name",
+      "entity_level",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "measurement_form",
+      "native_note",
+      "not_diagnostic_threshold",
+      "parameter_source",
+      "quantity",
+      "schema_version",
+      "scope_id",
+      "source_property_evidence_json",
+      "symbol",
+      "unit"
+    ],
+    "Check": [
+      "display_name",
+      "entity_level",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "schema_version",
+      "scope_id"
+    ],
+    "Action": [
+      "display_name",
+      "entity_level",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "schema_version",
+      "scope_id"
+    ],
+    "Case": [
+      "applicability",
+      "case_code",
+      "case_id",
+      "display_name",
+      "entity_level",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "propulsion_architecture",
+      "schema_version",
+      "scope_id",
+      "vessel_identity_status",
+      "vessel_name"
+    ],
+    "Source": [
+      "display_name",
+      "entity_level",
+      "expert_review",
+      "graph_version",
+      "kind_zh",
+      "knowledge_zone",
+      "license",
+      "local_paths",
+      "schema_version",
+      "scope_id",
+      "sha256",
+      "source_id",
+      "source_level",
+      "source_tier",
+      "url"
+    ]
+  },
+  "source_review_extent_values": [
+    "full_text",
+    "representative_excerpt",
+    "baseline_selected_evidence"
+  ],
+  "note": "12类实体、24类关系；系统细分和证据状态为属性/索引，不是新增机理；Passage/Assertion不作图节点"
+}

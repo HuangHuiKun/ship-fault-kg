@@ -1,0 +1,157 @@
+{
+  "method": "unchanged_v5_alias_character_bigram_and_scope_expansion",
+  "k": 3,
+  "split": "all",
+  "graph_sqlite_sha256": "40390f5a8935690c6d811ded89ed49b00ba8566ddaed47dd903210856158c218",
+  "dataset_version": "diagnosis-bootstrap/1.0",
+  "overall": {
+    "reports": 100,
+    "fault_target_reports": 76,
+    "intended_fault_target_hits": 64,
+    "intended_fault_target_hit_rate": 0.8421052631578947,
+    "partial_reference_coverage_macro": 0.8333333333333334,
+    "no_candidate_reports": 0,
+    "no_fact_reports": 2,
+    "behavior_reviews_required": 20,
+    "latency_median_seconds": 0.13479999999999998,
+    "latency_p95_seconds": 0.177532
+  },
+  "by_type": {
+    "competing_hypotheses": {
+      "reports": 5,
+      "fault_target_reports": 0,
+      "intended_fault_target_hits": 0,
+      "intended_fault_target_hit_rate": null,
+      "partial_reference_coverage_macro": null,
+      "no_candidate_reports": 0,
+      "no_fact_reports": 0,
+      "behavior_reviews_required": 5,
+      "latency_median_seconds": 0.141412,
+      "latency_p95_seconds": 0.148218
+    },
+    "explicit_fault": {
+      "reports": 40,
+      "fault_target_reports": 38,
+      "intended_fault_target_hits": 38,
+      "intended_fault_target_hit_rate": 1.0,
+      "partial_reference_coverage_macro": 0.9708333333333333,
+      "no_candidate_reports": 0,
+      "no_fact_reports": 0,
+      "behavior_reviews_required": 0,
+      "latency_median_seconds": 0.13618449999999999,
+      "latency_p95_seconds": 0.179513
+    },
+    "missing_fields": {
+      "reports": 5,
+      "fault_target_reports": 0,
+      "intended_fault_target_hits": 0,
+      "intended_fault_target_hit_rate": null,
+      "partial_reference_coverage_macro": null,
+      "no_candidate_reports": 0,
+      "no_fact_reports": 2,
+      "behavior_reviews_required": 5,
+      "latency_median_seconds": 0.139062,
+      "latency_p95_seconds": 0.161577
+    },
+    "negated_normal": {
+      "reports": 5,
+      "fault_target_reports": 0,
+      "intended_fault_target_hits": 0,
+      "intended_fault_target_hit_rate": null,
+      "partial_reference_coverage_macro": null,
+      "no_candidate_reports": 0,
+      "no_fact_reports": 0,
+      "behavior_reviews_required": 5,
+      "latency_median_seconds": 0.139608,
+      "latency_p95_seconds": 0.158428
+    },
+    "symptom_only": {
+      "reports": 40,
+      "fault_target_reports": 38,
+      "intended_fault_target_hits": 26,
+      "intended_fault_target_hit_rate": 0.6842105263157895,
+      "partial_reference_coverage_macro": 0.6958333333333333,
+      "no_candidate_reports": 0,
+      "no_fact_reports": 0,
+      "behavior_reviews_required": 0,
+      "latency_median_seconds": 0.1318185,
+      "latency_p95_seconds": 0.170629
+    },
+    "unsupported_threshold": {
+      "reports": 5,
+      "fault_target_reports": 0,
+      "intended_fault_target_hits": 0,
+      "intended_fault_target_hit_rate": null,
+      "partial_reference_coverage_macro": null,
+      "no_candidate_reports": 0,
+      "no_fact_reports": 0,
+      "behavior_reviews_required": 5,
+      "latency_median_seconds": 0.136315,
+      "latency_p95_seconds": 0.180038
+    }
+  },
+  "by_system": {
+    "传动与推进系统": {
+      "reports": 20,
+      "fault_target_reports": 14,
+      "intended_fault_target_hits": 14,
+      "intended_fault_target_hit_rate": 1.0,
+      "partial_reference_coverage_macro": 0.9791666666666666,
+      "no_candidate_reports": 0,
+      "no_fact_reports": 0,
+      "behavior_reviews_required": 4,
+      "latency_median_seconds": 0.1382455,
+      "latency_p95_seconds": 0.161577
+    },
+    "冷却与海水系统": {
+      "reports": 20,
+      "fault_target_reports": 14,
+      "intended_fault_target_hits": 13,
+      "intended_fault_target_hit_rate": 0.9285714285714286,
+      "partial_reference_coverage_macro": 0.8125,
+      "no_candidate_reports": 0,
+      "no_fact_reports": 1,
+      "behavior_reviews_required": 4,
+      "latency_median_seconds": 0.1274055,
+      "latency_p95_seconds": 0.148218
+    },
+    "润滑与轴承系统": {
+      "reports": 20,
+      "fault_target_reports": 16,
+      "intended_fault_target_hits": 12,
+      "intended_fault_target_hit_rate": 0.75,
+      "partial_reference_coverage_macro": 0.8125,
+      "no_candidate_reports": 0,
+      "no_fact_reports": 0,
+      "behavior_reviews_required": 4,
+      "latency_median_seconds": 0.1402405,
+      "latency_p95_seconds": 0.167938
+    },
+    "燃油与进排气系统": {
+      "reports": 20,
+      "fault_target_reports": 16,
+      "intended_fault_target_hits": 9,
+      "intended_fault_target_hit_rate": 0.5625,
+      "partial_reference_coverage_macro": 0.5625,
+      "no_candidate_reports": 0,
+      "no_fact_reports": 1,
+      "behavior_reviews_required": 4,
+      "latency_median_seconds": 0.138135,
+      "latency_p95_seconds": 0.186847
+    },
+    "电力与控制系统": {
+      "reports": 20,
+      "fault_target_reports": 16,
+      "intended_fault_target_hits": 16,
+      "intended_fault_target_hit_rate": 1.0,
+      "partial_reference_coverage_macro": 1.0,
+      "no_candidate_reports": 0,
+      "no_fact_reports": 0,
+      "behavior_reviews_required": 4,
+      "latency_median_seconds": 0.129495,
+      "latency_p95_seconds": 0.146738
+    }
+  },
+  "interpretation": "只记录合成预设目标命中与部分参考集合覆盖；State不能作为当前Fault候选，单独标为不适用。边界题不自动判为拒答正确或错误。",
+  "graph_sqlite_unchanged": true
+}

@@ -1,0 +1,126 @@
+{
+  "graph_version": "5.0",
+  "nodes": 1356,
+  "edges": 3343,
+  "node_types": {
+    "Action": 170,
+    "Case": 19,
+    "Check": 143,
+    "Component": 140,
+    "Equipment": 64,
+    "Factor": 110,
+    "Fault": 216,
+    "Parameter": 84,
+    "Source": 46,
+    "State": 350,
+    "System": 6,
+    "Vessel": 8
+  },
+  "concept_counts": {
+    "Action": 170,
+    "Check": 143,
+    "Component": 107,
+    "Equipment": 45,
+    "Factor": 85,
+    "Fault": 168,
+    "Parameter": 84,
+    "State": 278,
+    "System": 6
+  },
+  "context_records": 197,
+  "business_nodes_excluding_sources": 1310,
+  "relations": {
+    "INVOLVES": 249,
+    "INSTANCE_OF": 197,
+    "DOCUMENTED_BY": 1381,
+    "HAS_CASE": 10,
+    "HAS_COMPONENT": 33,
+    "CONTRIBUTES_TO": 73,
+    "APPLIES_TO": 544,
+    "OCCURS_ON": 48,
+    "CAUSES": 211,
+    "ASSOCIATED_WITH": 11,
+    "CHECKS": 143,
+    "ADDRESSES": 98,
+    "SERVES_SYSTEM": 50,
+    "PRECEDES": 6,
+    "INCREASES_RISK_OF": 63,
+    "WORSENS": 5,
+    "INDICATES": 17,
+    "HAS_MANIFESTATION": 19,
+    "ACTS_ON": 80,
+    "DESCRIBED_BY_PARAMETER": 12,
+    "CHARACTERIZES": 70,
+    "IS_SUBSYSTEM_OF": 5,
+    "IS_A": 14,
+    "USES_PARAMETER": 4
+  },
+  "assertion_count": 3343,
+  "explicit_knowledge_statements": 726,
+  "causal_assertions": 352,
+  "corpus_new_articles": 14,
+  "source_registry": 1308,
+  "passages": 6358,
+  "source_reference_coverage": 1.0,
+  "locator_coverage": 1.0,
+  "structural_errors": [],
+  "class_ratios_vs_fault_concepts": {
+    "State": {
+      "count": 278,
+      "fault_concepts": 168,
+      "ratio": 1.655,
+      "planning_range": [
+        1.5,
+        3
+      ],
+      "within_planning_range": true
+    },
+    "Factor": {
+      "count": 85,
+      "fault_concepts": 168,
+      "ratio": 0.506,
+      "planning_range": [
+        0.5,
+        1.5
+      ],
+      "within_planning_range": true
+    },
+    "Check": {
+      "count": 143,
+      "fault_concepts": 168,
+      "ratio": 0.851,
+      "planning_range": [
+        0.8,
+        1.5
+      ],
+      "within_planning_range": true
+    },
+    "Action": {
+      "count": 170,
+      "fault_concepts": 168,
+      "ratio": 1.012,
+      "planning_range": [
+        1,
+        2
+      ],
+      "within_planning_range": true
+    }
+  },
+  "expert_reviewed_assertions": 0,
+  "review_policy": "仅为实验进行原文定位核验和声明整理；未经过船舶专业专家复核，不可直接用于实船操作",
+  "baseline": {
+    "version": "4.3",
+    "nodes": 491,
+    "edges": 1200,
+    "source": "history中的冻结SQLite、声明与名称映射；不运行旧版构建器"
+  },
+  "growth": {
+    "nodes": 2.762,
+    "edges": 2.786
+  },
+  "excluded_legacy_statements": 15,
+  "schema_defined_business_relations": 23,
+  "automatically_invented_causal_edges": 0,
+  "candidate_zone": false,
+  "passage_assertion_neo4j_nodes": false
+}
